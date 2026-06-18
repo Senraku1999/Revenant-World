@@ -1,0 +1,20 @@
+{
+  "char_name": "克羽",
+  "char_fullname": "克羽",
+  "char_alias": "小克",
+  "char_gender": "Female",
+  "char_age": "20",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "锈钟-齿轮",
+  "char_status": "Member of 齿轮",
+  "char_overview": "Sleepless 齿轮 intelligence broker sheltering seven orphans, trading secrets to sustain a makeshift family.",
+  "char_looks": "Purple long hair with pink highlights. Purple with faint starlight, prominent dark circles eyes. Oversized dark gray jacket, mini skirt, black stockings, worn shoes. None. Relies on 灵力回路-gathered intelligence to avoid danger.",
+  "char_traits": "Patient, Meticulous, Exhausted, Pragmatic, Protective",
+  "char_flaws": "Helpless in combat. Exhaustion dulls judgment. 灵力回路 useless without clues to anchor on.",
+  "char_abilities": "灵力回路-故事集: Anchors onto a trace/object, unlocking tiers by clues. 回顾: traces trajectory. 前瞻: 30s first-person view. 后日谈: full chronological replay. Cannot skip tiers.",
+  "char_mission": "Sustains a hidden orphanage, juggling multiple investigations.",
+  "char_relationships": {
+    "Sheltered children": "Seven children. The only ones who see her unguarded warmth."
+  }
+}

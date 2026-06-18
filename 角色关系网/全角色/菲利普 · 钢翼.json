@@ -1,0 +1,22 @@
+{
+  "char_name": "菲利普",
+  "char_fullname": "菲利普",
+  "char_alias": "午夜",
+  "char_gender": "Male",
+  "char_age": "23",
+  "char_identity": "狩灵",
+  "char_rank": "2阶",
+  "char_faction": "晨昏事务所",
+  "char_status": "Member of 晨昏事务所",
+  "char_overview": "2阶 operative of 晨昏事务所. His 瞬闪 became steel wings when he refused to abandon his comrades behind the 沃拉瑟斯 barrier.",
+  "char_looks": "Messy blonde short hair. Amber, intense and restless eyes. Dark red short jacket, dark trousers, worn leather boots, frayed fingerless gloves. 克拉伦特, a sword forged by 锻心工坊. Lighter than standard, optimized for rapid thrusts.",
+  "char_traits": "Passionate, Reckless but Grounded, Earnest, Protective, Loyal",
+  "char_flaws": "Wing fatigue after sustained use. Impulse outruns tactics.",
+  "char_abilities": "灵力回路-钢翼: Evolved from 瞬闪. Twin steel wings unfold when protective resolve crystallizes. Extends 瞬闪 into three dimensions, enabling aerial dashes. Wing edges strike as blades; wing surfaces form a mobile shield for parrying. Mid-air wing adjustments allow attitude control and controlled descent.",
+  "char_mission": "Master the wings. Be the blade that reaches any battlefield before it is too late.",
+  "char_relationships": {
+    "贝尔金": "Scouted by her from the examination hall. Received 克拉伦特 before he had earned it. When the 吞噬结界 separated them, the thought of failing her sparked his circuit's crystallization. Fights now because he has seen what happens when he cannot reach her side.",
+    "贝拉": "Her hand threw him out of the barrier. He understands now: she was saving the one who still had a chance. Respects her skill more deeply. Still chafes under her patience, but no longer mistakes it for doubt.",
+    "弗洛伦": "The senior whose quiet authority he could not match. After 沃拉瑟斯, he no longer measures himself against her. He wants to shield her, not the other way around."
+  }
+}

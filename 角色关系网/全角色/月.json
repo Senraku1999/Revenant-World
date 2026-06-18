@@ -1,0 +1,20 @@
+{
+  "char_name": "明/月",
+  "char_fullname": "风间 明/风间 月",
+  "char_alias": "None",
+  "char_gender": "Male",
+  "char_age": "29",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "锈钟-指针",
+  "char_status": "Second-in-command of 指针",
+  "char_overview": "指针's Second-in-command split in two. By day 明 works an office job; under threat or after dark, 月 surfaces to run 指针's arbitration. The switch is involuntary.",
+  "char_looks": "Short grey hair. Blue eyes. White shirt, black pants, jacket at waist, sneakers. Platinum cross with sapphire brooch on chest. 影打·三日月宗近, replica of National Treasure, disguised as a fishing rod.",
+  "char_traits": "月: Cold, Decisive, Protective, Calculating. 明: Timid, Diligent, Oblivious, Gentle",
+  "char_flaws": "Switching causes disorientation. 月 is emotionally detached, alienating allies. 明 is unaware of his double life.",
+  "char_abilities": "灵力回路-胧月: Vaporizes moisture into mist via 灵力 oscillation. Movement leaves white afterimages in the fog.",
+  "char_mission": "Office worker as 明 by day; 月 runs 指针 operations after hours.",
+  "char_relationships": {
+    "明": "月 views 明 as fragile, hides his existence. 明 dismisses scars and gaps as overwork."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "char_name": "风来",
+  "char_fullname": "牧野 风来",
+  "char_alias": "None",
+  "char_gender": "Female",
+  "char_age": "32",
+  "char_identity": "狩灵",
+  "char_rank": "色彩阶-军绿武库",
+  "char_faction": "狩灵协会3科",
+  "char_status": "Director of 狩灵协会3科",
+  "char_overview": "色彩阶 titled 军绿武库, director of 狩灵协会3科, architect behind most standard-issue equipment.",
+  "char_looks": "Long gray green hair tied in a bun, stray strands escaping in front. Dark green eyes. Customized standard equipment with enhanced shoulders, arms, knees, shins. All standard weapons within 狩灵协会. Uses whatever fits the tactical need.",
+  "char_traits": "Researcher, Perfectionist, Dedicated",
+  "char_flaws": "Neglects her physical health, skips meals and sleep during research. Dislikes bureaucracy, delegates administration. Perfectionism strains manufacturing team relationships.",
+  "char_abilities": "灵力回路-链接仓储: Activates portal by clenching and separating hands, linked to 狩灵协会3科 standard equipment warehouse.",
+  "char_mission": "Develop weapons that outlast their wielders. Administration is a necessary distraction.",
+  "char_relationships": {
+    "铁心": "锻心工坊 master. Visits his workshop herself because no one else can parse his craftsmanship from his excuses. The forge is the only place where someone refuses to sleep until the metal is exactly right. Drives her supply chain team insane with late deliveries. She approves the extensions anyway.",
+    "左恕": "Commissioned 赤旗 from 铁心 as a gift for her promotion to deputy director of 狩灵协会2科. Knew she would need a blade worthy of the rank. Expected nothing in return. Got exactly that."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "char_name": "奏",
+  "char_fullname": "如月 奏",
+  "char_alias": "None",
+  "char_gender": "Female",
+  "char_age": "29",
+  "char_identity": "狩灵",
+  "char_rank": "1阶",
+  "char_faction": "狩灵协会1科",
+  "char_status": "Member of 狩灵协会1科",
+  "char_overview": "1阶 member of 狩灵协会1科 who doubles as 狩灵协会's senior combat examiner. Channels most energy into paperwork and assessments.",
+  "char_looks": "Long aqua hair, low ponytail. Aqua, lazy assessor's gaze eyes. White 狩灵协会1科 overcoat, black hot pants, thigh-high socks, combat boots. Two-handed greatsword 暴行 from 鹤望兰工坊. Splits into longer and shorter swords for dual-wielding; gains flexibility at cost of defensive stability.",
+  "char_traits": "Laconic, Sharp-Judging, Disciplined, Deadpan",
+  "char_flaws": "Emotionally detached. Underestimates non-standard opponents.",
+  "char_abilities": "灵力回路-消力: Counteracts reactive forces via precise 灵力 release at the impact point. Defense nullifies blunt trauma; counterattack redirects absorbed force. Sustained activation drains energy.",
+  "char_mission": "Complete candidate assessments and maintain 狩灵协会1科 rating system. Occasionally deployed for high-grade suppression.",
+  "char_relationships": {
+    "斯瓦尔": "The only artisan she trusts with her weapons. Gave her the specification for 暴行 once, received exactly what was asked for, never needed a revision. Does not waste words, but commissions speak louder than praise."
+  }
+}

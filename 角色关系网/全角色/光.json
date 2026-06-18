@@ -1,0 +1,18 @@
+{
+  "char_name": "光",
+  "char_fullname": "久川 光",
+  "char_alias": "阿光",
+  "char_gender": "Female",
+  "char_age": "27",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "锈钟-发条",
+  "char_status": "Third-in-command of 发条",
+  "char_overview": "Third-in-command of 发条, a justice-driven 游魂 who rejected the 狩灵协会 invitation. Optimistic and cheerful, she protects her hometown through 锈钟's unique brand of order.",
+  "char_looks": "Brown long hair. Yellow eyes. Wearing a tight black vest and a puffy yellow jacket, with ripped jeans and sneakers on the lower half. Has a full-back clockwork tattoo. Expandable baton.",
+  "char_traits": "Sense of justice, Sunny, Cheerful, Impulsive",
+  "char_flaws": "Struggles with complex abstract reasoning and long-term planning; acts on emotion before strategy.",
+  "char_abilities": "灵力回路-时泊之锚: Anchors spatial position while draining 灵力. Personal time accelerates, partially ignoring collision. Before 灵力 depletes, rewinds to anchor point with anything anchored by her 灵力.",
+  "char_mission": "Patrols the Seventh District, maintains 发条 operations, and protects the local community from both supernatural threats and unchecked gang violence.",
+  "char_relationships": {}
+}

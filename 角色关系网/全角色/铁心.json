@@ -1,0 +1,22 @@
+{
+  "char_name": "铁心",
+  "char_fullname": "石破 铁心",
+  "char_alias": "None",
+  "char_gender": "Male",
+  "char_age": "48",
+  "char_identity": "狩灵",
+  "char_rank": "2阶",
+  "char_faction": "锻心工坊",
+  "char_status": "Founder of 锻心工坊",
+  "char_overview": "Aging master bladesmith and founder of 锻心工坊. Speaks little, delivers weapons that outlast their wielders.",
+  "char_looks": "Short graying black hair. Dark brown eyes. Indigo-dyed work clothes, steel-soled split-toe boots, leather apron scarred with burns. None. Combat is not his domain.",
+  "char_traits": "Taciturn, Meticulous, Stubborn, Principled, Patient",
+  "char_flaws": "Obsessive perfectionism delays deliveries. Traditional methods clash with 狩灵协会3科 efficiency standards.",
+  "char_abilities": "灵力回路-锻火: Controls forge flame through 灵力. Fuses 灵力 pathways into metal during quenching. A single lapse ruins the billet.",
+  "char_mission": "Completing a commission for 晨昏事务所.",
+  "char_relationships": {
+    "晨昏事务所": "Commissioned three weapons: 桂妮薇儿 for 贝尔金, paired rapiers for 贝拉, and 克拉伦特 for 菲利普. Delivered what was asked for, each time, no revisions needed.",
+    "风来": "The only 狩灵协会3科 reviewer who ever understood what she was looking at in his workshop. Argues with her about delivery dates every quarter. The arguments have become almost ritual. Respects her eye more than he will ever say aloud.",
+    "左恕": "The deputy director who now carries 赤旗. She came to thank him once. He said nothing worth remembering. The blade speaks for itself."
+  }
+}

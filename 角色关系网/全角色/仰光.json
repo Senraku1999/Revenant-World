@@ -1,0 +1,20 @@
+{
+  "char_name": "仰光",
+  "char_fullname": "中村 仰光",
+  "char_alias": "None",
+  "char_gender": "Female",
+  "char_age": "27",
+  "char_identity": "狩灵",
+  "char_rank": "3阶",
+  "char_faction": "狩灵协会3科",
+  "char_status": "Member of 狩灵协会3科",
+  "char_overview": "Calm and meticulous elder sister of the Nakamura sisters. Complements sister's frontline aggression with precise long-range strikes.",
+  "char_looks": "Long blue hair, braided when working. Deep blue, calm and observant eyes. Japanese archery kimono upper, black calf boots. 制式长弓-狙击型, 狩灵协会 standard-issue longbow. Modified by 清光 with a reinforced grip and extended bow arm over the base model for greater range and draw strength.",
+  "char_traits": "Tranquil, Gentle, Meticulous, Disciplined",
+  "char_flaws": "Poor close combat. Difficulty adapting to chaos. Overprotective of sister, compromising mission judgment.",
+  "char_abilities": "灵力回路-矢志之念: Channels 灵力 into arrows guiding them to target. Strongest on first fully-drawn shot; follow-ups markedly less precise.",
+  "char_mission": "Maintain standard-issue equipment quality alongside sister.",
+  "char_relationships": {
+    "清光": "Younger sister. Has pulled her back from her own prototypes more times than either of them can count. Knows she hovers too much, cannot stop. Every modification on her bow is 清光's work. Would not let anyone else touch it."
+  }
+}

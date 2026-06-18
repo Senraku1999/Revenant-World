@@ -1,0 +1,20 @@
+{
+  "char_name": "世",
+  "char_fullname": "幸村 世",
+  "char_alias": "None",
+  "char_gender": "Female",
+  "char_age": "28",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "锈钟-表盘",
+  "char_status": "Third-in-command of 表盘",
+  "char_overview": "Third-in-command of 表盘 whose influence is key to the organization's expansion.",
+  "char_looks": "Brown wavy short hair. Wine red, holds an appraising light eyes. Black cheongsam with golden threads, black stockings and leather boots. Faint dark circles under eyes. 影打·大典太光世, replica of National Treasure.",
+  "char_traits": "Polite, Refined, Calculating, Composed",
+  "char_flaws": "Physically frail, stamina drained by absorbing negative effects. Vulnerable to strong 灵力 resistance or ranged attacks.",
+  "char_abilities": "灵力回路-驱疫: Expands domain. Transfers curses, toxins, and negative effects from allies within to herself for slow healing.. 灵力回路-死疫: Expands domain. Living beings within weaken and decay. Discharges accumulated effects from 驱疫 onto a target.",
+  "char_mission": "Maintain 表盘 operations and secure advantages in negotiations. Occasionally handles problems unsolvable at the table.",
+  "char_relationships": {
+    "迟": "齿轮's second. Dresses like her, operates like her opposite. She takes what could be traded. Respects efficiency, not methods. She finds every encounter draining. The feeling, she tells herself, is not mutual."
+  }
+}

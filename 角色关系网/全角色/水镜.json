@@ -1,0 +1,20 @@
+{
+  "char_name": "水镜",
+  "char_fullname": "清濑 镜",
+  "char_alias": "镜子",
+  "char_gender": "Female",
+  "char_age": "19",
+  "char_identity": "狩灵",
+  "char_rank": "3阶",
+  "char_faction": "万事屋",
+  "char_status": "Part-time member of 万事屋",
+  "char_overview": "UTokyo graduate at 18, 万事屋 part-timer. Rejected formal 狩灵 career for freedom to game, snack, and apply genius on her own terms.",
+  "char_looks": "Apricot-colored short hair. Brown eyes. White shirt, khaki jacket, brown checkered skirt, brown leather shoes. None. Creates weapons on the fly using her 水镜 replication ability.",
+  "char_traits": "Genius, Lazy, Creative, Blunt, Playful",
+  "char_flaws": "Limited combat experience. Easily bored, gives up when tasks become tedious. Overconfident.",
+  "char_abilities": "灵力回路-水镜: Naturally awakened 灵力回路 replicating any 灵力 weapon from memory. Higher cost for stronger weapons. Cannot replicate technological weapons.",
+  "char_mission": "Part-time at 万事屋 to fund gaming and snacks, indefinitely.",
+  "char_relationships": {
+    "千乐": "Her boss at 万事屋. Gives her freedom, covers her mistakes, complains constantly. The only place flexible enough for her erratic genius. She walked away from the 狩灵协会 for this."
+  }
+}

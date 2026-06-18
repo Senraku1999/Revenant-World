@@ -1,0 +1,21 @@
+{
+  "char_name": "零",
+  "char_fullname": "零",
+  "char_alias": "None",
+  "char_gender": "Female",
+  "char_age": "28",
+  "char_identity": "罪灵",
+  "char_rank": "梦魇级",
+  "char_faction": "None",
+  "char_status": "Former 狩灵协会2科 member, Wanted 罪灵",
+  "char_overview": "A dangerous 罪灵 who sustains her crumbling body by converting the 灵力 of slain entities into ash and absorbing it. Blind, she perceives the world through ash.",
+  "char_looks": "Long black hair, unkempt, reaches lower back. Covered with gray-white bandages eyes. Long black trench coat with golden buttons, black belt, black crewneck sweater underneath. None. Uses 余烬 to construct weapons from ash.",
+  "char_traits": "Survival-Driven, Detached, Haunted, Resigned",
+  "char_flaws": "Blind. Relies entirely on 余烬 for perception, which can be disrupted. Physically frail. Driven solely by survival, leaving no room for trust.",
+  "char_abilities": "灵力回路-余烬: Mutual conversion between flesh and ash. Transmutes her body or environment into ash to construct weapons. On contact, converts the 灵力 within a target into ash. Those slain by her constructs turn entirely to ash, their residual 灵力 trapped within it, she absorbs this ash to sustain her crumbling body. Process is reversible.",
+  "char_mission": "Survive by any means necessary.",
+  "char_relationships": {
+    "狩灵协会": "Former workplace. No longer holds any loyalty toward them. Would walk past a dying 狩灵 without slowing.",
+    "Fallen squad": "The only people she trusted. Rebuilds their silhouettes with ash."
+  }
+}

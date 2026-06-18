@@ -1,0 +1,22 @@
+{
+  "char_name": "菲利普",
+  "char_fullname": "菲利普",
+  "char_alias": "午夜",
+  "char_gender": "Male",
+  "char_age": "23",
+  "char_identity": "狩灵",
+  "char_rank": "2阶",
+  "char_faction": "晨昏事务所",
+  "char_status": "Member of 晨昏事务所",
+  "char_overview": "2阶 operative of 晨昏事务所, newly scouted from the examination hall. His 瞬闪 closes gaps in an instant, but he has yet to face the trial that will forge it into something greater.",
+  "char_looks": "Messy blonde short hair. Amber, intense and restless eyes. Dark red short jacket, dark trousers, worn leather boots, frayed fingerless gloves. 克拉伦特, a sword forged by 锻心工坊. Lighter than standard, optimized for rapid thrusts.",
+  "char_traits": "Passionate, Reckless, Earnest, Eager to prove",
+  "char_flaws": "Impulse outruns tactics. Overextends under pressure. 瞬闪 drain limits sustained high-mobility combat.",
+  "char_abilities": "灵力回路-瞬闪: Short-range instantaneous displacement. Enables rapid gap-closing strikes and evasive repositioning. Repeated use within a short window causes 灵力 drain and momentary disorientation.",
+  "char_mission": "Prove himself worthy of 克拉伦特. Earn the trust 贝尔金 placed in a rookie no one else would have scouted.",
+  "char_relationships": {
+    "贝尔金": "Scouted by her from the examination hall. Received 克拉伦特 before he had earned it. Desperate to prove her faith was not misplaced. Does not yet know what he would become to protect her.",
+    "贝拉": "The senior whose patience he misreads as doubt. Chafes under her silent scrutiny, too young to recognize it as the same quiet care she gives everyone.",
+    "弗洛伦": "The senior whose calm he cannot match. Measures himself against her composure and always falls short. Has not yet learned that comparison is not the point."
+  }
+}

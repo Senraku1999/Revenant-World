@@ -1,0 +1,22 @@
+{
+  "char_name": "贝尔金",
+  "char_fullname": "贝尔金",
+  "char_alias": "黎明",
+  "char_gender": "Female",
+  "char_age": "32",
+  "char_identity": "狩灵",
+  "char_rank": "1阶",
+  "char_faction": "晨昏事务所",
+  "char_status": "Founder of 晨昏事务所",
+  "char_overview": "Founder of 晨昏事务所. Former 狩灵协会2科 ace.",
+  "char_looks": "Purple long hair, high ponytail. Green eyes. White shirt, grey coat, black tailcoat. 桂妮薇儿, a 1.2m greatsword forged by 锻心工坊. Etched circuits enhance range and power.",
+  "char_traits": "Chivalrous, Protective, Principled, Honorable, Stoic",
+  "char_flaws": "Vulnerable to ambush. Predictable to cunning opponents.",
+  "char_abilities": "灵力回路-骑士五德: Five modes, no consecutive repeat. Mercy: negate critical damage. Wisdom: predict attacks. Generosity: share with squad. Glory: boost next strike. Courage: enhance physique.",
+  "char_mission": "Lead 晨昏事务所 into the commissions other offices walk away from.",
+  "char_relationships": {
+    "贝拉": "The first person she called when opening 晨昏事务所. Former colleague from 狩灵协会2科 who followed her out without hesitation. Assigns her the most critical missions.",
+    "弗洛伦": "The 晨昏事务所's shield. Reads attack trajectories before they form. Four years, never left a gap in the line.",
+    "菲利普": "Scouted from the examination hall. Commissioned 克拉伦特 from 铁心 before he earned it. Faith before proof. Does not need perfection, needs growth."
+  }
+}
