@@ -15,21 +15,21 @@
       "hair": "White wavy long hair",
       "eyes": "Pale gray, heavy dark circles",
       "clothing": "White jacket and trousers, black shirt, white tie, black shoes.",
-      "weapon": "Claw encasing left arm, 心灵遮断合金 blades. Shoulder mount: three injectors. Glucose-protein, adrenaline-stimulant, and a red ampoule for terminal overload."
+      "weapon": "Metal gauntlet encasing left arm, claws at hand. 心灵遮断合金 blades forged to cut 灵能, purpose-built for combat against 恶灵 and 灵能 equipment. Shoulder mount holds three replaceable injector ampoules, each emptied in a single press: milky white glucose-protein for sustenance; yellow adrenaline-stimulant for combat enhancement; and a red ampoule forcing terminal overload at the cost of bodily destruction."
     }
   },
   "char_description": {
-    "overview": "Ninth 苍白爪牙. Body burns at five times speed. Knows her remaining years.",
-    "combat_style": "Closes distance without pause. The 心灵遮断合金 claw nullifies 灵能 barriers on contact. First injector sustains, second escalates. The third remains sealed."
+    "overview": "Ninth 苍白爪牙. Burns at quintuple rate. Knows her remaining years.",
+    "combat_style": "Closes distance without pause. 心灵遮断合金 claw nullifies 灵能 barriers on contact. Administers the three injectors stepwise as combat demands."
   },
   "char_personality": {
     "core_traits": "Disciplined, Resigned, Taciturn, Perceptive",
-    "strengths": "Absolute composure under physical deterioration. Reads 灵力 patterns with clinical detachment.",
-    "flaws": "Joints ache constantly. Has stopped imagining a future. Speaks so rarely her voice cracks.",
-    "quirks": "Eats constantly, mechanically. Never sits on the white chair in the科长 office. Checks injector seals each morning."
+    "strengths": "Absolute composure under physical deterioration. Reads 灵力 patterns clinically.",
+    "flaws": "Has stopped imagining a future. Speaks so rarely her voice cracks.",
+    "quirks": "Eats constantly, mechanically."
   },
   "char_background": {
-    "origin": "Selected at 29 from 狩灵协会2科 after the eighth White fell. Signed the consent form knowing the survival rate. Implanted at 狩灵协会3科.",
+    "origin": "1科 狩灵, chosen at 29 as ninth 苍白爪牙 after the eighth fell. Signed knowing the survival rate, implanted with 暴食回路 at 狩灵协会1科.",
     "current_mission": "Enforce 狩灵协会1科 authority against threats 常规狩灵 cannot handle."
   },
   "char_basic_abilities": {
@@ -38,11 +38,9 @@
     "身体素质": "Premier, five times normal speed and strength. Denser bones, faster repair, five times the aging."
   },
   "char_special_abilities": {
-    "灵力回路-暴食": "Permanently active. Quintuples metabolic rate, speed, strength, and cellular repair. Consumes energy relentlessly. Taste obliterated by taste bud necrosis. Ages five years per calendar year past thirty."
+    "灵力回路-暴食": "Permanently active. Quintuples metabolic rate, speed, strength, and cellular repair. Consumes energy relentlessly."
   },
-  "char_relationships": {
-    "1科科长": "The seventh Black. Leaves a warm drink on her desk after every mission. Will retrieve the arm guard when the time comes."
-  },
+  "char_relationships": {},
   "char_dialogue_examples": [
     {
       "situation": "被问及身体状况",
