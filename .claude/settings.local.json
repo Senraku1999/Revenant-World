@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Workflow(full-review)"
+      "Workflow(full-review)",
+      "Bash(python \"创作者文件/审查脚本_自动检查.py\")"
     ]
   }
 }
