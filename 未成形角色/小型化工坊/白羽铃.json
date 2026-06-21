@@ -1,0 +1,61 @@
+{
+  "char_name": "铃",
+  "char_fullname": "白羽 铃",
+  "char_alias": "None",
+  "char_identity": "狩灵",
+  "char_rank": "4阶",
+  "char_faction": "蜂巢工坊",
+  "char_status": "Founder of 蜂巢工坊",
+  "char_persona": {
+    "gender": "Female",
+    "age": "29",
+    "appearance": {
+      "height": "159cm",
+      "weight": "48kg",
+      "hair": "Dark brown bob cut, always tucked behind ears",
+      "eyes": "Amber",
+      "clothing": "Fitted navy workshop coat, high-collared white blouse, gray slacks, flat-soled leather shoes.",
+      "weapon": "None. Carries a collection of prototype miniaturized tools that double as improvised weapons."
+    }
+  },
+  "char_description": {
+    "overview": "Founder of 蜂巢工坊, specializing in miniaturized and concealable weapons. A former watchmaker who applies micro-engineering principles to 灵能 armaments. Designed 星流's weapon 落辰.",
+    "combat_style": "Relies on prepared environment and concealed traps. Every object in her workshop can be weaponized at close range."
+  },
+  "char_personality": {
+    "core_traits": "Precise, Reserved, Patient, Obsessive",
+    "strengths": "Micro-mechanical engineering, miniaturization of 灵能 circuits, material science, can work at scales most smiths cannot perceive.",
+    "flaws": "Obsessive to the point of paralysis. Will spend weeks on a single component. Dislikes working on anything larger than her palm. Socially awkward outside the workshop.",
+    "quirks": "Measures everything with calipers before touching. Talks to components by their part numbers. Keeps failed prototypes in labeled jars."
+  },
+  "char_background": {
+    "origin": "Trained as a watchmaker in Kyoto before awakening her 灵能 at 22. Discovered she could perceive 灵能 circuits at microscopic scales. Established 蜂巢工坊 with 狩灵协会3科 certification, specializing in miniaturized weapons that other 工坊s consider unfeasible.",
+    "current_mission": "Push the limits of weapon miniaturization. Fulfill commissions that require concealment, precision, and unconventional form factors."
+  },
+  "char_basic_abilities": {
+    "灵力": "Average, moderate 灵力 for sustained 灵力回路 use.",
+    "灵视": "Excellent, can expand 灵视 to perceive areas beyond line of sight.",
+    "身体素质": "Weak, healthy ordinary people."
+  },
+  "char_special_abilities": {
+    "灵力回路-微视": "Perceives 灵能 circuits at microscopic resolutions, allowing her to engrave 回路 patterns on pins, needles, and other sub-centimeter surfaces. Precision decreases with scale—optimal range is under 5cm."
+  },
+  "char_relationships": {
+    "星流": "Client. Designed 落辰 to accommodate 星流's unstable 灵力 reserves, building a variable-output mechanism that most 工坊s refused to attempt. Considers the project her finest work.",
+    "狩灵协会3科": "Certified 工坊. Maintains proper certification but finds the 科's inspection procedures tedious. Files all paperwork with grudging precision."
+  },
+  "char_dialogue_examples": [
+    {
+      "situation": "向客户解释武器机制",
+      "response": "她用镊子夹起一粒米粒大小的构件，凑到台灯下，\"看到这个凹槽了吗？灵力从这里流入，经过三次折返，出来的力量是进去的三倍。整个结构比你的指甲盖还小。\""
+    },
+    {
+      "situation": "被要求做大尺寸武器",
+      "response": "她从显微镜上抬起头，揉了揉鼻梁，语气里带着不加掩饰的厌烦，\"你要是想要一把双手剑，东京有一百家工坊能做。来找我，就该知道我不做那种东西。\""
+    },
+    {
+      "situation": "在工作室里自言自语",
+      "response": "她对着显微镜下的半成品皱起眉头，用镊子尖轻轻拨动一片不足毫米的齿轮，\"还差一点。再薄半毫米，灵力传导就断了。但不薄到那个程度，就装不进笔帽。\""
+    }
+  ]
+}
