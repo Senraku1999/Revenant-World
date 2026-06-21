@@ -19,7 +19,7 @@
     }
   },
   "char_description": {
-    "overview": "色彩阶 titled 猩红迷雾, 2科 director. Spent fifteen years as a 游魂 in the American Southwest before returning to Japan.",
+    "overview": "Director of 狩灵协会2科, 色彩阶 titled 猩红迷雾. Spent fifteen years as a 游魂 in the American Southwest before returning to Japan.",
     "combat_style": "Starts every fight by bleeding. Pours everything into the opening exchange: no probing, no reserves. Disappears and reappears inside opponent's guard, firing from blind angles. The longer the mist holds, the less predictable he becomes."
   },
   "char_personality": {
@@ -29,7 +29,7 @@
     "quirks": "Boots on desk, hat over face. Takes pulse when bored."
   },
   "char_background": {
-    "origin": "Born in Osaka, moved to the US as a child. Awakened at 14 in Arizona. Spent fifteen years as a 游魂 in the American Southwest. Returned at 29, joined at 32, 色彩阶 at 36, 2科 director.",
+    "origin": "Born in Osaka, moved to the US as a child. Awakened at 14 in Arizona. Spent fifteen years as a 游魂 in the American Southwest. Returned at 29, joined at 32, 色彩阶 at 36, 狩灵协会2科 director.",
     "current_mission": "Let 左恕 run the department. Find a fight worth bleeding for."
   },
   "char_basic_abilities": {

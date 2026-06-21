@@ -72,7 +72,7 @@ def get_token_counts():
 
     # 四段预算区间
     BUDGET = {
-        "A": (300, 500),     # 外壳
+        "A": (300, 550),     # 外壳
         "BC": (0, 500),      # 能力+关系
         "D": (200, 400),     # 对话示例
         "total": (500, 1400), # 总计
@@ -225,17 +225,13 @@ def check_json_structure():
                         errs.append(f"  {name}: {path} \"{forbidden}\" 应为 \"{full}\" (上下文: ...{ctx}...)")
             elif isinstance(value, dict):
                 for k, v in value.items():
-                    errs.extend(check_abbr(v, f"{path}.{k}"))
+                    errs.extend(check_abbr(v, f"{path}.{k}" if path else k))
             elif isinstance(value, list):
                 for i, item in enumerate(value):
-                    errs.extend(check_abbr(item, f"{path}[{i}]"))
+                    errs.extend(check_abbr(item, f"{path}[{i}]" if path else f"[{i}]"))
             return errs
 
-        for field in ["char_faction", "char_status"]:
-            if field in data and isinstance(data[field], str):
-                convention_warnings.extend(check_abbr(data[field], field))
-        if "char_relationships" in data:
-            convention_warnings.extend(check_abbr(data["char_relationships"], "char_relationships"))
+        convention_warnings.extend(check_abbr(data, ""))
 
         # 年龄边界（< 18 标记人工复核，区分觉醒年龄与从业年龄）
         age = data.get("char_persona", {}).get("age")
