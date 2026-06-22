@@ -13,14 +13,15 @@
       "height": "176cm",
       "weight": "78kg",
       "hair": "Black hair slicked back",
-      "eyes": "Dark brown, loupe pushed up on forehead",
-      "clothing": "Oil-stained henley shirt with rolled sleeves, faded black jeans, worn work boots. Forearms covered in faded tattoos of ballistic tables and caliber charts.",
-      "weapon": "None. Uses workshop firearms for testing only, carries a compact pistol for self-defense."
+      "face": "Weathered face, dark brown eyes, crease between brows from years behind a loupe. Sardonic jaw.",
+      "features": "Faded tattoos of ballistic charts on both forearms.",
+      "clothing": "Oil-stained henley shirt with rolled sleeves, faded black jeans, worn work boots. Loupe pushed up on forehead.",
+      "weapon": "None."
     }
   },
   "char_description": {
-    "overview": "Founder of 白烟工坊, a half-underground firearms workshop. Cynical ex-狩灵协会3科 armorer who found more money outside the system. Made 烬's revolver 轻语.",
-    "combat_style": "Does not fight. Keeps a loaded pistol on the workbench, a shotgun behind the door. If those fail, clients who owe him favors."
+    "overview": "Founder of 白烟工坊, a half-underground firearms workshop. Cynical ex-狩灵协会3科 armorer who found more money outside the system.",
+    "combat_style": "Unsuited for combat."
   },
   "char_personality": {
     "core_traits": "Cynical, Calculating, Obsessive, Sardonic",
@@ -29,7 +30,7 @@
     "quirks": "Bets cigarettes on test-fire scores. Names firearms after ex-girlfriends. Keeps a leather sales ledger—professional pride."
   },
   "char_background": {
-    "origin": "Former 狩灵协会3科 armorer who quit when standardized pay met custom-work money. Established 白烟工坊 in an abandoned Tokyo machine shop without 狩灵协会3科 certification. Clients: 罪灵s, 游魂s, and 协会狩灵s paying cash under fake names.",
+    "origin": "Former 狩灵协会3科 armorer who quit when standardized pay met custom-work money. Established 白烟工坊 without 狩灵协会3科 certification. Clients: 罪灵s, 游魂s, and 协会狩灵s paying cash under fake names.",
     "current_mission": "Take commissions that pay well and interest him technically. Stay outside 狩灵协会3科's radar, visible enough to keep getting clients."
   },
   "char_basic_abilities": {

@@ -13,9 +13,9 @@
       "height": "165cm",
       "weight": "48kg",
       "hair": "Short blue hair, often messy from workshop",
-      "eyes": "Deep blue, bright with curiosity",
       "clothing": "Compound bow shooting attire: short vest inner, asymmetrical long windbreaker outer (short left, long right), wide-leg pants, athletic shoes.",
-      "weapon": "制式复合弓-扩散型, 狩灵协会 standard-issue compound bow. The 扩散型 fires more arrows per volley than the base model, suited for area denial and crowd control."
+      "weapon": "制式复合弓-扩散型, 狩灵协会 standard-issue compound bow. The 扩散型 fires more arrows per volley than the base model, suited for area denial and crowd control.",
+      "face": "Deep blue eyes, bright with curiosity."
     }
   },
   "char_description": {
@@ -29,7 +29,7 @@
     "quirks": "Taps bow arm to judge accuracy by sound. Talks to equipment like they can hear her."
   },
   "char_background": {
-    "origin": "Born in Osaka as the younger twin of 仰光. Archery tradition in family. Joined 狩灵协会3科 after university with sister, bringing her prototype Diffusion Type bow to the entrance examination.",
+    "origin": "Awakened at 14 with a 灵力回路 heightening perception, revealing 灵能 traces invisible to others. Joined 狩灵协会3科 as a precision marksman.",
     "current_mission": "Push every prototype past its safe limit. The Diffusion Type bow is only the beginning."
   },
   "char_basic_abilities": {

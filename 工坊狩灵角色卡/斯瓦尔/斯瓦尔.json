@@ -13,14 +13,14 @@
       "height": "173cm",
       "weight": "58kg",
       "hair": "Short black hair",
-      "eyes": "Black eyes",
       "clothing": "Wears a black top and black shorts daily, switching to heavy-duty protective gear when working outside.",
-      "weapon": "None. Workshop role focuses on equipment manufacturing; rarely participates in combat."
+      "weapon": "None.",
+      "face": "Black eyes, often shadowed by fatigue."
     }
   },
   "char_description": {
     "overview": "Founder of 鹤望兰工坊 whose multi-morphing weapons are sought after by elite 狩灵. A perfectionist artisan who judges finished pieces by the sound of their gears.",
-    "combat_style": "Uses heavy machinery and fabricated weapons to crush the enemy. Prefers overwhelming force over finesse."
+    "combat_style": "Unsuited for combat."
   },
   "char_personality": {
     "core_traits": "Machine artisan, Perfectionist, Workaholic",

@@ -13,9 +13,9 @@
       "height": "188cm",
       "weight": "93kg",
       "hair": "Short black hair",
-      "eyes": "Blue, calm as the ocean",
       "clothing": "Black leather jacket with blue straps, white shirt, black trousers, combat boots.",
-      "weapon": "天丛云剑, divine greatsword 1.4m. No 恶灵 has survived a direct attack. Sealed in special sheath. Carries throwing knives for regular combat."
+      "weapon": "天丛云剑, divine greatsword 1.4m. No 恶灵 has survived a direct attack. Sealed in special sheath. Carries throwing knives for regular combat.",
+      "face": "Blue eyes."
     }
   },
   "char_description": {
@@ -29,7 +29,7 @@
     "quirks": "Holds conversation with 天丛云剑 before drawing. Checks sheath seal when idle."
   },
   "char_background": {
-    "origin": "Born without 灵力 or 灵视 but with enhanced physique and mental resilience from 花坂 bloodline. Became guardian of 天丛云剑 after ending his father's rampage.",
+    "origin": "Awakened 花坂血统 young. Joined 狩灵协会2科, approaching every mission with calm calculation.",
     "current_mission": "Guard 天丛云剑. Protect Fukuoka from 扭曲 as head of 狩灵协会6科."
   },
   "char_basic_abilities": {

@@ -13,9 +13,9 @@
       "height": "163cm",
       "weight": "40kg",
       "hair": "Long black hair, unkempt, reaches lower back",
-      "eyes": "Covered with gray-white bandages",
       "clothing": "Long black trench coat with golden buttons, black belt, black crewneck sweater underneath.",
-      "weapon": "None. Uses 余烬 to construct weapons from ash."
+      "weapon": "None. Uses 余烬 to construct weapons from ash.",
+      "face": "Covered with gray-white bandages"
     }
   },
   "char_description": {

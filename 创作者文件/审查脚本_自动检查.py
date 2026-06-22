@@ -111,6 +111,8 @@ def get_token_counts():
         d = os.path.dirname(f)
         if "事件卡" in d or "世界观卡" in d or "角色关系网" in d:
             continue
+        if f.endswith("_zh.json"):
+            continue
         with open(f, "r", encoding="utf-8") as fh:
             data = json.load(fh)
         ta, tb, tc, td = segment_tokens(data)
@@ -398,6 +400,8 @@ def cross_validate():
             continue
         json_files = glob(os.path.join(folder, "*", "*.json"))
         for jf in json_files:
+            if jf.endswith("_zh.json"):
+                continue
             char_dir = os.path.dirname(jf)
             intro_files = glob(os.path.join(char_dir, "*简介.md"))
             if not intro_files:

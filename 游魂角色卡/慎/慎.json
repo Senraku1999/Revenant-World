@@ -13,9 +13,9 @@
       "height": "187cm",
       "weight": "95kg",
       "hair": "Short black hair",
-      "eyes": "Blue eyes, scarred and blind without 灵视",
       "clothing": "Navy top under black hoodie, hood and mask concealing face. Tight pants, high-top sneakers.",
-      "weapon": "Multi-functional knife modified from standard 狩灵协会 issue."
+      "weapon": "Multi-functional knife modified from standard 狩灵协会 issue.",
+      "face": "Blue eyes, scarred and unseeing without 灵力."
     }
   },
   "char_description": {

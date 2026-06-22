@@ -13,9 +13,9 @@
       "height": "178cm",
       "weight": "75kg",
       "hair": "Light brown curly hair",
-      "eyes": "Red eyes",
       "clothing": "Tailcoat with left shoulder armor, trousers with left knee armor, black leather shoes.",
-      "weapon": "轻语, Four-shot revolver. Can be converted to sniper rifle with barrel, stock, and scope. Each bullet infused with 绽放 灵力回路."
+      "weapon": "轻语, Four-shot revolver. Can be converted to sniper rifle with barrel, stock, and scope. Each bullet infused with 绽放 灵力回路.",
+      "face": "Red eyes, weathered veteran face."
     }
   },
   "char_description": {

@@ -13,13 +13,13 @@
       "height": "179cm",
       "weight": "72kg",
       "hair": "Messy blonde short hair",
-      "eyes": "Amber, intense and restless",
       "clothing": "Dark red short jacket over black shirt, dark trousers, worn leather boots, frayed fingerless gloves.",
-      "weapon": "克拉伦特, a sword forged by 锻心工坊. Lighter than standard, optimized for rapid thrusts."
+      "weapon": "克拉伦特, a sword forged by 锻心工坊. Lighter than standard, optimized for rapid thrusts.",
+      "face": "Amber eyes, intense and restless."
     }
   },
   "char_description": {
-    "overview": "Hot-blooded 3阶 recruit of 晨昏事务所. Clawed his way up on raw talent. Field mentored by 贝拉.",
+    "overview": "Hot-blooded 3阶 recruit of 晨昏事务所. Clawed his way up on raw talent.",
     "combat_style": "Aggressive rushdown. Uses 瞬闪 to close distance and overwhelm with rapid thrusts. Struggles when surrounded."
   },
   "char_personality": {

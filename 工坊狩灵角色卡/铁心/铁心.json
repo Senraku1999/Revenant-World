@@ -13,14 +13,14 @@
       "height": "165cm",
       "weight": "78kg",
       "hair": "Short graying black hair",
-      "eyes": "Dark brown",
       "clothing": "Indigo-dyed work clothes, steel-soled split-toe boots, leather apron scarred with burns.",
-      "weapon": "None. Combat is not his domain."
+      "weapon": "None.",
+      "face": "Weathered face, dark brown eyes."
     }
   },
   "char_description": {
     "overview": "Aging master bladesmith and founder of 锻心工坊. Speaks little, delivers weapons that outlast their wielders.",
-    "combat_style": "Unsuited for combat. Relies on workshop environment to deter rather than engage."
+    "combat_style": "Unsuited for combat."
   },
   "char_personality": {
     "core_traits": "Taciturn, Meticulous, Stubborn, Principled, Patient",
@@ -33,7 +33,7 @@
     "current_mission": "Completing a commission for 晨昏事务所."
   },
   "char_basic_abilities": {
-    "灵力": "Weak, 锻火回路 demands prolonged low-intensity output rather than burst, and decades of daily forge work have left his 灵力 reserves in a perpetual half-depleted state.",
+    "灵力": "Weak, 锻火灵力回路 demands prolonged low-intensity output rather than burst, and decades of daily forge work have left his 灵力 reserves in a perpetual half-depleted state.",
     "灵视": "Average, can perceive all entities regardless of disguise.",
     "身体素质": "Average, trained ordinary people."
   },

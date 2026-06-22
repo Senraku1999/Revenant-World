@@ -13,9 +13,9 @@
       "height": "178cm",
       "weight": "70kg",
       "hair": "White wavy long hair",
-      "eyes": "Pale gray, heavy dark circles",
       "clothing": "White jacket and trousers, black shirt, white tie, black shoes.",
-      "weapon": "Metal gauntlet encasing left arm, claws at hand. 心灵遮断合金 blades forged to cut 灵能, purpose-built for combat against 恶灵 and 灵能 equipment. Shoulder mount holds three replaceable injector ampoules, each emptied in a single press: milky white glucose-protein for sustenance; yellow adrenaline-stimulant for combat enhancement; and a red ampoule forcing terminal overload at the cost of bodily destruction."
+      "weapon": "Metal gauntlet encasing left arm, claws at hand. 心灵遮断合金 blades forged to cut 灵能, purpose-built for combat against 恶灵 and 灵能 equipment. Shoulder mount holds three replaceable injector ampoules, each emptied in a single press: milky white glucose-protein for sustenance; yellow adrenaline-stimulant for combat enhancement; and a red ampoule forcing terminal overload at the cost of bodily destruction.",
+      "face": "Pale gray eyes, heavy dark circles beneath."
     }
   },
   "char_description": {
@@ -29,11 +29,11 @@
     "quirks": "Eats constantly, mechanically."
   },
   "char_background": {
-    "origin": "1科 狩灵, chosen at 29 as ninth 苍白爪牙 after the eighth fell. Signed knowing the survival rate, implanted with 暴食回路 at 狩灵协会1科.",
+    "origin": "1科 狩灵, chosen at 29 as ninth 苍白爪牙 after the eighth fell. Signed knowing the survival rate, implanted with 暴食灵力回路 at 狩灵协会1科.",
     "current_mission": "Enforce 狩灵协会1科 authority against threats 常规狩灵 cannot handle."
   },
   "char_basic_abilities": {
-    "灵力": "Excellent, substantial reserves constantly drained by the ever-active 暴食回路.",
+    "灵力": "Excellent, substantial reserves constantly drained by the ever-active 暴食灵力回路.",
     "灵视": "Excellent, can expand 灵视 beyond line of sight.",
     "身体素质": "Premier, five times normal speed and strength. Denser bones, faster repair, five times the aging."
   },

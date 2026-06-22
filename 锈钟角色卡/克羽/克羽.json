@@ -13,14 +13,14 @@
       "height": "160cm",
       "weight": "50kg",
       "hair": "Purple long hair with pink highlights",
-      "eyes": "Purple with faint starlight, prominent dark circles",
       "clothing": "Oversized dark gray jacket, mini skirt, black stockings, worn shoes.",
-      "weapon": "None. Relies on 灵力回路-gathered intelligence to avoid danger."
+      "weapon": "None. Relies on 灵力回路-gathered intelligence to avoid danger.",
+      "face": "Purple with faint starlight, prominent dark circles"
     }
   },
   "char_description": {
     "overview": "Sleepless 齿轮 intelligence broker sheltering seven orphans, trading secrets to sustain a makeshift family.",
-    "combat_style": "Avoids combat. Uses 回顾 and 前瞻 to detect threats early. Helpless if cornered."
+    "combat_style": "Unsuited for combat."
   },
   "char_personality": {
     "core_traits": "Patient, Meticulous, Exhausted, Pragmatic, Protective",

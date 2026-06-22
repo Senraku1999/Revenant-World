@@ -13,9 +13,9 @@
       "height": "157cm",
       "weight": "44kg",
       "hair": "Long blue-white hair reaching the waist, star-shaped hair clip on the upper right side",
-      "eyes": "Bright blue, often unfocused with a distant gaze. Generally low engagement and subdued demeanor",
       "clothing": "Dark blue long-sleeved coat, canvas trousers, sneakers.",
-      "weapon": "落辰, 来生事务所 custom. Manifests as rapier by default; can switch to slingshot form. Power scales with user's 灵力 reserves."
+      "weapon": "落辰, 来生事务所 custom. Manifests as rapier by default; can switch to slingshot form. Power scales with user's 灵力 reserves.",
+      "face": "Bright blue eyes, often unfocused with a distant gaze."
     }
   },
   "char_description": {

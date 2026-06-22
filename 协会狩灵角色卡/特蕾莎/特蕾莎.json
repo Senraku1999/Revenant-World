@@ -13,9 +13,9 @@
       "height": "168cm",
       "weight": "50kg",
       "hair": "Long golden hair",
-      "eyes": "Blue eyes",
       "clothing": "Nun's habit.",
-      "weapon": "None. Combat relies entirely on 掌灯人 灵力回路; the lantern is both light source and tether for 罪缚锁链."
+      "weapon": "None. Combat relies entirely on 掌灯人 灵力回路; the lantern is both light source and tether for 罪缚锁链.",
+      "face": "Blue eyes."
     }
   },
   "char_description": {

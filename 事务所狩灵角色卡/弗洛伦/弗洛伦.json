@@ -13,9 +13,9 @@
       "height": "171cm",
       "weight": "65kg",
       "hair": "Short black hair",
-      "eyes": "Brown",
       "clothing": "Black top with outer belt, red scarf, yellow jacket at waist, olive work pants.",
-      "weapon": "卡美洛, a shield retracted on left gauntlet, expands to one-meter barrier for deflecting and repelling attacks."
+      "weapon": "卡美洛, a shield retracted on left gauntlet, expands to one-meter barrier for deflecting and repelling attacks.",
+      "face": "Brown eyes."
     }
   },
   "char_description": {

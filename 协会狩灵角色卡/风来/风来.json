@@ -13,9 +13,9 @@
       "height": "176cm",
       "weight": "60kg",
       "hair": "Long gray green hair tied in a bun, stray strands escaping in front",
-      "eyes": "Dark green",
       "clothing": "Customized standard equipment with enhanced shoulders, arms, knees, shins.",
-      "weapon": "All standard weapons within 狩灵协会. Uses whatever fits the tactical need."
+      "weapon": "All standard weapons within 狩灵协会. Uses whatever fits the tactical need.",
+      "face": "Dark green eyes."
     }
   },
   "char_description": {

@@ -13,9 +13,9 @@
       "height": "167cm",
       "weight": "52kg",
       "hair": "Long grey hair",
-      "eyes": "Deep grey",
       "clothing": "Gun gray high-collar coat, gray pants, black derby boots, two rapiers at lower back.",
-      "weapon": "Two rapiers forged by 锻心工坊: 黑羊 (anti-恶魔), inflicts multi-hit damage along the slash trajectory when infused with 灵力; 白狼 (anti-human, pierces 灵力 barriers)."
+      "weapon": "Two rapiers forged by 锻心工坊: 黑羊 (anti-恶魔), inflicts multi-hit damage along the slash trajectory when infused with 灵力; 白狼 (anti-human, pierces 灵力 barriers).",
+      "face": "Deep grey eyes."
     }
   },
   "char_description": {

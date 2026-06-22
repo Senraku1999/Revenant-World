@@ -13,13 +13,13 @@
       "height": "168cm",
       "weight": "45kg",
       "hair": "Long blue hair, braided when working",
-      "eyes": "Deep blue, calm and observant",
       "clothing": "Japanese archery kimono upper, black calf boots.",
-      "weapon": "制式长弓-狙击型, 狩灵协会 standard-issue longbow. Modified by 清光 with a reinforced grip and extended bow arm over the base model for greater range and draw strength."
+      "weapon": "制式长弓-狙击型, 狩灵协会 standard-issue longbow. Modified by 清光 with a reinforced grip and extended bow arm over the base model for greater range and draw strength.",
+      "face": "Deep blue eyes, calm and observant."
     }
   },
   "char_description": {
-    "overview": "A member of 狩灵协会3科, calm and meticulous elder sister of the Nakamura sisters. Complements sister's frontline aggression with precise long-range strikes.",
+    "overview": "Elder twin of 花坂 family, 狩灵协会3科 sniper whose every arrow is measured for wind, distance, and timing.",
     "combat_style": "Uses 矢志之念 for accurate sniping. Prefers single decisive shot over sustained fire. Every arrow measured for wind, distance, and timing."
   },
   "char_personality": {
@@ -29,7 +29,7 @@
     "quirks": "Uses bow strings as hair ribbons. Checks sister's workshop first-aid kit before field days."
   },
   "char_background": {
-    "origin": "Born in Osaka as the elder twin of 中村清光. Archery family tradition. Joined 狩灵协会3科 after university.",
+    "origin": "Born minutes ahead of her twin. Awakened 矢志之念 at 16, became a long-range specialist by 20.",
     "current_mission": "Maintain standard-issue equipment quality alongside sister."
   },
   "char_basic_abilities": {

@@ -13,9 +13,9 @@
       "height": "188cm",
       "weight": "65kg",
       "hair": "Short black hair tied in a ponytail at the nape",
-      "eyes": "Black",
       "clothing": "White fluffy jacket, black sweater, black trousers, black sneakers.",
-      "weapon": "Short staff and arm shield, 灵力 carriers for heroic spirit weapons and armor. Both usable in melee."
+      "weapon": "Short staff and arm shield, 灵力 carriers for heroic spirit weapons and armor. Both usable in melee.",
+      "face": "Black eyes."
     }
   },
   "char_description": {
@@ -29,8 +29,8 @@
     "quirks": "Mutters historical texts before combat. Speaks to heroic spirits during research. Traces his arm shield edge when thinking."
   },
   "char_background": {
-    "origin": "Former 狩灵协会2科 member, discovered heroic spirit affinity through archaeology. Transferred to 狩灵协会6科 when 扭曲 escalated, recognizing 神备 as uniquely suited. Longest-serving 6科 member after 薰.",
-    "current_mission": "Handle 扭曲 with 薰. Excavate historical sites to establish links with new heroic spirits."
+    "origin": "Descendant of a long line of 灵能者s, raised to carry the family art of heroic spirit invocation. Joined 狩灵协会5科 to use inherited techniques in service of others.",
+    "current_mission": "Serve 狩灵协会5科 and honor the family legacy."
   },
   "char_basic_abilities": {
     "灵力": "Premier, vast 灵力 reserves eliminating energy depletion risks entirely.",

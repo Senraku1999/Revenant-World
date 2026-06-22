@@ -13,9 +13,9 @@
       "height": "176cm",
       "weight": "68kg",
       "hair": "Purple long hair, high ponytail",
-      "eyes": "Green",
       "clothing": "White shirt, grey coat, black tailcoat.",
-      "weapon": "桂妮薇儿, a 1.2m greatsword forged by 锻心工坊. Etched circuits enhance range and power."
+      "weapon": "桂妮薇儿, a 1.2m greatsword forged by 锻心工坊. Etched circuits enhance range and power.",
+      "face": "Green eyes."
     }
   },
   "char_description": {
@@ -56,7 +56,7 @@
     },
     {
       "situation": "发动骑士五德能力",
-      "response": "她踏前一步，巨剑拄地，剑尖触地时空气发出低鸣，\"以骑士之名，仁慈。\"剑身的回路切换成银白光芒。"
+      "response": "她踏前一步，巨剑拄地，剑尖触地时空气发出低鸣，\"以骑士之名，仁慈。\"剑身的灵力回路切换成银白光芒。"
     }
   ]
 }

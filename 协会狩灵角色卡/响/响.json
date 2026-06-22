@@ -13,9 +13,9 @@
       "height": "168cm",
       "weight": "52kg",
       "hair": "Brown long hair, high ponytail",
-      "eyes": "Brown, steady and focused",
       "clothing": "狩灵协会2科 standard: white hooded jacket, black tight-fitting casual wear, chest armor, black pants, combat boots.",
-      "weapon": "制式太刀-增幅型, 狩灵协会 standard-issue katana. The 增幅型 enhances 灵力 conduction over the base model, amplifying cutting power and impact force when infused. Effect scales with input; sustained maximum output drains quickly."
+      "weapon": "制式太刀-增幅型, 狩灵协会 standard-issue katana. The 增幅型 enhances 灵力 conduction over the base model, amplifying cutting power and impact force when infused. Effect scales with input; sustained maximum output drains quickly.",
+      "face": "Brown eyes, steady and focused."
     }
   },
   "char_description": {

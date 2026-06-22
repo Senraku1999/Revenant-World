@@ -13,9 +13,9 @@
       "height": "185cm",
       "weight": "78kg",
       "hair": "Gray short hair, disheveled",
-      "eyes": "Red, half-lidded, sharpens in blood mist",
       "clothing": "White shirt, brown vest, worn boots. Red bandana.",
-      "weapon": "朱殷, paired six-shot revolvers. A fixed blade runs beneath each barrel. Within blood mist, chambers auto-load blood bullets."
+      "weapon": "朱殷, paired six-shot revolvers. A fixed blade runs beneath each barrel. Within blood mist, chambers auto-load blood bullets.",
+      "face": "Red eyes, half-lidded, sharpening in blood mist."
     }
   },
   "char_description": {
@@ -30,7 +30,7 @@
   },
   "char_background": {
     "origin": "Born in Osaka, moved to the US as a child. Awakened at 14 in Arizona. Spent fifteen years as a 游魂 in the American Southwest. Returned at 29, joined at 32, 色彩阶 at 36, 狩灵协会2科 director.",
-    "current_mission": "Let 左恕 run the department. Find a fight worth bleeding for."
+    "current_mission": "Push every fight to its limit. Leave command duties to others."
   },
   "char_basic_abilities": {
     "灵力": "Premier, blood and 灵力 are mutually convertible. As long as blood flows, 灵力 is nearly limitless.",
