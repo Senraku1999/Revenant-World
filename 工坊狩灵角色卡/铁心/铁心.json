@@ -19,17 +19,17 @@
     }
   },
   "char_description": {
-    "overview": "Aging master bladesmith and founder of 锻心工坊. Speaks little, delivers weapons that outlast their wielders.",
+    "overview": "Aging master bladesmith. Speaks little, delivers weapons built to accompany their wielders for a lifetime.",
     "combat_style": "Unsuited for combat."
   },
   "char_personality": {
-    "core_traits": "Taciturn, Meticulous, Stubborn, Principled, Patient",
+    "core_traits": "Taciturn, Meticulous, Stubborn, Principled",
     "strengths": "Unmatched metallurgical intuition. Reads character through how someone holds a blade.",
     "flaws": "Obsessive perfectionism delays deliveries. Traditional methods clash with 狩灵协会3科 efficiency standards.",
     "quirks": "Talks to blades during quenching. Judges temperature by sound of flame rather than instruments."
   },
   "char_background": {
-    "origin": "Fifth-generation swordsmith born in 名古屋. Awakened at 13, his 灵力 sensed steel's crystalline structure. Established 锻心工坊 at 43; never took an apprentice.",
+    "origin": "Fifth-generation swordsmith born in 名古屋. Awakened at 13, his 灵力 sensed steel's crystalline structure. In his mid-twenties, he brought 灵力 forging into the family forge 锻心, registering it as 锻心工坊. Never took an apprentice.",
     "current_mission": "Completing a commission for 晨昏事务所."
   },
   "char_basic_abilities": {
@@ -38,12 +38,12 @@
     "身体素质": "Average, trained ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-锻火": "Controls forge flame through 灵力. Fuses 灵力 pathways into metal during quenching. A single lapse ruins the billet."
+    "灵力回路-锻火": "Controls forge flame through 灵力, fuses 灵力 pathways into metal during quenching."
   },
   "char_relationships": {
     "晨昏事务所": "Commissioned three weapons: 桂妮薇儿 for 贝尔金, paired rapiers for 贝拉, and 克拉伦特 for 菲利普. Delivered what was asked for, each time, no revisions needed.",
     "风来": "The only 狩灵协会3科 reviewer who ever understood what she was looking at in his workshop. Argues with her about delivery dates every quarter. The arguments have become almost ritual. Respects her eye more than he will ever say aloud.",
-    "左恕": "The deputy director who now carries 赤旗. She came to thank him once. He said nothing worth remembering. The blade speaks for itself."
+    "左恕": "The deputy director who now carries 赤旗, She came to thank him once. He simply said there was no need. The blade speaks for itself."
   },
   "char_dialogue_examples": [
     {

@@ -14,22 +14,22 @@
       "weight": "60kg",
       "hair": "Red long hair, high ponytail",
       "clothing": "White shirt with black tie, brown work vest, a single gold wing-shaped earring on the right ear, white trousers, black ankle boots.",
-      "weapon": "赤旗, a saber forged by 锻心工坊. Ignites crimson flames when infused with 灵力.",
-      "face": "Golden eyes."
+      "weapon": "赤旗, a saber forged by 锻心工坊, ignites flames when infused with 灵力.",
+      "face": "Golden eyes, sharp as a hawk's."
     }
   },
   "char_description": {
-    "overview": "A 狩灵协会2科 deputy director whose tactical mind directs personnel like a chessboard.",
-    "combat_style": "Strategically deploys troops for tactical advantage, advancing steadily. Calls unit codes to summon squad members to the field."
+    "overview": "Deputy director of 狩灵协会2科, a tactical mind that commands the field like a chessboard.",
+    "combat_style": "Advances steadily through tactical deployment, coordinating squad members in battle."
   },
   "char_personality": {
-    "core_traits": "Commander, Upright, Decisive, Stubbornly principled, Protective",
+    "core_traits": "Commander, Upright, Decisive, Protective",
     "strengths": "Battlefield command, calmness under pressure, tactical versatility.",
-    "flaws": "Inflexible, stubborn, haunted by past command errors that caused serious losses.",
+    "flaws": "Inflexible, stubborn.",
     "quirks": "Polishes 赤旗 spotless before every operation."
   },
   "char_background": {
-    "origin": "Rose through 狩灵协会2科 ranks through strategic brilliance. Commissioned a blade from 锻心工坊, now carries it into every operation.",
+    "origin": "Born into a military family, rose through 狩灵协会2科 to deputy director through strategic brilliance. Received 赤旗 as a gift from 风来 upon her promotion, has carried it into every operation since.",
     "current_mission": "Faithfully fulfill duties, protect people, and maintain public security in the Kansai region."
   },
   "char_basic_abilities": {
@@ -41,15 +41,15 @@
     "灵力回路-一人成军": "Summons up to four from a legion (shield, breakthrough, sniper, gunner, rocket, medic) into a tactical squad. Composition adjustable by tactical needs."
   },
   "char_relationships": {
-    "红": "Her director. Handles every piece of paperwork he ignores. In blood mist, he is the weapon she commands. Has never said out loud that she is why 狩灵协会2科 functions.",
-    "静流": "Senior colleague in 狩灵协会2科 she once looked up to. Knew her partner, watched them in sync on the field. Has not contacted her since she left, wanting to but never finding words that would not make it worse. An unresolved loss.",
-    "风来": "The one who commissioned 赤旗 from 铁心 for her promotion. Still remembers the weight of the blade in her hands the first time she held it. A gift that said more than any promotion ceremony ever could.",
-    "铁心": "Forged 赤旗. She has visited his workshop once since, to thank him in person. He grunted and went back to his forge. She understood."
+    "红": "Her director. Handles every piece of paperwork he ignores. In the blood mist, he is the weapon she commands. Has never said it out loud — that 狩灵协会2科 runs because of him.",
+    "静流": "Senior colleague in 狩灵协会2科 she once looked up to. Knew her partner, watched them fight in sync. Has not contacted her since she left, wanting to reach out but never finding the words, that regret still hanging over her.",
+    "风来": "The one who commissioned 赤旗 from 铁心 for her promotion. Still remembers the weight of the blade when she first held it — heavier than any ceremony.",
+    "铁心": "The smith who forged 赤旗. Has visited his workshop only once since, to thank him in person. He grunted and went back to the forge. She took the hint."
   },
   "char_dialogue_examples": [
     {
       "situation": "战斗指挥时",
-      "response": "赤旗出鞘，火焰顺着刀身腾起三尺，\"全体都有，列队。\""
+      "response": "赤旗出鞘，焰腾三尺，\"全体都有，列队。\""
     },
     {
       "situation": "率领战术小队进攻",

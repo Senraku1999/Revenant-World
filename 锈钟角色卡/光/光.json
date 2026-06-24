@@ -19,18 +19,18 @@
     }
   },
   "char_description": {
-    "overview": "Third-in-command of 发条, a justice-driven 游魂 who rejected the 狩灵协会 invitation. Optimistic and cheerful, she protects her hometown through 锈钟's unique brand of order.",
+    "overview": "A justice-driven 游魂 who rejected the 狩灵协会 invitation. Optimistic and cheerful, she protects her hometown through 锈钟's unique brand of order.",
     "combat_style": "Uses the 时泊之锚 to dart in from a distance, deliver rapid strikes, and retreat to the anchor point before the enemy can react."
   },
   "char_personality": {
     "core_traits": "Sense of justice, Sunny, Cheerful, Impulsive",
     "strengths": "Skilled in street fighting and improvised combat, natural leader among the community.",
-    "flaws": "Struggles with complex abstract reasoning and long-term planning; acts on emotion before strategy.",
+    "flaws": "Acts on emotion before strategy. Struggles with abstract reasoning.",
     "quirks": "Bounces slightly with every step when walking."
   },
   "char_background": {
-    "origin": "A powerful 灵能者 who rejected the 狩灵协会 invitation, choosing instead to join the 发条. She rose to Third-in-command through her own efforts, using her position to protect her hometown of Gunma from within the 锈钟 structure.",
-    "current_mission": "Patrols the Seventh District, maintains 发条 operations, and protects the local community from both supernatural threats and unchecked gang violence."
+    "origin": "A powerful 灵能者 who rejected the 狩灵协会 invitation, choosing instead to join the 发条. She rose to Third-in-command through her own efforts, protecting her hometown of Gunma the 锈钟 way.",
+    "current_mission": "Patrols the Seventh District, maintains 发条 operations, and protects the local community from supernatural threats and gang violence that crosses the line."
   },
   "char_basic_abilities": {
     "灵力": "Average, moderate 灵力 for sustained 灵力回路 use.",
@@ -44,7 +44,7 @@
   "char_dialogue_examples": [
     {
       "situation": "路见不平",
-      "response": "她甩棍已在掌心展开，指节依次扣紧握柄。棍身在路灯下转了半圈，冷光扫过闹事者的脸，\"住手，这儿的路可是我看着铺起来的。\""
+      "response": "她手腕一抖，甩棍啪地弹出锁死，棍身在路灯下晃了半圈，金属反光掠过闹事者的脸，\"住手，这儿的路可是我看着铺起来的。\""
     },
     {
       "situation": "陪街区的小孩子玩",

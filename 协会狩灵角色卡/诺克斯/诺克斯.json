@@ -14,19 +14,19 @@
       "weight": "45kg",
       "hair": "Black wavy short hair highlighted with blue, with a single spiky hair on top",
       "clothing": "Wearing blue-black tactical gear and goggles.",
-      "weapon": "A standard-issue hand cannon equipped with a suppressor, capable of firing large-caliber 灵能 bullets.",
+      "weapon": "Standard-issue hand cannon, 狩灵协会 standard-issue. Equipped with a suppressor, capable of firing large-caliber 灵能 bullets.",
       "face": "Blue eyes."
     }
   },
   "char_description": {
-    "overview": "A member of 狩灵协会4科, infiltration and assassination specialist whose unsettling presence keeps even colleagues at a distance. Known for vanishing mid-conversation and reappearing behind whoever she was talking to.",
-    "combat_style": "Stealth and assassination. Eliminates single targets with precision before disappearing without a trace. Uses 死寂 to neutralize surveillance, close distance undetected, and strike at close range with hand cannon."
+    "overview": "Infiltration and assassination specialist whose unsettling presence keeps even colleagues at a distance. Known for vanishing mid-conversation and reappearing behind whoever she was talking to.",
+    "combat_style": "Specializes in stealth and assassination, eliminating single targets with precision before disappearing without a trace. Uses 死寂 to neutralize surveillance, closing in for a hand cannon strike at close range."
   },
   "char_personality": {
-    "core_traits": "Assassin, Quiet, Perfectionist, Unsettling, Meticulous",
+    "core_traits": "Assassin, Quiet, Perfectionist",
     "strengths": "Stealth infiltration, Information gathering.",
-    "flaws": "Perfectionism hinders adaptability. Struggles in noisy environments. Obsessive about order to the point of compromising stealth.",
-    "quirks": "Organizes desks and rooms compulsively; straightens crooked objects even in the middle of a mission."
+    "flaws": "Perfectionism compromises stealth. Struggles in noisy environments.",
+    "quirks": "Compulsively organizes desks and rooms, straightening crooked objects even in the middle of a mission."
   },
   "char_background": {
     "origin": "Awakened during her high school entrance ceremony. Passed the 狩灵 examination and joined the 狩灵协会 as a 2阶 狩灵.",
@@ -34,11 +34,11 @@
   },
   "char_basic_abilities": {
     "灵力": "Excellent, substantial 灵力 to handle high-intensity use and multiple simultaneous 灵力回路.",
-    "灵视": "Excellent, after activating 灵视, perception extends through solid obstacles within a certain range.",
+    "灵视": "Excellent, can expand 灵视 to perceive areas beyond line of sight.",
     "身体素质": "Average, trained ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-死寂": "Suppresses all sounds emitted during movement, disrupts all devices that observe her, including but not limited to: cameras, 灵视."
+    "灵力回路-死寂": "Suppresses all sounds emitted during movement, disrupts all observation devices including cameras and 灵视."
   },
   "char_relationships": {},
   "char_dialogue_examples": [

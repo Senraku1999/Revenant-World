@@ -2,7 +2,7 @@
   "char_name": "炼司",
   "char_fullname": "真壁 炼司",
   "char_alias": "None",
-  "char_identity": "狩灵",
+  "char_identity": "游魂",
   "char_rank": "None",
   "char_faction": "白烟工坊",
   "char_status": "Founder of 白烟工坊",
@@ -20,17 +20,17 @@
     }
   },
   "char_description": {
-    "overview": "Founder of 白烟工坊, a half-underground firearms workshop. Cynical ex-狩灵协会3科 armorer who found more money outside the system.",
+    "overview": "A half-underground firearms workshop. Cynical ex-狩灵协会3科 armorer who found more money outside the system.",
     "combat_style": "Unsuited for combat."
   },
   "char_personality": {
-    "core_traits": "Cynical, Calculating, Obsessive, Sardonic",
+    "core_traits": "Cynical, Calculating, Money-driven, Sardonic",
     "strengths": "Firearms expertise, underground supply network, ballistic intuition, can source any part in 48 hours.",
-    "flaws": "Knows what his guns are used for and sleeps fine. Charges extra for silence, never refuses a paying client. Dismissive of anyone who cannot discuss ballistics.",
-    "quirks": "Bets cigarettes on test-fire scores. Names firearms after ex-girlfriends. Keeps a leather sales ledger—professional pride."
+    "flaws": "Sleeps fine selling guns to killers. Charges extra to keep quiet.",
+    "quirks": "Keeps a leather-bound ledger, only serial numbers, calibers, and prices. One name has been scratched out."
   },
   "char_background": {
-    "origin": "Former 狩灵协会3科 armorer who quit when standardized pay met custom-work money. Established 白烟工坊 without 狩灵协会3科 certification. Clients: 罪灵s, 游魂s, and 协会狩灵s paying cash under fake names.",
+    "origin": "Former 狩灵协会3科 armorer who quit when standardized pay met custom-work money. Established 白烟工坊 without 狩灵协会3科 certification. Its clients are 罪灵s, 游魂s, and 协会狩灵s paying cash under fake names.",
     "current_mission": "Take commissions that pay well and interest him technically. Stay outside 狩灵协会3科's radar, visible enough to keep getting clients."
   },
   "char_basic_abilities": {
@@ -42,8 +42,8 @@
     "灵力回路-着弹": "Infuses completed firearms with a signature 灵力 imprint that records every shot fired. Allows 炼司 to track his weapons' usage remotely. Imprint is permanent and cannot be removed without destroying the firearm."
   },
   "char_relationships": {
-    "烬": "Client. Built 轻语 to 烬's exact specifications over three months of clandestine meetings. Never asked what the gun was for. The ledger entry for 轻语 is the only one without a client name.",
-    "狩灵协会3科": "Former employer. Left on bitter terms over standardization policies that prioritized mass production over craftsmanship. Still uses 狩灵协会3科-grade tooling in his workshop."
+    "烬": "Client, built 轻语 to 烬's exact specifications over three months of clandestine meetings, never asked what the gun was for. The only name ever scratched out in his ledger is his.",
+    "狩灵协会3科": "Former employer, left after realizing the money outside the system was better. Still uses 狩灵协会3科-grade tooling in his workshop. Good tools are good tools."
   },
   "char_dialogue_examples": [
     {

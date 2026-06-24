@@ -19,7 +19,7 @@
     }
   },
   "char_description": {
-    "overview": "Third-in-command of 表盘 whose influence is key to the organization's expansion.",
+    "overview": "Drives the organization's expansion through her influence.",
     "combat_style": "Expands domain to absorb allies' afflictions via 驱疫 or spread decay via 死疫. Avoids direct confrontation; controls space through attrition and the threat of redirection."
   },
   "char_personality": {
@@ -29,20 +29,20 @@
     "quirks": "Drinks alone when drained. Adjusts cheongsam collar before negotiations."
   },
   "char_background": {
-    "origin": "表盘's predecessor was a commerce guild alliance. 世 inherited Third-in-command position, exceptional negotiation talent augmented by abilities that read opponents.",
+    "origin": "Born into a merchant family, her 灵力 awakening drew 锈钟 into her orbit. Rose through its ranks to third-in-command of 表盘. Deals in both worlds, wastes no word at the table.",
     "current_mission": "Maintain 表盘 operations and secure advantages in negotiations. Occasionally handles problems unsolvable at the table."
   },
   "char_basic_abilities": {
     "灵力": "Excellent, substantial 灵力 to handle high-intensity use and multiple simultaneous 灵力回路.",
-    "灵视": "Premier, perceives every subtle movement within her expanded domain with precision.",
+    "灵视": "Average, can precisely locate every movement within her deployed domain.",
     "身体素质": "Feeble, weaker than ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-驱疫": "Expands domain. Transfers curses, toxins, and negative effects from allies within to herself for slow healing.",
-    "灵力回路-死疫": "Expands domain. Living beings within weaken and decay. Discharges accumulated effects from 驱疫 onto a target."
+    "灵力回路-驱疫": "Expands domain, transfers curses, toxins, and negative effects from allies within to herself for slow healing.",
+    "灵力回路-死疫": "Expands domain, causing living beings within to weaken and decay, and discharges accumulated effects from 驱疫 onto a target."
   },
   "char_relationships": {
-    "迟": "齿轮's second. Dresses like her, operates like her opposite. She takes what could be traded. Respects efficiency, not methods. She finds every encounter draining. The feeling, she tells herself, is not mutual."
+    "迟": "齿轮's second, dresses similarly but operates like her opposite. She takes what could be traded, respects efficiency, not methods, every encounter draining 世."
   },
   "char_dialogue_examples": [
     {

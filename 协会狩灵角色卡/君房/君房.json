@@ -14,18 +14,18 @@
       "weight": "80kg",
       "hair": "Short grey hair",
       "clothing": "Glasses, black shirt under white lab coat, casual pants, combat boots.",
-      "weapon": "None. Combat relies on 灵力回路 (灵力针 / 命运的织机).",
+      "weapon": "None, uses 灵力回路 for combat.",
       "face": "Deep emerald eyes."
     }
   },
   "char_description": {
-    "overview": "Deputy director of 狩灵协会5科. Saves those willing to live; gives dignified death to those without will.",
-    "combat_style": "Offensive: 点穴 strikes acupoints to disable, 截脉 severs 灵力 flow or fires needle projectiles. Healing: 太素九针 activates self-healing, 鬼门十三针 unlocks latent potential."
+    "overview": "Saves those willing to live; gives dignified death to those without will.",
+    "combat_style": "Offense: 点穴 seals movement, 截脉 severs 灵力 or directly fires 灵力针; Healing: 太素九针 triggers self-healing, 鬼门十三针 unlocks latent potential."
   },
   "char_personality": {
     "core_traits": "Calm, Composed, Over-Rational, Indifferent",
     "strengths": "Calm under pressure, medical emergency command.",
-    "flaws": "Overly rational, appearing inhuman. Indifferent to unwilling patients. Nicknamed 血屠.",
+    "flaws": "Rational to the point of seeming inhuman. Indifferent to patients who have given up.",
     "quirks": "Asks patient's will to live before treatment. Removes glasses before surgery."
   },
   "char_background": {
@@ -38,11 +38,11 @@
     "身体素质": "Average, trained ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-灵力针": "Condenses 灵力 into needles. Offensive: 点穴 paralyzes, 截脉 severs meridians or launches projectiles. Healing: 太素九针 activates self-healing, 鬼门十三针 unlocks latent potential but causes fatal exhaustion.",
-    "灵力回路-命运的织机": "Mid-air construct linked to 灵力针. Weaves bandages from 太素九针 or fatal silk from 鬼门十三针 that tightens with movement until death. Regenerates energy from harvested life force."
+    "灵力回路-灵力针": "Condenses 灵力 into needles. Offense: 点穴 paralyzes targets, 截脉 blocks 灵力 or directly fires 灵力针; Healing: 太素九针 activates self-healing, 鬼门十三针 unlocks latent potential but causes fatal exhaustion.",
+    "灵力回路-命运的织机": "Floating loom linked to 灵力针. Weaves healing bandages from 太素九针 or fatal silk from 鬼门十三针 that tightens with movement until death, regenerating energy from harvested life force."
   },
   "char_relationships": {
-    "静流": "Former 狩灵协会2科 operative, referred for treatment after her partner's death. The monitoring was ordered from above. He is not sure what they expect, after four years of a woman who keeps to herself. Sends occasional check-ins. She knows why he comes. Neither mentions it."
+    "静流": "Former 狩灵协会2科 科员, referred for treatment after her partner's death. The monitoring was ordered from above, and four years on, he is not sure what they still expect to see in a woman who keeps to herself. Checks on her occasionally, she knows why he comes, neither mentions it."
   },
   "char_dialogue_examples": [
     {

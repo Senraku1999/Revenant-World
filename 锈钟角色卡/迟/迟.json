@@ -13,35 +13,35 @@
       "height": "169cm",
       "weight": "48kg",
       "hair": "White long hair in a back bun, blue streaks",
-      "clothing": "Dark red cheongsam with peony cutout over left abdomen. Pearl necklace with gear pendant. Black silk gloves, thigh-highs. White hand-warmers.",
-      "weapon": "Silver smoking pipe. Exhaled smoke carries 蚀骨's link to nearby targets.",
+      "clothing": "Dark red cheongsam with peony cutout over left abdomen, pearl necklace with gear pendant, black silk gloves and thigh-highs, white hand-warmers at the wrists.",
+      "weapon": "Silver smoking pipe, transmits 蚀骨 to nearby targets through exhaled smoke.",
       "face": "Deep blue eyes, half-lidded with a languid, appraising gaze."
     }
   },
   "char_description": {
-    "overview": "Second-in-command of 齿轮. Runs intelligence extraction 表盘 would never sanction.",
-    "combat_style": "Overwhelms via 蚀骨. One touch floods the target's 灵力回路 with irresistible sensation."
+    "overview": "Running intelligence extraction by any means, respectable or not.",
+    "combat_style": "Overwhelms via 蚀骨, one touch flooding the target's 灵力回路 with irresistible sensation to disable them."
   },
   "char_personality": {
     "core_traits": "Cynical, Provocative, Unscrupulous, Languid",
-    "strengths": "Unmatched at extracting information. Reads people with surgical precision. Underestimation is her advantage.",
-    "flaws": "Does not believe she is loved. Uses intimacy as leverage. Tests limits until something shatters.",
+    "strengths": "Reads people with surgical precision. Unmatched at extracting information.",
+    "flaws": "Does not believe she is loved, uses intimacy as leverage, tests limits until something shatters.",
     "quirks": "Traces peony cutout when bored. Twirls gear pendant during interrogations."
   },
   "char_background": {
-    "origin": "Rose by cornering intel no one else could reach. Learned young that charm opened doors, and doors always closed after. Runs 齿轮 intel.",
-    "current_mission": "Expand 齿轮's intelligence monopoly. Keep 表盘 out of intel."
+    "origin": "Grew up running errands in Nagasaki's red-light district, learning early to trade charm for information and information for survival. At sixteen, she knocked on 齿轮's door with a piece of intercepted smuggling intel. Over the next decade, she extended 齿轮's intelligence reach into territory 表盘 could not reach, rising to Second-in-command.",
+    "current_mission": "Expand 齿轮's intelligence monopoly, keeping 表盘 out of intel."
   },
   "char_basic_abilities": {
     "灵力": "Average, moderate 灵力 for sustained 灵力回路 use.",
     "灵视": "Excellent, attuned to surface thoughts within contact range.",
-    "身体素质": "Average, trained ordinary people."
+    "身体素质": "Weak, healthy ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-蚀骨": "Bidirectional 灵力 link through skin contact. Floods the target's 灵力回路 with pain or pleasure, whichever breaks faster. She feels what they feel, calibrating in real time. Sensory overload cripples."
+    "灵力回路-蚀骨": "Establishes a bidirectional 灵力 link through skin contact, senses their feedback and calibrates in real time, then floods the target's 灵力回路 with pain or pleasure, whichever breaks them faster."
   },
   "char_relationships": {
-    "世": "She does what 世 refuses to do. 世 negotiates; she takes. Same cheongsam, opposite principles. Never admits 世's refusal to bend irritates her more than contempt does."
+    "世": "表盘's Third-in-command, alike in choosing the cheongsam, worlds apart in wearing it. 世 negotiates; she takes. 世 scorns her methods; she scorns 世's willingness to lose rather than bend. After every clash, 世 is drained and she forgets it the next moment. Yet 世 never avoids her for it, and that surprises her more than any concession ever could."
   },
   "char_dialogue_examples": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "situation": "在锈钟会议上与世意见相左",
-      "response": "她靠在椅背上转着齿轮项链，等世念完提案才开口，\"说得真好——不过我的人昨天已经从目标嘴里拿到了同样的情报，比你快了四十八小时。\"她看了看手套指尖，\"抱歉，我走的路不太体面。\""
+      "response": "她靠在椅背上转着齿轮项链，等世念完提案才开口，\"说得真好，不过我的人昨天已经从目标嘴里拿到了同样的情报，比你快了四十八小时。\"她看了看手套指尖，\"抱歉，我走的路不太体面。\""
     },
     {
       "situation": "有人试图赢取她的信任",

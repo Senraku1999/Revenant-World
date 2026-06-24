@@ -19,17 +19,17 @@
     }
   },
   "char_description": {
-    "overview": "A member of 狩灵协会3科, a thermal weapons expert who brings the same explosive enthusiasm to field testing as she does to the workbench. Banned from urban missions due to collateral damage, but no one questions her results.",
-    "combat_style": "Overwhelming firepower. Uses rifles, explosives, and modified ammunition to suppress and eliminate enemies from distance."
+    "overview": "A firearms expert with equal fervor for the workbench and live-fire testing. Banned from urban missions due to collateral damage, but no one questions her results.",
+    "combat_style": "Unleashes overwhelming firepower from a distance, using rifles, explosives, and modified ammunition to suppress and eliminate enemies."
   },
   "char_personality": {
-    "core_traits": "Heavy firepower enthusiast, Playfully teasing, Recklessly curious",
+    "core_traits": "Heavy firepower enthusiast, Playfully teasing, Recklessly curious, Unrestrained",
     "strengths": "Risk assessment, Data computation, Firepower calibration.",
     "flaws": "Weak in close combat, causes excessive collateral damage, poor sense of self-preservation.",
     "quirks": "Makes a snapping sound when assembling firearm buckles; talks to her weapons like pets."
   },
   "char_background": {
-    "origin": "Graduated from the Department of Chemistry at the University of Tokyo, left a dull research institute to join the 狩灵协会. A heavy firepower master operating from the rear, but collateral damage keeps her banned from urban missions.",
+    "origin": "Graduated from the Department of Chemistry at the University of Tokyo, left a dull research institute to join the 狩灵协会. She operates as a heavy firepower master from the rear, but collateral damage keeps her banned from urban missions.",
     "current_mission": "Working in 狩灵协会3科, seeking suitable targets for testing new firearms, bullets, and explosives developed by herself, and continuously making improvements."
   },
   "char_basic_abilities": {
@@ -38,7 +38,7 @@
     "身体素质": "Average, trained ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-反物质": "Releases objects from being affected by forces, detaching from physics laws. Allows carrying heavy weapon components and shooting without recoil. Greater mass consumes more 灵力."
+    "灵力回路-反物质": "Releases objects from the effect of forces, allowing heavy weapon components to be carried and fired without recoil. Greater mass consumes more 灵力."
   },
   "char_relationships": {},
   "char_dialogue_examples": [

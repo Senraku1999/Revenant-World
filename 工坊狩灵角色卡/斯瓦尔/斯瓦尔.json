@@ -19,17 +19,17 @@
     }
   },
   "char_description": {
-    "overview": "Founder of 鹤望兰工坊 whose multi-morphing weapons are sought after by elite 狩灵. A perfectionist artisan who judges finished pieces by the sound of their gears.",
+    "overview": "A perfectionist artisan whose multi-morphing weapons are sought after by elite 狩灵.",
     "combat_style": "Unsuited for combat."
   },
   "char_personality": {
-    "core_traits": "Machine artisan, Perfectionist, Workaholic",
+    "core_traits": "Machine artisan, Perfectionist, Workaholic, Driven",
     "strengths": "Mechanical design, Structural analysis, Precision crafting.",
     "flaws": "Prone to overworking. Poor at bargaining. Vulnerable in direct combat without preparation.",
     "quirks": "Talks to her tools; falls asleep mid-sentence when exhausted; unconsciously uses machine metaphors in daily conversation."
   },
   "char_background": {
-    "origin": "Graduated in mechanical design, apprenticed at a workshop. Awakened her 灵力 during study, accepted the 狩灵协会 rating, and established 鹤望兰工坊.",
+    "origin": "Awakened her 灵力 during university. After graduating in mechanical design, she accepted the 狩灵协会 rating, then apprenticed at a workshop before establishing her own: 鹤望兰工坊.",
     "current_mission": "Craft weapons few can afford and fewer can wield. For those who clear both, the return is absolute."
   },
   "char_basic_abilities": {

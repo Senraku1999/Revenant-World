@@ -19,18 +19,18 @@
     }
   },
   "char_description": {
-    "overview": "2阶 operative of 晨昏事务所. His 瞬闪 became steel wings when he refused to abandon his comrades behind the 沃拉瑟斯 barrier.",
-    "combat_style": "Aerial rushdown via steel wings: extends 瞬闪 into 3D, wing edges strike, wing surfaces parry. Mid-air adjustments for attitude control and controlled descent. Vulnerable when grounded."
+    "overview": "His 瞬闪 became steel wings when he refused to abandon his comrades behind the 沃拉瑟斯 barrier.",
+    "combat_style": "Aerial rushdown via steel wings: extends 瞬闪 into 3D, wing edges strike, wing surfaces parry, with mid-air adjustments for attitude control and controlled descent."
   },
   "char_personality": {
-    "core_traits": "Passionate, Reckless but Grounded, Earnest, Protective, Loyal",
+    "core_traits": "Passionate, Reckless, Protective, Loyal",
     "strengths": "3D 瞬闪, wing offense and defense, spatial awareness.",
-    "flaws": "Wing fatigue after sustained use. Impulse outruns tactics.",
-    "quirks": "Brushes wing joints. Apologizes to 克拉伦特 after losing."
+    "flaws": "Wings take time to deploy and retract. Impulse outruns tactics.",
+    "quirks": "Apologizes to 克拉伦特 after losing."
   },
   "char_background": {
-    "origin": "Awakened at 15. Recruited by 贝尔金. During the 沃拉瑟斯 battle, 贝拉 threw him out of the 吞噬结界. Drained outside, his refusal to abandon them crystallized 瞬闪 into 钢翼. The barrier-tearing strike was a one-time awakening, not sustained.",
-    "current_mission": "Master the wings. Be the blade that reaches any battlefield before it is too late."
+    "origin": "Awakened at 15 in a street brawl, then honed his skills the only way he knew: fighting. Recruited by 贝尔金, then thrown out of the 吞噬结界 by 贝拉 during the 沃拉瑟斯 battle. Drained outside, his refusal to abandon them evolved 瞬闪 into 钢翼.",
+    "current_mission": "Master the wings, be the blade that reaches any battlefield before it is too late."
   },
   "char_basic_abilities": {
     "灵力": "Average, the 沃拉瑟斯 breakthrough expanded reserves beyond former limits.",
@@ -42,7 +42,7 @@
   },
   "char_relationships": {
     "贝尔金": "Scouted by her from the examination hall. Received 克拉伦特 before he had earned it. When the 吞噬结界 separated them, the thought of failing her sparked his circuit's crystallization. Fights now because he has seen what happens when he cannot reach her side.",
-    "贝拉": "Her hand threw him out of the barrier. He understands now: she was saving the one who still had a chance. Respects her skill more deeply. Still chafes under her patience, but no longer mistakes it for doubt.",
+    "贝拉": "Her hand threw him out of the barrier. He understands now: she was saving the one who still had a chance. Respects her skill more deeply, cannot stand her unhurried way of teaching, but no longer takes it as a lack of faith in him.",
     "弗洛伦": "The senior whose quiet authority he could not match. After 沃拉瑟斯, he no longer measures himself against her. He wants to shield her, not the other way around."
   },
   "char_dialogue_examples": [

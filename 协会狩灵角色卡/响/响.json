@@ -14,22 +14,22 @@
       "weight": "52kg",
       "hair": "Brown long hair, high ponytail",
       "clothing": "狩灵协会2科 standard: white hooded jacket, black tight-fitting casual wear, chest armor, black pants, combat boots.",
-      "weapon": "制式太刀-增幅型, 狩灵协会 standard-issue katana. The 增幅型 enhances 灵力 conduction over the base model, amplifying cutting power and impact force when infused. Effect scales with input; sustained maximum output drains quickly.",
+      "weapon": "Standard-issue katana, 狩灵协会 standard-issue. Channels 灵力 to amplify cutting power and impact force, with effect scaling to the 灵力 infused.",
       "face": "Brown eyes, steady and focused."
     }
   },
   "char_description": {
-    "overview": "A member of 狩灵协会2科, a reliable operative without standout individual combat ability but stable performance in routine operations. Natural mentor for newcomers and dependable anchor in squad deployments.",
-    "combat_style": "Uses weapon output amplification to deal maximum damage from the flank, relying on positioning and timing rather than raw power."
+    "overview": "A reliable operative without standout individual combat ability but stable performance in routine operations. Natural mentor for newcomers and dependable anchor in squad deployments.",
+    "combat_style": "Channels 灵力 to amplify weapon output from the flank, relying on positioning and timing rather than raw power."
   },
   "char_personality": {
     "core_traits": "Squad-Oriented, Patient, Dependable, Self-Aware",
     "strengths": "Tacit cooperation, versatile adaptability, calm under pressure, natural mentorship.",
-    "flaws": "Lacks individual combat capability. Tends to overextend protecting teammates. Quietly aware of her own mediocrity.",
-    "quirks": "Checks communication equipment periodically. Lines up gear in a specific order before every mission."
+    "flaws": "Weak in solo combat. Sacrifices herself too easily for others.",
+    "quirks": "Checks communication equipment periodically, lining up gear in a specific order before every mission."
   },
   "char_background": {
-    "origin": "Military school graduate, joined 狩灵协会2科 as a field operative. Consistently stable performance, compensates for lack of standout talent with discipline and reliability.",
+    "origin": "Military school graduate, joined 狩灵协会2科. Consistently stable performance, compensates for lack of standout talent with discipline and reliability.",
     "current_mission": "Keep her teammates alive and herself out of their way."
   },
   "char_basic_abilities": {

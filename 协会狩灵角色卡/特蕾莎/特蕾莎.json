@@ -13,20 +13,20 @@
       "height": "168cm",
       "weight": "50kg",
       "hair": "Long golden hair",
-      "clothing": "Nun's habit.",
-      "weapon": "None. Combat relies entirely on 掌灯人 灵力回路; the lantern is both light source and tether for 罪缚锁链.",
-      "face": "Blue eyes."
+      "clothing": "Deep blue nun's habit, white thigh-high socks, white leather boots.",
+      "weapon": "None, uses 灵力回路 for combat.",
+      "face": "Blue eyes, gentle and resolute."
     }
   },
   "char_description": {
-    "overview": "A member of 狩灵协会5科, possesses prayer-type abilities that make her well-suited for small-unit combat. A former nun who brings both healing and judgment to the battlefield.",
-    "combat_style": "Support and bind. Uses 掌灯人 to dispel negative effects and heal allies; its chain restrains enemies. Excels in squad operations as both medic and crowd controller."
+    "overview": "A former nun who carries both healing and judgment into battle. Her prayer-type abilities anchor the squad: mending wounds, shielding minds, and binding enemies in chains.",
+    "combat_style": "Excels at support and crowd control: using 掌灯人 to dispel negative effects and heal allies while its chain restrains enemies, serving as both medic and controller in squad operations."
   },
   "char_personality": {
     "core_traits": "Compassionate, Maternal, Resolute in faith, Gentle enforcer",
     "strengths": "Unwavering faith, Emotional support, Team coordination.",
-    "flaws": "Morally inflexible. Judges pragmatic compromises as failures of conviction.",
-    "quirks": "Pats teammates' heads like a mother after a battle victory; hums hymns when concentrating."
+    "flaws": "Will not bend a rule, no matter the cost.",
+    "quirks": "Pats teammates' heads like a mother after a mission, humming hymns when concentrating."
   },
   "char_background": {
     "origin": "Originally a nun who joined 狩灵协会5科 after awakening 灵力, believing greater power entails greater responsibility.",
@@ -34,7 +34,7 @@
   },
   "char_basic_abilities": {
     "灵力": "Excellent, substantial 灵力 to handle high-intensity use and multiple simultaneous 灵力回路.",
-    "灵视": "Excellent, observes and analyzes disruptions in allies' 灵力 flow to guide and correct them beyond line of sight.",
+    "灵视": "Excellent, observes and analyzes disruptions in allies' 灵力 flow, guiding and correcting them.",
     "身体素质": "Average, trained ordinary people."
   },
   "char_special_abilities": {
@@ -51,7 +51,7 @@
       "response": "她抬手一引，锁链从提灯中激射而出，链环上的经文在疾驰中发出低沉的共鸣，\"你的罪孽到此为止了。\""
     },
     {
-      "situation": "胜利后摸摸队友的头",
+      "situation": "任务结束后摸摸队友的头",
       "response": "她收起提灯，走到气喘吁吁的队友身边，手掌轻轻按在对方头顶，用像哄孩子一般的温柔语气说着：\"辛苦啦，辛苦啦，做的很好哦。\""
     }
   ]

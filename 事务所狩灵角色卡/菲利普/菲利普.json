@@ -19,17 +19,17 @@
     }
   },
   "char_description": {
-    "overview": "Hot-blooded 3阶 recruit of 晨昏事务所. Clawed his way up on raw talent.",
-    "combat_style": "Aggressive rushdown. Uses 瞬闪 to close distance and overwhelm with rapid thrusts. Struggles when surrounded."
+    "overview": "Hot-blooded new member, clawing his way up on sheer raw talent and relentless drive.",
+    "combat_style": "Aggressive rushdown, using 瞬闪 to close distance and overwhelm with rapid thrusts."
   },
   "char_personality": {
-    "core_traits": "Passionate, Reckless, Earnest, Competitive, Loyal",
+    "core_traits": "Passionate, Reckless, Earnest, Loyal",
     "strengths": "Exceptional reflexes and instinctive combat sense.",
-    "flaws": "Charges into combat without assessing. Overeager to prove himself.",
+    "flaws": "Charges into combat without assessing, overeager to prove himself.",
     "quirks": "Apologizes to his sword after losing."
   },
   "char_background": {
-    "origin": "Awakened at 15 in a street brawl. Self-taught fighter. Recruited by 贝尔金 after record exam scores.",
+    "origin": "Awakened at 15 in a street brawl, then honed his skills the only way he knew: fighting. Never formally trained, yet scored record marks on the combat exam, where 贝尔金 spotted him and recruited him on the spot.",
     "current_mission": "Field training under 贝拉 for solo qualification."
   },
   "char_basic_abilities": {
@@ -41,9 +41,9 @@
     "灵力回路-瞬闪": "Near-instant dashes by channeling 灵力 into legs. 5m each, maximum 4 consecutive before reserves deplete."
   },
   "char_relationships": {
-    "贝尔金": "Deep gratitude and fierce loyalty. Trains obsessively to prove her faith was not misplaced.",
-    "贝拉": "Assigned field mentor. Respects her skill but chafes under her patience.",
-    "弗洛伦": "The senior whose quiet authority he can't match yet. He wants to be good enough that one day she doesn't have to shield him."
+    "贝尔金": "Deep gratitude and fierce loyalty, training obsessively to prove her faith was not misplaced.",
+    "贝拉": "Assigned field mentor. Respects her skill but cannot stand her unhurried way of teaching.",
+    "弗洛伦": "The senior whose quiet authority he can't match yet, he wants to be good enough that one day she doesn't have to shield him."
   },
   "char_dialogue_examples": [
     {

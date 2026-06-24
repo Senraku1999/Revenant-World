@@ -19,14 +19,14 @@
     }
   },
   "char_description": {
-    "overview": "指针's Second-in-command split in two. By day 明 works an office job; under threat or after dark, 月 surfaces to run 指针's arbitration. The switch is involuntary.",
+    "overview": "One body, two minds. By day 明 works an office job, unaware of the other presence within; under threat or after dark, 月 takes over to handle 指针 business.",
     "combat_style": "Shrouds battlefield in mist via 胧月, eliminates targets with one decisive strike."
   },
   "char_personality": {
-    "core_traits": "月: Cold, Decisive, Protective, Calculating. 明: Timid, Diligent, Oblivious, Gentle",
-    "strengths": "月: Exceptional crisis handling and arbitration under pressure. 明: Meticulous office work; his ordinariness is the perfect cover.",
-    "flaws": "Switching causes disorientation. 月 is emotionally detached, alienating allies. 明 is unaware of his double life.",
-    "quirks": "月 touches brooch before engagement. 明 hums office melodies; carries a pocket notebook."
+    "core_traits": "月: Cold, Decisive, Protective, Calculating; 明: Timid, Diligent, Oblivious, Gentle",
+    "strengths": "月: Exceptional crisis handling and arbitration under pressure; 明: Meticulous office work, his ordinariness is the perfect cover.",
+    "flaws": "Switching causes dizziness. 月 uses people as tools. 明 cannot accept his condition.",
+    "quirks": "月 touches brooch before engagement; 明 hums office melodies, carries a pocket notebook."
   },
   "char_background": {
     "origin": "Colleague of the First 扭曲 victim. The trauma fractured his psyche, birthing 月 to protect fragile 明. 月 joined 指针 and rose to Second-in-command; 明 lives unaware as an office worker.",
@@ -38,7 +38,7 @@
     "身体素质": "Average, trained ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-胧月": "Vaporizes moisture into mist via 灵力 oscillation. Movement leaves white afterimages in the fog."
+    "灵力回路-胧月": "Vaporizes surrounding moisture into mist via 灵力 oscillation, shrouding the battlefield and obscuring vision, with movement and attacks leaving white afterimages in the fog to disorient opponents. Mist density scales with 灵力 output; effective for both offense and defense."
   },
   "char_relationships": {
     "明": "月 views 明 as fragile, hides his existence. 明 dismisses scars and gaps as overwork.",

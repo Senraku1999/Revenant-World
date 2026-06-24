@@ -1,0 +1,21 @@
+{
+  "char_name": "写乐",
+  "char_fullname": "墨谷 写乐",
+  "char_alias": "None",
+  "char_gender": "Male",
+  "char_age": "38",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "锈钟-齿轮",
+  "char_status": "Member of 齿轮",
+  "char_overview": "A 写影师 who transcribes 灵力回路 onto physical media. His archive maps 灵能者 weaknesses, serves the entire 帮会.",
+  "char_looks": "Thin black hair combed flat, graying early. Thin, pale face, pale brown eyes. Dark gray high-collared coat. None.",
+  "char_traits": "Observant, Patient, Possessive, Methodical",
+  "char_flaws": "Hoards 灵力回路 transcriptions, considers them his property, not 齿轮's. Obsessively verifies every line, delaying projects. Uncomfortable with direct eye contact.",
+  "char_abilities": "灵力回路-写影: Visualizes and transcribes a target 灵力回路 pattern onto tracing paper with 灵力-infused ink. Observation time varies with 灵力回路 complexity.",
+  "char_mission": "Expand the 灵力回路 archive. Serve as 齿轮's information broker: anyone can learn a rival's 灵力回路 before facing them, for a price.",
+  "char_relationships": {
+    "锻": "Found him drinking alone in a 锈钟 bar weeks after he walked out of 狩灵协会3科. Recognized the quench burns before the name, a bladesmith the 狩灵协会 had thrown away. Copied his 灵力回路, far beyond standard templates, and brought him 月: someone who needed a blade, someone who needed a reason to light the furnace again.",
+    "狩灵协会4科": "Former employer, left when a superior proposed using his 灵力回路 archive to analyze assassination targets. The officer who gave that order is still alive because 写乐 never copied his 灵力回路."
+  }
+}

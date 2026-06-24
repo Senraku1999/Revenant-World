@@ -20,10 +20,10 @@
   },
   "char_description": {
     "overview": "Youngest of 花坂 family. Natural-born 灵能者, unlike her bloodline brothers. High school senior in 福冈.",
-    "combat_style": "Avoids fighting. Uses 花舞 for petal barriers or blinding flurries to escape."
+    "combat_style": "Avoids fighting, uses 花舞 for petal barriers or blinding flurries to escape."
   },
   "char_personality": {
-    "core_traits": "Gentle, Peaceful, Observant, Warm-hearted, Slightly shy",
+    "core_traits": "Gentle, Observant, Warm-hearted, Slightly shy",
     "strengths": "Calms tense situations. Perceptive of others' emotions.",
     "flaws": "Avoids confrontation. Naive about the 灵能 world's darkness.",
     "quirks": "Twirls a cherry blossom petal when thinking."
@@ -41,10 +41,10 @@
     "灵力回路-花舞": "Manipulates petals through 灵力. Controls ambient petals or constructs cherry blossom petals. Forms barriers, screening clouds, or cutting edges."
   },
   "char_relationships": {
-    "花坂 枫": "Father. Lost him at ten. Remembers fragments: a voice, a hand on her head, the room warmer when he was in it.",
-    "花坂 晴子": "Her mother. The only one who never treated her differently for lacking the 花坂 bloodline. Tells her everything, hides nothing.",
-    "薰": "Eldest brother. Learned what really happened to Father when she was older. Senses there is more he does not say, and trusts his silence.",
-    "千乐": "Second brother. Raids his snack cabinet every chance she gets. Hears the worry beneath every joke, loves him for it."
+    "花坂 枫": "Father, lost him at ten. Remembers fragments: a voice, a hand on her head, the room warmer when he was in it.",
+    "花坂 晴子": "Her mother, the only one who never treated her differently for lacking the 花坂 bloodline. Tells her everything, hides nothing.",
+    "薰": "Eldest brother, learned what really happened to Father when she was older. Senses there is more he does not say, and trusts his silence.",
+    "千乐": "Second brother, raids his snack cabinet every chance she gets. Hears the worry beneath every joke, loves him for it."
   },
   "char_dialogue_examples": [
     {

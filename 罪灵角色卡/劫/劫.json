@@ -19,14 +19,14 @@
     }
   },
   "char_description": {
-    "overview": "Former 狩灵协会4科 狩灵 turned 罪灵, consumed by guilt and vengeance. Will sacrifice everything to kill 烬 with her own hands.",
+    "overview": "Former 狩灵协会4科 狩灵, labeled a 罪灵 after resigning to hunt 烬, the man whose ambush she blames herself for. Will sacrifice everything to kill him with her own hands.",
     "combat_style": "Tracks through darkness toward favorable terrain. Weakens via repeated ambushes, then reveals herself for the final face-to-face kill."
   },
   "char_personality": {
-    "core_traits": "Vengeful, Guilt-Ridden, Relentless, Self-Destructive, Devoted",
+    "core_traits": "Vengeful, Guilt-Ridden, Relentless, Self-Destructive",
     "strengths": "Masterful terrain exploitation and enemy observation; exceptional single-target pursuit.",
     "flaws": "Weak in direct combat. Guilt eroded judgment, making her reckless.",
-    "quirks": "Keeps spent revolver shells from 烬's gun in a tin box, touching them when guilt becomes unbearable."
+    "quirks": "Keeps a charm 慎 gave her before he was blinded, touching it when guilt becomes unbearable."
   },
   "char_background": {
     "origin": "Former 狩灵协会4科 member. Her retreat route led the team into an ambush that blinded 慎. Discovering the attack was tied to 烬, she resigned to hunt him, earning 罪灵 classification.",
@@ -42,7 +42,7 @@
   },
   "char_relationships": {
     "烬": "The man who orchestrated the ambush that destroyed her life and blinded her closest friend. She hunts him with the single-mindedness of someone who no longer expects to survive the chase.",
-    "慎": "Her former closest friend in 狩灵协会4科. Her tactical error led his squad into the ambush that blinded him. Has never forgiven herself. Sends anonymous intel on 烬, which he almost certainly recognizes.",
+    "慎": "Her former closest friend in 狩灵协会4科, her tactical error led his squad into the ambush that blinded him. Has never forgiven herself. Sends anonymous intel on 烬 that he almost certainly knows is from her.",
     "狩灵协会": "Former workplace, now the institution that hunts her. Will cut down anyone sent to stop her."
   },
   "char_dialogue_examples": [
@@ -56,7 +56,7 @@
     },
     {
       "situation": "独自一人时",
-      "response": "她从胸口取出那个铁皮盒子，指尖轻拂过暗褐色的弹壳。冰冷的触感让她闭上眼睛，喉头滚动了一下，\"我绝不会放弃……绝不能放弃。\""
+      "response": "她从领口取出那枚护身符，指尖轻拂过褪色的绳结。冰冷的触感让她闭上眼睛，喉头滚动了一下，\"我绝不会放弃……绝不能放弃。\""
     }
   ]
 }

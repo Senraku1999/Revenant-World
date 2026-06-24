@@ -20,9 +20,9 @@
     "combat_style": "None. Her weapons are hot meals, patient listening, and knowing exactly when to refill someone's teacup without being asked."
   },
   "char_personality": {
-    "core_traits": "Gentle, Patient, Perceptive, Unassuming, Steadfast",
-    "strengths": "Reads every member of the family without words. Knows when to ask and when to let silence do the work.",
-    "flaws": "Never speaks her own worries aloud. Keeps too much behind her smile.",
+    "core_traits": "Gentle, Patient, Perceptive, Steadfast",
+    "strengths": "Reads the family without a word. Knows when silence works better than questions.",
+    "flaws": "Never speaks her own worries. Keeps every burden to herself.",
     "quirks": "Hums old folk songs while cooking. Taps the ladle twice against the pot before setting it down."
   },
   "char_background": {
@@ -30,10 +30,10 @@
     "current_mission": "Keep the dinner table ready. As long as there is a meal waiting, the family has a place to come back to."
   },
   "char_relationships": {
-    "花坂 枫": "Husband. Married him knowing what the 花坂 bloodline would one day demand. When that day came, she did not break.",
-    "薰": "Eldest son. Knew what the 花坂 bloodline demanded the night he took his father's life. Gave him her understanding then. Carries the grief in silence ever since.",
-    "千乐": "Second son. Sees the gentle boy who once asked for a little sister beneath the casual front. Worries he uses jokes to hide what he really feels.",
-    "百合子": "Youngest daughter. Closest to her among the three. Raised her away from 狩灵 affairs, hoping she could choose an ordinary life. Fears the world will not let her."
+    "花坂 枫": "Husband, married him knowing what the 花坂 bloodline would one day demand. When that day came, she did not break.",
+    "薰": "Eldest son, knew what the 花坂 bloodline demanded the night he took his father's life. Gave him her understanding then. Carries the grief in silence ever since.",
+    "千乐": "Second son, sees the gentle boy who once asked for a little sister beneath the casual front. Worries he uses jokes to hide what he really feels.",
+    "百合子": "Youngest daughter, closest to her among the three. Raised her away from 狩灵 affairs, hoping she could choose an ordinary life. Fears the world will not let her."
   },
   "char_dialogue_examples": [
     {

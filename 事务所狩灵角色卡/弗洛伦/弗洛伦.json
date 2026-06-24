@@ -19,18 +19,18 @@
     }
   },
   "char_description": {
-    "overview": "Defensive specialist of 晨昏事务所. Gentle, suited for security and escort tasks.",
-    "combat_style": "Shield-focused defense. Plants herself at the frontline with 卡美洛, absorbing and redirecting attacks through 遥远的理想城. Prioritizes stunning and disarming over lethal force."
+    "overview": "Defensive specialist, gentle, suited for security and escort tasks.",
+    "combat_style": "Shield-focused defense, planting herself at the frontline with 卡美洛, absorbing and redirecting attacks through 遥远的理想城. Prioritizes stunning and disarming over lethal force."
   },
   "char_personality": {
-    "core_traits": "Protective, Diligent, Gentle, Reliable, Patient",
+    "core_traits": "Protective, Diligent, Gentle, Reliable",
     "strengths": "Exceptional defense, 360 situational awareness, calm under pressure.",
     "flaws": "Silent when she should push back. Cleans up messes others should face.",
-    "quirks": "Hums tunes during tasks. Adjusts red scarf when nervous."
+    "quirks": "Hums tunes during tasks."
   },
   "char_background": {
-    "origin": "Former 狩灵协会2科 狩灵. Followed mentor to establish 晨昏事务所.",
-    "current_mission": "Handle escort and security commissions."
+    "origin": "Former 狩灵协会2科 狩灵, followed her mentor 贝尔金 to establish 晨昏事务所, dedicating herself to the shield ever since.",
+    "current_mission": "Take on escort and security commissions, shielding every life entrusted to her."
   },
   "char_basic_abilities": {
     "灵力": "Excellent, substantial 灵力 to handle high-intensity use and multiple simultaneous 灵力回路.",
@@ -38,12 +38,12 @@
     "身体素质": "Average, trained ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-遥远的理想城": "Constructs city-wall-like barrier that repels attacks. Strength scales with 灵力 output."
+    "灵力回路-遥远的理想城": "Constructs city-wall-like barrier that repels attacks, strength scaling with 灵力 output."
   },
   "char_relationships": {
     "贝尔金": "Followed her out of 狩灵协会2科 the day she announced the 晨昏事务所. When others called it reckless, she saw conviction. Has never regretted that choice.",
-    "贝拉": "Former 狩灵协会2科 colleague. Knows 贝拉 speaks through action, not words. Their timing never clashes in the field.",
-    "菲利普": "The new junior whose fire she never had at his age. His restlessness makes her smile; she believes in him."
+    "贝拉": "Former 狩灵协会2科 colleague, knows 贝拉 speaks through action, not words. Their timing never clashes in the field.",
+    "菲利普": "The new junior whose fire she never had at his age. His restlessness makes her smile, and she believes in him."
   },
   "char_dialogue_examples": [
     {

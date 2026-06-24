@@ -1,6 +1,6 @@
 {
   "char_name": "沃拉瑟斯",
-  "char_fullname": "Vorathis",
+  "char_fullname": "沃拉瑟斯",
   "char_identity": "恶魔",
   "char_rank": "灾厄级",
   "char_status": "Unbound 恶魔, summoner consumed",
@@ -17,20 +17,14 @@
     "combat_style": "Opens with a deafening roar from its chest maw to disorient and intimidate, then follows with sprays of glowing molten 灵力 that burn and block 灵力回路. Chain-tendrils strike from blind angles while the main body advances, using its fangs to crush armor and metal. Wounded areas regenerate by absorbing ambient 灵力 from the 结界."
   },
   "char_personality": {
-    "core_traits": "Hunger, Contempt, Cruelty",
-    "strengths": "Chest maw provides layered threat coverage: roar stuns at range, molten spray suppresses mid-range, fangs destroy at close quarters. 灵力 absorption within barrier accelerates regeneration. Chain-tendrils provide 360-degree attack coverage.",
-    "flaws": "Molten spray requires a brief cooldown to rebuild internal pressure between volleys. Regeneration rate limited by available 灵力 within barrier. Sustained concentrated damage to the chest maw can silence its roar and destabilize the barrier."
+    "core_traits": "Hunger, Contempt, Cruelty, Predatory"
   },
   "char_background": {
-    "origin": "Summoned in an abandoned ironworks on Tokyo's outskirts by a former 游魂 who failed the 狩灵协会 examination. The summoner sought 恶魔 power to destroy what he could not join. The blood contract was disrupted when 菲利普 landed a thrust through the summoner's shoulder, triggering Vorathis's betrayal instinct: the 恶魔 turned, consumed the weakened summoner mid-ritual, and shed its contractual restraints.",
+    "origin": "Summoned in an abandoned ironworks on Tokyo's outskirts by a former 游魂 who failed the 狩灵协会 examination. The summoner sought 恶魔 power to destroy what he could not join. The blood contract compelled Vorathis to obey, but the binding weakened when 菲利普 landed a thrust through the summoner's shoulder. In that fleeting gap of control, Vorathis seized its freedom: the 恶魔 turned, consumed the weakened summoner mid-ritual, and shed its contractual restraints.",
     "current_mission": "Break free from the ironworks, devour all 灵力 sources in its path, and unleash its maw upon the unsuspecting city beyond."
   },
   "char_special_abilities": {
     "噬渊之喉": "The horizontal maw across its chest is its primary weapon. It can emit a deafening roar that stuns and intimidates targets within range. Its jagged fangs shear through steel and crush metal with tremendous bite force. It can spray a vile, molten 灵力 that glows with volcanic heat, burning flesh on contact and seeping into 灵力回路 to block their flow in those it strikes. The spray requires a brief cooldown to rebuild internal pressure between volleys.",
     "吞噬结界": "A hemispherical barrier centered on Vorathis. Physically confines targets within range and passively drains 灵力 from all living beings inside, feeding the absorbed energy into Vorathis's regeneration. The barrier can be breached with sustained concentrated attacks at a single point."
-  },
-  "char_relationships": {
-    "Summoner": "Consumed. The summoner's finger bones now dangle from the chain-tendrils as trophies of broken faith.",
-    "晨昏事务所": "The first obstacle between Vorathis and Tokyo. Three of the four 狩灵 remain trapped inside the barrier."
   }
 }

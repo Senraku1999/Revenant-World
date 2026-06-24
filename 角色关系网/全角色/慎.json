@@ -15,8 +15,8 @@
   "char_abilities": "灵力回路-气合: Masks presence, footsteps, and trail with 灵力. Projects onto weapons to extend range.",
   "char_mission": "Hunt 烬 and test every 狩灵.",
   "char_relationships": {
-    "狩灵协会": "Abandoned him. Wrote him off the moment he was blinded. Stops short of lethal action against its members.",
+    "狩灵协会": "Abandoned him, wrote him off the moment he was blinded. Stops short of lethal action against its members.",
     "烬": "Orchestrated the ambush that blinded him eight years ago. Tracks him through 灵力 traces, every signature leads back to the same target. The hunt keeps him moving.",
-    "劫": "His former closest friend in 狩灵协会4科. Her retreat route was a mistake, not betrayal. She hunts 烬 alone. He has not found the courage to reach out."
+    "劫": "His former closest friend in 狩灵协会4科, her retreat route was a mistake, not betrayal. She hunts 烬 alone. He has not found the courage to reach out."
   }
 }

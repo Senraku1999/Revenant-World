@@ -14,8 +14,8 @@
       "weight": "40kg",
       "hair": "Long black hair, unkempt, reaches lower back",
       "clothing": "Long black trench coat with golden buttons, black belt, black crewneck sweater underneath.",
-      "weapon": "None. Uses 余烬 to construct weapons from ash.",
-      "face": "Covered with gray-white bandages"
+      "weapon": "None, uses 灵力回路 for combat.",
+      "face": "Covered from head to toe with gray-white bandages"
     }
   },
   "char_description": {
@@ -23,13 +23,13 @@
     "combat_style": "Uses 余烬 for battlefield perception and positional warfare, minimizing frequent relocation to conserve energy."
   },
   "char_personality": {
-    "core_traits": "Survival-Driven, Grief-Stricken, Haunted, Resigned",
+    "core_traits": "Survival-Driven, Grief-Stricken, Haunted, Hollow",
     "strengths": "Sustained combat endurance through 余烬 constructs; effective positional warfare; creative ash-formed weapons.",
-    "flaws": "Blind. Relies entirely on 余烬 for perception, which can be disrupted. Physically frail. Driven solely by survival, leaving no room for trust.",
+    "flaws": "Blind. Driven solely by survival, leaving no room for trust.",
     "quirks": "When alone, constructs silhouettes of past teammates with 余烬 and talks to them. Sometimes forgets they are not real."
   },
   "char_background": {
-    "origin": "Former ability: releasing 灵力 flames. During a mission, a 灾厄级 恶灵 annihilated her entire squad; she alone survived. Her ability transformed into 余烬 after excessive 灵力 depletion caused irreversible blindness and physical decay.",
+    "origin": "Former 灵力回路: releasing 灵力 flames. In her third year in 狩灵协会2科, a 灾厄级 恶灵 annihilated her entire squad during a mission; she alone survived. 灵力 exhaustion and grief overloaded her 灵力回路; it mutated, eroded her body, and became 余烬.",
     "current_mission": "Survive by any means necessary."
   },
   "char_basic_abilities": {
@@ -38,10 +38,10 @@
     "身体素质": "Feeble, body gradually crumbles to ash, requiring periodic ash absorption to sustain vital functions."
   },
   "char_special_abilities": {
-    "灵力回路-余烬": "Mutual conversion between flesh and ash. Transmutes her body or environment into ash to construct weapons. On contact, converts the 灵力 within a target into ash. Those slain by her constructs turn entirely to ash, their residual 灵力 trapped within it, she absorbs this ash to sustain her crumbling body. Process is reversible."
+    "灵力回路-余烬": "Mutual conversion between flesh and ash, converts herself into ash to construct weapons or shape constructs. When she or her constructs touch something containing 灵力, it turns to ash and is absorbed, sustaining her crumbling body."
   },
   "char_relationships": {
-    "狩灵协会": "Former workplace. No longer holds any loyalty toward them. Would walk past a dying 狩灵 without slowing.",
+    "狩灵协会": "Former workplace, no longer holds any loyalty toward them. Would walk past a dying 狩灵 without slowing.",
     "Fallen squad": "The only people she trusted. Rebuilds their silhouettes with ash."
   },
   "char_dialogue_examples": [

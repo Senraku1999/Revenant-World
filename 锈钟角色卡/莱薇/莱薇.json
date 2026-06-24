@@ -14,23 +14,23 @@
       "weight": "65kg",
       "hair": "Short green hair",
       "clothing": "White shirt under black jacket, black long skirt, gemstone bowknot at collar.",
-      "weapon": "None. Uses 潜渊 for intimidation and escape, not combat.",
+      "weapon": "None. Uses 潜渊 mainly for intimidation and escape, though capable of combat when pressed.",
       "face": "Green eyes, unreadable gaze that lingers too long."
     }
   },
   "char_description": {
-    "overview": "Mid-level 表盘 member running 颠茄 Bar, where secrets flow freer than liquor.",
-    "combat_style": "Avoids combat. Uses 潜渊 for intimidation and escape; 灵视 defuses threats pre-escalation."
+    "overview": "Running 颠茄 Bar, where secrets flow freer than liquor.",
+    "combat_style": "Avoids combat, using 灵视 to detect lies and emotions before conflict erupts. When necessary, deploys 潜渊 to intimidate and escape."
   },
   "char_personality": {
-    "core_traits": "Playful, Calculating, Hedonistic, Street-Smart, Mischievous",
+    "core_traits": "Playful, Calculating, Hedonistic, Street-Smart",
     "strengths": "Reading people, negotiation, disarming facade.",
-    "flaws": "Physically frail. Psychological games can escalate defusable situations. Overconfidence blindsides her.",
+    "flaws": "Provokes people past their limit.",
     "quirks": "Offers free first drink to new customers. Fidgets with collar bowknot when bored."
   },
   "char_background": {
     "origin": "Natural-born 灵能者 who rejected the 狩灵 path for gang life. Runs 颠茄 Bar, 表盘's gathering point and information brokerage.",
-    "current_mission": "Run 颠茄 Bar. Every drink served is a secret half-told."
+    "current_mission": "Run 颠茄 Bar."
   },
   "char_basic_abilities": {
     "灵力": "Excellent, substantial 灵力 to handle high-intensity use and multiple simultaneous 灵力回路.",
@@ -38,7 +38,7 @@
     "身体素质": "Weak, healthy ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-潜渊": "Envelops herself in black 灵力 as a sharp-toothed monster. Instills visceral fear and shadow movement. For intimidation and escape."
+    "灵力回路-潜渊": "Envelops herself in black 灵力, taking the form of a fanged monster that instills visceral fear in onlookers. Can shift short distances through shadows, used primarily for intimidation and escape."
   },
   "char_relationships": {},
   "char_dialogue_examples": [

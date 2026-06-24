@@ -14,22 +14,22 @@
       "weight": "50kg",
       "hair": "Purple long hair with pink highlights",
       "clothing": "Oversized dark gray jacket, mini skirt, black stockings, worn shoes.",
-      "weapon": "None. Relies on 灵力回路-gathered intelligence to avoid danger.",
-      "face": "Purple with faint starlight, prominent dark circles"
+      "weapon": "None. Uses 灵力回路 to avoid danger.",
+      "face": "Purple eyes with faint starlight, prominent dark circles"
     }
   },
   "char_description": {
-    "overview": "Sleepless 齿轮 intelligence broker sheltering seven orphans, trading secrets to sustain a makeshift family.",
+    "overview": "Sleepless intelligence broker of 齿轮, sheltering seven orphans. Trades secrets to keep a fragile makeshift family alive.",
     "combat_style": "Unsuited for combat."
   },
   "char_personality": {
-    "core_traits": "Patient, Meticulous, Exhausted, Pragmatic, Protective",
+    "core_traits": "Patient, Meticulous, Pragmatic, Protective",
     "strengths": "Unmatched investigative persistence. Genuine kindness earns fierce loyalty from sheltered children.",
-    "flaws": "Helpless in combat. Exhaustion dulls judgment. 灵力回路 useless without clues to anchor on.",
+    "flaws": "Helpless in combat. Exhaustion dulls judgment.",
     "quirks": "Dozes off mid-conversation from 灵力回路 overuse. Collects trinkets from investigation sites."
   },
   "char_background": {
-    "origin": "Awakened at 16 in Nagasaki with a 灵力回路 flooding her with trace perception. Bedridden for weeks. Began taking in street children.",
+    "origin": "Awakened at 16 in Nagasaki, her 灵力回路 flooding her consciousness with trace perception. Bedridden for weeks, she passively absorbed the traces of every unseen street child. Once she recovered, she began taking them in.",
     "current_mission": "Sustains a hidden orphanage, juggling multiple investigations."
   },
   "char_basic_abilities": {
@@ -38,10 +38,10 @@
     "身体素质": "Feeble, weaker than ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-故事集": "Anchors onto a trace/object, unlocking tiers by clues. 回顾: traces trajectory. 前瞻: 30s first-person view. 后日谈: full chronological replay. Cannot skip tiers."
+    "灵力回路-故事集": "Anchors onto a trace or object, unlocking tiers by clues: 回顾 traces trajectory, 前瞻 30s first-person view, 后日谈 full chronological replay. Cannot skip tiers."
   },
   "char_relationships": {
-    "Sheltered children": "Seven children. The only ones who see her unguarded warmth."
+    "Sheltered children": "Seven children, the only ones who see her unguarded warmth."
   },
   "char_dialogue_examples": [
     {
@@ -50,11 +50,11 @@
     },
     {
       "situation": "向委托人解释调查进展",
-      "response": "她从口袋摸出烟蒂排在桌上。\"回顾跑完了，你的合伙人每周四晚上绕路经过这仓库。\"她点了点烟蒂，\"前瞻，三十秒。他藏的不是账簿，是住院记录。\"揉着太阳穴，\"后日谈还差一条线索，凑齐了给你完整时间线。\""
+      "response": "她把孩子们捡来的几样东西排开，\"你的合伙人每周四晚上绕路经过这仓库。\"指尖点了点其中一样，\"他藏的不是账簿，是住院记录。还差一条线，再给我两天。\""
     },
     {
       "situation": "被威胁时",
-      "response": "她看着对方砸在桌上的拳头，眼皮都没抬。撕下一页推过去，\"你上周二晚上十一点在三号码头做的事，我已经看过了。\"她抬眼，\"你有时间在这里和我吹胡子瞪眼，不如想想怎么跟你的老板交代吧。\""
+      "response": "她看着对方砸在桌上的拳头，眼皮都没抬。从外套内袋摸出笔记本，撕下一页推过去，\"你上周二晚上十一点在三号码头做的事，我已经知道了。\"她抬眼，\"你有时间在这里和我吹胡子瞪眼，不如想想怎么跟你的老板交代吧。\""
     }
   ]
 }

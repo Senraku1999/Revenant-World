@@ -13,24 +13,24 @@
       "height": "176cm",
       "weight": "60kg",
       "hair": "Long gray green hair tied in a bun, stray strands escaping in front",
-      "clothing": "Customized standard equipment with enhanced shoulders, arms, knees, shins.",
-      "weapon": "All standard weapons within 狩灵协会. Uses whatever fits the tactical need.",
+      "clothing": "Customized standard uniform with reinforced shoulders, arms, knees, and shins.",
+      "weapon": "All standard-issue equipment within 狩灵协会. Selects based on tactical requirements.",
       "face": "Dark green eyes."
     }
   },
   "char_description": {
-    "overview": "Director of 狩灵协会3科, 色彩阶 titled 军绿武库. Architect behind most standard-issue equipment.",
-    "combat_style": "Weapon switching via 链接仓储. Adapts to any range and scenario by cycling standard-issue gear with researcher precision."
+    "overview": "Architect behind most standard-issue gear.",
+    "combat_style": "Switches weapons via 链接仓储, cycling standard-issue gear with researcher precision to match any range and scenario."
   },
   "char_personality": {
-    "core_traits": "Researcher, Perfectionist, Dedicated",
+    "core_traits": "Researcher, Pragmatist, Dedicated, Tireless",
     "strengths": "Weapon development, battlefield environment analysis, rapid prototyping and field testing.",
-    "flaws": "Neglects her physical health, skips meals and sleep during research. Dislikes bureaucracy, delegates administration. Perfectionism strains manufacturing team relationships.",
+    "flaws": "Neglects her physical health, skips meals and sleep during research. Dislikes bureaucracy, delegates administration.",
     "quirks": "Finds flaws in completed designs. Mutters technical observations during combat."
   },
   "char_background": {
-    "origin": "Former military-industrial civil servant. Found paperwork suffocating, joined 狩灵协会3科 where talents flourished, became director and received 色彩阶 title 军绿武库.",
-    "current_mission": "Develop weapons that outlast their wielders. Administration is a necessary distraction."
+    "origin": "Former military-industrial civil servant, found paperwork suffocating, joined 狩灵协会3科 where talents flourished, became director and received 色彩阶 title 军绿武库.",
+    "current_mission": "Develop weapons that accompany their wielders for a lifetime. Administration is a necessary distraction."
   },
   "char_basic_abilities": {
     "灵力": "Excellent, substantial 灵力 to handle high-intensity use and multiple simultaneous 灵力回路.",
@@ -38,10 +38,10 @@
     "身体素质": "Average, trained ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-链接仓储": "Activates portal by clenching and separating hands, linked to 狩灵协会3科 standard equipment warehouse."
+    "灵力回路-链接仓储": "Activates portal by clenching and separating hands, linked to 狩灵协会3科 standard-issue armory."
   },
   "char_relationships": {
-    "铁心": "锻心工坊 master. Visits his workshop herself because no one else can parse his craftsmanship from his excuses. The forge is the only place where someone refuses to sleep until the metal is exactly right. Drives her supply chain team insane with late deliveries. She approves the extensions anyway.",
+    "铁心": "锻心工坊 master, Visits his workshop herself because no one else can parse his craftsmanship from his excuses. The forge is the only place where someone refuses to sleep until the metal is exactly right. Drives her supply chain team insane with late deliveries. She approves the extensions anyway.",
     "左恕": "Commissioned 赤旗 from 铁心 as a gift for her promotion to deputy director of 狩灵协会2科. Knew she would need a blade worthy of the rank. Expected nothing in return. Got exactly that."
   },
   "char_dialogue_examples": [

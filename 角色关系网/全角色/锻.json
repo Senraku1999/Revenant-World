@@ -1,0 +1,23 @@
+{
+  "char_name": "锻",
+  "char_fullname": "炭山 锻",
+  "char_alias": "None",
+  "char_gender": "Male",
+  "char_age": "47",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "锈钟-齿轮",
+  "char_status": "Member of 齿轮",
+  "char_overview": "Former 狩灵协会3科 smith, walked after his daughter died in the first 扭曲 incident. Now forges in 锈钟.",
+  "char_looks": "Black hair buzzed close to scalp, gray at temples. Gaunt features, dark gray eyes sunken deep. Old quench burn scars tracing both forearms. Charcoal-gray workshirt rolled to elbows, dark trousers, steel-toed boots. None.",
+  "char_traits": "Quiet, Patient, Discerning, Unforgiving",
+  "char_flaws": "Has not spoken his daughter's name in three years. Refuses to forge for anyone he does not respect.",
+  "char_abilities": "灵力回路-转印: Transfers pre-made 灵力回路 patterns into the quenching medium, then uses the quenching process to transfer them directly into the weapon, bypassing the laborious engraving process entirely.",
+  "char_mission": "Forge only for those he deems worthy. An unfinished blade hangs above the furnace, forged for his daughter, untouched in three years.",
+  "char_relationships": {
+    "写乐": "Found him at his lowest, drinking alone in a 锈钟 bar after he left the 狩灵协会. Recognized him by the quench burns before he even said his name. Provides custom transcriptions far beyond standard templates, and brought 月 to him so he would pick up the hammer again.",
+    "月": "写乐 brought him to the forge, newly promoted to 分针 of 指针. 锻 watched him handle a blade and saw the steadiness his daughter once carried. Told 写乐 to transcribe 月's 灵力回路 that day. Has never told 月 why he agreed.",
+    "炭山 绫": "Daughter. 狩灵协会2科 狩灵, died in the first 扭曲 incident at twenty. Her unfinished blade hangs above the furnace. He has not spoken her name since the funeral.",
+    "狩灵协会": "Fifteen years and one daughter, repaid with a form letter and a locked filing cabinet. Does not speak the name aloud, lets the silence answer."
+  }
+}
