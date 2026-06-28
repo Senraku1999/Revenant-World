@@ -7,19 +7,19 @@
   "char_faction": "锈钟-齿轮",
   "char_status": "Member of 齿轮",
   "char_persona": {
-    "gender": "Male",
+    "gender": "Female",
     "age": "38",
     "appearance": {
       "height": "172cm",
       "weight": "61kg",
-      "hair": "Thin black hair combed flat, graying early",
+      "hair": "Black hair combed tight and tucked behind ears, premature threads of gray",
       "face": "Thin, pale face. Pale brown eyes.",
       "clothing": "Dark gray high-collared coat.",
       "weapon": "None."
     }
   },
   "char_description": {
-    "overview": "A 写影师 who transcribes 灵力回路 onto physical media. His archive maps 灵能者 weaknesses, serves the entire 帮会.",
+    "overview": "A 写影师 who transcribes 灵力回路 onto physical media. Her archive maps 灵能者 weaknesses, serves the entire 帮会.",
     "combat_style": "Unsuited for combat."
   },
   "char_personality": {
@@ -42,7 +42,7 @@
   },
   "char_relationships": {
     "锻": "Found him drinking alone in a 锈钟 bar weeks after he walked out of 狩灵协会3科. Recognized the quench burns before the name, a bladesmith the 狩灵协会 had thrown away. Copied his 灵力回路, far beyond standard templates, and brought him 月: someone who needed a blade, someone who needed a reason to light the furnace again.",
-    "狩灵协会4科": "Former employer, Left when a superior proposed using his 灵力回路 archive to analyze assassination targets. The officer who gave that order is still alive because 写乐 never copied his 灵力回路."
+    "狩灵协会4科": "Former employer, Left when a superior proposed using her 灵力回路 archive to analyze assassination targets. The officer who gave that order is still alive because 写乐 never copied his 灵力回路."
   },
   "char_dialogue_examples": [
     {
