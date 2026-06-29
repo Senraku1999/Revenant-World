@@ -12,10 +12,10 @@
     "appearance": {
       "height": "158cm",
       "weight": "45kg",
-      "hair": "Long black hair with pink-tinted ends, loosely braided to one side.",
+      "hair": "Long black hair with pink-tinted ends, loosely braided to one side",
+      "face": "Soft-featured face, warm pink eyes.",
       "clothing": "High school sailor uniform. Pastel cardigans, knee-length pleated skirts.",
-      "weapon": "None. Uses 花舞 only for self-defense.",
-      "face": "Soft-featured face, warm pink eyes."
+      "weapon": "None. Uses 花舞 only for self-defense."
     }
   },
   "char_description": {
@@ -23,9 +23,9 @@
     "combat_style": "Avoids fighting, uses 花舞 for petal barriers or blinding flurries to escape."
   },
   "char_personality": {
-    "core_traits": "Gentle, Observant, Warm-hearted, Slightly shy",
-    "strengths": "Calms tense situations. Perceptive of others' emotions.",
-    "flaws": "Avoids confrontation. Naive about the 灵能 world's darkness.",
+    "core_traits": "Gentle; Observant; Warm-hearted; Slightly shy.",
+    "strengths": "Calms tense situations; Perceptive of others' emotions.",
+    "flaws": "Avoids confrontation; Naive about the 灵能 world's darkness.",
     "quirks": "Twirls a cherry blossom petal when thinking."
   },
   "char_background": {
@@ -38,7 +38,7 @@
     "身体素质": "Weak, healthy ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-花舞": "Manipulates petals through 灵力. Controls ambient petals or constructs cherry blossom petals. Forms barriers, screening clouds, or cutting edges."
+    "灵力回路-花舞": "Manipulates petals through 灵力, controls ambient petals or constructs cherry blossom petals, forms barriers, screening clouds, or cutting edges."
   },
   "char_relationships": {
     "花坂 枫": "Father, lost him at ten. Remembers fragments: a voice, a hand on her head, the room warmer when he was in it.",

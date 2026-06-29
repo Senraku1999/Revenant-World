@@ -13,24 +13,24 @@
       "height": "188cm",
       "weight": "93kg",
       "hair": "Short black hair",
+      "face": "Blue eyes.",
       "clothing": "Black leather jacket with blue straps, white shirt, black trousers, combat boots.",
-      "weapon": "天丛云剑, divine greatsword 1.4m; no 恶灵 has survived a direct attack. Sealed in special sheath, carries throwing knives for regular combat, usable as daggers in close quarters.",
-      "face": "Blue eyes."
+      "weapon": "天丛云剑, divine greatsword 1.4m; no 恶灵 has survived a direct attack. Sealed in special sheath, carries throwing knives for regular combat, usable as daggers in close quarters."
     }
   },
   "char_description": {
-    "overview": "Guardian of 天丛云剑, confined to 狩灵协会 grounds.",
+    "overview": "Guardian of 天丛云剑, permitted to leave Fukuoka only when the sword must be drawn.",
     "combat_style": "Throwing knives for regular combat, usable as daggers in close quarters. With 天丛云剑, wide slashing strikes drawn with purple-black flames."
   },
   "char_personality": {
-    "core_traits": "Responsible, Firm and steady, Stoic, Burdened",
-    "strengths": "Spiritual resilience, calm judgment, stabilizes military morale.",
-    "flaws": "Overemphasizes responsibility, refuses to share the sword's burden.",
-    "quirks": "Checks sheath seal when idle, holding conversation with 天丛云剑 before drawing."
+    "core_traits": "Responsible; Firm and steady; Burdened.",
+    "strengths": "Spiritual resilience; calm judgment; stabilizes military morale.",
+    "flaws": "Accustomed to handling everything alone.",
+    "quirks": "Checks sheath seal when idle; holding conversation with 天丛云剑 before drawing."
   },
   "char_background": {
     "origin": "At eighteen, ended his father when 天丛云剑 consumed him, becoming its guardian and joining 狩灵协会1科. During the First 扭曲, drew the sword to slay a 灾厄级, forcibly given 色彩阶-靛蓝封禁 and transferred to lead the newly formed 狩灵协会6科.",
-    "current_mission": "Guard 天丛云剑. Protect Fukuoka from 扭曲 as head of 狩灵协会6科."
+    "current_mission": "Guard 天丛云剑, protect Fukuoka from 扭曲 as head of 狩灵协会6科."
   },
   "char_basic_abilities": {
     "灵力": "None.",

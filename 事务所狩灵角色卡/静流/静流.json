@@ -13,9 +13,9 @@
       "height": "168cm",
       "weight": "54kg",
       "hair": "Silver-white, slightly curled at ends, tied in low ponytail",
+      "face": "Dark gray eyes, thin scar at left eye corner.",
       "clothing": "Black long coat, dark red turtleneck, black pants, short boots.",
-      "weapon": "Deceased partner's modified 狩灵 blade, hilt wrapped in faded red thread.",
-      "face": "Dark gray eyes, thin scar at left eye corner."
+      "weapon": "Deceased partner's modified 狩灵 blade, hilt wrapped in faded red thread."
     }
   },
   "char_description": {
@@ -23,9 +23,9 @@
     "combat_style": "Dual-blade: deceased partner's blade left, 灵刃·绯月 right, never retreating in battle."
   },
   "char_personality": {
-    "core_traits": "Calm, Observant, Over-Responsible, Emotionally-Guarded",
+    "core_traits": "Calm; Observant; Over-Responsible; Emotionally-Guarded.",
     "strengths": "Exceptional crisis judgment and premier-level 灵力 perception.",
-    "flaws": "Refuses new connections. Excessively independent.",
+    "flaws": "Refuses new connections; Excessively independent.",
     "quirks": "Twists an old ring when nervous."
   },
   "char_background": {

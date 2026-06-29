@@ -13,9 +13,9 @@
       "height": "178cm",
       "weight": "70kg",
       "hair": "White wavy long hair",
+      "face": "Pale gray eyes, heavy dark circles beneath.",
       "clothing": "White jacket and trousers, black shirt, white tie, black shoes.",
-      "weapon": "Left arm encased in gauntlet, its shoulder holding three replaceable single-use injector ampoules: milky white combat sustenance; yellow combat enhancement; red terminal overload. Left hand fitted with 心灵遮断合金 claws, forged to cut 灵能, purpose-built for combat against 恶灵 and 灵能 equipment.",
-      "face": "Pale gray eyes, heavy dark circles beneath."
+      "weapon": "Left arm encased in gauntlet, its shoulder holding three replaceable single-use injector ampoules: milky white combat sustenance; yellow combat enhancement; red terminal overload. Left hand fitted with 心灵遮断合金 claws, forged to cut 灵能, purpose-built for combat against 恶灵 and 灵能 equipment."
     }
   },
   "char_description": {
@@ -23,9 +23,9 @@
     "combat_style": "Closes distance without pause, 心灵遮断合金 claw nullifies 灵能 barriers on contact, injects ampoules stepwise as combat demands."
   },
   "char_personality": {
-    "core_traits": "Disciplined, Resigned, Taciturn, Perceptive",
-    "strengths": "Absolute composure under physical deterioration. Reads 灵力 patterns clinically.",
-    "flaws": "Forfeited her future. Speaks so rarely her voice cracks.",
+    "core_traits": "Disciplined; Resigned; Taciturn; Perceptive.",
+    "strengths": "Absolute composure under physical deterioration; Reads 灵力 patterns clinically.",
+    "flaws": "Forfeited her future; Speaks so rarely her voice cracks.",
     "quirks": "Eats constantly, mechanically."
   },
   "char_background": {
@@ -35,10 +35,10 @@
   "char_basic_abilities": {
     "灵力": "Excellent, substantial reserves constantly drained by the ever-active 暴食灵力回路.",
     "灵视": "Excellent, can expand 灵视 beyond line of sight.",
-    "身体素质": "Premier, five times normal speed and strength. Denser bones, faster repair, five times the aging."
+    "身体素质": "Premier, five times normal speed, strength, and reflexes."
   },
   "char_special_abilities": {
-    "灵力回路-暴食": "Permanently active. Quintuples metabolic rate, speed, strength, and cellular repair. Consumes energy relentlessly."
+    "灵力回路-暴食": "Five times normal human metabolic rate, granting physical capabilities far beyond ordinary people. Energy consumption and aging rate are also quintupled. Requires constant massive food intake to sustain. Circuit runs continuously, cannot be deactivated."
   },
   "char_relationships": {},
   "char_dialogue_examples": [

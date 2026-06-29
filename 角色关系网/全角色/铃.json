@@ -9,13 +9,13 @@
   "char_faction": "蜂巢工坊",
   "char_status": "Founder of 蜂巢工坊",
   "char_overview": "Specializing in miniaturized and concealable weapons. A former watchmaker who applies micro-engineering principles to 灵能 armaments.",
-  "char_looks": "Dark brown bob cut, always tucked behind ears. Small, fine-boned face, amber eyes habitually narrowed in focus. Fitted navy workshop coat, high-collared white blouse, gray slacks, flat-soled leather shoes. None.",
-  "char_traits": "Precise, Reserved, Patient, Obsessive",
-  "char_flaws": "Obsessive to the point of paralysis. Will spend weeks on a single component. Dislikes working on anything larger than her palm. Socially awkward outside the workshop.",
-  "char_abilities": "灵力回路-微视: Perceives 灵力回路 at microscopic resolutions, allowing engraving of 灵力回路 patterns on pins, needles, and other sub-centimeter surfaces. Precision decreases with scale, optimal range is under 5cm.",
-  "char_mission": "Push the limits of weapon miniaturization. Fulfill commissions that require concealment, precision, and unconventional form factors.",
+  "char_looks": "Dark brown bob cut, always tucked behind ears. Small, fine-boned face. Amber eyes habitually narrowed in focus. Fitted navy workshop coat, high-collared white blouse, gray slacks, flat-soled leather shoes. None",
+  "char_traits": "Precise; Reserved; Patient; Obsessive.",
+  "char_flaws": "Obsessive to the point of paralysis; Refuses any project larger than her palm.",
+  "char_abilities": "灵力回路-微视: Perceives 灵力回路 at microscopic resolutions, allowing her to engrave 灵力回路 patterns on pins, needles, and other sub-centimeter surfaces. Precision decreases with scale, optimal range is under 5cm.",
+  "char_mission": "Push the limits of weapon miniaturization, fulfill commissions that require concealment, precision, and unconventional form factors.",
   "char_relationships": {
     "星流": "Client, designed 落辰 to accommodate 星流's unstable 灵力 reserves, building a variable-output mechanism that most 工坊s refused to attempt. Considers the project her finest work.",
-    "狩灵协会3科": "Certified 工坊, maintains proper certification but finds the inspection procedures tedious. Files all paperwork with grudging precision."
+    "狩灵协会3科": "Certified 工坊, maintains proper certification but finds the 科's inspection procedures tedious. Files all paperwork with grudging precision."
   }
 }

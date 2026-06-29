@@ -477,6 +477,56 @@ def scan_flower_slope_fullnames():
         print("  零命中")
 
 
+# ── 中英文 JSON 一致性 ──────────────────────────────
+def check_zh_en_consistency():
+    print()
+    print("=" * 60)
+    print("中英文 JSON 结构一致性")
+    print("=" * 60)
+    issues = []
+    for f in sorted(glob("**/*.json", recursive=True)):
+        if f.endswith("_zh.json"):
+            continue
+        d = os.path.dirname(f)
+        if "事件卡" in d or "世界观卡" in d or "角色关系网" in d:
+            continue
+        zh_f = f.replace(".json", "_zh.json")
+        if not os.path.exists(zh_f):
+            continue
+        with open(f, "r", encoding="utf-8") as fh:
+            en = json.load(fh)
+        with open(zh_f, "r", encoding="utf-8") as fh2:
+            zh = json.load(fh2)
+        char = en.get("char_name", os.path.basename(f))
+        en_rels = set(en.get("char_relationships", {}).keys())
+        zh_rels = set(zh.get("char_relationships", {}).keys())
+        if en_rels != zh_rels:
+            only_en = en_rels - zh_rels
+            only_zh = zh_rels - en_rels
+            if only_en:
+                issues.append(f"  {char}: 关系键仅在英文: {only_en}")
+            if only_zh:
+                issues.append(f"  {char}: 关系键仅在中文: {only_zh}")
+        en_ab = set(en.get("char_special_abilities", {}).keys())
+        zh_ab = set(zh.get("char_special_abilities", {}).keys())
+        if en_ab != zh_ab:
+            only_en = en_ab - zh_ab
+            only_zh = zh_ab - en_ab
+            if only_en:
+                issues.append(f"  {char}: 特殊能力键仅在英文: {only_en}")
+            if only_zh:
+                issues.append(f"  {char}: 特殊能力键仅在中文: {only_zh}")
+        en_di = len(en.get("char_dialogue_examples", []))
+        zh_di = len(zh.get("char_dialogue_examples", []))
+        if en_di != zh_di:
+            issues.append(f"  {char}: 对话示例数不一致 en={en_di} zh={zh_di}")
+    if issues:
+        for i in issues:
+            print(i)
+    else:
+        print("  全部一致")
+
+
 # ── 主入口 ────────────────────────────────────────
 if __name__ == "__main__":
     get_token_counts()
@@ -484,6 +534,7 @@ if __name__ == "__main__":
     check_md_files()
     cross_validate()
     scan_flower_slope_fullnames()
+    check_zh_en_consistency()
     print()
     print("=" * 60)
     print("自动检查完成。人工仅需确认离群值。")

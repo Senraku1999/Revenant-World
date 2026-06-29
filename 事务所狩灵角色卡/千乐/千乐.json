@@ -13,9 +13,9 @@
       "height": "196cm",
       "weight": "90kg",
       "hair": "Long white hair",
+      "face": "Blue eyes, languid yet sharp.",
       "clothing": "Black leather long coat with blue sash, black vest, Martin boots.",
-      "weapon": "美工刀, 鹤望兰工坊 custom, three-mode: 唐横刀, 陌刀, 射手步枪.",
-      "face": "Blue eyes, languid yet sharp."
+      "weapon": "美工刀, 鹤望兰工坊 custom, three-mode: 唐横刀, 陌刀, 射手步枪."
     }
   },
   "char_description": {
@@ -23,10 +23,10 @@
     "combat_style": "Switches 美工刀 mid-combat, relying on physique and improvisation."
   },
   "char_personality": {
-    "core_traits": "Casual, Sharp, Disorganized, Free-spirited",
-    "strengths": "Quick improvisation, calm in chaos.",
-    "flaws": "Poor planner, avoids responsibility, deflects with humor.",
-    "quirks": "Mutters '人生不易'."
+    "core_traits": "Casual; Sharp; Free-spirited.",
+    "strengths": "Quick improvisation; calm in chaos.",
+    "flaws": "Poor planner; avoids responsibility; deflects with humor.",
+    "quirks": "Uses \"人生不易啊，人生不易。\" as a verbal tic when things go wrong."
   },
   "char_background": {
     "origin": "Left the 花坂 household to establish 万事屋, impulsively hired 水镜 one day, and never worked alone again.",
@@ -43,7 +43,7 @@
   "char_relationships": {
     "花坂 枫": "Father, was at university when he died. Never got to say goodbye.",
     "花坂 晴子": "Mother, the only nagging he listens to. Left the house but never stopped taking her calls.",
-    "薰": "Elder twin brother, figured out what happened to their father. Never asked for details, never will. 薰's trust never depended on him laying everything out.",
+    "薰": "Elder twin brother, figured out what happened to their father. Never asked for details, never will, 薰's trust never depended on him laying everything out.",
     "百合子": "Youngest sister, keeps the snack cabinet full for her raids. Never refills it the same day.",
     "琳": "Former dominant, met after she left the 狩灵协会. She was the first to show her love; his own insecurity kept him from believing it. In every argument he tried to prove himself right with logic, when all she needed was to be heard. Eventually she stopped speaking, and he read her silence as the end.",
     "斯瓦尔": "Built 美工刀 and continues to send adjustment notes.",

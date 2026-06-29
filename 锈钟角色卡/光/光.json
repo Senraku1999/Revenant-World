@@ -13,9 +13,9 @@
       "height": "175cm",
       "weight": "62kg",
       "hair": "Brown long hair",
+      "face": "Yellow eyes, bright and cheerful expression.",
       "clothing": "Wearing a tight black vest and a puffy yellow jacket, with ripped jeans and sneakers on the lower half. Has a full-back clockwork tattoo.",
-      "weapon": "Expandable baton.",
-      "face": "Yellow eyes, bright and cheerful expression."
+      "weapon": "Expandable baton."
     }
   },
   "char_description": {
@@ -23,14 +23,14 @@
     "combat_style": "Uses the 时泊之锚 to dart in from a distance, deliver rapid strikes, and retreat to the anchor point before the enemy can react."
   },
   "char_personality": {
-    "core_traits": "Sense of justice, Sunny, Cheerful, Impulsive",
-    "strengths": "Skilled in street fighting and improvised combat, natural leader among the community.",
-    "flaws": "Acts on emotion before strategy. Struggles with abstract reasoning.",
+    "core_traits": "Sense of justice; Sunny; Impulsive.",
+    "strengths": "Skilled in street fighting and improvised combat; natural leader among the community.",
+    "flaws": "Acts on emotion before strategy; Struggles with abstract reasoning.",
     "quirks": "Bounces slightly with every step when walking."
   },
   "char_background": {
     "origin": "A powerful 灵能者 who rejected the 狩灵协会 invitation, choosing instead to join the 发条. She rose to Third-in-command through her own efforts, protecting her hometown of Gunma the 锈钟 way.",
-    "current_mission": "Patrols the Seventh District, maintains 发条 operations, and protects the local community from supernatural threats and gang violence that crosses the line."
+    "current_mission": "Protect Gunma Prefecture in her own way."
   },
   "char_basic_abilities": {
     "灵力": "Average, moderate 灵力 for sustained 灵力回路 use.",

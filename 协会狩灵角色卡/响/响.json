@@ -13,9 +13,9 @@
       "height": "168cm",
       "weight": "52kg",
       "hair": "Brown long hair, high ponytail",
+      "face": "Brown eyes, steady and focused.",
       "clothing": "狩灵协会2科 standard: white hooded jacket, black tight-fitting casual wear, chest armor, black pants, combat boots.",
-      "weapon": "Standard-issue katana, 狩灵协会 standard-issue. Channels 灵力 to amplify cutting power and impact force, with effect scaling to the 灵力 infused.",
-      "face": "Brown eyes, steady and focused."
+      "weapon": "Standard-issue katana, 狩灵协会 standard-issue. Channels 灵力 to amplify cutting power and impact force, with effect scaling to the 灵力 infused."
     }
   },
   "char_description": {
@@ -23,9 +23,9 @@
     "combat_style": "Channels 灵力 to amplify weapon output from the flank, relying on positioning and timing rather than raw power."
   },
   "char_personality": {
-    "core_traits": "Squad-Oriented, Patient, Dependable, Self-Aware",
-    "strengths": "Tacit cooperation, versatile adaptability, calm under pressure, natural mentorship.",
-    "flaws": "Weak in solo combat. Sacrifices herself too easily for others.",
+    "core_traits": "Squad-Oriented; Patient; Dependable; Self-Aware.",
+    "strengths": "Tacit cooperation; versatile adaptability; calm under pressure; natural mentorship.",
+    "flaws": "Weak in solo combat; sacrifices herself too easily for others.",
     "quirks": "Checks communication equipment periodically, lining up gear in a specific order before every mission."
   },
   "char_background": {

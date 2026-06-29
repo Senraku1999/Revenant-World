@@ -13,9 +13,9 @@
       "height": "173cm",
       "weight": "58kg",
       "hair": "Short black hair",
+      "face": "Black eyes, often shadowed by fatigue.",
       "clothing": "Wears a black top and black shorts daily, switching to heavy-duty protective gear when working outside.",
-      "weapon": "None.",
-      "face": "Black eyes, often shadowed by fatigue."
+      "weapon": "None."
     }
   },
   "char_description": {
@@ -23,14 +23,14 @@
     "combat_style": "Unsuited for combat."
   },
   "char_personality": {
-    "core_traits": "Machine artisan, Perfectionist, Workaholic, Driven",
-    "strengths": "Mechanical design, Structural analysis, Precision crafting.",
-    "flaws": "Prone to overworking. Poor at bargaining. Vulnerable in direct combat without preparation.",
+    "core_traits": "Machine artisan; Perfectionist; Workaholic.",
+    "strengths": "Mechanical design; Structural analysis; Precision crafting.",
+    "flaws": "Works herself past exhaustion; hates haggling with clients.",
     "quirks": "Talks to her tools; falls asleep mid-sentence when exhausted; unconsciously uses machine metaphors in daily conversation."
   },
   "char_background": {
     "origin": "Awakened her 灵力 during university. After graduating in mechanical design, she accepted the 狩灵协会 rating, then apprenticed at a workshop before establishing her own: 鹤望兰工坊.",
-    "current_mission": "Craft weapons few can afford and fewer can wield. For those who clear both, the return is absolute."
+    "current_mission": "Craft weapons gated by deep pockets and deeper skill, selling to anyone who proves they have both."
   },
   "char_basic_abilities": {
     "灵力": "Average, moderate 灵力 for sustained 灵力回路 use.",
@@ -38,7 +38,7 @@
     "身体素质": "Average, trained ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-磁流": "Controls electron flow within metal using 灵力, magnetizing or demagnetizing at will. Used primarily in crafting."
+    "灵力回路-磁流": "Controls electron flow within metal using 灵力, magnetizing or demagnetizing at will, Used primarily in crafting."
   },
   "char_relationships": {
     "千乐": "Commissioned 美工刀, her most complex multi-mode weapon. Still drafts improvement proposals for him.",

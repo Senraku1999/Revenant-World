@@ -8,12 +8,12 @@
   "char_rank": "3阶",
   "char_faction": "鹤望兰工坊",
   "char_status": "Founder of 鹤望兰工坊",
-  "char_overview": "Founder of 鹤望兰工坊 whose multi-morphing weapons are sought after by elite 狩灵. A perfectionist artisan who judges finished pieces by the sound of their gears.",
-  "char_looks": "Short black hair. Black eyes. Wears a black top and black shorts daily, switching to heavy-duty protective gear when working outside. None. Workshop role focuses on equipment manufacturing; rarely participates in combat.",
-  "char_traits": "Machine artisan, Perfectionist, Workaholic",
-  "char_flaws": "Prone to overworking. Poor at bargaining. Vulnerable in direct combat without preparation.",
-  "char_abilities": "灵力回路-磁流: Controls electron flow within metal using 灵力, magnetizing or demagnetizing at will. Used primarily in crafting.",
-  "char_mission": "Craft weapons few can afford and fewer can wield. For those who clear both, the return is absolute.",
+  "char_overview": "A perfectionist artisan whose multi-morphing weapons are sought after by elite 狩灵.",
+  "char_looks": "Short black hair. Black eyes, often shadowed by fatigue. Wears a black top and black shorts daily, switching to heavy-duty protective gear when working outside. None",
+  "char_traits": "Machine artisan; Perfectionist; Workaholic.",
+  "char_flaws": "Works herself past exhaustion; hates haggling with clients.",
+  "char_abilities": "灵力回路-磁流: Controls electron flow within metal using 灵力, magnetizing or demagnetizing at will, Used primarily in crafting.",
+  "char_mission": "Craft weapons gated by deep pockets and deeper skill, selling to anyone who proves they have both.",
   "char_relationships": {
     "千乐": "Commissioned 美工刀, her most complex multi-mode weapon. Still drafts improvement proposals for him.",
     "奏": "Commissioned 暴行 with split-blade functionality. Once she understood the brief, delivered a single finished piece with no revisions. An ideal client: specifications stated once, no indecision, no late-stage redesigns."

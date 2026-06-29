@@ -13,9 +13,9 @@
       "height": "176cm",
       "weight": "68kg",
       "hair": "Purple long hair, high ponytail",
+      "face": "Green eyes.",
       "clothing": "White shirt, grey coat, black tailcoat.",
-      "weapon": "桂妮薇儿, a 1.2m greatsword forged by 锻心工坊. Etched circuits enhance range and power.",
-      "face": "Green eyes."
+      "weapon": "桂妮薇儿, a 1.2m greatsword forged by 锻心工坊. Etched circuits enhance range and power."
     }
   },
   "char_description": {
@@ -23,9 +23,9 @@
     "combat_style": "Charges into battle with 桂妮薇儿, cycling through 五德 to adapt mid-duel, growing relentless as fights wear on."
   },
   "char_personality": {
-    "core_traits": "Chivalrous, Protective, Principled, Stoic",
-    "strengths": "Exceptional frontal combat, leadership, tactical judgment.",
-    "flaws": "Vulnerable to ambush, predictable to cunning opponents.",
+    "core_traits": "Chivalrous; Principled; Stoic.",
+    "strengths": "Exceptional frontal combat; leadership; tactical judgment.",
+    "flaws": "Vulnerable to ambush; predictable to cunning opponents.",
     "quirks": "Always has tea during breaks."
   },
   "char_background": {
@@ -38,7 +38,7 @@
     "身体素质": "Excellent, physical capabilities far surpassing ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-骑士五德": "Five boons, no consecutive repeat. Mercy: negate critical damage. Wisdom: predict attacks. Generosity: shares next boon with squad. Glory: boost next strike. Courage: enhance physique."
+    "灵力回路-骑士五德": "Five boons, no consecutive repeat, Mercy: negate critical damage; Wisdom: predict attacks; Generosity: shares next boon with squad; Glory: boost next strike; Courage: enhance physique."
   },
   "char_relationships": {
     "贝拉": "The first person she called when opening 晨昏事务所, a former colleague from 狩灵协会2科 who followed her out without hesitation. Assigns her the most critical missions.",

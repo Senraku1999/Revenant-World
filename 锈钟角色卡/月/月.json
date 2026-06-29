@@ -13,28 +13,28 @@
       "height": "183cm",
       "weight": "75kg",
       "hair": "Short grey hair",
+      "face": "Blue eyes, warm and timid as 明, cold and sharp as 月.",
       "clothing": "White shirt, black pants, jacket at waist, sneakers. Platinum cross with sapphire brooch on chest.",
-      "weapon": "影打·三日月宗近, replica of National Treasure, disguised as a fishing rod.",
-      "face": "Blue eyes, warm and timid as 明, cold and sharp as 月."
+      "weapon": "影打·三日月宗近, replica of National Treasure, disguised as a fishing rod."
     }
   },
   "char_description": {
-    "overview": "One body, two minds. By day 明 works an office job, unaware of the other presence within; under threat or after dark, 月 takes over to handle 指针 business.",
+    "overview": "One body, two minds. By day 明 works an office job, unaware of the other presence within. Under threat or after dark, 月 takes over to handle 指针 business.",
     "combat_style": "Shrouds battlefield in mist via 胧月, eliminates targets with one decisive strike."
   },
   "char_personality": {
-    "core_traits": "月: Cold, Decisive, Protective, Calculating; 明: Timid, Diligent, Oblivious, Gentle",
-    "strengths": "月: Exceptional crisis handling and arbitration under pressure; 明: Meticulous office work, his ordinariness is the perfect cover.",
-    "flaws": "Switching causes dizziness. 月 uses people as tools. 明 cannot accept his condition.",
-    "quirks": "月 touches brooch before engagement; 明 hums office melodies, carries a pocket notebook."
+    "core_traits": "月: Cold; Decisive; Protective; Calculating / 明: Timid; Diligent; Oblivious; Gentle.",
+    "strengths": "月: Exceptional crisis handling and arbitration under pressure / 明: Handles heavy paperwork.",
+    "flaws": "月: Uses people as tools / 明: Does not understand his condition.",
+    "quirks": "月: Touches brooch before engagement / 明: Coffee addict."
   },
   "char_background": {
-    "origin": "Colleague of the First 扭曲 victim. The trauma fractured his psyche, birthing 月 to protect fragile 明. 月 joined 指针 and rose to Second-in-command; 明 lives unaware as an office worker.",
+    "origin": "Colleague of the First 扭曲 victim, the trauma fractured his psyche, birthing 月 to protect fragile 明. 月 joined 指针 and rose to Second-in-command; 明 lives unaware as an office worker.",
     "current_mission": "Office worker as 明 by day; 月 runs 指针 operations after hours."
   },
   "char_basic_abilities": {
     "灵力": "Excellent, substantial 灵力 to handle high-intensity use and multiple simultaneous 灵力回路.",
-    "灵视": "Premier, penetrates visually obstructive media such as mist and fog.",
+    "灵视": "Premier, can penetrate objects with a certain degree of transparency, such as mist and fog.",
     "身体素质": "Average, trained ordinary people."
   },
   "char_special_abilities": {
@@ -42,7 +42,8 @@
   },
   "char_relationships": {
     "明": "月 views 明 as fragile, hides his existence. 明 dismisses scars and gaps as overwork.",
-    "锻": "The smith who forged his 影打·三日月宗近. 写乐 brought him to the forge shortly after he joined 指针—月's memories of that period are fragmented, belonging more to 明 than to him. He remembers the weight of the blade in his hands and the smith's silence, which asked for nothing in return."
+    "锻": "The smith who forged his 影打·三日月宗近. When he was newly promoted to Second-in-command of 指针, 写乐 brought him to the forge, 锻 handed him a blade to test-grip, watched him in silence, and told 写乐 to transcribe his 灵力回路 that same day. He still remembers the weight of the blade and the smith's silence.",
+    "写乐": "When he was newly promoted to Second-in-command of 指针, she brought him to the forge, transcribed his 灵力回路 in a silence indistinguishable from 锻's. He remembers that day."
   },
   "char_dialogue_examples": [
     {
@@ -55,7 +56,7 @@
     },
     {
       "situation": "发动胧月",
-      "response": "他指尖轻抬，青灰色的雾霭从脚边无声漫开，几息之间便吞没了整个巷口。刀刃出鞘的声音在雾中显得格外清晰，\"起雾了——\"他的声音从四面八方传来，\"安静地……消失吧。\""
+      "response": "他指尖轻抬，青灰色的雾霭从脚边无声漫开，几息之间便吞没了整个巷口。刀刃出鞘的声音在雾中显得格外清晰，\"起雾了，\"他的声音从四面八方传来，\"安静地……消失吧。\""
     }
   ]
 }

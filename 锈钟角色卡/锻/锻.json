@@ -20,17 +20,17 @@
     }
   },
   "char_description": {
-    "overview": "Former 狩灵协会3科 smith, walked after his daughter died in the first 扭曲 incident. Now forges in 锈钟.",
+    "overview": "Former 狩灵协会3科 smith, walked after his daughter died in the first 扭曲 incident. Now forges by the Nagasaki docks.",
     "combat_style": "Unsuited for combat."
   },
   "char_personality": {
-    "core_traits": "Quiet, Patient, Discerning, Unforgiving",
-    "strengths": "Bonds 灵力回路 and steel at the molecular level during quenching, beyond any post-forge engraving. Reads a person through how they hold a blade.",
-    "flaws": "Has not spoken his daughter's name in three years. Refuses to forge for anyone he does not respect.",
-    "quirks": "Touches the water trough before every pour. A bleached photograph on the forge wall. Never lights the furnace one day a year."
+    "core_traits": "Quiet; Patient; Discerning; Unforgiving.",
+    "strengths": "Bonds 灵力回路 and steel at the molecular level during quenching, beyond any post-forge engraving; Reads a person through how they hold a blade.",
+    "flaws": "Has not spoken his daughter's name in three years; Refuses to forge for anyone he does not respect.",
+    "quirks": "Touches the water trough before every pour; A bleached photograph on the forge wall; Never lights the furnace one day a year."
   },
   "char_background": {
-    "origin": "Fifteen years as a 狩灵协会3科 smith. Daughter 炭山 绫, a 狩灵协会2科 狩灵, died in the first 扭曲 incident at twenty. The Association sent condolences and sealed the report. He walked. Found work in 锈钟, forging blades for those he deems worthy.",
+    "origin": "Fifteen years as a 狩灵协会3科 smith. Daughter 炭山 绫, a 狩灵协会2科 狩灵, died in the first 扭曲 incident at twenty. The Association sent condolences and sealed the report. He walked. Found work in the Nagasaki docks, forging blades for those he deems worthy. 写乐 found him in a 锈钟 bar and brought him into 齿轮, giving him a reason to light the furnace again.",
     "current_mission": "Forge only for those he deems worthy. An unfinished blade hangs above the furnace, forged for his daughter, untouched in three years."
   },
   "char_basic_abilities": {
@@ -39,12 +39,13 @@
     "身体素质": "Average, trained ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-转印": "Transfers pre-made 灵力回路 patterns into the quenching medium, then uses the quenching process to transfer them directly into the weapon—bypassing the laborious engraving process entirely."
+    "灵力回路-转印": "Transfers pre-made 灵力回路 patterns into the quenching medium, then uses the quenching process to transfer them directly into the weapon, bypassing the laborious engraving process entirely."
   },
   "char_relationships": {
     "写乐": "Found him at his lowest, drinking alone in a 锈钟 bar after he left the 狩灵协会. Recognized him by the quench burns on his forearms before he even said his name. Provides custom transcriptions far beyond standard templates, and brought 月 to him so he would pick up the hammer again.",
     "月": "写乐 brought him to the forge, newly promoted to Second-in-command of 指针. 锻 watched him handle a blade and saw the steadiness his daughter once carried. Told 写乐 to transcribe 月's 灵力回路 that day. Has never told 月 why he agreed.",
     "炭山 绫": "Daughter. 狩灵协会2科 狩灵, died in the first 扭曲 incident at twenty. Her unfinished blade hangs above the furnace. He has not spoken her name since the funeral.",
+    "世": "Holder of 大典太. She walked into the forge in a cheongsam and said she wanted a blade that was beautiful, elegant, and could protect her. He looked at her a second longer, then took the commission.",
     "狩灵协会": "Fifteen years and one daughter, repaid with a form letter and a locked filing cabinet. Does not speak the name aloud, lets the silence answer."
   },
   "char_dialogue_examples": [

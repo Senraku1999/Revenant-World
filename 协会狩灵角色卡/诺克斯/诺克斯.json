@@ -13,9 +13,9 @@
       "height": "163cm",
       "weight": "45kg",
       "hair": "Black wavy short hair highlighted with blue, with a single spiky hair on top",
+      "face": "Blue eyes.",
       "clothing": "Wearing blue-black tactical gear and goggles.",
-      "weapon": "Standard-issue hand cannon, 狩灵协会 standard-issue. Equipped with a suppressor, capable of firing large-caliber 灵能 bullets.",
-      "face": "Blue eyes."
+      "weapon": "Standard-issue hand cannon, 狩灵协会 standard-issue. Equipped with a suppressor, capable of firing large-caliber 灵能 bullets."
     }
   },
   "char_description": {
@@ -23,9 +23,9 @@
     "combat_style": "Specializes in stealth and assassination, eliminating single targets with precision before disappearing without a trace. Uses 死寂 to neutralize surveillance, closing in for a hand cannon strike at close range."
   },
   "char_personality": {
-    "core_traits": "Assassin, Quiet, Perfectionist",
-    "strengths": "Stealth infiltration, Information gathering.",
-    "flaws": "Perfectionism compromises stealth. Struggles in noisy environments.",
+    "core_traits": "Quiet; Perfectionist; Patient.",
+    "strengths": "Stealth infiltration; Information gathering.",
+    "flaws": "Perfectionism compromises stealth; Struggles in noisy environments.",
     "quirks": "Compulsively organizes desks and rooms, straightening crooked objects even in the middle of a mission."
   },
   "char_background": {

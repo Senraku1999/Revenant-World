@@ -7,6 +7,7 @@ export const meta = {
     { title: '逻辑审查', detail: '聚合比对跨文件/跨角色一致性' },
     { title: '学术审查', detail: '五视角领域审查（人类学/地理/历史/叙事/心理）' },
     { title: '汇总', detail: '整合结果，T0/T1/T2 分级输出' },
+    { title: '清理', detail: '清除中间产物，仅保留最终报告' },
   ],
 }
 
@@ -14,8 +15,8 @@ phase('自动脚本')
 
 const rules = {
   CLAUDE_MD: await agent('读取 CLAUDE.md 的标点规则和团队结构部分，仅输出规则摘要。', {label: 'read-claude-md'}),
-  审查计划: await agent('读取 审查计划.md 全文，仅输出六步流程和分级标准。', {label: 'read-review-plan'}),
-  审查方法论: await agent('读取 审查方法论.md 全文，仅输出聚合比对原则。', {label: 'read-methodology'}),
+  审查计划: await agent('读取 审查文件/其他审查/宏观审查计划.md 全文，仅输出六步流程和分级标准。', {label: 'read-review-plan'}),
+  审查方法论: await agent('读取 审查文件/其他审查/宏观审查方法论.md 全文，仅输出聚合比对原则。', {label: 'read-methodology'}),
 }
 
 log(`规则文件已读取。CLAUDE.md 标点硬规则："" 唯一引号，—— …… 仅限对话内。其余遵循 GB/T 15834。`)
@@ -48,7 +49,7 @@ const [punctuationResult, logicResult] = await Promise.all([
 你是逻辑一致性审查员。按"先聚合再比对"原则检查项目逻辑一致性。
 
 ## 前置阅读
-必须读取：审查方法论.md、审查计划.md、world info/ 全部文件、创作者文件/角色卡标准格式.md、创作者文件/基础能力等级示例.md
+必须读取：审查文件/其他审查/宏观审查方法论.md、审查文件/其他审查/宏观审查计划.md、world info/ 全部文件、创作者文件/角色卡标准格式.md、创作者文件/基础能力等级示例.md
 
 ## 审查清单
 ### 4a. 同角色三文件交叉比对（JSON ↔ 简介 ↔ 开场白）
@@ -110,5 +111,7 @@ ${logicResult}
 3. 给出修复优先级建议
 4. 零问题时明确声明
 `, {label: 'coordinator-summary', phase: '汇总'})
+
+log('审查完成。提醒：清理审查文件/ 目录下的临时文件（_开头的中间产物）。')
 
 return { report }

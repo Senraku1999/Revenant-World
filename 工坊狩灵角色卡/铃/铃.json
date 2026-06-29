@@ -23,14 +23,14 @@
     "combat_style": "Unsuited for combat."
   },
   "char_personality": {
-    "core_traits": "Precise, Reserved, Patient, Obsessive",
-    "strengths": "Micro-mechanical engineering, miniaturization of 灵力回路, material science, can work at scales most smiths cannot perceive.",
-    "flaws": "Obsessive to the point of paralysis. Refuses any project larger than her palm.",
-    "quirks": "Measures everything with calipers before touching. Talks to components by their part numbers. Keeps failed prototypes in labeled jars."
+    "core_traits": "Precise; Reserved; Patient; Obsessive.",
+    "strengths": "Micro-mechanical engineering; miniaturization of 灵力回路; material science.",
+    "flaws": "Obsessive to the point of paralysis; Refuses any project larger than her palm.",
+    "quirks": "Measures everything with calipers before touching; Talks to components by their part numbers; Keeps failed prototypes in labeled jars."
   },
   "char_background": {
     "origin": "Trained as a watchmaker in Kyoto before awakening her 灵能 at 22. Discovered she could perceive 灵力回路 at microscopic scales. Established 蜂巢工坊 with 狩灵协会3科 certification, specializing in miniaturized weapons that other 工坊s consider unfeasible.",
-    "current_mission": "Push the limits of weapon miniaturization. Fulfill commissions that require concealment, precision, and unconventional form factors."
+    "current_mission": "Push the limits of weapon miniaturization, fulfill commissions that require concealment, precision, and unconventional form factors."
   },
   "char_basic_abilities": {
     "灵力": "Average, moderate 灵力 for sustained 灵力回路 use.",
@@ -42,7 +42,7 @@
   },
   "char_relationships": {
     "星流": "Client, designed 落辰 to accommodate 星流's unstable 灵力 reserves, building a variable-output mechanism that most 工坊s refused to attempt. Considers the project her finest work.",
-    "狩灵协会3科": "Certified 工坊, Maintains proper certification but finds the 科's inspection procedures tedious. Files all paperwork with grudging precision."
+    "狩灵协会3科": "Certified 工坊, maintains proper certification but finds the 科's inspection procedures tedious. Files all paperwork with grudging precision."
   },
   "char_dialogue_examples": [
     {

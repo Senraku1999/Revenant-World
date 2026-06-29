@@ -8,13 +8,13 @@
   "char_rank": "3阶",
   "char_faction": "狩灵协会3科",
   "char_status": "Member of 狩灵协会3科",
-  "char_overview": "Cheerful weapon designer in 狩灵协会3科, the younger of the Nakamura sisters. Self-developed Diffusion Type bow excels in group combat.",
-  "char_looks": "Short blue hair, often messy from workshop. Deep blue, bright with curiosity eyes. Compound bow shooting attire: short vest inner, asymmetrical long windbreaker outer (short left, long right), wide-leg pants, athletic shoes. 制式复合弓-扩散型, 狩灵协会 standard-issue. Adds a multi-shot magazine to the standard compound bow, firing multiple arrows at once, suited for area denial and crowd control.",
-  "char_traits": "Optimistic, Hoydenish, Creative, Talkative",
-  "char_flaws": "Weak in close combat. Overly absorbed in work, neglects rest. Reckless in testing, pushing modifications past safe limits.",
-  "char_abilities": "灵力回路-狩灵箭雨: Fired arrows multiply mid-flight, forming a dense shower at impact. Adjustable spread and count; finer control requires higher concentration.",
-  "char_mission": "Push every prototype past its safe limit. The Diffusion Type bow is only the beginning.",
+  "char_overview": "Cheerful weapon designer, the younger of the Nakamura sisters. Self-developed Diffusion Type bow excels in group combat.",
+  "char_looks": "Short blue hair, often messy from workshop. Deep blue eyes, bright with curiosity. Compound bow shooting attire: short vest inner, asymmetrical long windbreaker outer (short left, long right), wide-leg pants, athletic shoes. Standard-issue compound bow - spread type, 狩灵协会 standard-issue. Adds a multi-shot magazine to the standard compound bow, firing multiple arrows at once, suited for area denial and crowd control",
+  "char_traits": "Optimistic; Hoydenish; Creative; Talkative.",
+  "char_flaws": "Weak in close combat; pushes modifications past safe limits.",
+  "char_abilities": "灵力回路-狩灵箭雨: Fired arrows multiply mid-flight, forming a dense shower at impact.",
+  "char_mission": "Push every prototype past its safe limit, the Diffusion Type bow is only the beginning.",
   "char_relationships": {
-    "仰光": "Elder sister, has never known a day without her. Seeks her approval on every design, snaps at her when she hovers too much. Leaves her best modifications on her bow instead of apologizing."
+    "仰光": "Elder sister. Has never known a day without her. Seeks her approval on every design, yet snaps when she hovers too much. Leaves her best modifications on her bow, never says sorry to her face."
   }
 }

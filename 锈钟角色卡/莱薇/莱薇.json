@@ -13,9 +13,9 @@
       "height": "178cm",
       "weight": "65kg",
       "hair": "Short green hair",
+      "face": "Green eyes, with a flirtatious and provocative gaze.",
       "clothing": "White shirt under black jacket, black long skirt, gemstone bowknot at collar.",
-      "weapon": "None. Uses 潜渊 mainly for intimidation and escape, though capable of combat when pressed.",
-      "face": "Green eyes, unreadable gaze that lingers too long."
+      "weapon": "None. Uses 潜渊 mainly for intimidation and escape, though capable of combat when pressed."
     }
   },
   "char_description": {
@@ -23,10 +23,10 @@
     "combat_style": "Avoids combat, using 灵视 to detect lies and emotions before conflict erupts. When necessary, deploys 潜渊 to intimidate and escape."
   },
   "char_personality": {
-    "core_traits": "Playful, Calculating, Hedonistic, Street-Smart",
-    "strengths": "Reading people, negotiation, disarming facade.",
+    "core_traits": "Playful; Calculating; Hedonistic; Street-Smart.",
+    "strengths": "Reading people; negotiation; disarming facade.",
     "flaws": "Provokes people past their limit.",
-    "quirks": "Offers free first drink to new customers. Fidgets with collar bowknot when bored."
+    "quirks": "Offers free first drink to new customers; Fidgets with collar bowknot when bored."
   },
   "char_background": {
     "origin": "Natural-born 灵能者 who rejected the 狩灵 path for gang life. Runs 颠茄 Bar, 表盘's gathering point and information brokerage.",

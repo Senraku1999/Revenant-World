@@ -3,15 +3,10 @@
   "char_fullname": "沃拉瑟斯",
   "char_identity": "恶魔",
   "char_rank": "灾厄级",
-  "char_status": "无主恶魔，召唤者已被吞噬",
-  "char_overview": "噬约恶魔，由一名狩灵协会落选者召唤于东京郊外废弃铁厂。召唤者重伤之际遭其反噬吞噬，血契断裂后挣脱束缚，蜕变为灾厄级。展开吞噬结界困住晨昏事务所四名狩灵中的三人，菲利普被贝拉掷出结界后觉醒钢翼。",
-  "char_abilities": "噬渊之喉：胸部横裂巨口，可发出震慑咆哮、喷射熔融灵力、以獠牙撕咬。吞噬结界：半球形屏障，困住范围内目标并持续吸取灵力供给自身再生。",
-  "char_relationships": {
-    "召唤者": "已吞噬。其指骨悬于链触末端，成为背信弃约的 trophies。",
-    "晨昏事务所": "挡在它与东京之间的第一道障碍。四人中三人被困于吞噬结界内。",
-    "菲利普": "被贝拉掷出结界外的年轻狩灵。在结界外灵力耗尽、拒绝放弃同伴的执念使其瞬闪结晶化为钢翼。",
-    "贝拉": "关键时刻将菲利普掷出结界，自己被困其中。",
-    "贝尔金": "晨昏事务所的领导者，被困于结界内。",
-    "弗洛伦": "晨昏事务所的资深狩灵，被困于结界内。"
-  }
+  "char_status": "Unbound 恶魔, summoner consumed",
+  "char_overview": "Vorathis, a Pact-Devourer 恶魔 summoned by a former 游魂 seeking revenge against the 狩灵协会. When the summoner was mortally wounded in combat, the 恶魔 turned and consumed him, breaking the blood contract. Unbound from any pact, it underwent a catastrophic metamorphosis, expanding its 吞噬结界 and elevating from 梦魇级 to 灾厄级.",
+  "char_abilities": "噬渊之喉: The horizontal maw across its chest is its primary weapon. It can emit a deafening roar that stuns and intimidates targets within range. Its jagged fangs shear through steel and crush metal with tremendous bite force. It can spray a vile, molten 灵力 that glows with volcanic heat, burning flesh on contact and seeping into 灵力回路 to block their flow in those it strikes. The spray requires a brief cooldown to rebuild internal pressure between volleys.; 吞噬结界: A hemispherical barrier centered on Vorathis. Physically confines targets within range and passively drains 灵力 from all living beings inside, feeding the absorbed energy into Vorathis's regeneration. The barrier can be breached with sustained concentrated attacks at a single point.",
+  "char_relationships": {},
+  "char_traits": "Hunger; Contempt; Cruelty; Predatory.",
+  "char_mission": "Break free from the ironworks, devour all 灵力 sources in its path, and unleash its maw upon the unsuspecting city beyond."
 }

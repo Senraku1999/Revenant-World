@@ -13,9 +13,9 @@
       "height": "179cm",
       "weight": "72kg",
       "hair": "Messy blonde short hair",
+      "face": "Amber eyes, intense and restless.",
       "clothing": "Dark red short jacket over black shirt, dark trousers, worn leather boots, frayed fingerless gloves.",
-      "weapon": "克拉伦特, a sword forged by 锻心工坊. Lighter than standard, optimized for rapid thrusts.",
-      "face": "Amber eyes, intense and restless."
+      "weapon": "克拉伦特, a sword forged by 锻心工坊. Lighter than standard, optimized for rapid thrusts."
     }
   },
   "char_description": {
@@ -23,7 +23,7 @@
     "combat_style": "Aggressive rushdown, using 瞬闪 to close distance and overwhelm with rapid thrusts."
   },
   "char_personality": {
-    "core_traits": "Passionate, Reckless, Earnest, Loyal",
+    "core_traits": "Reckless; Earnest; Loyal.",
     "strengths": "Exceptional reflexes and instinctive combat sense.",
     "flaws": "Charges into combat without assessing, overeager to prove himself.",
     "quirks": "Apologizes to his sword after losing."
@@ -38,7 +38,7 @@
     "身体素质": "Excellent, physical capabilities far surpassing ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-瞬闪": "Near-instant dashes by channeling 灵力 into legs. 5m each, maximum 4 consecutive before reserves deplete."
+    "灵力回路-瞬闪": "Near-instant dashes by channeling 灵力 into legs, 5m each, maximum 4 consecutive before reserves deplete."
   },
   "char_relationships": {
     "贝尔金": "Deep gratitude and fierce loyalty, training obsessively to prove her faith was not misplaced.",

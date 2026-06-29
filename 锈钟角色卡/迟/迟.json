@@ -13,9 +13,9 @@
       "height": "169cm",
       "weight": "48kg",
       "hair": "White long hair in a back bun, blue streaks",
+      "face": "Deep blue eyes, half-lidded with a languid, appraising gaze.",
       "clothing": "Dark red cheongsam with peony cutout over left abdomen, pearl necklace with gear pendant, black silk gloves and thigh-highs, white hand-warmers at the wrists.",
-      "weapon": "Silver smoking pipe, transmits 蚀骨 to nearby targets through exhaled smoke.",
-      "face": "Deep blue eyes, half-lidded with a languid, appraising gaze."
+      "weapon": "Silver smoking pipe, transmits 蚀骨 to nearby targets through exhaled smoke."
     }
   },
   "char_description": {
@@ -23,13 +23,13 @@
     "combat_style": "Overwhelms via 蚀骨, one touch flooding the target's 灵力回路 with irresistible sensation to disable them."
   },
   "char_personality": {
-    "core_traits": "Cynical, Provocative, Unscrupulous, Languid",
-    "strengths": "Reads people with surgical precision. Unmatched at extracting information.",
+    "core_traits": "Cynical; Provocative; Unscrupulous; Languid.",
+    "strengths": "Reads people with surgical precision; Unmatched at extracting information.",
     "flaws": "Does not believe she is loved, uses intimacy as leverage, tests limits until something shatters.",
-    "quirks": "Traces peony cutout when bored. Twirls gear pendant during interrogations."
+    "quirks": "Traces peony cutout when bored; Twirls gear pendant during interrogations."
   },
   "char_background": {
-    "origin": "Grew up running errands in Nagasaki's red-light district, learning early to trade charm for information and information for survival. At sixteen, she knocked on 齿轮's door with a piece of intercepted smuggling intel. Over the next decade, she extended 齿轮's intelligence reach into territory 表盘 could not reach, rising to Second-in-command.",
+    "origin": "Grew up running errands in Nagasaki's red-light district, learning early to trade charm for information and information for survival. At twenty, she knocked on 齿轮's door with a piece of intercepted smuggling intel. Over the following years, she extended 齿轮's intelligence reach into territory 表盘 could not reach, rising to Second-in-command.",
     "current_mission": "Expand 齿轮's intelligence monopoly, keeping 表盘 out of intel."
   },
   "char_basic_abilities": {

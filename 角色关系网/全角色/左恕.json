@@ -8,16 +8,16 @@
   "char_rank": "色彩阶-赤红正义",
   "char_faction": "狩灵协会2科",
   "char_status": "Deputy director of 狩灵协会2科",
-  "char_overview": "色彩阶 titled 赤红正义. Upright and incorruptible leader, reliable in work and a reassuring commander in battle.",
-  "char_looks": "Red long hair, high ponytail. Golden eyes. White shirt with black tie, brown work vest, a single gold wing-shaped earring on the right ear, white trousers, black ankle boots. 赤旗, a saber forged by 锻心工坊. Ignites crimson flames when infused with 灵力.",
-  "char_traits": "Commander, Upright, Decisive, Stubbornly principled, Protective",
-  "char_flaws": "Inflexible, stubborn, haunted by past command errors that caused serious losses.",
+  "char_overview": "Deputy director of 狩灵协会2科, a tactical mind that commands the field like a chessboard.",
+  "char_looks": "Red long hair, high ponytail. Golden eyes, sharp as a hawk's. White shirt with black tie, brown work vest, a single gold wing-shaped earring on the right ear, white trousers, black ankle boots. 赤旗, a saber forged by 锻心工坊, ignites flames when infused with 灵力",
+  "char_traits": "Commander; Upright; Decisive; Protective.",
+  "char_flaws": "Stubborn; inflexible.",
   "char_abilities": "灵力回路-一人成军: Summons up to four from a legion (shield, breakthrough, sniper, gunner, rocket, medic) into a tactical squad. Composition adjustable by tactical needs.",
   "char_mission": "Faithfully fulfill duties, protect people, and maintain public security in the Kansai region.",
   "char_relationships": {
-    "红": "Her director, handles every piece of paperwork he ignores. In blood mist, he is the weapon she commands. Has never said out loud that she is why 2科 functions.",
-    "静流": "Senior colleague in 狩灵协会2科 she once looked up to. Knew her partner, watched them in sync on the field. Has not contacted her since she left, wanting to but never finding words that would not make it worse. An unresolved loss.",
-    "风来": "The one who commissioned 赤旗 from 铁心 for her promotion. Still remembers the weight of the blade in her hands the first time she held it. A gift that said more than any promotion ceremony ever could.",
-    "铁心": "Forged 赤旗. She has visited his workshop once since, to thank him in person. He grunted and went back to his forge. She understood."
+    "红": "Her director, handles every piece of paperwork he ignores. In the blood mist, he is the weapon she commands. Has never said it out loud, that 狩灵协会2科 runs because of him.",
+    "静流": "Senior colleague in 狩灵协会2科 she once looked up to. Knew her partner, watched them fight in sync. Has not contacted her since she left, wanting to reach out but never finding the words, that regret still hanging over her.",
+    "风来": "The one who commissioned 赤旗 from 铁心 for her promotion. Still remembers the weight of the blade when she first held it, heavier than any ceremony.",
+    "铁心": "The smith who forged 赤旗. Has visited his workshop only once since, to thank him in person. He grunted and went back to the forge. She took the hint."
   }
 }

@@ -8,16 +8,16 @@
   "char_rank": "色彩阶-靛蓝封禁",
   "char_faction": "狩灵协会6科",
   "char_status": "Director of 狩灵协会6科, Elder twin of 花坂 family",
-  "char_overview": "色彩阶 titled 靛蓝封禁, director of 狩灵协会6科. Guardian of 天丛云剑, confined to 狩灵协会 grounds.",
-  "char_looks": "Short black hair. Blue, calm as the ocean eyes. Black leather jacket with blue straps, white shirt, black trousers, combat boots. 天丛云剑, divine greatsword 1.4m. No 恶灵 has survived a direct attack. Sealed in special sheath. Carries throwing knives for regular combat.",
-  "char_traits": "Responsible, Firm and steady, Outstanding",
-  "char_flaws": "Overemphasizes responsibility, refuses to share the sword's burden.",
-  "char_abilities": "花坂血统: No 灵力 or 灵视. Physical capabilities and mental resilience greatly enhanced.",
-  "char_mission": "Guard 天丛云剑. Protect Fukuoka from 扭曲 as head of 狩灵协会6科.",
+  "char_overview": "Guardian of 天丛云剑, permitted to leave Fukuoka only when the sword must be drawn.",
+  "char_looks": "Short black hair. Blue eyes. Black leather jacket with blue straps, white shirt, black trousers, combat boots. 天丛云剑, divine greatsword 1.4m; no 恶灵 has survived a direct attack. Sealed in special sheath, carries throwing knives for regular combat, usable as daggers in close quarters",
+  "char_traits": "Responsible; Firm and steady; Burdened.",
+  "char_flaws": "Accustomed to handling everything alone.",
+  "char_abilities": "花坂血统: No 灵力 or 灵视, can observe entities with the naked eye and strike them physically, peak human physical capabilities.",
+  "char_mission": "Guard 天丛云剑, protect Fukuoka from 扭曲 as head of 狩灵协会6科.",
   "char_relationships": {
-    "花坂 枫": "Father, Trained under him, then ended his rampage. Carries that weight in every moment with 天丛云剑.",
-    "花坂 晴子": "Mother, Knew and forgave him. She never spoke of that night again, which weighs on him more than any words could.",
-    "千乐": "Younger brother, Never asked about that night. Suspects he knows more than he shows. Their silence is enough. Respects the life he built away from the 狩灵协会.",
-    "百合子": "Youngest sister, He tried hardest to shield her from the truth. She found it anyway. She stopped asking about Father, and that cuts deeper than if she had kept asking."
+    "花坂 枫": "Father, trained under him, then ended his rampage, carrying that weight in every moment with 天丛云剑.",
+    "花坂 晴子": "Mother, knew and forgave him, never spoke of that night again, which weighs on him more than any words could.",
+    "千乐": "Younger twin brother, never asked about that night, suspects he knows more than he shows. Their silence is enough, respects the life he built away from the 狩灵协会.",
+    "百合子": "Youngest sister, tried hardest to shield her from the truth, but she found it herself. She stopped asking about Father, and that cuts deeper than if she had kept asking."
   }
 }

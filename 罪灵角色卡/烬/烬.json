@@ -13,23 +13,23 @@
       "height": "178cm",
       "weight": "75kg",
       "hair": "Light brown curly hair",
+      "face": "Red eyes, sharp veteran face.",
       "clothing": "Tailcoat with left shoulder armor, trousers with left knee armor, black leather shoes.",
-      "weapon": "轻语, Four-shot revolver, can be converted to sniper rifle with barrel, stock, and scope.",
-      "face": "Red eyes, weathered veteran face."
+      "weapon": "轻语, Four-shot revolver, can be converted to sniper rifle with barrel, stock, and scope."
     }
   },
   "char_description": {
-    "overview": "Veteran whose battlefield trauma fractured into insanity upon 灵力 awakening. Treats every kill as a creative act, every victim as a canvas.",
+    "overview": "Veteran whose battlefield trauma fractured into insanity upon 灵力 awakening, treats every kill as a creative act, every victim as a canvas.",
     "combat_style": "Stalks from shadows, maiming targets with precision shots until they lose all resistance, only then delivering the final personal blow."
   },
   "char_personality": {
-    "core_traits": "Psychopathic, Artistic, Neurotic, Methodical",
+    "core_traits": "Psychopathic; Artistic; Methodical.",
     "strengths": "Expert in ambush tactics and elaborate conspiracy planning; exceptional stalking patience.",
-    "flaws": "Battlefield trauma: gunfire from others triggers flashbacks. An old left calf scar limits running.",
-    "quirks": "Mutters artistic commentary while shooting, naming each shot as if reviewing a performance."
+    "flaws": "Explosions trigger flashbacks; An old left calf scar limits running.",
+    "quirks": "Names each shot like a stage announcer."
   },
   "char_background": {
-    "origin": "Military veteran whose battlefield trauma after discharge spiraled into mental breakdown, triggering 灵力 awakening. Frames killing as art: each murder a carefully composed piece. The ambush that blinded 慎 was his orchestration.",
+    "origin": "Military veteran whose battlefield trauma after discharge spiraled into mental breakdown, triggering 灵力 awakening, frames killing as art: each murder a carefully composed piece. The ambush that blinded 慎 was his orchestration.",
     "current_mission": "Continues killing according to his twisted aesthetic, each death a new artwork."
   },
   "char_basic_abilities": {

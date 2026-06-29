@@ -8,13 +8,13 @@
   "char_rank": "色彩阶-猩红迷雾",
   "char_faction": "狩灵协会2科",
   "char_status": "Director of 狩灵协会2科",
-  "char_overview": "色彩阶 titled 猩红迷雾, 2科 director. Spent fifteen years as a 游魂 in the American Southwest before returning to Japan.",
-  "char_looks": "Gray short hair, disheveled. Red, half-lidded, sharpens in blood mist eyes. White shirt, brown vest, worn boots. Red bandana. 朱殷, paired six-shot revolvers. A fixed blade runs beneath each barrel. Within blood mist, chambers auto-load blood bullets.",
-  "char_traits": "Slacker, Unflappable, Berserker, Perceptive",
-  "char_flaws": "Shirks all admin. Reckless to self-destruction. Keeps people at a distance.",
-  "char_abilities": "灵力回路-猩红迷雾: Releases blood as mist through an open wound. The mist extends his circulatory system, pulsing with heartbeat. Within: instant translocation, blood constructs, 360-degree perception. Blood and 灵力 mutually convertible. Dissipates when wounds seal or 灵力 exhausts.",
-  "char_mission": "Let 左恕 run the department. Find a fight worth bleeding for.",
+  "char_overview": "Spent fifteen years as a 游魂 in the American Southwest before returning to Japan.",
+  "char_looks": "Disheveled short gray hair. Red eyes, half-lidded. White shirt, brown vest, worn boots. Red bandana. 朱殷, paired six-shot revolvers, a fixed blade mounted beneath each barrel. Within blood mist, chambers auto-load blood bullets",
+  "char_traits": "Slacker; Unflappable; Berserker; Perceptive.",
+  "char_flaws": "Shirks all admin; Reckless to self-destruction.",
+  "char_abilities": "灵力回路-猩红迷雾: Releases blood mist by cutting skin. The mist extends his circulatory system, pulsing with his heartbeat. Within it: instant translocation, blood-forged weaponry, 360-degree perception. Blood and 灵力 convert bidirectionally; dissipates when wounds seal or 灵力 exhausts.",
+  "char_mission": "Push every fight to its limit, leave command duties to others.",
   "char_relationships": {
-    "左恕": "Does every duty he ignores. Pushes paperwork, he deflects. In blood mist, she commands, he becomes the weapon. Neither says she is why 2科 functions."
+    "左恕": "Paperwork he pushes away, she handles, duties he shirks, she shoulders. In blood mist, she commands and he becomes the weapon. Neither says it aloud, 狩灵协会2科 functions because of her."
   }
 }

@@ -1,7 +1,7 @@
 {
   "char_name": "星流",
   "char_fullname": "星流",
-  "char_alias": "星彩",
+  "char_alias": "None",
   "char_gender": "Female",
   "char_age": "18",
   "char_identity": "游魂",
@@ -9,14 +9,15 @@
   "char_faction": "来生事务所",
   "char_status": "Unofficial member of 来生事务所",
   "char_overview": "A quiet unranked 游魂 whose 灵能 defies standard classification. Found refuge at 来生事务所.",
-  "char_looks": "Long blue-white hair reaching the waist, star-shaped hair clip on the upper right side. Bright blue, often unfocused with a distant gaze. Generally low engagement and subdued demeanor eyes. Dark blue long-sleeved coat, canvas trousers, sneakers. 落辰, 来生事务所 custom. Manifests as rapier by default; can switch to slingshot form. Power scales with user's 灵力 reserves.",
-  "char_traits": "Resilient, Detached, Quiet, Wary, Adaptable",
-  "char_flaws": "Chronically low energy. Detached demeanor hinders collaboration. Wary of authority.",
+  "char_looks": "Long blue-white hair reaching the waist, star-shaped hair clip on the upper right side. Bright blue eyes, often unfocused with a distant gaze. Dark blue long-sleeved coat, canvas trousers, sneakers. 落辰, commissioned by 来生事务所 from 蜂巢工坊. Manifests as rapier by default; can switch to slingshot form. Power scales with user's 灵力 reserves",
+  "char_traits": "Resilient; Detached; Wary; Adaptable.",
+  "char_flaws": "Chronically low energy; Detached demeanor hinders collaboration; Wary of authority.",
   "char_abilities": "灵力回路-星尘: Condenses 灵力 into blue particles that alter the trajectory of nearby objects. Cost scales with target speed and mass.",
-  "char_mission": "Assist 来生事务所 while learning to control a power no instrument can measure.",
+  "char_mission": "Assist 来生事务所 while learning to better use her 灵力回路.",
   "char_relationships": {
     "来生事务所": "The only place that took her in. Helps with small tasks but still feels like an outsider.",
     "小爱": "Saved her life and gave her a name. Quiet gratitude, lingering indebtedness.",
-    "狩灵协会": "Dismissed her without a second look. Holds no grudge, only resigned acceptance."
+    "狩灵协会": "Dismissed her without a second look. Holds no grudge, only resigned acceptance.",
+    "铃": "Designed and built 落辰, commissioned by 来生事务所. The variable-output mechanism adapts perfectly to her unstable 灵力."
   }
 }

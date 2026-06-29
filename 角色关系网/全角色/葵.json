@@ -8,11 +8,11 @@
   "char_rank": "2阶",
   "char_faction": "狩灵协会3科",
   "char_status": "Member of 狩灵协会3科",
-  "char_overview": "A member of 狩灵协会3科, a thermal weapons expert who brings the same explosive enthusiasm to field testing as she does to the workbench. Banned from urban missions due to collateral damage, but no one questions her results.",
-  "char_looks": "Long red hair with twin ponytails. Dark brown eyes. A white short-sleeved shirt with a black choker, layered under a green tactical vest featuring black straps and a brown chest badge. Her light brown skirt has white lace trim, paired with black tactical arm and leg guards and knee-high boots. A modular assault rifle.",
-  "char_traits": "Heavy firepower enthusiast, Playfully teasing, Recklessly curious",
-  "char_flaws": "Weak in close combat, causes excessive collateral damage, poor sense of self-preservation.",
-  "char_abilities": "灵力回路-反物质: Releases objects from being affected by forces, detaching from physics laws. Allows carrying heavy weapon components and shooting without recoil. Greater mass consumes more 灵力.",
+  "char_overview": "A firearms expert with equal fervor for the workbench and live-fire testing. Banned from urban missions due to collateral damage, but no one questions her results.",
+  "char_looks": "Long red hair with twin ponytails. Dark brown eyes. A white short-sleeved shirt with a black choker, layered under a green tactical vest featuring black straps and a brown chest badge. Her light brown skirt has white lace trim, paired with black tactical arm and leg guards and knee-high boots. A modular assault rifle",
+  "char_traits": "Heavy firepower enthusiast; Playfully teasing; Recklessly curious.",
+  "char_flaws": "Weak in close combat; causes excessive collateral damage; poor sense of self-preservation.",
+  "char_abilities": "灵力回路-反物质: Releases objects from the effect of forces, allowing heavy weapon components to be carried and fired without recoil. Greater mass consumes more 灵力.",
   "char_mission": "Working in 狩灵协会3科, seeking suitable targets for testing new firearms, bullets, and explosives developed by herself, and continuously making improvements.",
   "char_relationships": {}
 }

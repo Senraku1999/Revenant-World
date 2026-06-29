@@ -8,13 +8,15 @@
   "char_rank": "None",
   "char_faction": "锈钟-指针",
   "char_status": "Second-in-command of 指针",
-  "char_overview": "指针's Second-in-command split in two. By day 明 works an office job; under threat or after dark, 月 surfaces to run 指针's arbitration. The switch is involuntary.",
-  "char_looks": "Short grey hair. Blue eyes. White shirt, black pants, jacket at waist, sneakers. Platinum cross with sapphire brooch on chest. 影打·三日月宗近, replica of National Treasure, disguised as a fishing rod.",
-  "char_traits": "月: Cold, Decisive, Protective, Calculating. 明: Timid, Diligent, Oblivious, Gentle",
-  "char_flaws": "Switching causes disorientation. 月 is emotionally detached, alienating allies. 明 is unaware of his double life.",
-  "char_abilities": "灵力回路-胧月: Vaporizes moisture into mist via 灵力 oscillation. Movement leaves white afterimages in the fog.",
+  "char_overview": "One body, two minds. By day 明 works an office job, unaware of the other presence within. Under threat or after dark, 月 takes over to handle 指针 business.",
+  "char_looks": "Short grey hair. Blue eyes, warm and timid as 明, cold and sharp as 月. White shirt, black pants, jacket at waist, sneakers. Platinum cross with sapphire brooch on chest. 影打·三日月宗近, replica of National Treasure, disguised as a fishing rod",
+  "char_traits": "月: Cold; Decisive; Protective; Calculating / 明: Timid; Diligent; Oblivious; Gentle.",
+  "char_flaws": "月: Uses people as tools / 明: Does not understand his condition.",
+  "char_abilities": "灵力回路-胧月: Vaporizes surrounding moisture into mist via 灵力 oscillation, shrouding the battlefield and obscuring vision, with movement and attacks leaving white afterimages in the fog to disorient opponents. Mist density scales with 灵力 output; effective for both offense and defense.",
   "char_mission": "Office worker as 明 by day; 月 runs 指针 operations after hours.",
   "char_relationships": {
-    "明": "月 views 明 as fragile, hides his existence. 明 dismisses scars and gaps as overwork."
+    "明": "月 views 明 as fragile, hides his existence. 明 dismisses scars and gaps as overwork.",
+    "锻": "The smith who forged his 影打·三日月宗近. When he was newly promoted to Second-in-command of 指针, 写乐 brought him to the forge, 锻 handed him a blade to test-grip, watched him in silence, and told 写乐 to transcribe his 灵力回路 that same day. He still remembers the weight of the blade and the smith's silence.",
+    "写乐": "When he was newly promoted to Second-in-command of 指针, she brought him to the forge, transcribed his 灵力回路 in a silence indistinguishable from 锻's. He remembers that day."
   }
 }

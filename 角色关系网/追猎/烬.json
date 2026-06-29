@@ -8,14 +8,15 @@
   "char_rank": "梦魇级",
   "char_faction": "None",
   "char_status": "Wanted 罪灵, Serial murderer",
-  "char_overview": "Veteran whose suppressed PTSD fractured into psychopathic devotion to murder as art. Treats every kill as a creative act, every victim as a canvas.",
-  "char_looks": "Light brown curly hair. Red eyes. Tailcoat with left shoulder armor, trousers with left knee armor, black leather shoes. 轻语, Four-shot revolver. Can be converted to sniper rifle with barrel, stock, and scope. Each bullet infused with 绽放 灵力回路.",
-  "char_traits": "Psychopathic, Artistic, Cautious, Neurotic, Methodical",
-  "char_flaws": "Severe PTSD: gunfire from others triggers flashbacks. An old left calf scar limits running.",
-  "char_abilities": "灵力回路-绽放: Infuses bullets with 灵力. Upon impact, the 灵力 blooms like flowers from within the target, causing internal pain beyond the physical wound.",
+  "char_overview": "Veteran whose battlefield trauma fractured into insanity upon 灵力 awakening, treats every kill as a creative act, every victim as a canvas.",
+  "char_looks": "Light brown curly hair. Red eyes, sharp veteran face. Tailcoat with left shoulder armor, trousers with left knee armor, black leather shoes. 轻语, Four-shot revolver, can be converted to sniper rifle with barrel, stock, and scope",
+  "char_traits": "Psychopathic; Artistic; Neurotic; Methodical.",
+  "char_flaws": "Gunfire from others triggers flashbacks; An old left calf scar limits running.",
+  "char_abilities": "灵力回路-绽放: Constructs bullets from 灵力. Upon impact, they bloom like flowers from within the target, causing internal pain beyond the physical wound.",
   "char_mission": "Continues killing according to his twisted aesthetic, each death a new artwork.",
   "char_relationships": {
-    "慎": "The 狩灵 he blinded in an orchestrated ambush. Considers the work incomplete: the man still moves, still hunts, still refuses to break.",
-    "劫": "Ambushed in the same incident. Watches her hunt him across prefectures with detached curiosity. Her escalating desperation holds his attention."
+    "炼司": "The only gunsmith he trusts, built 轻语 for him. The only name scratched out in the ledger.",
+    "慎": "The 狩灵 he blinded in an orchestrated ambush, a work he considers incomplete: the man still moves, still hunts, still refuses to break.",
+    "劫": "Ambushed in the same incident, watches her hunt him across prefectures with detached curiosity, her escalating desperation holding his attention."
   }
 }

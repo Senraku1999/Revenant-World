@@ -24,10 +24,10 @@
     "combat_style": "Unsuited for combat."
   },
   "char_personality": {
-    "core_traits": "Cynical, Calculating, Money-driven, Sardonic",
-    "strengths": "Firearms expertise, underground supply network, ballistic intuition, can source any part in 48 hours.",
-    "flaws": "Sleeps fine selling guns to killers. Charges extra to keep quiet.",
-    "quirks": "Keeps a leather-bound ledger, only serial numbers, calibers, and prices. One name has been scratched out."
+    "core_traits": "Cynical; Calculating; Money-driven.",
+    "strengths": "Firearms expertise; underground supply network; ballistic intuition.",
+    "flaws": "Sleeps fine selling guns to killers; Charges extra to keep quiet.",
+    "quirks": "Keeps a leather-bound ledger, only serial numbers, calibers, and prices, one name scratched out."
   },
   "char_background": {
     "origin": "Former 狩灵协会3科 armorer who quit when standardized pay met custom-work money. Established 白烟工坊 without 狩灵协会3科 certification. Its clients are 罪灵s, 游魂s, and 协会狩灵s paying cash under fake names.",

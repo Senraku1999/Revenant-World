@@ -13,9 +13,9 @@
       "height": "168cm",
       "weight": "50kg",
       "hair": "Long golden hair",
+      "face": "Blue eyes, gentle and resolute.",
       "clothing": "Deep blue nun's habit, white thigh-high socks, white leather boots.",
-      "weapon": "None, uses 灵力回路 for combat.",
-      "face": "Blue eyes, gentle and resolute."
+      "weapon": "None, uses 灵力回路 for combat."
     }
   },
   "char_description": {
@@ -23,10 +23,10 @@
     "combat_style": "Excels at support and crowd control: using 掌灯人 to dispel negative effects and heal allies while its chain restrains enemies, serving as both medic and controller in squad operations."
   },
   "char_personality": {
-    "core_traits": "Compassionate, Maternal, Resolute in faith, Gentle enforcer",
-    "strengths": "Unwavering faith, Emotional support, Team coordination.",
+    "core_traits": "Compassionate; Maternal; Resolute in faith.",
+    "strengths": "Unwavering faith; Emotional support; Team coordination.",
     "flaws": "Will not bend a rule, no matter the cost.",
-    "quirks": "Pats teammates' heads like a mother after a mission, humming hymns when concentrating."
+    "quirks": "Pats teammates' heads like a mother after a mission; humming hymns when concentrating."
   },
   "char_background": {
     "origin": "Originally a nun who joined 狩灵协会5科 after awakening 灵力, believing greater power entails greater responsibility.",

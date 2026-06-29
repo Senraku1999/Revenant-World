@@ -13,23 +13,23 @@
       "height": "173cm",
       "weight": "55kg",
       "hair": "Short white hair",
+      "face": "Red eyes, scarred by past battles.",
       "clothing": "Black bodysuit, light gray overshirt. High-neck collar protector, leather arm guards, thigh-high boots.",
-      "weapon": "灭魂, a katana custom-forged by an assassination-specialist 工坊. Near-silent attacks, almost no sound on contact.",
-      "face": "Red eyes, scarred by past battles."
+      "weapon": "灭魂, a katana custom-forged by an assassination-specialist 工坊. Near-silent attacks, almost no sound on contact."
     }
   },
   "char_description": {
-    "overview": "Former 狩灵协会4科 狩灵, labeled a 罪灵 after resigning to hunt 烬, the man whose ambush she blames herself for. Will sacrifice everything to kill him with her own hands.",
+    "overview": "Former 狩灵协会4科 狩灵, labeled a 罪灵 after resigning to hunt 烬, the man whose ambush she blames herself for, will sacrifice everything to kill him with her own hands.",
     "combat_style": "Tracks through darkness toward favorable terrain. Weakens via repeated ambushes, then reveals herself for the final face-to-face kill."
   },
   "char_personality": {
-    "core_traits": "Vengeful, Guilt-Ridden, Relentless, Self-Destructive",
+    "core_traits": "Vengeful; Guilt-Ridden; Relentless; Self-Destructive.",
     "strengths": "Masterful terrain exploitation and enemy observation; exceptional single-target pursuit.",
-    "flaws": "Weak in direct combat. Guilt eroded judgment, making her reckless.",
+    "flaws": "Weak in direct combat; guilt eroded judgment, making her reckless.",
     "quirks": "Keeps a charm 慎 gave her before he was blinded, touching it when guilt becomes unbearable."
   },
   "char_background": {
-    "origin": "Former 狩灵协会4科 member. Her retreat route led the team into an ambush that blinded 慎. Discovering the attack was tied to 烬, she resigned to hunt him, earning 罪灵 classification.",
+    "origin": "Former 狩灵协会4科 member. Her retreat route led the team into an ambush that blinded 慎, discovering the attack was tied to 烬, she resigned to hunt him, earning 罪灵 classification.",
     "current_mission": "Track and kill 烬 at any cost."
   },
   "char_basic_abilities": {

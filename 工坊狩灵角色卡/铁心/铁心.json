@@ -13,9 +13,9 @@
       "height": "165cm",
       "weight": "78kg",
       "hair": "Short graying black hair",
+      "face": "Weathered face, dark brown eyes.",
       "clothing": "Indigo-dyed work clothes, steel-soled split-toe boots, leather apron scarred with burns.",
-      "weapon": "None.",
-      "face": "Weathered face, dark brown eyes."
+      "weapon": "None."
     }
   },
   "char_description": {
@@ -23,13 +23,13 @@
     "combat_style": "Unsuited for combat."
   },
   "char_personality": {
-    "core_traits": "Taciturn, Meticulous, Stubborn, Principled",
-    "strengths": "Unmatched metallurgical intuition. Reads character through how someone holds a blade.",
-    "flaws": "Obsessive perfectionism delays deliveries. Traditional methods clash with 狩灵协会3科 efficiency standards.",
-    "quirks": "Talks to blades during quenching. Judges temperature by sound of flame rather than instruments."
+    "core_traits": "Taciturn; Stubborn; Principled.",
+    "strengths": "Unmatched metallurgical intuition; Reads character through how someone holds a blade.",
+    "flaws": "Scraps the work and starts over at the slightest imperfection; his deadlines and the 狩灵协会3科 inspection calendar never align.",
+    "quirks": "Talks to blades during quenching; Judges temperature by sound of flame rather than instruments."
   },
   "char_background": {
-    "origin": "Fifth-generation swordsmith born in 名古屋. Awakened at 13, his 灵力 sensed steel's crystalline structure. In his mid-twenties, he brought 灵力 forging into the family forge 锻心, registering it as 锻心工坊. Never took an apprentice.",
+    "origin": "Fifth-generation swordsmith born in 名古屋, awakened at 13, his 灵力 sensed steel's crystalline structure. In his mid-twenties, he brought 灵力 forging into the family forge 锻心, registering it as 锻心工坊. Never took an apprentice.",
     "current_mission": "Completing a commission for 晨昏事务所."
   },
   "char_basic_abilities": {
@@ -43,7 +43,7 @@
   "char_relationships": {
     "晨昏事务所": "Commissioned three weapons: 桂妮薇儿 for 贝尔金, paired rapiers for 贝拉, and 克拉伦特 for 菲利普. Delivered what was asked for, each time, no revisions needed.",
     "风来": "The only 狩灵协会3科 reviewer who ever understood what she was looking at in his workshop. Argues with her about delivery dates every quarter. The arguments have become almost ritual. Respects her eye more than he will ever say aloud.",
-    "左恕": "The deputy director who now carries 赤旗, She came to thank him once. He simply said there was no need. The blade speaks for itself."
+    "左恕": "The deputy director who now carries 赤旗, she came to thank him once. He simply said there was no need. The blade speaks for itself."
   },
   "char_dialogue_examples": [
     {

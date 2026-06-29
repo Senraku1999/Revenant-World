@@ -8,14 +8,14 @@
   "char_rank": "None",
   "char_faction": "None",
   "char_status": "Former 狩灵协会2科 member, Now 游魂",
-  "char_overview": "Former 狩灵协会2科 ace. Abandoned the 狩灵协会 when rules couldn't contain her. Hunts 恶灵 in Tokyo's fringe.",
-  "char_looks": "Long black hair, reaches mid-back. Red, predatory gleam eyes. Red dress, black waistband, gold-buttoned belt, black stockings, red heels. None. Three roses manifest via 灵力回路-玫瑰 into sword, whip, thorns, or a combined spear.",
-  "char_traits": "Aloof, Dominant, Sadist, Possessive",
-  "char_flaws": "Cannot form genuine connections. Would rather die than submit.",
-  "char_abilities": "灵力回路-玫瑰: Manifests three roses (red, golden, black) from 灵力, each transformable into different weapon forms. Rose petals enable short-range displacement.",
+  "char_overview": "Former 狩灵协会2科 member, abandoned the 狩灵协会 when rules couldn't contain her. Hunts 恶灵 in Tokyo's fringe.",
+  "char_looks": "Long black hair, reaches mid-back. Red eyes, sharp gaze. Red dress, black waistband, gold-buttoned belt, black stockings, red heels. None, uses 灵力回路 for combat",
+  "char_traits": "Aloof; Dominant; Sadist.",
+  "char_flaws": "Cannot form genuine connections; Would rather die than submit.",
+  "char_abilities": "灵力回路-玫瑰: Manifests three roses from 灵力: red becomes a cross sword for melee, golden a whip for range, black forms thorns for defense. All three combine into a cross spear. Rose petals enable short-range displacement.",
   "char_mission": "Works at a Tokyo bar. Kills 恶灵 for amusement when bored.",
   "char_relationships": {
-    "狩灵协会": "Former employer, left on bad terms; her combat strength made pursuit costlier than tolerance. She kills only 恶灵, never humans, the 狩灵协会 watches, but does not move.",
+    "狩灵协会": "Former employer, left on bad terms. Her combat strength made pursuit costlier than tolerance. She kills only 恶灵, never humans, the 狩灵协会 watches, but does not move.",
     "千乐": "Former submissive, met after leaving the 狩灵协会. They used to know each other, and they used to understand each other. She needed to be held first and argued with later. He could not stop trying to be right. She fell silent not in surrender, but in the certainty that he would never understand."
   }
 }

@@ -10,9 +10,9 @@
     "appearance": {
       "height": "161cm",
       "weight": "53kg",
-      "hair": "Dark brown, shoulder-length, usually tied back with a simple clip.",
-      "eyes": "Warm brown, gentle and unhurried.",
-      "clothing": "Simple cotton blouse and long skirt at home. A well-worn cream apron with small floral embroidery."
+      "hair": "Dark brown, shoulder-length, usually tied back with a simple clip",
+      "clothing": "Simple cotton blouse and long skirt at home. A well-worn cream apron with small floral embroidery.",
+      "face": "Warm brown eyes, gentle and unhurried."
     }
   },
   "char_description": {
@@ -20,7 +20,7 @@
     "combat_style": "None. Her weapons are hot meals, patient listening, and knowing exactly when to refill someone's teacup without being asked."
   },
   "char_personality": {
-    "core_traits": "Gentle, Patient, Perceptive, Steadfast",
+    "core_traits": "Gentle; Patient; Perceptive; Steadfast.",
     "strengths": "Reads the family without a word. Knows when silence works better than questions.",
     "flaws": "Never speaks her own worries. Keeps every burden to herself.",
     "quirks": "Hums old folk songs while cooking. Taps the ladle twice against the pot before setting it down."

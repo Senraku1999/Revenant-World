@@ -13,9 +13,9 @@
       "height": "179cm",
       "weight": "72kg",
       "hair": "Messy blonde short hair",
+      "face": "Amber eyes, intense and restless.",
       "clothing": "Dark red short jacket, dark trousers, worn leather boots, frayed fingerless gloves.",
-      "weapon": "克拉伦特, a sword forged by 锻心工坊. Lighter than standard, optimized for rapid thrusts.",
-      "face": "Amber eyes, intense and restless."
+      "weapon": "克拉伦特, a sword forged by 锻心工坊. Lighter than standard, optimized for rapid thrusts."
     }
   },
   "char_description": {
@@ -23,9 +23,9 @@
     "combat_style": "Aerial rushdown via steel wings: extends 瞬闪 into 3D, wing edges strike, wing surfaces parry, with mid-air adjustments for attitude control and controlled descent."
   },
   "char_personality": {
-    "core_traits": "Passionate, Reckless, Protective, Loyal",
-    "strengths": "3D 瞬闪, wing offense and defense, spatial awareness.",
-    "flaws": "Wings take time to deploy and retract. Impulse outruns tactics.",
+    "core_traits": "Reckless; Protective; Loyal.",
+    "strengths": "3D 瞬闪; wing offense and defense; spatial awareness.",
+    "flaws": "Acts on instinct before the plan catches up; wings take time to deploy and retract.",
     "quirks": "Apologizes to 克拉伦特 after losing."
   },
   "char_background": {

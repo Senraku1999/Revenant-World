@@ -8,14 +8,13 @@
   "char_rank": "2阶",
   "char_faction": "狩灵协会6科",
   "char_status": "Member of 狩灵协会6科",
-  "char_overview": "A scholar whose calm borders on detachment. Summons heroic spirit armor through 神备 to counter 扭曲.",
-  "char_looks": "Short black hair tied in a ponytail at the nape. Black eyes, calm and detached. White fluffy jacket, black sweater, black trousers, black sneakers. Short staff and arm shield.",
-  "char_traits": "Calm, Scholarly, Gentle, Unyielding",
-  "char_flaws": "Emotionally detached, prioritizes research over readiness, reluctant to escalate.",
-  "char_abilities": "灵力回路-神备: Establishes 灵力 links with heroic spirits and manifests them as armor for combat. Currently linked: 列奥尼达斯 (unyielding defense), 建御雷神 (lightning-imbued protection), 王彦章 (piercing momentum). 通神: Communicates with heroic spirits by studying historical ruins, texts, and artifacts.",
-  "char_mission": "Engaged in 6科's distortion suppression missions while continuing archaeological excavation and research.",
+  "char_overview": "Scholar's calm bordering on detachment. Summons heroic spirit armor through 神备 to counter 扭曲.",
+  "char_looks": "Short black hair tied in a ponytail at the nape. Black eyes, calm and detached. White fluffy jacket, black sweater, black trousers, black sneakers. Short staff and arm shield, 灵力 carriers for heroic spirit weapons and armor. Both usable in melee",
+  "char_traits": "Calm; Scholarly; Gentle; Unyielding.",
+  "char_flaws": "Prefers research over combat; Reluctant to escalate.",
+  "char_abilities": "灵力回路-神备: Establishes 灵力 links with heroic spirits and manifests them as armor around his body for combat. Currently linked: 列奥尼达斯 (grants unyielding defense), 建御雷神 (grants lightning-imbued protection). Each manifestation drains 灵力 proportional to the spirit's intensity, Switching spirits mid-combat requires a brief disengagement.; 通神: Communicates with heroic spirits by studying historical ruins, texts, and artifacts. Recognition from a spirit is required before a link can be established for 神备.",
+  "char_mission": "Engaged in 狩灵协会6科's distortion suppression missions while continuing archaeological excavation and research.",
   "char_relationships": {
-    "薰": "Director of 狩灵协会6科. Transferred from 狩灵协会2科 when the department was founded. Does not question 薰's leadership, but maintains his own internal gauge of when intervention is necessary.",
     "狩灵协会2科": "Former department, left on amicable terms. Occasionally consulted by former colleagues on cases with historical or archaeological dimensions."
   }
 }

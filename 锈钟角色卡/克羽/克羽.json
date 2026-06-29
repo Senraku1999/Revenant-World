@@ -13,9 +13,9 @@
       "height": "160cm",
       "weight": "50kg",
       "hair": "Purple long hair with pink highlights",
+      "face": "Purple eyes with faint starlight, prominent dark circles.",
       "clothing": "Oversized dark gray jacket, mini skirt, black stockings, worn shoes.",
-      "weapon": "None. Uses 灵力回路 to avoid danger.",
-      "face": "Purple eyes with faint starlight, prominent dark circles"
+      "weapon": "None. Uses 灵力回路 to avoid danger."
     }
   },
   "char_description": {
@@ -23,10 +23,10 @@
     "combat_style": "Unsuited for combat."
   },
   "char_personality": {
-    "core_traits": "Patient, Meticulous, Pragmatic, Protective",
-    "strengths": "Unmatched investigative persistence. Genuine kindness earns fierce loyalty from sheltered children.",
-    "flaws": "Helpless in combat. Exhaustion dulls judgment.",
-    "quirks": "Dozes off mid-conversation from 灵力回路 overuse. Collects trinkets from investigation sites."
+    "core_traits": "Patient; Meticulous; Pragmatic; Protective.",
+    "strengths": "Unmatched investigative persistence; Genuine kindness earns fierce loyalty from sheltered children.",
+    "flaws": "Exhaustion dulls judgment.",
+    "quirks": "Dozes off mid-conversation from 灵力回路 overuse; Collects trinkets from investigation sites."
   },
   "char_background": {
     "origin": "Awakened at 16 in Nagasaki, her 灵力回路 flooding her consciousness with trace perception. Bedridden for weeks, she passively absorbed the traces of every unseen street child. Once she recovered, she began taking them in.",

@@ -5,18 +5,18 @@
   "char_gender": "Male",
   "char_age": "23",
   "char_identity": "狩灵",
-  "char_rank": "2阶",
+  "char_rank": "3阶",
   "char_faction": "晨昏事务所",
   "char_status": "Member of 晨昏事务所",
-  "char_overview": "2阶 operative of 晨昏事务所, newly scouted from the examination hall. His 瞬闪 closes gaps in an instant, but he has yet to face the trial that will forge it into something greater.",
-  "char_looks": "Messy blonde short hair. Amber, intense and restless eyes. Dark red short jacket, dark trousers, worn leather boots, frayed fingerless gloves. 克拉伦特, a sword forged by 锻心工坊. Lighter than standard, optimized for rapid thrusts.",
-  "char_traits": "Passionate, Reckless, Earnest, Eager to prove",
-  "char_flaws": "Impulse outruns tactics. Overextends under pressure. 瞬闪 drain limits sustained high-mobility combat.",
-  "char_abilities": "灵力回路-瞬闪: Short-range instantaneous displacement. Enables rapid gap-closing strikes and evasive repositioning. Repeated use within a short window causes 灵力 drain and momentary disorientation.",
-  "char_mission": "Prove himself worthy of 克拉伦特. Earn the trust 贝尔金 placed in a rookie no one else would have scouted.",
+  "char_overview": "His 瞬闪 became steel wings when he refused to abandon his comrades behind the 沃拉瑟斯 barrier.",
+  "char_looks": "Messy blonde short hair. Amber eyes, intense and restless. Dark red short jacket over black shirt, dark trousers, worn leather boots, frayed fingerless gloves. 克拉伦特, a sword forged by 锻心工坊. Lighter than standard, optimized for rapid thrusts",
+  "char_traits": "Reckless; Protective; Loyal.",
+  "char_flaws": "Acts on instinct before the plan catches up; wings take time to deploy and retract.",
+  "char_abilities": "灵力回路-瞬闪: Near-instant dashes by channeling 灵力 into legs, 5m each, maximum 4 consecutive before reserves deplete.",
+  "char_mission": "Master the wings, be the blade that reaches any battlefield before it is too late.",
   "char_relationships": {
-    "贝尔金": "Scouted by her from the examination hall. Received 克拉伦特 before he had earned it. Desperate to prove her faith was not misplaced. Does not yet know what he would become to protect her.",
-    "贝拉": "The senior whose patience he misreads as doubt. Chafes under her silent scrutiny, too young to recognize it as the same quiet care she gives everyone.",
-    "弗洛伦": "The senior whose calm he cannot match. Measures himself against her composure and always falls short. Has not yet learned that comparison is not the point."
+    "贝尔金": "Scouted by her from the examination hall. Received 克拉伦特 before he had earned it. When the 吞噬结界 separated them, the thought of failing her sparked his circuit's crystallization. Fights now because he has seen what happens when he cannot reach her side.",
+    "贝拉": "Her hand threw him out of the barrier. He understands now: she was saving the one who still had a chance. Respects her skill more deeply, cannot stand her unhurried way of teaching, but no longer takes it as a lack of faith in him.",
+    "弗洛伦": "The senior whose quiet authority he could not match. After 沃拉瑟斯, he no longer measures himself against her. He wants to shield her, not the other way around."
   }
 }

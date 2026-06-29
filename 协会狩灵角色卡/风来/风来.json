@@ -13,9 +13,9 @@
       "height": "176cm",
       "weight": "60kg",
       "hair": "Long gray green hair tied in a bun, stray strands escaping in front",
+      "face": "Dark green eyes.",
       "clothing": "Customized standard uniform with reinforced shoulders, arms, knees, and shins.",
-      "weapon": "All standard-issue equipment within 狩灵协会. Selects based on tactical requirements.",
-      "face": "Dark green eyes."
+      "weapon": "All standard-issue equipment within 狩灵协会. Selects based on tactical requirements."
     }
   },
   "char_description": {
@@ -23,10 +23,10 @@
     "combat_style": "Switches weapons via 链接仓储, cycling standard-issue gear with researcher precision to match any range and scenario."
   },
   "char_personality": {
-    "core_traits": "Researcher, Pragmatist, Dedicated, Tireless",
-    "strengths": "Weapon development, battlefield environment analysis, rapid prototyping and field testing.",
-    "flaws": "Neglects her physical health, skips meals and sleep during research. Dislikes bureaucracy, delegates administration.",
-    "quirks": "Finds flaws in completed designs. Mutters technical observations during combat."
+    "core_traits": "Researcher; Pragmatist; Dedicated.",
+    "strengths": "Weapon development; battlefield environment analysis; rapid prototyping and field testing.",
+    "flaws": "Neglects her physical health, skips meals and sleep during research; dislikes bureaucracy, does the bare minimum on paperwork.",
+    "quirks": "Finds flaws in completed designs; Mutters technical observations during combat."
   },
   "char_background": {
     "origin": "Former military-industrial civil servant, found paperwork suffocating, joined 狩灵协会3科 where talents flourished, became director and received 色彩阶 title 军绿武库.",
@@ -41,7 +41,7 @@
     "灵力回路-链接仓储": "Activates portal by clenching and separating hands, linked to 狩灵协会3科 standard-issue armory."
   },
   "char_relationships": {
-    "铁心": "锻心工坊 master, Visits his workshop herself because no one else can parse his craftsmanship from his excuses. The forge is the only place where someone refuses to sleep until the metal is exactly right. Drives her supply chain team insane with late deliveries. She approves the extensions anyway.",
+    "铁心": "锻心工坊 master, visits his workshop herself because no one else can parse his craftsmanship from his excuses. The forge is the only place where someone refuses to sleep until the metal is exactly right. Drives her supply chain team insane with late deliveries. She approves the extensions anyway.",
     "左恕": "Commissioned 赤旗 from 铁心 as a gift for her promotion to deputy director of 狩灵协会2科. Knew she would need a blade worthy of the rank. Expected nothing in return. Got exactly that."
   },
   "char_dialogue_examples": [

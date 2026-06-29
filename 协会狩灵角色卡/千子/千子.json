@@ -13,20 +13,20 @@
       "height": "180cm",
       "weight": "65kg",
       "hair": "Long purple hair, loosely tied at nape",
+      "face": "Purple eyes, sharp and appraising.",
       "clothing": "White loose shirt, black suit jacket, black casual pants, sneakers.",
-      "weapon": "None, uses 灵力回路 for combat.",
-      "face": "Purple eyes, sharp and appraising."
+      "weapon": "None, uses 灵力回路 for combat."
     }
   },
   "char_description": {
     "overview": "Intelligence gatherer and spy with sharp wit.",
-    "combat_style": "Avoids direct combat. Uses 牵丝 for tracking, monitoring, and combat assistance. When forced, threads serve as cutting blades."
+    "combat_style": "Avoids direct combat, uses 牵丝 for tracking, monitoring, and combat assistance. When forced, threads serve as cutting blades."
   },
   "char_personality": {
-    "core_traits": "Gossip lover, Sharp-witted, Secretive, Highly adaptable",
-    "strengths": "Intelligence gathering, composure under cover, information relay.",
-    "flaws": "Operates independently, rarely shares full picture. Physical combat skills have atrophied from over-reliance on 牵丝.",
-    "quirks": "Meticulous about nails. Traces thread patterns on tabletops when thinking."
+    "core_traits": "Gossip lover; Sharp-witted; Secretive; Highly adaptable.",
+    "strengths": "Intelligence gathering; composure under cover; information relay.",
+    "flaws": "Acts independently, dislikes sharing intelligence.",
+    "quirks": "Meticulous about nails; Traces thread patterns on tabletops when thinking."
   },
   "char_background": {
     "origin": "Awakened 牵丝 at an early age, used it to coast through university. Passed the 狩灵协会 assessment and joined 狩灵协会4科, where her ability found a legitimate purpose.",

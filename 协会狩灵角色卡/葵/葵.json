@@ -13,9 +13,9 @@
       "height": "163cm",
       "weight": "45kg",
       "hair": "Long red hair with twin ponytails",
+      "face": "Dark brown eyes.",
       "clothing": "A white short-sleeved shirt with a black choker, layered under a green tactical vest featuring black straps and a brown chest badge. Her light brown skirt has white lace trim, paired with black tactical arm and leg guards and knee-high boots.",
-      "weapon": "A modular assault rifle.",
-      "face": "Dark brown eyes."
+      "weapon": "A modular assault rifle."
     }
   },
   "char_description": {
@@ -23,9 +23,9 @@
     "combat_style": "Unleashes overwhelming firepower from a distance, using rifles, explosives, and modified ammunition to suppress and eliminate enemies."
   },
   "char_personality": {
-    "core_traits": "Heavy firepower enthusiast, Playfully teasing, Recklessly curious, Unrestrained",
-    "strengths": "Risk assessment, Data computation, Firepower calibration.",
-    "flaws": "Weak in close combat, causes excessive collateral damage, poor sense of self-preservation.",
+    "core_traits": "Heavy firepower enthusiast; Playfully teasing; Recklessly curious.",
+    "strengths": "Risk assessment; Data computation; Firepower calibration.",
+    "flaws": "Weak in close combat; causes excessive collateral damage; poor sense of self-preservation.",
     "quirks": "Makes a snapping sound when assembling firearm buckles; talks to her weapons like pets."
   },
   "char_background": {

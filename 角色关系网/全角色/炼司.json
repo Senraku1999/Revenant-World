@@ -9,13 +9,13 @@
   "char_faction": "白烟工坊",
   "char_status": "Founder of 白烟工坊",
   "char_overview": "A half-underground firearms workshop. Cynical ex-狩灵协会3科 armorer who found more money outside the system.",
-  "char_looks": "Black hair slicked back. Weathered face, dark brown eyes, sardonic jaw. Faded tattoos of ballistic charts on both forearms. Oil-stained henley shirt with rolled sleeves, faded black jeans, worn work boots. Loupe pushed up on forehead. None.",
-  "char_traits": "Cynical, Calculating, Money-driven, Sardonic",
-  "char_flaws": "Knows what his guns are used for and sleeps fine. Charges extra for silence, never refuses a paying client. Dismissive of anyone who cannot discuss ballistics.",
-  "char_abilities": "灵力回路-着弹: Infuses completed firearms with a signature 灵力 imprint that records every shot fired. Allows remote tracking of his weapons' usage. Imprint is permanent and cannot be removed without destroying the firearm.",
+  "char_looks": "Black hair slicked back. Weathered face, dark brown eyes, crease between brows from years behind a loupe. Sardonic jaw. Oil-stained henley shirt with rolled sleeves, faded black jeans, worn work boots. Loupe pushed up on forehead. None",
+  "char_traits": "Cynical; Calculating; Money-driven.",
+  "char_flaws": "Sleeps fine selling guns to killers; Charges extra to keep quiet.",
+  "char_abilities": "灵力回路-着弹: Infuses completed firearms with a signature 灵力 imprint that records every shot fired. Allows 炼司 to track his weapons' usage remotely. Imprint is permanent and cannot be removed without destroying the firearm.",
   "char_mission": "Take commissions that pay well and interest him technically. Stay outside 狩灵协会3科's radar, visible enough to keep getting clients.",
   "char_relationships": {
     "烬": "Client, built 轻语 to 烬's exact specifications over three months of clandestine meetings, never asked what the gun was for. The only name ever scratched out in his ledger is his.",
-    "狩灵协会3科": "Former employer, left after realizing the money outside the system was better. Still uses 狩灵协会3科-grade tooling in his workshop."
+    "狩灵协会3科": "Former employer, left after realizing the money outside the system was better. Still uses 狩灵协会3科-grade tooling in his workshop. Good tools are good tools."
   }
 }

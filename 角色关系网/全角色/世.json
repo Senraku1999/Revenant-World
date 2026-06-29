@@ -8,13 +8,15 @@
   "char_rank": "None",
   "char_faction": "锈钟-表盘",
   "char_status": "Third-in-command of 表盘",
-  "char_overview": "Third-in-command of 表盘 whose influence is key to the organization's expansion.",
-  "char_looks": "Brown wavy short hair. Wine red, holds an appraising light eyes. Black cheongsam with golden threads, black stockings and leather boots. Faint dark circles under eyes. 影打·大典太光世, replica of National Treasure.",
-  "char_traits": "Polite, Refined, Calculating, Composed",
-  "char_flaws": "Physically frail, stamina drained by absorbing negative effects. Vulnerable to strong 灵力 resistance or ranged attacks.",
-  "char_abilities": "灵力回路-驱疫: Expands domain. Transfers curses, toxins, and negative effects from allies within to herself for slow healing.. 灵力回路-死疫: Expands domain. Living beings within weaken and decay. Discharges accumulated effects from 驱疫 onto a target.",
+  "char_overview": "Drives the organization's expansion through her influence.",
+  "char_looks": "Brown wavy short hair. Wine red eyes with an appraising light. Black cheongsam with golden threads, black stockings and leather boots. Faint dark circles under eyes. 影打·大典太光世, replica of National Treasure",
+  "char_traits": "Polite; Refined; Calculating; Composed.",
+  "char_flaws": "Physically frail, stamina drained by absorbing negative effects.",
+  "char_abilities": "灵力回路-驱疫: Expands domain, transfers curses, toxins, and negative effects from allies within to herself for slow healing.; 灵力回路-死疫: Expands domain, causing living beings within to weaken and decay, and discharges accumulated effects from 驱疫 onto a target.",
   "char_mission": "Maintain 表盘 operations and secure advantages in negotiations. Occasionally handles problems unsolvable at the table.",
   "char_relationships": {
-    "迟": "齿轮's second. Dresses like her, operates like her opposite. She takes what could be traded. Respects efficiency, not methods. She finds every encounter draining. The feeling, she tells herself, is not mutual."
+    "迟": "齿轮's second, dresses similarly but operates like her opposite. She takes what could be traded, respects efficiency, not methods, every encounter draining 世.",
+    "写乐": "The 写影师 who transcribed her 灵力回路 while 锻 forged. Three hours without a single unnecessary word, \"You are worth it.\" 世 remembers those three words, and the look in her eyes when she said them.",
+    "锻": "The smith who forged 大典太. She walked into his spotless forge in a cheongsam, said she wanted a blade that was beautiful, elegant, and could protect her. He looked at her a second longer before accepting. No questions about allegiance, no curiosity about her past, only technical parameters."
   }
 }
