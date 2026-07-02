@@ -1,0 +1,22 @@
+{
+  "char_name": "爱",
+  "char_fullname": "雨生 爱",
+  "char_alias": "小爱",
+  "char_gender": "Female",
+  "char_age": "25",
+  "char_identity": "狩灵",
+  "char_rank": "5阶",
+  "char_faction": "来生事务所",
+  "char_status": "Founder of 来生事务所",
+  "char_overview": "Founder of 来生事务所, a 5阶 狩灵 who awakened 御灵 in childhood. Refuses offensive combat, using animal communication for search, tracking, and everyday commissions.",
+  "char_looks": "Pink long hair. Pink eyes, soft expression with a faint smile. Beige knit cardigan over brown t-shirt and pleated long skirt, gray cotton socks and uniform shoes",
+  "char_traits": "Gentle; Diligent; Pragmatic; Principled.",
+  "char_flaws": "Limits herself to minimal self-defense, refusing to actively harm others.",
+  "char_abilities": "灵力回路-御灵: Establishes 灵力-based two-way communication with animals and spirits. Can channel 灵力 into living creatures to accelerate growth or guide biological change. Forcing morphological changes that defy biological logic results in deformity or death.",
+  "char_mission": "Runs 来生事务所, taking commissions that need spirit communion, animal tracking, or a gentle touch rather than combat.",
+  "char_relationships": {
+    "星流": "Saved her from a 扭曲 and gave her the name 星流. Lets her stay at the office as an unofficial member, never pushing her to commit before she is ready.",
+    "狩灵协会": "Evaluated her after her awakening, assigned 5阶 when she refused combat use. She holds neither gratitude nor resentment — it was simply a door she chose not to walk through.",
+    "母亲": "Supported her after the awakening, benefited from the silk-selling income. Ai works quietly to ensure she never has to return to needlework for survival."
+  }
+}

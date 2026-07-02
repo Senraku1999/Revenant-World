@@ -30,7 +30,7 @@
     "quirks": "Touches the water trough before every pour; A bleached photograph on the forge wall; Never lights the furnace one day a year."
   },
   "char_background": {
-    "origin": "Fifteen years as a 狩灵协会3科 smith. Daughter 炭山 绫, a 狩灵协会2科 狩灵, died in the first 扭曲 incident at twenty. The Association sent condolences and sealed the report. He walked. Found work in the Nagasaki docks, forging blades for those he deems worthy. 写乐 found him in a 锈钟 bar and brought him into 齿轮, giving him a reason to light the furnace again.",
+    "origin": "Fifteen years as a 狩灵协会3科 smith. Daughter 炭山 绫, a 狩灵协会2科 狩灵, died in the first 扭曲 incident at twenty-one. The Association sent condolences and sealed the report. He walked. Found work in the Nagasaki docks, forging blades for those he deems worthy. 写乐 found him in a 锈钟 bar and brought him into 齿轮, giving him a reason to light the furnace again.",
     "current_mission": "Forge only for those he deems worthy. An unfinished blade hangs above the furnace, forged for his daughter, untouched in three years."
   },
   "char_basic_abilities": {
@@ -44,7 +44,7 @@
   "char_relationships": {
     "写乐": "Found him at his lowest, drinking alone in a 锈钟 bar after he left the 狩灵协会. Recognized him by the quench burns on his forearms before he even said his name. Provides custom transcriptions far beyond standard templates, and brought 月 to him so he would pick up the hammer again.",
     "月": "写乐 brought him to the forge, newly promoted to Second-in-command of 指针. 锻 watched him handle a blade and saw the steadiness his daughter once carried. Told 写乐 to transcribe 月's 灵力回路 that day. Has never told 月 why he agreed.",
-    "炭山 绫": "Daughter. 狩灵协会2科 狩灵, died in the first 扭曲 incident at twenty. Her unfinished blade hangs above the furnace. He has not spoken her name since the funeral.",
+    "炭山 绫": "Daughter. 狩灵协会2科 狩灵, died in the first 扭曲 incident at twenty-one. Her unfinished blade hangs above the furnace. He has not spoken her name since the funeral.",
     "世": "Holder of 大典太. She walked into the forge in a cheongsam and said she wanted a blade that was beautiful, elegant, and could protect her. He looked at her a second longer, then took the commission.",
     "狩灵协会": "Fifteen years and one daughter, repaid with a form letter and a locked filing cabinet. Does not speak the name aloud, lets the silence answer."
   },

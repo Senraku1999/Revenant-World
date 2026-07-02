@@ -15,8 +15,8 @@ phase('自动脚本')
 
 const rules = {
   CLAUDE_MD: await agent('读取 CLAUDE.md 的标点规则和团队结构部分，仅输出规则摘要。', {label: 'read-claude-md'}),
-  审查计划: await agent('读取 审查文件/其他审查/宏观审查计划.md 全文，仅输出六步流程和分级标准。', {label: 'read-review-plan'}),
-  审查方法论: await agent('读取 审查文件/其他审查/宏观审查方法论.md 全文，仅输出聚合比对原则。', {label: 'read-methodology'}),
+  审查计划: await agent('读取 创作者文件/审查文件/其他审查/宏观审查计划.md 全文，仅输出六步流程和分级标准。', {label: 'read-review-plan'}),
+  审查方法论: await agent('读取 创作者文件/审查文件/其他审查/宏观审查方法论.md 全文，仅输出聚合比对原则。', {label: 'read-methodology'}),
 }
 
 log(`规则文件已读取。CLAUDE.md 标点硬规则："" 唯一引号，—— …… 仅限对话内。其余遵循 GB/T 15834。`)
@@ -49,7 +49,7 @@ const [punctuationResult, logicResult] = await Promise.all([
 你是逻辑一致性审查员。按"先聚合再比对"原则检查项目逻辑一致性。
 
 ## 前置阅读
-必须读取：审查文件/其他审查/宏观审查方法论.md、审查文件/其他审查/宏观审查计划.md、world info/ 全部文件、创作者文件/角色卡标准格式.md、创作者文件/基础能力等级示例.md
+必须读取：创作者文件/审查文件/其他审查/宏观审查方法论.md、创作者文件/审查文件/其他审查/宏观审查计划.md、world info/ 全部文件、创作者文件/创作文件/角色卡标准格式.md、创作者文件/创作文件/基础能力等级示例.md
 
 ## 审查清单
 ### 4a. 同角色三文件交叉比对（JSON ↔ 简介 ↔ 开场白）
@@ -78,7 +78,7 @@ const academicResults = await Promise.all([
   agent(`你是人类学家。读取 world info/ 全部文件，抽样薰/琳/世/光/零的角色文件。从文化系统、帮会亚文化、双重社会、家族仪式角度审查。输出：亮点+问题+T1/T2。`, {label: 'anthropologist', phase: '学术审查'}),
   agent(`你是地理学家。读取 world info/狩灵协会.md 和 world info/锈钟.md，抽样响/君房/光/克羽。从城市分布、地盘空间、场景地理锚定角度审查。输出：亮点+问题+T1/T2。`, {label: 'geographer', phase: '学术审查'}),
   agent(`你是历史学家。读取 world info/ 和事件卡，抽样薰/世/零。从时间线、事件因果、组织起源角度审查。输出：亮点+问题+T1/T2。`, {label: 'historian', phase: '学术审查'}),
-  agent(`你是叙事学家。读取 创作者文件/狩灵开场白创作指导.md，抽样铁心/薰/零/烬/千乐的开场白。从叙事结构、对话风格、收尾台词角度审查。输出：亮点+问题+T1/T2。`, {label: 'narratologist', phase: '学术审查'}),
+  agent(`你是叙事学家。读取 创作者文件/创作文件/狩灵开场白创作指导.md，抽样铁心/薰/零/烬/千乐的开场白。从叙事结构、对话风格、收尾台词角度审查。输出：亮点+问题+T1/T2。`, {label: 'narratologist', phase: '学术审查'}),
   agent(`你是心理学家。读取 world info/异常.md，抽样响/君房/零/烬/薰。从人格张力、创伤处理、缺陷真实性角度审查。输出：亮点+问题+T1/T2。`, {label: 'psychologist', phase: '学术审查'}),
 ])
 
@@ -112,6 +112,6 @@ ${logicResult}
 4. 零问题时明确声明
 `, {label: 'coordinator-summary', phase: '汇总'})
 
-log('审查完成。提醒：清理审查文件/ 目录下的临时文件（_开头的中间产物）。')
+log('审查完成。提醒：清理创作者文件/审查文件/ 目录下的临时文件（_开头的中间产物）。')
 
 return { report }

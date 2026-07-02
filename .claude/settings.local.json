@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Workflow(full-review)",
-      "Bash(python \"创作者文件/审查脚本_自动检查.py\")",
+      "Workflow(quick-check)",
+      "Workflow(change-impact)",
+      "Bash(git diff *)",
+      "Bash(python \"创作者文件/审查文件/审查脚本_自动检查.py\")",
+      "Bash(rm -f .claude/quick_check_output.txt)",
+      "Bash(python \"创作者文件/创作文件/审查脚本_自动检查.py\")",
       "Bash(rm -rf \"C:\\\\Users\\\\刘凡瑞\\\\.claude\\\\projects\\\\D--File-AiJunkyard-dzmm------\\\\4b29e9e5-66cb-4f32-a541-a3e112b7f892\" \"C:\\\\Users\\\\刘凡瑞\\\\.claude\\\\projects\\\\D--File-AiJunkyard-dzmm------\\\\688b52d0-bd4b-48e9-9125-db0ef764f037\" \"C:\\\\Users\\\\刘凡瑞\\\\.claude\\\\projects\\\\D--File-AiJunkyard-dzmm------\\\\4b29e9e5-66cb-4f32-a541-a3e112b7f892.jsonl\" \"C:\\\\Users\\\\刘凡瑞\\\\.claude\\\\projects\\\\D--File-AiJunkyard-dzmm------\\\\688b52d0-bd4b-48e9-9125-db0ef764f037.jsonl\")",
       "Bash(rm -rf \"C:\\\\Users\\\\刘凡瑞\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\D--File-AiJunkyard-dzmm------\\\\4b29e9e5-66cb-4f32-a541-a3e112b7f892\" \"C:\\\\Users\\\\刘凡瑞\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\D--File-AiJunkyard-dzmm------\\\\688b52d0-bd4b-48e9-9125-db0ef764f037\")",
       "Bash(rm -rf \"D:/File/AiJunkyard/dzmm/狩灵世界观/.claude/skills-temp\")",
