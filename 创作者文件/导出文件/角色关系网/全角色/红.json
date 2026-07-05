@@ -9,11 +9,12 @@
   "char_faction": "狩灵协会2科",
   "char_status": "Director of 狩灵协会2科",
   "char_overview": "Spent fifteen years as a 游魂 in the American Southwest before returning to Japan.",
-  "char_looks": "Disheveled short gray hair. Red eyes, half-lidded. White shirt, brown vest, worn boots. Red bandana. 朱殷, paired six-shot revolvers, a fixed blade mounted beneath each barrel. Within blood mist, chambers auto-load blood bullets",
+  "char_looks": "185cm. Disheveled short gray hair Red eyes, half-lidded. White shirt, brown vest, worn boots. Red bandana. 朱殷, paired six-shot revolvers, a fixed blade mounted beneath each barrel. Within blood mist, chambers auto-load blood bullets.",
   "char_traits": "Slacker; Unflappable; Berserker; Perceptive.",
-  "char_flaws": "Shirks all admin; Reckless to self-destruction.",
+  "char_flaws": "Shirks all admin; Reckless to self-destruction.; Takes pulse when bored.",
   "char_abilities": "灵力回路-猩红迷雾: Releases blood mist by cutting skin. The mist extends his circulatory system, pulsing with his heartbeat. Within it: instant translocation, blood-forged weaponry, 360-degree perception. Blood and 灵力 convert bidirectionally; dissipates when wounds seal or 灵力 exhausts.",
   "char_mission": "Push every fight to its limit, leave command duties to others.",
+  "char_origin": "Born in Osaka, moved to the US as a child, awakened at 14 in Arizona. Spent fifteen years as a 游魂 in the American Southwest. Returned at 29, joined at 32, 色彩阶 at 36, 狩灵协会2科 director.",
   "char_relationships": {
     "左恕": "Paperwork he pushes away, she handles, duties he shirks, she shoulders. In blood mist, she commands and he becomes the weapon. Neither says it aloud, 狩灵协会2科 functions because of her."
   }

@@ -20,7 +20,7 @@ if sys.stdout.encoding != 'utf-8':
     sys.stdout.reconfigure(encoding='utf-8')
 
 # ── 配置 ──────────────────────────────────────────
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 os.chdir(PROJECT_ROOT)
 
 VALID_IDENTITY = {"狩灵", "游魂", "罪灵", "异常"}
@@ -30,7 +30,7 @@ VALID_RANK = {"1阶", "2阶", "3阶", "4阶", "5阶", "None",
 # ── 读取专有名词全称表 ──────────────────────────────
 def load_proper_noun_table():
     """从 专有名词全称表.md 解析简称→(全称, 匹配模式)映射，供术语简写检测使用"""
-    table_path = os.path.join(PROJECT_ROOT, "创作者文件", "专有名词全称表.md")
+    table_path = os.path.join(PROJECT_ROOT, "创作者文件", "创作文件", "专有名词全称表.md")
     mapping = {}  # forbidden_form -> (full_name, mode)
     if not os.path.isfile(table_path):
         return mapping
@@ -109,7 +109,7 @@ def get_token_counts():
     violations = []
     for f in sorted(glob("**/*.json", recursive=True)):
         d = os.path.dirname(f)
-        if "事件卡" in d or "世界观卡" in d or "角色关系网" in d:
+        if "事件卡" in d or "世界观卡" in d or "角色关系网" in d or "成品世界书" in d:
             continue
         if f.endswith("_zh.json"):
             continue
@@ -176,7 +176,7 @@ def check_json_structure():
             continue
 
         # 跳过事件卡/世界观卡/角色关系网（不同格式）
-        if "事件卡" in d or "世界观卡" in d or "角色关系网" in d:
+        if "事件卡" in d or "世界观卡" in d or "角色关系网" in d or "成品世界书" in d:
             continue
 
         # 枚举值
@@ -488,7 +488,7 @@ def check_zh_en_consistency():
         if f.endswith("_zh.json"):
             continue
         d = os.path.dirname(f)
-        if "事件卡" in d or "世界观卡" in d or "角色关系网" in d:
+        if "事件卡" in d or "世界观卡" in d or "角色关系网" in d or "成品世界书" in d:
             continue
         zh_f = f.replace(".json", "_zh.json")
         if not os.path.exists(zh_f):

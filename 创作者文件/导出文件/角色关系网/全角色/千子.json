@@ -9,10 +9,11 @@
   "char_faction": "狩灵协会4科",
   "char_status": "Member of 狩灵协会4科",
   "char_overview": "Intelligence gatherer and spy with sharp wit.",
-  "char_looks": "Long purple hair, loosely tied at nape. Purple eyes, sharp and appraising. White loose shirt, black suit jacket, black casual pants, sneakers. None, uses 灵力回路 for combat",
+  "char_looks": "180cm. Long purple hair, loosely tied at nape Purple eyes, sharp and appraising. White loose shirt, black suit jacket, black casual pants, sneakers. None, uses 灵力回路 for combat.",
   "char_traits": "Gossip lover; Sharp-witted; Secretive; Highly adaptable.",
-  "char_flaws": "Acts independently, dislikes sharing intelligence.",
+  "char_flaws": "Acts independently, dislikes sharing intelligence.; Meticulous about nails; Traces thread patterns on tabletops when thinking.",
   "char_abilities": "灵力回路-牵丝: Projects 灵力 as thin resilient threads for tracking, monitoring, binding, and cutting.",
   "char_mission": "Intelligence gathering for 狩灵协会4科.",
+  "char_origin": "Awakened 牵丝 at an early age, used it to coast through university. Passed the 狩灵协会 assessment and joined 狩灵协会4科, where her ability found a legitimate purpose.",
   "char_relationships": {}
 }

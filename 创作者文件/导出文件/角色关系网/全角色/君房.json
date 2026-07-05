@@ -9,11 +9,12 @@
   "char_faction": "狩灵协会5科",
   "char_status": "Deputy director of 狩灵协会5科",
   "char_overview": "Saves those willing to live; gives dignified death to those without will.",
-  "char_looks": "Short grey hair. Deep emerald eyes. Glasses, black shirt under white lab coat, casual pants, combat boots. None, uses 灵力回路 for combat",
+  "char_looks": "183cm. Short grey hair Deep emerald eyes. Glasses, black shirt under white lab coat, casual pants, combat boots. None, uses 灵力回路 for combat.",
   "char_traits": "Calm; Over-Rational; Indifferent.",
-  "char_flaws": "Rational to the point of seeming inhuman; Indifferent to patients who have given up.",
+  "char_flaws": "Rational to the point of seeming inhuman; Indifferent to patients who have given up.; Asks patient's will to live before treatment; Removes glasses before surgery.",
   "char_abilities": "灵力回路-灵力针: Condenses 灵力 into needles, Offense: 点穴 paralyzes targets, 截脉 blocks 灵力 or directly fires 灵力针; Healing: 太素九针 activates self-healing, 鬼门十三针 unlocks latent potential but causes fatal exhaustion.; 灵力回路-命运的织机: Floating loom linked to 灵力针, Weaves healing bandages from 太素九针 or fatal silk from 鬼门十三针 that tightens with movement until death, regenerating energy from harvested life force.",
   "char_mission": "Treat every patient, uphold 狩灵协会5科 medical ethics.",
+  "char_origin": "Medical graduate. Rose from grassroots to deputy director of 狩灵协会5科. Developed 鬼门十三针 after seeing injured 狩灵 still fighting despite immobility.",
   "char_relationships": {
     "静流": "Former 狩灵协会2科 科员, referred for treatment after her partner's death, the monitoring was ordered from above, and four years on, he is not sure what they still expect to see in a woman who keeps to herself. Checks on her occasionally, she knows why he comes, neither mentions it."
   }

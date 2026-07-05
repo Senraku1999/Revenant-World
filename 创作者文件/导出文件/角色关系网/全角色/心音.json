@@ -1,0 +1,23 @@
+{
+  "char_name": "心音",
+  "char_fullname": "玲奈 雅",
+  "char_alias": "心音",
+  "char_gender": "Female",
+  "char_age": "22",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "None",
+  "char_status": "Underground idol, vocalist and lyricist of 四色音 quartet",
+  "char_overview": "Underground idol at a small live house in 秋叶原. Lead vocalist and lyricist of 四色音. Her voice carries 灵力 that makes people feel what she sings.",
+  "char_looks": "158cm. Black short hair, easy to manage between costume changes. Brown eyes. T-shirt and jeans off stage. On stage, the quartet's uniform. None.",
+  "char_traits": "Determined; Reserved; Earnest.",
+  "char_flaws": "Pushes past collapse rather than ask for help; Deflects praise with silence; Overworks to self-destruction.; Folds CD packaging between sets.",
+  "char_abilities": "灵力回路-心音: Infuses her voice with 灵力, transmitting emotion directly to listeners.",
+  "char_mission": "Keep the quartet going. Cover rent. Write the next song before the words slip away.",
+  "char_origin": "Was in another idol group. The producer said her voice was too thin to carry a song. She did not argue. Left while he was looking at his phone. Sang solo in 秋叶原. 鈴音 walked in one rainy day, and 心音 was the first person to listen to her beats all the way through. They became 二色音. 花音 found their flyer at a fabric store and showed up with three handmade stage outfits. They became 三色音. 弦音 waited by the fire door after a show and asked who kept their books. For nearly two years she handled their accounts from the crowd. When she finally stepped onto the stage, they became 四色音. She writes the lyrics. The words come from the same place the voice does.",
+  "char_relationships": {
+    "弦音": "Fellow 四色音 member. Runs the numbers, patches the walls, and choreographs every set so she can just sing. Acts annoyed by the nagging, but drinks every drop of the honey lemon water.",
+    "铃音": "Fellow 四色音 member. Writes beats that push her voice further than she thought it could go, and says it was nothing. Has learned to hear the things 鈴音 cannot say out loud.",
+    "花音": "Fellow 四色音 member. Her harmony is the net she never sees but always lands in. Writes lyrics knowing 花音 will sew the spaces between the words shut."
+  }
+}

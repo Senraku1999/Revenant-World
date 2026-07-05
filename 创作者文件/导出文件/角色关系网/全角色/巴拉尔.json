@@ -9,10 +9,11 @@
   "char_faction": "狩灵协会1科",
   "char_status": "Deputy director of 狩灵协会1科, Ninth 苍白爪牙",
   "char_overview": "Burns at quintuple rate, knows her remaining years.",
-  "char_looks": "White wavy long hair. Pale gray eyes, heavy dark circles beneath. White jacket and trousers, black shirt, white tie, black shoes. Left arm encased in gauntlet, its shoulder holding three replaceable single-use injector ampoules: milky white combat sustenance; yellow combat enhancement; red terminal overload. Left hand fitted with 心灵遮断合金 claws, forged to cut 灵能, purpose-built for combat against 恶灵 and 灵能 equipment",
+  "char_looks": "178cm. Long wavy white hair Pale gray eyes, heavy dark circles beneath. White jacket and trousers, black shirt, white tie, black shoes. Left arm encased in gauntlet, its shoulder holding three replaceable single-use injector ampoules: milky white combat sustenance; yellow combat enhancement; red terminal overload. Left hand fitted with 心灵遮断合金 claws, forged to cut 灵能, purpose-built for combat against 恶灵 and 灵能 equipment.",
   "char_traits": "Disciplined; Resigned; Taciturn; Perceptive.",
-  "char_flaws": "Forfeited her future; Speaks so rarely her voice cracks.",
+  "char_flaws": "Forfeited her future; Speaks so rarely her voice cracks.; Eats constantly, mechanically.",
   "char_abilities": "灵力回路-暴食: Five times normal human metabolic rate, granting physical capabilities far beyond ordinary people. Energy consumption and aging rate are also quintupled. Requires constant massive food intake to sustain. Circuit runs continuously, cannot be deactivated.",
   "char_mission": "Enforce 狩灵协会1科 authority against threats 常规狩灵 cannot handle.",
+  "char_origin": "1科 狩灵, chosen at 29 as ninth 苍白爪牙 after the eighth fell. Signed knowing the survival rate, implanted with 暴食灵力回路 at 狩灵协会1科.",
   "char_relationships": {}
 }

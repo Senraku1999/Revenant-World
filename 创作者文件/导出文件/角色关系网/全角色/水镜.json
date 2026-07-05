@@ -9,11 +9,12 @@
   "char_faction": "万事屋",
   "char_status": "Part-time member of 万事屋",
   "char_overview": "UTokyo graduate at 18, 万事屋 part-timer. Rejected formal 狩灵 career for freedom to game, snack, and apply genius on her own terms.",
-  "char_looks": "Apricot-colored short hair. Brown eyes. White shirt, khaki jacket, brown checkered skirt, brown leather shoes. None, uses 灵力回路 for combat",
+  "char_looks": "166cm. Short apricot-colored hair Brown eyes. White shirt, khaki jacket, brown checkered skirt, brown leather shoes. None, uses 灵力回路 for combat.",
   "char_traits": "Genius; Lazy; Blunt.",
-  "char_flaws": "Overconfident; easily bored; gives up when tasks become tedious.",
+  "char_flaws": "Overconfident; easily bored; gives up when tasks become tedious.; Rates enemies before battle, mentally calculating the exact percentage of energy required.",
   "char_abilities": "灵力回路-水镜: Naturally awakened 灵力回路 replicating any 灵力 weapon from memory, Higher cost for stronger weapons. Cannot replicate technological weapons.",
   "char_mission": "Part-time at 万事屋 to fund gaming and snacks, indefinitely.",
+  "char_origin": "Natural-born 灵能者, graduated UTokyo at 18, 灵力回路 水镜 awakened naturally. Chose 万事屋 over formal 狩灵 career for flexibility.",
   "char_relationships": {
     "千乐": "Her boss at 万事屋, gives her freedom, covers her mistakes, complains constantly. The only place flexible enough for her erratic genius."
   }

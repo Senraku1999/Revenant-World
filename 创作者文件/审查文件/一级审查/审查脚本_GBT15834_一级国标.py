@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 from collections import defaultdict
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 
 # 文件/目录排除列表
 EXCLUDE_DIRS = {

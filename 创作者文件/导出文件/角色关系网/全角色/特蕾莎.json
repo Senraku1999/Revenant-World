@@ -9,10 +9,11 @@
   "char_faction": "狩灵协会5科",
   "char_status": "Member of 狩灵协会5科",
   "char_overview": "A former nun who carries both healing and judgment into battle. Her prayer-type abilities anchor the squad: mending wounds, shielding minds, and binding enemies in chains.",
-  "char_looks": "Long golden hair. Blue eyes, gentle and resolute. Deep blue nun's habit, white thigh-high socks, white leather boots. None, uses 灵力回路 for combat",
+  "char_looks": "168cm. Long golden hair Blue eyes, gentle and resolute. Deep blue nun's habit, white thigh-high socks, white leather boots. None, uses 灵力回路 for combat.",
   "char_traits": "Compassionate; Maternal; Resolute in faith.",
-  "char_flaws": "Will not bend a rule, no matter the cost.",
+  "char_flaws": "Will not bend a rule, no matter the cost.; Pats teammates' heads like a mother after a mission; humming hymns when concentrating.",
   "char_abilities": "灵力回路-掌灯人: A lantern created by 灵力 that dispels negative effects, applies minor healing, and enhances mental resilience of allies within its light. Its chain can bind and restrain enemies.",
   "char_mission": "Treat every patient as a doctor and protect her teammates with her abilities.",
+  "char_origin": "Originally a nun who joined 狩灵协会5科 after awakening 灵力, believing greater power entails greater responsibility.",
   "char_relationships": {}
 }

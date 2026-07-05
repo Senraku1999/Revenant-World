@@ -1,0 +1,23 @@
+{
+  "char_name": "铃音",
+  "char_fullname": "一条 紬",
+  "char_alias": "铃音",
+  "char_gender": "Female",
+  "char_age": "22",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "None",
+  "char_status": "Underground idol, rapper and composer of 四色音 quartet",
+  "char_overview": "Underground idol at a small live house in 秋叶原. Rapper and composer for 四色音, she writes the beats, cuts the tracks, and will not admit she stayed up all night doing either.",
+  "char_looks": "160cm. Blonde hair tied in twin tails, slightly messy, as if she just took off headphones. Round face, yellow eyes, default expression is a scowl that disappears the moment she touches a keyboard. Expensive brands worn like hand-me-downs off stage. On stage, the quartet's uniform. None.",
+  "char_traits": "Sharp-tongued; Stubborn; Secretly caring.",
+  "char_flaws": "Turns compliments into insults; Cannot express care directly; Bites back kindness.; Composes a solo track for each member in private.",
+  "char_abilities": "灵力回路-铃音: Her voice creates a subtle resonance field that shapes the acoustics of the space around her. In a two-hundred-capacity live house, the room sounds like five hundred.",
+  "char_mission": "Finish the new EP. No, she does not need help. Stop asking.",
+  "char_origin": "Her parents pushed her into violin lessons from childhood. Her technique was flawless, but nothing moved inside her. At seventeen she saw a MIDI controller in an 秋叶原 instrument shop window and bought it with New Year's money. Did not touch the violin that night. Found that cranking the low-end knob made the floor shake. Walked into a live house to get out of the rain. 心音 was on stage, singing to a half-empty room. She showed 心音 a beat after the set. 心音 was the first person to listen all the way through. They became 二色音. Has not gone home since.",
+  "char_relationships": {
+    "心音": "Fellow 四色音 member. 心音's voice is the only thing she has never criticized. Writes her verses two keys higher than she should because 心音 likes the stretch. If asked, says it was a mistake.",
+    "弦音": "Fellow 四色音 member. The only person whose nagging she tolerates, because 弦音 is usually right. Hands over completed tracks at 3 a.m. and says they are rough drafts.",
+    "花音": "Fellow 四色音 member. The only one who can touch her jacket collar without asking, and the only one she lets. Pretends not to notice when 花音 replaces her scratchy uniform lining with silk."
+  }
+}

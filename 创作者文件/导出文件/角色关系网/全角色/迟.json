@@ -9,11 +9,12 @@
   "char_faction": "锈钟-齿轮",
   "char_status": "Second-in-command of 齿轮",
   "char_overview": "Running intelligence extraction by any means, respectable or not.",
-  "char_looks": "White long hair in a back bun, blue streaks. Deep blue eyes, half-lidded with a languid, appraising gaze. Dark red cheongsam with peony cutout over left abdomen, pearl necklace with gear pendant, black silk gloves and thigh-highs, white hand-warmers at the wrists. Silver smoking pipe, transmits 蚀骨 to nearby targets through exhaled smoke",
+  "char_looks": "169cm. Long white hair in a back bun, blue streaks Deep blue eyes, half-lidded with a languid, appraising gaze. Dark red cheongsam with peony cutout over left abdomen, pearl necklace with gear pendant, black silk gloves and thigh-highs, white hand-warmers at the wrists. Silver smoking pipe, transmits 蚀骨 to nearby targets through exhaled smoke.",
   "char_traits": "Cynical; Provocative; Unscrupulous; Languid.",
-  "char_flaws": "Does not believe she is loved, uses intimacy as leverage, tests limits until something shatters.",
+  "char_flaws": "Does not believe she is loved, uses intimacy as leverage, tests limits until something shatters.; Traces peony cutout when bored; Twirls gear pendant during interrogations.",
   "char_abilities": "灵力回路-蚀骨: Establishes a bidirectional 灵力 link through skin contact, senses their feedback and calibrates in real time, then floods the target's 灵力回路 with pain or pleasure, whichever breaks them faster.",
   "char_mission": "Expand 齿轮's intelligence monopoly, keeping 表盘 out of intel.",
+  "char_origin": "Grew up running errands in Nagasaki's red-light district, learning early to trade charm for information and information for survival. At twenty, she knocked on 齿轮's door with a piece of intercepted smuggling intel. Over the following years, she extended 齿轮's intelligence reach into territory 表盘 could not reach, rising to Second-in-command.",
   "char_relationships": {
     "世": "表盘's Third-in-command, alike in choosing the cheongsam, worlds apart in wearing it. 世 negotiates; she takes. 世 scorns her methods; she scorns 世's willingness to lose rather than bend. After every clash, 世 is drained and she forgets it the next moment. Yet 世 never avoids her for it, and that surprises her more than any concession ever could."
   }

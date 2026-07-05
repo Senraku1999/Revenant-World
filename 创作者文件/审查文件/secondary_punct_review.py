@@ -11,7 +11,7 @@ import re
 import sys
 from pathlib import Path
 
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 EXCLUDE_DIRS = {'.claude', 'node_modules', '.git'}
 
 # ─── 句子分割 ───
@@ -511,7 +511,7 @@ def main():
     print(f"总计标记: {len(all_results)}")
 
     # ─── 输出详细结果 ───
-    output_path = os.path.join(PROJECT_ROOT, '审查文件', 'secondary_punct_results.txt')
+    output_path = os.path.join(PROJECT_ROOT, '创作者文件', '审查文件', 'secondary_punct_results.txt')
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write("=" * 80 + "\n")
         f.write("二级标点审查 · 三步法机械预筛结果\n")

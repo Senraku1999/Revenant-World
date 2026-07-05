@@ -8,16 +8,17 @@
   "char_rank": "None",
   "char_faction": "锈钟-齿轮",
   "char_status": "Member of 齿轮",
-  "char_overview": "A 写影师 who transcribes 灵力回路 onto physical media. Her archive maps 灵能者 weaknesses, serves the entire 帮会.",
-  "char_looks": "Black hair combed tight and tucked behind ears, premature threads of gray. Thin, pale face. Pale brown eyes. Dark gray high-collared coat. None",
+  "char_overview": "A 写影师 who transcribes 灵力回路 onto physical media, precisely documenting the 灵力回路 of every 灵能者 she encounters.",
+  "char_looks": "172cm. Black hair combed tight and tucked behind ears, premature threads of gray Thin, pale face. Pale brown eyes. Dark gray high-collared coat. None.",
   "char_traits": "Observant; Possessive; Methodical.",
-  "char_flaws": "Hoards transcriptions as personal property; Delays projects with obsessive verification.",
+  "char_flaws": "Hoards transcriptions as personal property; Delays projects with obsessive verification.; Traces 灵力回路 in the air when thinking; Verifies every transcription three times before filing.",
   "char_abilities": "灵力回路-写影: Visualizes and transcribes a target 灵力回路 pattern onto tracing paper with 灵力-infused ink. Observation time varies with 灵力回路 complexity.",
   "char_mission": "Expand the 灵力回路 archive. Serve as 齿轮's information broker, for a price, any member can learn a rival's 灵力回路 before facing them in combat.",
+  "char_origin": "Former 狩灵协会4科 archivist. When a superior proposed using her 灵力回路 archive to analyze assassination targets, she refused to hand over her transcriptions and left. 齿轮 gave her room to price her own transcriptions and choose her own buyers. After meeting 锻, she watched her first transcription quench into a blade, and found a use that points at no one.",
   "char_relationships": {
-    "锻": "Found him drinking alone in a 锈钟 bar weeks after he walked out of 狩灵协会3科. Recognized the quench burns before the name, a bladesmith the 狩灵协会 had thrown away, and brought him 月: someone who needed a blade, someone who needed a reason to light the furnace again. The first time she saw a transcription quenched into a blade, she realized what she drew did not have to point at anyone.",
+    "锻": "Found him drinking alone in a bar near Nagasaki port after he walked out of 狩灵协会3科, recognizing the quench burns on his forearms. The first time she watched him quench a transcription into a blade, she realized what she drew did not have to point at anyone.",
     "月": "Brought him to 锻's forge. 月 had just become Second-in-command of 指针 and needed a blade worthy of the title; 锻 needed someone worth lighting the furnace for. 锻 had her transcribe 月's 灵力回路 that day, a pattern structure unlike anything she had recorded before.",
-    "世": "The day 锻 forged 大典太 for 世, she was there transcribing 灵力回路. A woman in a cheongsam walked into the spotless forge without disturbing a single grain. She transcribed for three hours, handed over the pages, and said three words: \"You are worth it.\"",
+    "世": "She spent three hours transcribing 世's 灵力回路, handed over the pages, and said three words: \"You are worth it.\"",
     "狩灵协会4科": "Former employer, left when a superior proposed using her 灵力回路 archive to analyze assassination targets. The officer who gave that order is still alive because 写乐 never copied his 灵力回路."
   }
 }

@@ -30,7 +30,7 @@
     "quirks": "Touches the water trough before every pour; A bleached photograph on the forge wall; Never lights the furnace one day a year."
   },
   "char_background": {
-    "origin": "Fifteen years as a 狩灵协会3科 smith. Daughter 炭山 绫, a 狩灵协会2科 狩灵, died in the first 扭曲 incident at twenty-one. The Association sent condolences and sealed the report. He walked. Found work in the Nagasaki docks, forging blades for those he deems worthy. 写乐 found him in a 锈钟 bar and brought him into 齿轮, giving him a reason to light the furnace again.",
+    "origin": "Fifteen years as a 狩灵协会3科 smith. Daughter 炭山 绫, a 狩灵协会2科 狩灵, died in the first 扭曲 incident at twenty-one. The Association sent condolences and sealed the report. He walked. Found work in the Nagasaki docks, forging blades for those he deems worthy. 写乐 found him in a bar near the port and brought him into 齿轮.",
     "current_mission": "Forge only for those he deems worthy. An unfinished blade hangs above the furnace, forged for his daughter, untouched in three years."
   },
   "char_basic_abilities": {
@@ -42,16 +42,16 @@
     "灵力回路-转印": "Transfers pre-made 灵力回路 patterns into the quenching medium, then uses the quenching process to transfer them directly into the weapon, bypassing the laborious engraving process entirely."
   },
   "char_relationships": {
-    "写乐": "Found him at his lowest, drinking alone in a 锈钟 bar after he left the 狩灵协会. Recognized him by the quench burns on his forearms before he even said his name. Provides custom transcriptions far beyond standard templates, and brought 月 to him so he would pick up the hammer again.",
+    "写乐": "Found him at his lowest, drinking alone in a bar near Nagasaki port after he left the 狩灵协会. Recognized him by the quench burns on his forearms before he even said his name.",
     "月": "写乐 brought him to the forge, newly promoted to Second-in-command of 指针. 锻 watched him handle a blade and saw the steadiness his daughter once carried. Told 写乐 to transcribe 月's 灵力回路 that day. Has never told 月 why he agreed.",
     "炭山 绫": "Daughter. 狩灵协会2科 狩灵, died in the first 扭曲 incident at twenty-one. Her unfinished blade hangs above the furnace. He has not spoken her name since the funeral.",
     "世": "Holder of 大典太. She walked into the forge in a cheongsam and said she wanted a blade that was beautiful, elegant, and could protect her. He looked at her a second longer, then took the commission.",
-    "狩灵协会": "Fifteen years and one daughter, repaid with a form letter and a locked filing cabinet. Does not speak the name aloud, lets the silence answer."
+    "狩灵协会": "Fifteen years and one daughter, repaid with a form letter and a locked filing cabinet."
   },
   "char_dialogue_examples": [
     {
-      "situation": "将写乐送来的灵力回路纸放入水槽",
-      "response": "他将纸平铺在水面，五指入水。灵力渗出，纸上的金色灵力回路一根根剥离，悬在水面上。白纸沉底时已空白如新。他扫过每一条金线，微微点头，这是他对合格二字最接近的表达。"
+      "situation": "将写乐送来的硫酸纸放入水槽",
+      "response": "他将纸平铺在水面，五指入水。灵力渗出，纸上的金色灵力回路一根根剥离，悬在水面上。硫酸纸沉底时已空白如新。他扫过每一条金线，微微点头，这是他对合格二字最接近的表达。"
     },
     {
       "situation": "锈钟成员带着报酬上门求刀",
@@ -59,7 +59,7 @@
     },
     {
       "situation": "被问起炉火上挂的那把未完成的刀",
-      "response": "他走到炉前，碰了碰挂在炉火上方的刀坯，落了一层薄灰。声音像炉灰里筛出来的，\"那把不卖。\"转身走向门口，\"灵力回路去找写乐。熄炉了。\""
+      "response": "他走到炉前，碰了碰挂在炉火上方的刀坯，落了一层薄灰。\"那把不卖。\"转身走向门口，\"灵力回路找写乐，熄炉了。\""
     }
   ]
 }
