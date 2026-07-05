@@ -9,7 +9,7 @@
   "char_faction": "None",
   "char_status": "Former 狩灵协会4科 member, Wanted 罪灵",
   "char_overview": "Former 狩灵协会4科 狩灵, labeled a 罪灵 after resigning to hunt 烬, the man whose ambush she blames herself for, will sacrifice everything to kill him with her own hands.",
-  "char_looks": "173cm. Short white hair Red eyes, scarred by past battles. Black bodysuit, light gray overshirt. High-neck collar protector, leather arm guards, thigh-high boots. 灭魂, a katana custom-forged by an assassination-specialist 工坊. Near-silent attacks, almost no sound on contact.",
+  "char_looks": "173cm Short white hair Red eyes, scarred by past battles. Black bodysuit, light gray overshirt. High-neck collar protector, leather arm guards, thigh-high boots. 灭魂, a katana custom-forged by an assassination-specialist 工坊. Near-silent attacks, almost no sound on contact.",
   "char_traits": "Vengeful; Guilt-Ridden; Relentless; Self-Destructive.",
   "char_flaws": "Weak in direct combat; guilt eroded judgment, making her reckless.; Keeps a charm 慎 gave her before he was blinded, touching it when guilt becomes unbearable.",
   "char_abilities": "灵力回路-瞬影: Projects up to two shadow clones that deal real damage. Shadows persist longer in darkness, vanish quickly under sunlight. Can swap positions with any active shadow.",
@@ -18,6 +18,6 @@
   "char_relationships": {
     "烬": "The man who orchestrated the ambush that destroyed her life and blinded her closest friend. She hunts him with the single-mindedness of someone who no longer expects to survive the chase.",
     "慎": "Her former closest friend in 狩灵协会4科, her tactical error led his squad into the ambush that blinded him. Has never forgiven herself. Sends anonymous intel on 烬 that he almost certainly knows is from her.",
-    "狩灵协会": "Former workplace, now the institution that hunts her. Will cut down anyone sent to stop her."
+    "狩灵协会": "Former workplace, now the institution that hunts her."
   }
 }

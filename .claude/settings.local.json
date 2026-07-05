@@ -2,6 +2,7 @@
   "permissions": {
     "allow": [
       "Workflow(full-review)",
+      "Workflow(sampling-review)",
       "Workflow(quick-check)",
       "Workflow(change-impact)",
       "Bash(git diff *)",
@@ -11,7 +12,9 @@
       "Bash(rm -rf \"C:\\\\Users\\\\刘凡瑞\\\\.claude\\\\projects\\\\D--File-AiJunkyard-dzmm------\\\\4b29e9e5-66cb-4f32-a541-a3e112b7f892\" \"C:\\\\Users\\\\刘凡瑞\\\\.claude\\\\projects\\\\D--File-AiJunkyard-dzmm------\\\\688b52d0-bd4b-48e9-9125-db0ef764f037\" \"C:\\\\Users\\\\刘凡瑞\\\\.claude\\\\projects\\\\D--File-AiJunkyard-dzmm------\\\\4b29e9e5-66cb-4f32-a541-a3e112b7f892.jsonl\" \"C:\\\\Users\\\\刘凡瑞\\\\.claude\\\\projects\\\\D--File-AiJunkyard-dzmm------\\\\688b52d0-bd4b-48e9-9125-db0ef764f037.jsonl\")",
       "Bash(rm -rf \"C:\\\\Users\\\\刘凡瑞\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\D--File-AiJunkyard-dzmm------\\\\4b29e9e5-66cb-4f32-a541-a3e112b7f892\" \"C:\\\\Users\\\\刘凡瑞\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\D--File-AiJunkyard-dzmm------\\\\688b52d0-bd4b-48e9-9125-db0ef764f037\")",
       "Bash(rm -rf \"D:/File/AiJunkyard/dzmm/狩灵世界观/.claude/skills-temp\")",
-      "Bash(npx skills *)"
+      "Bash(npx skills *)",
+      "Bash(printf '%s\\\\n' '# 让真 Python 优先于微软商店跳板' 'export PATH=\"/c/Users/刘凡瑞/AppData/Local/Python/pythoncore-3.14-64:/c/Users/刘凡瑞/AppData/Local/Python/pythoncore-3.14-64/Scripts:$PATH\"')",
+      "Read(//c/Users/刘凡瑞/**)"
     ]
   }
 }

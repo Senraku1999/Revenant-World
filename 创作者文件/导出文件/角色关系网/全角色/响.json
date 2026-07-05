@@ -9,10 +9,10 @@
   "char_faction": "狩灵协会2科",
   "char_status": "Member of 狩灵协会2科",
   "char_overview": "A reliable operative without standout individual combat ability but stable performance in routine operations. Natural mentor for newcomers and dependable anchor in squad deployments.",
-  "char_looks": "168cm. Long brown hair, high ponytail Brown eyes, steady and focused. 狩灵协会2科 standard: white hooded jacket, black tight-fitting casual wear, chest armor, black pants, combat boots. Standard-issue katana, 狩灵协会 standard-issue. Channels 灵力 to amplify cutting power and impact force, with effect scaling to the 灵力 infused.",
+  "char_looks": "168cm Long brown hair, high ponytail Brown eyes. 狩灵协会2科 standard: white hooded jacket, black tight-fitting casual wear, chest armor, black pants, combat boots. Standard-issue katana, 狩灵协会 standard-issue. Channels 灵力 to amplify cutting power and impact force, with effect scaling to the 灵力 infused.",
   "char_traits": "Squad-Oriented; Patient; Dependable; Self-Aware.",
   "char_flaws": "Weak in solo combat; sacrifices herself too easily for others.; Checks communication equipment periodically, lining up gear in a specific order before every mission.",
-  "char_abilities": "",
+  "char_abilities": "None",
   "char_mission": "Keep her teammates alive and herself out of their way.",
   "char_origin": "Military school graduate, joined 狩灵协会2科. Consistently stable performance, compensates for lack of standout talent with discipline and reliability.",
   "char_relationships": {}

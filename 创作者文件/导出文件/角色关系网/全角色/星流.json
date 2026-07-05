@@ -9,7 +9,7 @@
   "char_faction": "来生事务所",
   "char_status": "Unofficial member of 来生事务所",
   "char_overview": "A quiet unranked 游魂 whose 灵能 defies standard classification. Found refuge at 来生事务所.",
-  "char_looks": "157cm. Long blue-white hair reaching the waist, star-shaped hair clip on the upper right side Bright blue eyes, often unfocused with a distant gaze. Dark blue long-sleeved coat, canvas trousers, sneakers. 落辰, commissioned by 来生事务所 from 蜂巢工坊. Manifests as rapier by default; can switch to slingshot form. Power scales with user's 灵力 reserves.",
+  "char_looks": "157cm Long blue-white hair reaching the waist, star-shaped hair clip on the upper right side Bright blue eyes. Dark blue long-sleeved coat, canvas trousers, sneakers. 落辰, commissioned by 来生事务所 from 蜂巢工坊. Manifests as rapier by default; can switch to slingshot form. Power scales with user's 灵力 reserves.",
   "char_traits": "Resilient; Detached; Wary; Adaptable.",
   "char_flaws": "Chronically low energy; Detached demeanor hinders collaboration; Wary of authority.; Fidgets with her star hair clip when anxious; Speaks in short, trailing sentences.",
   "char_abilities": "灵力回路-星尘: Condenses 灵力 into blue particles that alter the trajectory of nearby objects. Cost scales with target speed and mass.",
@@ -19,6 +19,8 @@
     "来生事务所": "The only place that took her in. Helps with small tasks but still feels like an outsider.",
     "爱": "Saved her life and gave her a name. Quiet gratitude, lingering indebtedness.",
     "狩灵协会": "Dismissed her without a second look. Holds no grudge, only resigned acceptance.",
-    "铃": "Designed and built 落辰, commissioned by 来生事务所. The variable-output mechanism adapts perfectly to her unstable 灵力."
+    "铃": "Designed and built 落辰, commissioned by 来生事务所. The variable-output mechanism adapts perfectly to her unstable 灵力.",
+    "天": "New member, always training in the back lot, breaking things and regrowing them. Leaves snacks on her desk without saying anything, which she eats when no one is looking.",
+    "雨": "Quiet like her, but in a different way , deliberate rather than withdrawn. Leaves tea on the table when she passes by. Neither of them speaks much, and that is fine."
   }
 }

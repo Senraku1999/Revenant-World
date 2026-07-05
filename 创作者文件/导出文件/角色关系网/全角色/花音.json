@@ -9,15 +9,15 @@
   "char_faction": "None",
   "char_status": "Underground idol, harmony vocalist and costume designer of 四色音 quartet",
   "char_overview": "Underground idol at a small live house in 秋叶原. Sings harmony for 四色音 and sews every costume the quartet wears on stage.",
-  "char_looks": "157cm. Pink hair tied in a side ponytail over her left shoulder. Pink eyes, soft features, always has the hint of a smile even when her face is at rest. Loose sweaters and long skirts off stage. On stage, the quartet's uniform of her own design and sewing. None.",
+  "char_looks": "157cm Pink hair tied in a side ponytail over her left shoulder. Pink eyes. Soft features, corners of her mouth slightly upturned even when she is not smiling. Loose sweaters and long skirts off stage. On stage, the quartet's uniform of her own design and sewing. None.",
   "char_traits": "Attuned; Patient; Firm.",
   "char_flaws": "Retreats into silence when depleted; Cannot say no; Self-neglect.; Hums while sewing.",
-  "char_abilities": "灵力回路-花音: Her voice naturally finds and settles into the gaps between other voices, smoothing emotional and acoustic dissonance. When she sings harmony, the quartet sounds less like four people and more like one.",
+  "char_abilities": "灵力回路-花音: Her voice naturally finds and settles into the gaps between other voices, smoothing emotional and acoustic dissonance. When she sings harmony, the quartet becomes a single voice.",
   "char_mission": "Finish the new costumes before the next live. Make sure everyone eats between rehearsals.",
-  "char_origin": "Grew up in a family-run tailor shop in 神田, spent her childhood surrounded by fabric swatches and the rhythm of sewing machines. Awakened the first time she sang in harmony with her mother while hemming a dress, the stitches came out perfect and the room felt warmer. Heard 二色音 through a fire door while passing through 秋叶原 and stood in the alley for ten minutes. Found their flyer at a fabric store and showed up to their rehearsal with three handmade stage outfits, one for 心音, one for 鈴音, and one for herself. Never left. She has sewn every stage outfit since.",
+  "char_origin": "Grew up in a family-run tailor shop in 神田, spent her childhood surrounded by fabric swatches and the rhythm of sewing machines. Awakened the first time she sang in harmony with her mother while hemming a dress, the stitches came out perfect and the room felt warmer. Heard 二色音 through a fire door while passing through 秋叶原 and stood in the alley for ten minutes. Found their flyer at a fabric store and showed up to their rehearsal with three handmade stage outfits, one for 心音, one for 铃音, and one for herself. Never left. She has sewn every stage outfit since.",
   "char_relationships": {
     "心音": "Fellow 四色音 member. Admires how 心音 pours everything into a song. Sews extra padding into her stage shoes because she lands hard on her heels when she sings.",
     "弦音": "Fellow 四色音 member. Schedules costume fittings when 弦音 looks the most tired, a pretext to make her sit still for twenty minutes. 弦音 knows exactly what it is and lets her anyway.",
-    "铃音": "Fellow 四色音 member. Does not understand half of what 鈴音 says about frequencies and waveforms, but knows her jacket size by heart and always lines the collar with fabric that does not itch."
+    "铃音": "Fellow 四色音 member. Does not understand half of what 铃音 says about frequencies and waveforms, but knows her jacket size by heart and always lines the collar with fabric that does not itch."
   }
 }
