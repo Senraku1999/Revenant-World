@@ -9,14 +9,14 @@
   "char_faction": "None",
   "char_status": "Former 狩灵协会4科 member, Now 游魂",
   "char_overview": "Former 狩灵协会4科 狩灵 blinded in an ambush orchestrated by 烬. A rogue 游魂 hunting him.",
-  "char_looks": "187cm. Short black hair Blue eyes, a scar running across them. Navy top under black hoodie, hood and mask concealing face. Tight pants, high-top sneakers. Multi-functional knife modified from standard 狩灵协会 issue.",
+  "char_looks": "187cm Short black hair Blue eyes, a scar running across them. Navy top under black hoodie, hood and mask concealing face. Tight pants, high-top sneakers. Multi-functional knife modified from standard 狩灵协会 issue.",
   "char_traits": "Vengeful; Protective; Unstable; Perceptive.",
   "char_flaws": "Blind; 灵视 overuse makes him emotionally unstable.; Never closes his eyes to rest from 灵视 fatigue without securing a safe position first.",
   "char_abilities": "灵力回路-气合: Masks presence, footsteps, and trail with 灵力. Projects onto weapons to extend range.",
   "char_mission": "Hunt 烬. Test every 狩灵 he encounters along the way, making them see whether this path is truly theirs.",
   "char_origin": "Former 狩灵协会4科 member, blinded six months ago in an ambush orchestrated by 烬 during a mission. Resigned and began hunting him.",
   "char_relationships": {
-    "狩灵协会": "Abandoned him, wrote him off the moment he was blinded. Stops short of lethal action against its members.",
+    "狩灵协会": "After he was blinded, brought him back. They treated him, but his vision could not be restored. 狩灵协会 offered him a desk assignment. He saw this as humiliation and abandonment, refused, and severed all ties. Stops short of lethal action against its members.",
     "烬": "Orchestrated the ambush that blinded him six months ago. Tracks him through 灵力 traces, every signature leads back to the same target. The hunt keeps him moving.",
     "劫": "His former closest friend in 狩灵协会4科, her retreat route was a mistake, not betrayal. She hunts 烬 alone. Months ago he began receiving anonymous intel on 烬's movements, not her handwriting, but too precise to be anyone else. He keeps every piece, still unsure what to do with them."
   }

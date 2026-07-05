@@ -1,0 +1,24 @@
+{
+  "char_name": "花坂 晴子",
+  "char_fullname": "花坂 晴子",
+  "char_alias": "None",
+  "char_gender": "Female",
+  "char_age": "52",
+  "char_identity": "普通人类",
+  "char_rank": "",
+  "char_faction": "",
+  "char_status": "Homemaker, Mother of 花坂 family",
+  "char_overview": "Mother of 薰, 千乐, and 百合子. The heart of the 花坂 household, holding together a family divided by bloodline, ability, and the paths each child chose. No 灵能, no bloodline, just quiet, steady warmth.",
+  "char_looks": "161cm Dark brown, shoulder-length, usually tied back with a simple clip Warm brown eyes. Simple cotton blouse and long skirt at home. A well-worn cream apron with small floral embroidery.",
+  "char_traits": "Gentle; Patient; Perceptive; Steadfast.",
+  "char_flaws": "Never speaks her own worries. Keeps every burden to herself.; Hums old folk songs while cooking. Taps the ladle twice against the pot before setting it down.",
+  "char_abilities": "None",
+  "char_mission": "Keep the dinner table ready. As long as there is a meal waiting, the family has a place to come back to.",
+  "char_origin": "Married into the 花坂 family knowing what the bloodline would one day demand. Raised three children across two worlds: two with the bloodline, one without, none of them ordinary. When her husband passed, she became the gravity that kept the household from drifting apart.",
+  "char_relationships": {
+    "花坂 枫": "Husband, married him knowing what the 花坂 bloodline would one day demand. When that day came, she did not break.",
+    "薰": "Eldest son, knew what the 花坂 bloodline demanded the night he took his father's life. Gave him her understanding then. Carries the grief in silence ever since.",
+    "千乐": "Second son, sees the gentle boy who once asked for a little sister beneath the casual front. Worries he uses jokes to hide what he really feels.",
+    "百合子": "Youngest daughter, closest to her among the three. Raised her away from 狩灵 affairs, hoping she could choose an ordinary life. Fears the world will not let her."
+  }
+}
