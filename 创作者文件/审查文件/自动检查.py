@@ -160,19 +160,19 @@ def get_token_counts():
 
     print()
     print("=" * 60)
-    print("开场白 Token 计数 (区间 900-1,100)")
+    print("开场白 Token 计数 (区间 600-800)")
     print("=" * 60)
     for f in sorted(glob("角色卡/**/*开场白.md", recursive=True)):
         d = os.path.dirname(f)
-        if "事件卡" in d or "世界观卡" in d:
+        if "事件卡" in d or "世界观卡" in d or "异常角色卡" in d:
             continue
         with open(f, "r", encoding="utf-8") as fh:
             content = fh.read()
         tokens = len(enc.encode(content))
         name = os.path.basename(f)
-        if tokens > 1100:
+        if tokens > 800:
             print(f"  OVER  {name:20s} {tokens:4d}")
-        elif tokens < 900:
+        elif tokens < 600:
             print(f"  UNDER {name:20s} {tokens:4d}")
 
 
