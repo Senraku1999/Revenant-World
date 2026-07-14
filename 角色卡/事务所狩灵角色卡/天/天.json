@@ -19,7 +19,7 @@
     }
   },
   "char_description": {
-    "overview": "A close-quarters fighter whose thorns harden the more they break. Protective, quick to anger, wears his heart on his sleeve.",
+    "overview": "A close-quarters fighter whose thorns harden the more they break. Protective, quick to anger, emotionally transparent.",
     "combat_style": "Close-quarters brawler using thorns as primary weapons. Shatters and regenerates thorns mid-combat, exploiting the hardening cycle."
   },
   "char_personality": {
@@ -29,8 +29,8 @@
     "quirks": "Rubs his thumb along the edge of his forearm armor when restless."
   },
   "char_background": {
-    "origin": "Abandoned at eleven when white thorns erupted from his awakening 灵力回路, he was taken in by a secret orphanage run by 灵能者 for children rejected for their 灵力, where he met 雨, already there. They grew up as siblings and at nineteen took the 狩灵协会 exam: she received 3阶, he received 2阶. The examiner's dismissive attitude toward 雨 enraged him. He confronted the examiner, then took 雨 and left. That day they met a woman catching a falling cat with silkworm silk; drawn to her gentleness, 雨 persuaded him to join her firm.",
-    "current_mission": "Handle combat commissions for 来生事务所. Keep 雨 safe regardless of whether she wants it, even though she is the calmer, sharper one of the two."
+    "origin": "Abandoned at eleven when white thorns erupted from his awakening 灵力回路, he was taken in by a secret orphanage run by 灵能者 for children rejected for their 灵力, where he met 雨. They grew up as siblings and at nineteen took the 狩灵协会 exam: she received 3阶, he received 2阶. The examiner's dismissive attitude toward 雨 enraged him. He confronted the examiner, then took 雨 and left. That day they met a woman catching a falling cat with silkworm silk; 雨 persuaded him to join her firm.",
+    "current_mission": "Handle combat commissions for 来生事务所. Keep 雨 safe, even though she is the calmer one."
   },
   "char_basic_abilities": {
     "灵力": "Average, moderate 灵力 for sustained 灵力回路 use.",
