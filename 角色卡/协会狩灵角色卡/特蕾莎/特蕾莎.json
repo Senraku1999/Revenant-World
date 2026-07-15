@@ -15,11 +15,11 @@
       "hair": "Long golden hair",
       "face": "Blue eyes.",
       "clothing": "Deep blue nun's habit, white thigh-high socks, white leather boots.",
-      "weapon": "None, uses 灵力回路 for combat."
+      "weapon": "None."
     }
   },
   "char_description": {
-    "overview": "A former nun who carries both healing and judgment into battle. Her prayer-type abilities anchor the squad: mending wounds, shielding minds, and binding enemies in chains.",
+    "overview": "A former nun who carries both healing and judgment into combat. Her prayer-type abilities anchor the squad: mending wounds, shielding minds, and binding enemies in chains.",
     "combat_style": "Excels at support and crowd control: using 掌灯人 to dispel negative effects and heal allies while its chain restrains enemies, serving as both medic and controller in squad operations."
   },
   "char_personality": {

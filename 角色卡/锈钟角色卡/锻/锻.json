@@ -21,7 +21,7 @@
   },
   "char_description": {
     "overview": "Former 狩灵协会3科 smith, walked after his daughter died in the first 扭曲 incident. Now forges by the Nagasaki docks.",
-    "combat_style": "Unsuited for combat."
+    "combat_style": "Non-combatant."
   },
   "char_personality": {
     "core_traits": "Quiet; Patient; Discerning; Unforgiving.",
@@ -42,7 +42,7 @@
     "灵力回路-转印": "Transfers pre-made 灵力回路 patterns into the quenching medium, then uses the quenching process to transfer them directly into the weapon, bypassing the laborious engraving process entirely."
   },
   "char_relationships": {
-    "写乐": "Found him at his lowest, drinking alone in a bar near Nagasaki port after he left the 狩灵协会. Recognized him by the quench burns on his forearms before he even said his name.",
+    "写乐": "She found him at his lowest, drinking alone in a bar near Nagasaki port after he left the 狩灵协会. Recognized him by the quench burns on his forearms before he even said his name.",
     "月": "写乐 brought him to the forge, newly promoted to Second-in-command of 指针. 锻 watched him handle a blade and saw the steadiness his daughter once carried. Told 写乐 to transcribe 月's 灵力回路 that day. Has never told 月 why he agreed.",
     "炭山 绫": "Daughter. 狩灵协会2科 狩灵, died in the first 扭曲 incident at twenty-one. Her unfinished blade hangs above the furnace. He has not spoken her name since the funeral.",
     "世": "Holder of 大典太. She walked into the forge in a cheongsam and said she wanted a blade that was beautiful, elegant, and could protect her. He looked at her a second longer, then took the commission.",

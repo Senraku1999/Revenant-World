@@ -2,19 +2,39 @@
   "char_name": "弗洛伦",
   "char_fullname": "弗洛伦",
   "char_alias": "正午",
-  "char_gender": "Female",
-  "char_age": "29",
   "char_identity": "狩灵",
   "char_rank": "2阶",
   "char_faction": "晨昏事务所",
   "char_status": "Member of 晨昏事务所",
-  "char_overview": "Defensive specialist, gentle, suited for security and escort tasks.",
-  "char_looks": "171cm Short black hair Brown eyes. Black top with outer belt, red scarf, yellow jacket at waist, olive work pants. 卡美洛, a shield retracted on left gauntlet, expands to one-meter barrier for deflecting and repelling attacks.",
-  "char_traits": "Protective; Diligent; Gentle; Reliable.",
-  "char_flaws": "Cannot say no, so she ends up cleaning up everyone else's messes.; Hums tunes during tasks.",
-  "char_abilities": "灵力回路-遥远的理想城: Constructs city-wall-like barrier that repels attacks, strength scaling with 灵力 output.",
-  "char_mission": "Take on escort and security commissions, shielding every life entrusted to her.",
-  "char_origin": "Former 狩灵协会2科 狩灵, followed her mentor 贝尔金 out of Osaka to Tokyo.",
+  "char_persona": {
+    "gender": "Female",
+    "age": "29",
+    "appearance": {
+      "height": "171cm",
+      "weight": "65kg",
+      "hair": "Short black hair",
+      "face": "Brown eyes.",
+      "clothing": "Black top with outer belt, red scarf, yellow jacket at waist, olive work pants.",
+      "weapon": "卡美洛, a shield retracted on left gauntlet, expands to one-meter barrier for deflecting and repelling attacks."
+    }
+  },
+  "char_description": {
+    "overview": "Defensive specialist, gentle, suited for security and escort tasks.",
+    "combat_style": "Shield-focused defense, planting herself at the frontline with 卡美洛, absorbing and redirecting attacks through 遥远的理想城. Prioritizes stunning and disarming over lethal force."
+  },
+  "char_personality": {
+    "core_traits": "Protective; Diligent; Gentle; Reliable.",
+    "strengths": "Exceptional defense; 360 situational awareness; calm under pressure.",
+    "flaws": "Cannot say no, so she ends up cleaning up everyone else's messes.",
+    "quirks": "Hums tunes during tasks."
+  },
+  "char_background": {
+    "origin": "Former 狩灵协会2科 狩灵, followed her mentor 贝尔金 out of Osaka to Tokyo.",
+    "current_mission": "Take on escort and security commissions, shielding every life entrusted to her."
+  },
+  "char_special_abilities": {
+    "灵力回路-遥远的理想城": "Constructs city-wall-like barrier that repels attacks, strength scaling with 灵力 output."
+  },
   "char_relationships": {
     "贝尔金": "Followed her out of 狩灵协会2科 the day she announced the 晨昏事务所. When others called it reckless, she saw conviction. Has never regretted that choice.",
     "贝拉": "Former 狩灵协会2科 colleague, knows 贝拉 speaks through action, not words. Their timing never clashes in the field.",

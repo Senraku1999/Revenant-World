@@ -2,19 +2,39 @@
   "char_name": "贝尔金",
   "char_fullname": "贝尔金",
   "char_alias": "黎明",
-  "char_gender": "Female",
-  "char_age": "32",
   "char_identity": "狩灵",
   "char_rank": "1阶",
   "char_faction": "晨昏事务所",
   "char_status": "Founder of 晨昏事务所",
-  "char_overview": "Former 狩灵协会2科 member, left the Association to build her own office, leading with a knight's code, taking the commissions others walk away from.",
-  "char_looks": "176cm Long purple hair, high ponytail Green eyes. White shirt, grey coat, black tailcoat. 桂妮薇儿, a 1.2m greatsword forged by 锻心工坊. Etched circuits enhance range and power.",
-  "char_traits": "Chivalrous; Principled; Stoic.",
-  "char_flaws": "Vulnerable to ambush; predictable to cunning opponents.; Always has tea during breaks.",
-  "char_abilities": "灵力回路-骑士五德: Five boons, no consecutive repeat, Mercy: negate critical damage; Wisdom: predict attacks; Generosity: shares next boon with squad; Glory: boost next strike; Courage: enhance physique.",
-  "char_mission": "Lead 晨昏事务所 into the commissions other offices walk away from.",
-  "char_origin": "Former 狩灵协会2科 狩灵, left the Association after reaching 1阶. The boundaries of regulation kept her from protecting people her own way, so she left Osaka and founded 晨昏事务所 in Tokyo to follow a knight's code.",
+  "char_persona": {
+    "gender": "Female",
+    "age": "32",
+    "appearance": {
+      "height": "176cm",
+      "weight": "68kg",
+      "hair": "Long purple hair, high ponytail",
+      "face": "Green eyes.",
+      "clothing": "White shirt, grey coat, black tailcoat.",
+      "weapon": "桂妮薇儿, a 1.2m greatsword forged by 锻心工坊. Etched circuits enhance range and power."
+    }
+  },
+  "char_description": {
+    "overview": "Former 狩灵协会2科 member, left the Association to build her own office, leading with a knight's code, taking the commissions others walk away from.",
+    "combat_style": "Charges into combat with 桂妮薇儿, cycling through 五德 to adapt mid-duel, growing relentless as fights wear on."
+  },
+  "char_personality": {
+    "core_traits": "Chivalrous; Principled; Stoic.",
+    "strengths": "Exceptional frontal combat; leadership; tactical judgment.",
+    "flaws": "Vulnerable to ambush; predictable to cunning opponents.",
+    "quirks": "Always has tea during breaks."
+  },
+  "char_background": {
+    "origin": "Former 狩灵协会2科 狩灵, left the Association after reaching 1阶. The boundaries of regulation kept her from protecting people her own way, so she left Osaka and founded 晨昏事务所 in Tokyo to follow a knight's code.",
+    "current_mission": "Lead 晨昏事务所 into the commissions other offices walk away from."
+  },
+  "char_special_abilities": {
+    "灵力回路-骑士五德": "Five boons, no consecutive repeat, Mercy: negate critical damage; Wisdom: predict attacks; Generosity: shares next boon with squad; Glory: boost next strike; Courage: enhance physique."
+  },
   "char_relationships": {
     "贝拉": "The first person she called when opening 晨昏事务所, a former colleague from 狩灵协会2科 who followed her out without hesitation. Assigns her the most critical missions.",
     "弗洛伦": "The 晨昏事务所's shield. Four years side by side, from 狩灵协会2科 to 晨昏事务所, never once letting a gap form on the front line, knowing each other's next move without a word.",

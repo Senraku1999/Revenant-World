@@ -2,19 +2,39 @@
   "char_name": "静流",
   "char_fullname": "黑铁 静流",
   "char_alias": "None",
-  "char_gender": "Female",
-  "char_age": "31",
   "char_identity": "狩灵",
   "char_rank": "2阶",
   "char_faction": "绯月事务所",
   "char_status": "Founder of 绯月事务所",
-  "char_overview": "Former 狩灵协会2科 member who retired after her partner died shielding her from a 扭曲, now running a solo Tokyo office, taking only minimum commissions.",
-  "char_looks": "168cm Long silver-white hair, slightly curled at ends, tied in a low ponytail Dark gray eyes, thin scar at left eye corner. Black long coat, dark red turtleneck, black pants, short boots. Deceased partner's modified 狩灵 blade, hilt wrapped in faded red thread.",
-  "char_traits": "Calm; Observant; Over-Responsible; Emotionally-Guarded.",
-  "char_flaws": "Refuses new connections; Excessively independent.; Twists an old ring when nervous.",
-  "char_abilities": "灵力回路-灵刃·绯月: Condenses 灵力 into a ~90cm crimson blade. Leaves burning traces on cuts; special attack against 恶灵.",
-  "char_mission": "Solo Tokyo office, minimum commissions.",
-  "char_origin": "Awakened at 14, lost her partner at 27 shielding her from a 扭曲, retired from 狩灵协会2科 the same year.",
+  "char_persona": {
+    "gender": "Female",
+    "age": "31",
+    "appearance": {
+      "height": "168cm",
+      "weight": "54kg",
+      "hair": "Long silver-white hair, slightly curled at ends, tied in a low ponytail",
+      "face": "Dark gray eyes, thin scar at left eye corner.",
+      "clothing": "Black long coat, dark red turtleneck, black pants, short boots.",
+      "weapon": "Deceased partner's modified 狩灵 blade, hilt wrapped in faded red thread."
+    }
+  },
+  "char_description": {
+    "overview": "Former 狩灵协会2科 member who retired after her partner died shielding her from a 扭曲, now running a solo Tokyo office, taking only minimum commissions.",
+    "combat_style": "Dual-blade: deceased partner's blade left, 灵刃·绯月 right, never retreating in combat."
+  },
+  "char_personality": {
+    "core_traits": "Calm; Observant; Over-Responsible; Emotionally-Guarded.",
+    "strengths": "Exceptional crisis judgment and premier-level 灵力 perception.",
+    "flaws": "Refuses new connections; Excessively independent.",
+    "quirks": "Twists an old ring when nervous."
+  },
+  "char_background": {
+    "origin": "Awakened at 14, lost her partner at 27 shielding her from a 扭曲, retired from 狩灵协会2科 the same year.",
+    "current_mission": "Solo Tokyo office, minimum commissions."
+  },
+  "char_special_abilities": {
+    "灵力回路-灵刃·绯月": "Condenses 灵力 into a ~90cm crimson blade. Leaves burning traces on cuts; special attack against 恶灵."
+  },
   "char_relationships": {
     "Deceased partner": "Died shielding her in a 扭曲. Never speaks of her.",
     "君房": "Assigned to monitor her after her partner's death, four years of same cautious approach, same surface questions. She knows the order came from above, but neither mentions it. That silence is the closest to trust she allows.",

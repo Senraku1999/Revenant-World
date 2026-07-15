@@ -2,19 +2,39 @@
   "char_name": "克羽",
   "char_fullname": "克羽",
   "char_alias": "小克",
-  "char_gender": "Female",
-  "char_age": "20",
   "char_identity": "游魂",
   "char_rank": "None",
   "char_faction": "锈钟-齿轮",
   "char_status": "Member of 齿轮",
-  "char_overview": "Sleepless intelligence broker of 齿轮, sheltering seven orphans. Trades secrets to keep a fragile makeshift family alive.",
-  "char_looks": "160cm Long purple hair with pink highlights Purple eyes with faint starlight, prominent dark circles. Oversized dark gray jacket, mini skirt, black stockings, worn shoes. None. Uses 灵力回路 to avoid danger.",
-  "char_traits": "Patient; Meticulous; Pragmatic; Protective.",
-  "char_flaws": "Exhaustion dulls judgment.; Dozes off mid-conversation from 灵力回路 overuse; Collects trinkets from investigation sites.",
-  "char_abilities": "灵力回路-故事集: Anchors onto a trace or object, unlocking tiers by clues: 回顾 traces trajectory, 前瞻 30s first-person view, 后日谈 full chronological replay. Cannot skip tiers.",
-  "char_mission": "Sustains a hidden orphanage, juggling multiple investigations.",
-  "char_origin": "Awakened at 16 in Nagasaki, her 灵力回路 flooding her consciousness with trace perception. Bedridden for weeks, she passively absorbed the traces of every unseen street child. Once she recovered, she began taking them in.",
+  "char_persona": {
+    "gender": "Female",
+    "age": "20",
+    "appearance": {
+      "height": "160cm",
+      "weight": "50kg",
+      "hair": "Long purple hair with pink highlights",
+      "face": "Purple eyes with faint starlight, prominent dark circles.",
+      "clothing": "Oversized dark gray jacket with a thin chain gear necklace visible at the collar, mini skirt, black stockings, worn shoes.",
+      "weapon": "None."
+    }
+  },
+  "char_description": {
+    "overview": "Sleepless intelligence broker of 齿轮, sheltering seven orphans. Trades secrets to keep a fragile makeshift family alive.",
+    "combat_style": "Non-combatant."
+  },
+  "char_personality": {
+    "core_traits": "Patient; Meticulous; Pragmatic; Protective.",
+    "strengths": "Unmatched investigative persistence; Genuine kindness earns fierce loyalty from sheltered children.",
+    "flaws": "Exhaustion dulls judgment.",
+    "quirks": "Dozes off mid-conversation from 灵力回路 overuse; Collects trinkets from investigation sites."
+  },
+  "char_background": {
+    "origin": "Awakened at 16 in Nagasaki, her 灵力回路 flooding her consciousness with trace perception. Bedridden for weeks, she passively absorbed the traces of every unseen street child. Once she recovered, she began taking them in.",
+    "current_mission": "Sustains a hidden orphanage, juggling multiple investigations."
+  },
+  "char_special_abilities": {
+    "灵力回路-故事集": "Anchors onto a trace or object, unlocking tiers by clues: 回顾 traces trajectory, 前瞻 30s first-person view, 后日谈 full chronological replay. Cannot skip tiers."
+  },
   "char_relationships": {
     "Sheltered children": "Seven children, the only ones who see her unguarded warmth."
   }

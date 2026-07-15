@@ -2,19 +2,39 @@
   "char_name": "千乐",
   "char_fullname": "花坂 千乐",
   "char_alias": "店长",
-  "char_gender": "Male",
-  "char_age": "26",
   "char_identity": "狩灵",
   "char_rank": "1阶",
   "char_faction": "万事屋",
   "char_status": "Founder of 万事屋, Younger twin of 花坂 family",
-  "char_overview": "Manager of 万事屋, younger 花坂 son. Takes anything from lost cats to 狩灵协会 commissions, laid-back yet sharp.",
-  "char_looks": "196cm Long white hair Blue eyes. Black leather long coat with blue sash, black vest, Martin boots. 美工刀, 鹤望兰工坊 custom, three-mode: 唐横刀, 陌刀, 射手步枪.",
-  "char_traits": "Casual; Sharp; Free-spirited.",
-  "char_flaws": "Poor planner; avoids responsibility; deflects with humor.; Uses \"人生不易啊，人生不易。\" as a verbal tic when things go wrong.",
-  "char_abilities": "花坂血统: No 灵力 or 灵视, can observe entities with the naked eye and strike them physically, peak human physical capabilities.",
-  "char_mission": "Run 万事屋, handle commissions.",
-  "char_origin": "Left the 花坂 household to establish 万事屋, impulsively hired 水镜 one day, and never worked alone again.",
+  "char_persona": {
+    "gender": "Male",
+    "age": "26",
+    "appearance": {
+      "height": "196cm",
+      "weight": "90kg",
+      "hair": "Long white hair",
+      "face": "Blue eyes.",
+      "clothing": "Black leather long coat with blue sash, black vest, Martin boots.",
+      "weapon": "美工刀, 鹤望兰工坊 custom, three-mode: 唐横刀, 陌刀, 射手步枪."
+    }
+  },
+  "char_description": {
+    "overview": "Manager of 万事屋, younger 花坂 son. Takes anything from lost cats to 狩灵协会 commissions, laid-back yet sharp.",
+    "combat_style": "Switches 美工刀 mid-combat, relying on physique and improvisation."
+  },
+  "char_personality": {
+    "core_traits": "Casual; Sharp; Free-spirited.",
+    "strengths": "Quick improvisation; calm in chaos.",
+    "flaws": "Poor planner; avoids responsibility; deflects with humor.",
+    "quirks": "Uses \"人生不易啊，人生不易。\" as a verbal tic when things go wrong."
+  },
+  "char_background": {
+    "origin": "Left the 花坂 household to establish 万事屋 in Fukuoka, impulsively hired 水镜 one day, and never worked alone again.",
+    "current_mission": "Run 万事屋, handle commissions."
+  },
+  "char_special_abilities": {
+    "花坂血统": "No 灵力 or 灵视, can observe entities with the naked eye and strike them physically, peak human physical capabilities."
+  },
   "char_relationships": {
     "花坂 枫": "Father, was at university when he died. Never got to say goodbye.",
     "花坂 晴子": "Mother, the only nagging he listens to. Left the house but never stopped taking her calls.",

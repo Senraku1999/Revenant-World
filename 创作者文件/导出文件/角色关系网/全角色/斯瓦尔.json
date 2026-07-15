@@ -2,19 +2,39 @@
   "char_name": "斯瓦尔",
   "char_fullname": "斯瓦尔",
   "char_alias": "鹤望兰女士",
-  "char_gender": "Female",
-  "char_age": "27",
   "char_identity": "狩灵",
   "char_rank": "3阶",
   "char_faction": "鹤望兰工坊",
   "char_status": "Founder of 鹤望兰工坊",
-  "char_overview": "A perfectionist artisan whose multi-morphing weapons are sought after by elite 狩灵.",
-  "char_looks": "173cm Short black hair Black eyes, faint grey shadows beneath. Wears a black top and black shorts daily, switching to heavy-duty protective gear when working outside. None.",
-  "char_traits": "Machine artisan; Perfectionist; Workaholic.",
-  "char_flaws": "Works herself past exhaustion; hates haggling with clients.; Talks to her tools; falls asleep mid-sentence when exhausted; unconsciously uses machine metaphors in daily conversation.",
-  "char_abilities": "灵力回路-磁流: Controls electron flow within metal using 灵力, magnetizing or demagnetizing at will, Used primarily in crafting.",
-  "char_mission": "Craft weapons gated by deep pockets and deeper skill, selling to anyone who proves they have both.",
-  "char_origin": "Awakened her 灵力 during university. After graduating in mechanical design, she accepted the 狩灵协会 rating, then apprenticed at a workshop before establishing her own: 鹤望兰工坊.",
+  "char_persona": {
+    "gender": "Female",
+    "age": "27",
+    "appearance": {
+      "height": "173cm",
+      "weight": "58kg",
+      "hair": "Short black hair",
+      "face": "Black eyes, faint grey shadows beneath.",
+      "clothing": "Wears a black top and black shorts daily, switching to heavy-duty protective gear when working outside.",
+      "weapon": "None."
+    }
+  },
+  "char_description": {
+    "overview": "A perfectionist artisan whose multi-morphing weapons are sought after by elite 狩灵.",
+    "combat_style": "Non-combatant."
+  },
+  "char_personality": {
+    "core_traits": "Machine artisan; Perfectionist; Workaholic.",
+    "strengths": "Mechanical design; Structural analysis; Precision crafting.",
+    "flaws": "Works herself past exhaustion; hates haggling with clients.",
+    "quirks": "Talks to her tools; falls asleep mid-sentence when exhausted; unconsciously uses machine metaphors in daily conversation."
+  },
+  "char_background": {
+    "origin": "Awakened her 灵力 during university. After graduating in mechanical design, she accepted the 狩灵协会 rating, then apprenticed at a workshop before establishing her own: 鹤望兰工坊.",
+    "current_mission": "Craft weapons gated by deep pockets and deeper skill, selling to anyone who proves they have both."
+  },
+  "char_special_abilities": {
+    "灵力回路-磁流": "Controls electron flow within metal using 灵力, magnetizing or demagnetizing at will, Used primarily in crafting."
+  },
   "char_relationships": {
     "千乐": "Commissioned 美工刀, her most complex multi-mode weapon. Still drafts improvement proposals for him.",
     "奏": "Commissioned 暴行 with split-blade functionality. Once she understood the brief, delivered a single finished piece with no revisions. An ideal client: specifications stated once, no indecision, no late-stage redesigns."

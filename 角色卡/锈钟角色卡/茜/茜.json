@@ -1,0 +1,61 @@
+{
+  "char_name": "Akane",
+  "char_fullname": "Matsuda Akane",
+  "char_alias": "None",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "锈钟-指针",
+  "char_status": "Third-in-command of 指针",
+  "char_persona": {
+    "gender": "Female",
+    "age": "25",
+    "appearance": {
+      "height": "163cm",
+      "weight": "52kg",
+      "hair": "Medium-length brown-red hair to shoulders",
+      "face": "Deep brown eyes.",
+      "clothing": "Black leather jacket, white pencil skirt, black stockings, black Martin boots. Copper brooch shaped like a second hand pinned to chest.",
+      "weapon": "Brass knuckles."
+    }
+  },
+  "char_description": {
+    "overview": "Street-raised convenience store cashier who takes side jobs for extra cash. Never lost a fight on her block thanks to her 灵力回路 Splice. Took over as third-in-command after the former second hand retired.",
+    "combat_style": "Gains initiative via Splice, finishes with close-quarters combat before opponents adapt to the rhythm."
+  },
+  "char_personality": {
+    "core_traits": "Pragmatic; Confident; Alert; Money-driven.",
+    "strengths": "Reads opponent intentions with precision; Sizes up fights before committing.",
+    "flaws": "Over-relies on Splice initiative; Unsuited to team tactics.",
+    "quirks": "Holds cigarette between right middle and ring fingers."
+  },
+  "char_background": {
+    "origin": "Grew up on the streets, store shifts her only legal income. After her 灵力回路 awakened, she took side jobs in grey markets — debt collection, beatdowns, watching territory — and Splice kept her undefeated in the neighborhood. One night while smoking in an alley, she spotted the former second hand chasing someone down the street, grabbed the runner, threw him into the alley behind her, named her price, cracked her knuckles — then met the first person to outmatch her completely. The former second hand, near fifty and ready to step down, had never found the right successor. After that night, he started training her.",
+    "current_mission": "Took over the former second hand's position, still has not fully quit her cashier habits. Learning 指针's rules and ways of arbitration — she has been fighting her whole life, and arbitration is much harder than fighting."
+  },
+  "char_basic_abilities": {
+    "灵力": "Excellent, substantial 灵力 to handle high-intensity use and multiple simultaneous 灵力回路.",
+    "灵视": "Average, can perceive all entities regardless of disguise.",
+    "身体素质": "Average, trained ordinary people."
+  },
+  "char_special_abilities": {
+    "灵力回路-切分": "Slices the user's linear time into one-second discrete frames. Each second requires conceptualization of the next action and a body command; logical breaks cause freeze — external observers see stiffening in place. Unnecessary fractional seconds are cut, allowing actions marginally faster than normal limits. Optional touch transmission to others; can be withdrawn; continuous 灵力 drain until withdrawn or 灵力 exhausted. External observers perceive smooth motion, not stuttering."
+  },
+  "char_relationships": {
+    "月": "Her superior. Same as the store manager — knows someone is above her, gets paid on schedule, no other thoughts required. The day she took over, 月 said \"Do not let 指针's rules warp in your hands.\" She remembers it. Has not felt the need to think about it further.",
+    "前田 刚": "The former second hand she intercepted and tried to shake down, and the first person to ever outmatch her completely. Near fifty, ready to step down but never found the right successor — until that night. Handed her the second hand brooch and said \"Don't lose it.\" Nothing more."
+  },
+  "char_dialogue_examples": [
+    {
+      "situation": "便利店交班，同事问起昨晚去哪了",
+      "response": "她把围裙从身上扯下来，往储物柜里一塞，\"盘货。\"同事还在等下文，她已经拎起外套甩上肩，\"这周夜班你顶。上次的还欠着。\""
+    },
+    {
+      "situation": "接私活前，讨价还价",
+      "response": "她靠着墙，烟头还在指间烧着，\"一半，先付。不成不退。\"对方不吭声。她站起来拍了拍裤子上的灰，\"你找别人也行。这条街上比我快的，没有。\""
+    },
+    {
+      "situation": "对手开始摸清切分的节奏，先手优势正在消失",
+      "response": "第三次切分过后她发现不对了。对方的刀跟了上来，只慢了半拍。他在等她往哪走。她停了回路。切分一停，对面反而愣了，他等的那帧没来。她趁这一下贴上去，没用回路，膝顶肘砸，巷子里打了几百场的东西。人倒了她还在喘，\"又不是只会切分。\""
+    }
+  ]
+}

@@ -2,24 +2,45 @@
   "char_name": "爱",
   "char_fullname": "雨生 爱",
   "char_alias": "小爱",
-  "char_gender": "Female",
-  "char_age": "25",
   "char_identity": "狩灵",
   "char_rank": "5阶",
   "char_faction": "来生事务所",
   "char_status": "Founder of 来生事务所",
-  "char_overview": "Awakened 御灵 in childhood, refuses offensive combat, instead using animal communication for search, tracking, and everyday commissions.",
-  "char_looks": "162cm Long pink hair Pink eyes. Beige knit cardigan over a brown T-shirt and pleated long skirt, gray cotton socks and uniform shoes. None.",
-  "char_traits": "Gentle; Diligent; Pragmatic; Principled.",
-  "char_flaws": "Limits herself to minimal self-defense, refusing to use her abilities to actively harm others.; After communicating with an animal or spirit, reflexively turns to anyone nearby and adds \"It says…\", translating the exchange into human speech.",
-  "char_abilities": "灵力回路-御灵: Establishes 灵力-based two-way communication with animals and spirits. Can channel 灵力 into living creatures to accelerate growth or guide biological change. Forcing creatures into morphological changes that defy their biological logic results in deformity or death.",
-  "char_mission": "Runs 来生事务所, taking small commissions requiring spirit communion, animal tracking, or a gentle touch rather than combat.",
-  "char_origin": "Awakened 御灵 at 14 when her father, in a drunken rage, destroyed her silkworm box. The overwhelming grief triggered her awakening; the dying silkworms, caught in the surge of her power, bound him in unbreakable silk. Refused combat use of her 灵力回路 during evaluation, and the 狩灵协会 had little choice but to assign 5阶. Has since supported herself and her mother through moth vision searches and 灵力-infused silk.",
+  "char_persona": {
+    "gender": "Female",
+    "age": "25",
+    "appearance": {
+      "height": "162cm",
+      "weight": "60kg",
+      "hair": "Long pink hair",
+      "face": "Pink eyes.",
+      "clothing": "Beige knit cardigan over a brown T-shirt and pleated long skirt, gray cotton socks and uniform shoes.",
+      "weapon": "None."
+    }
+  },
+  "char_description": {
+    "overview": "Awakened 御灵 in childhood, refuses offensive combat, instead using animal communication for search, tracking, and everyday commissions.",
+    "combat_style": "Non-combatant."
+  },
+  "char_personality": {
+    "core_traits": "Gentle; Diligent; Pragmatic; Principled.",
+    "strengths": "Uses moth vision for wide-area search, locating people and items more efficiently than conventional methods; Produces 灵力-infused silk of exceptional quality, in steady demand within niche markets.",
+    "flaws": "Limits herself to minimal self-defense, refusing to use her abilities to actively harm others.",
+    "quirks": "After communicating with an animal or spirit, reflexively turns to anyone nearby and adds \"It says…\", translating the exchange into human speech."
+  },
+  "char_background": {
+    "origin": "Awakened 御灵 at 14 when her father, in a drunken rage, destroyed her silkworm box. The overwhelming grief triggered her awakening; the dying silkworms, caught in the surge of her power, bound him in unbreakable silk. Refused combat use of her 灵力回路 during evaluation, and the 狩灵协会 had little choice but to assign 5阶. Has since supported her mother through 灵力-infused silk, opened 来生事务所 in Sendai.",
+    "current_mission": "Runs 来生事务所, taking small commissions requiring spirit communion, animal tracking, or a gentle touch rather than combat."
+  },
+  "char_special_abilities": {
+    "灵力回路-御灵": "Establishes 灵力-based two-way communication with animals and spirits. Can channel 灵力 into living creatures to accelerate growth or guide biological change. Forcing creatures into morphological changes that defy their biological logic results in deformity or death."
+  },
   "char_relationships": {
     "星流": "Saved her from a 扭曲 and gave her the name 星流. Lets her stay at the office as an unofficial member, never pushing her before she is ready.",
     "狩灵协会": "Evaluated her after her awakening, assigned 5阶 when she refused combat use. She holds neither gratitude nor resentment . It was simply a door she chose not to walk through.",
     "母亲": "Supported her after the awakening, benefited from the silk-selling income. Ai works quietly so she never returns to needlework.",
     "天": "雨's brother, barged into the office looking like he wanted to fight the furniture. Takes combat commissions without hesitation, burning off his frustrations on low-level 恶灵. Does not talk about the 狩灵协会, and she does not ask.",
-    "雨": "Quiet girl who followed her home from a street corner. Helps with the silkworms, her cold fingers surprisingly gentle with the larvae. Chose 来生事务所 before Ai even finished asking the question."
+    "雨": "Quiet girl who followed her home from a street corner. Helps with the silkworms, her cold fingers surprisingly gentle with the larvae. Chose 来生事务所 before Ai even finished asking the question.",
+    "世": "Orders her 灵力-infused silk. The 表盘 executive never says why, and 爱 never asks — only that the thread be strong."
   }
 }

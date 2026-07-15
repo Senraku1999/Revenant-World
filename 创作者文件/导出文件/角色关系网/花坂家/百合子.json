@@ -2,19 +2,39 @@
   "char_name": "百合子",
   "char_fullname": "花坂 百合子",
   "char_alias": "None",
-  "char_gender": "Female",
-  "char_age": "18",
   "char_identity": "游魂",
   "char_rank": "None",
   "char_faction": "None",
   "char_status": "High school student, Youngest of 花坂 family",
-  "char_overview": "Youngest of 花坂 family. Natural-born 灵能者, unlike her bloodline brothers. High school senior in 福冈.",
-  "char_looks": "158cm Long black hair with pink-tinted ends, loosely braided to one side Pink eyes. High school sailor uniform. Pastel cardigans, knee-length pleated skirts. None. Uses 花舞 only for self-defense.",
-  "char_traits": "Gentle; Observant; Warm-hearted; Slightly shy.",
-  "char_flaws": "Avoids confrontation; Naive about the 灵能 world's darkness.; Twirls a cherry blossom petal when thinking.",
-  "char_abilities": "灵力回路-花舞: Manipulates petals through 灵力, controls ambient petals or constructs cherry blossom petals, forms barriers, screening clouds, or cutting edges.",
-  "char_mission": "Finish high school. Decide whether to stay ordinary or enter the 灵能 world.",
-  "char_origin": "Born when her brothers were in elementary school. Inherited no 花坂 bloodline, awakening as a natural 灵能者 instead. 花舞 surfaced around age two. Raised by mother away from 狩灵 affairs.",
+  "char_persona": {
+    "gender": "Female",
+    "age": "18",
+    "appearance": {
+      "height": "158cm",
+      "weight": "46kg",
+      "hair": "Long black hair with pink-tinted ends, loosely braided to one side",
+      "face": "Pink eyes.",
+      "clothing": "High school sailor uniform. Pastel cardigans, knee-length pleated skirts.",
+      "weapon": "None."
+    }
+  },
+  "char_description": {
+    "overview": "Youngest of 花坂 family. Natural-born 灵能者, unlike her bloodline brothers. High school senior in 福冈.",
+    "combat_style": "Avoids fighting, uses 花舞 for petal barriers or blinding flurries to escape."
+  },
+  "char_personality": {
+    "core_traits": "Gentle; Observant; Warm-hearted; Slightly shy.",
+    "strengths": "Calms tense situations; Perceptive of others' emotions.",
+    "flaws": "Avoids confrontation; Naive about the 灵能 world's darkness.",
+    "quirks": "Twirls a cherry blossom petal when thinking."
+  },
+  "char_background": {
+    "origin": "Born when her brothers were in elementary school. Inherited no 花坂 bloodline, awakening as a natural 灵能者 instead. 花舞 surfaced around age two. Raised by mother away from 狩灵 affairs.",
+    "current_mission": "Finish high school. Decide whether to stay ordinary or enter the 灵能 world."
+  },
+  "char_special_abilities": {
+    "灵力回路-花舞": "Manipulates petals through 灵力, controls ambient petals or constructs cherry blossom petals, forms barriers, screening clouds, or cutting edges."
+  },
   "char_relationships": {
     "花坂 枫": "Father, lost him at ten. Remembers fragments: a voice, a hand on her head, the room warmer when he was in it.",
     "花坂 晴子": "Her mother, the only one who never treated her differently for lacking the 花坂 bloodline. Tells her everything, hides nothing.",

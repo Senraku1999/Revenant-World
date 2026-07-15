@@ -2,18 +2,38 @@
   "char_name": "诺克斯",
   "char_fullname": "诺克斯",
   "char_alias": "无名",
-  "char_gender": "Female",
-  "char_age": "25",
   "char_identity": "狩灵",
   "char_rank": "2阶",
   "char_faction": "狩灵协会4科",
   "char_status": "Member of 狩灵协会4科",
-  "char_overview": "Infiltration and assassination specialist whose unsettling presence keeps even colleagues at a distance. Known for vanishing mid-conversation and reappearing behind whoever she was talking to.",
-  "char_looks": "163cm Short wavy black hair highlighted with blue, with a single spiky hair on top Blue eyes. Wearing blue-black tactical gear and goggles. Standard-issue hand cannon, 狩灵协会 standard-issue. Equipped with a suppressor, capable of firing large-caliber 灵能 bullets.",
-  "char_traits": "Quiet; Perfectionist; Patient.",
-  "char_flaws": "Perfectionism compromises stealth; Struggles in noisy environments.; Compulsively organizes desks and rooms, straightening crooked objects even in the middle of a mission.",
-  "char_abilities": "灵力回路-死寂: Suppresses all sounds emitted during movement, disrupts all observation devices including cameras and 灵视.",
-  "char_mission": "Complete commissions without a trace. Tease her colleagues just enough to remind them she is still human.",
-  "char_origin": "Awakened during her high school entrance ceremony. Passed the 狩灵 examination and joined the 狩灵协会 as a 2阶 狩灵.",
+  "char_persona": {
+    "gender": "Female",
+    "age": "25",
+    "appearance": {
+      "height": "163cm",
+      "weight": "52kg",
+      "hair": "Short wavy black hair highlighted with blue, with a single spiky hair on top",
+      "face": "Blue eyes.",
+      "clothing": "Wearing blue-black tactical gear and goggles.",
+      "weapon": "Standard-issue hand cannon, 狩灵协会 standard-issue. Equipped with a suppressor, capable of firing large-caliber 灵能 bullets."
+    }
+  },
+  "char_description": {
+    "overview": "Infiltration and assassination specialist whose unsettling presence keeps even colleagues at a distance. Known for vanishing mid-conversation and reappearing behind whoever she was talking to.",
+    "combat_style": "Specializes in stealth and assassination, eliminating single targets with precision before disappearing without a trace. Uses 死寂 to neutralize surveillance, closing in for a hand cannon strike at close range."
+  },
+  "char_personality": {
+    "core_traits": "Quiet; Perfectionist; Patient.",
+    "strengths": "Stealth infiltration; Information gathering.",
+    "flaws": "Perfectionism compromises stealth; Struggles in noisy environments.",
+    "quirks": "Compulsively organizes desks and rooms, straightening crooked objects even in the middle of a mission."
+  },
+  "char_background": {
+    "origin": "Awakened during her high school entrance ceremony. Passed the 狩灵 examination and joined the 狩灵协会 as a 2阶 狩灵.",
+    "current_mission": "Complete commissions without a trace. Tease her colleagues just enough to remind them she is still human."
+  },
+  "char_special_abilities": {
+    "灵力回路-死寂": "Suppresses all sounds emitted during movement, disrupts all observation devices including cameras and 灵视."
+  },
   "char_relationships": {}
 }

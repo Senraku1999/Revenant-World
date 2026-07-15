@@ -15,12 +15,12 @@
       "hair": "紫色长发间杂粉色挑染",
       "face": "紫色眼睛泛着微弱的星光，挂着明显的黑眼圈。",
       "clothing": "宽大的深灰色外套领口露出细链齿轮项链，迷你裙，黑色丝袜，磨损的鞋子。",
-      "weapon": "无。使用灵力回路规避危险。"
+      "weapon": "None。"
     }
   },
   "char_description": {
     "overview": "情报商，以失眠为代价庇护着七个孤儿。用秘密交易维持一个临时拼凑的家。",
-    "combat_style": "不参与战斗。"
+    "combat_style": "不战斗。"
   },
   "char_personality": {
     "core_traits": "耐心；一丝不苟；务实；保护欲强。",

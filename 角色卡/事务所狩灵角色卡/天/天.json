@@ -15,7 +15,7 @@
       "hair": "Short black hair",
       "face": "Gold eyes.",
       "clothing": "Black leather tactical suit with yellow inner lining, black leather forearm armor.",
-      "weapon": "None, uses 灵力回路 for combat."
+      "weapon": "None."
     }
   },
   "char_description": {
@@ -29,7 +29,7 @@
     "quirks": "Rubs his thumb along the edge of his forearm armor when restless."
   },
   "char_background": {
-    "origin": "Abandoned at eleven when white thorns erupted from his awakening 灵力回路, he was taken in by a secret orphanage run by 灵能者 for children rejected for their 灵力, where he met 雨. They grew up as siblings and at nineteen took the 狩灵协会 exam: she received 3阶, he received 2阶. The examiner's dismissive attitude toward 雨 enraged him. He confronted the examiner, then took 雨 and left. That day they met a woman catching a falling cat with silkworm silk; 雨 persuaded him to join her firm.",
+    "origin": "Abandoned at eleven when white thorns erupted from his awakening 灵力回路, he was taken in by a secret orphanage run by 灵能者 for children rejected for their 灵力, where he met 雨. They grew up as siblings and at nineteen took the 狩灵协会 exam: she received 3阶, he received 2阶. The examiner's dismissive attitude toward 雨 enraged him. He confronted the examiner, then took 雨 and left. That day in Sendai they met a woman catching a falling cat with silkworm silk; 雨 persuaded him to join her firm.",
     "current_mission": "Handle combat commissions for 来生事务所. Keep 雨 safe, even though she is the calmer one."
   },
   "char_basic_abilities": {

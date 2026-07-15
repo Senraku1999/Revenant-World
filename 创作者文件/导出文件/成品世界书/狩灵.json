@@ -1,4 +1,5 @@
 {
+  "name": "狩灵",
   "entries": [
     {
       "id": 0,
@@ -38,7 +39,7 @@
       }
     },
     {
-      "id": 1,
+      "id": 8,
       "keys": [],
       "secondary_keys": [],
       "comment": "世界观",
@@ -52,7 +53,7 @@
       "extensions": {
         "position": 1,
         "exclude_recursion": false,
-        "display_index": 1,
+        "display_index": 0,
         "probability": 100,
         "useProbability": true,
         "depth": 4,
@@ -75,7 +76,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 1,
       "keys": [],
       "secondary_keys": [],
       "comment": "灵能者",
@@ -89,7 +90,7 @@
       "extensions": {
         "position": 1,
         "exclude_recursion": false,
-        "display_index": 2,
+        "display_index": 0,
         "probability": 100,
         "useProbability": true,
         "depth": 4,
@@ -136,7 +137,50 @@
       "extensions": {
         "position": 1,
         "exclude_recursion": false,
-        "display_index": 3,
+        "display_index": 0,
+        "probability": 100,
+        "useProbability": true,
+        "depth": 4,
+        "selectiveLogic": 0,
+        "group": "",
+        "group_override": false,
+        "group_weight": 100,
+        "prevent_recursion": false,
+        "delay_until_recursion": false,
+        "scan_depth": null,
+        "match_whole_words": null,
+        "use_group_scoring": false,
+        "case_sensitive": null,
+        "automation_id": "",
+        "role": 0,
+        "vectorized": false,
+        "sticky": 0,
+        "cooldown": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": 2,
+      "keys": [
+        "异常",
+        "扭曲",
+        "恶灵",
+        "恶魔",
+        "妖怪"
+      ],
+      "secondary_keys": [],
+      "comment": "异常",
+      "content": "扭曲仅发生于灵能者，普通人无灵力，无法扭曲。病理模型相当于灵能者的心理疾病急性发作，如重度抑郁、躁狂、精神分裂或PTSD。病程分为前兆期与突变期：前兆期出现情绪持续崩溃、灵力波形紊乱及灵视幻听。突变期灵力侵蚀身体，内心被负面情绪占据，肉体转化为恶灵。\n\n恶灵由人类恶念与邪念汇聚而成。\n\n恶魔是由特定仪式或手段召唤出的妖魔。\n\n妖怪是原生于土地上的古老存在，与恶灵、恶魔本质不同。",
+      "constant": false,
+      "selective": true,
+      "insertion_order": 96,
+      "enabled": true,
+      "position": "before_char",
+      "use_regex": true,
+      "extensions": {
+        "position": 1,
+        "exclude_recursion": false,
+        "display_index": 0,
         "probability": 100,
         "useProbability": true,
         "depth": 4,
@@ -161,49 +205,6 @@
     {
       "id": 4,
       "keys": [
-        "异常",
-        "扭曲",
-        "恶灵",
-        "恶魔",
-        "妖怪"
-      ],
-      "secondary_keys": [],
-      "comment": "异常",
-      "content": "扭曲仅发生于灵能者，普通人无灵力，无法扭曲。病理模型相当于灵能者的心理疾病急性发作，如重度抑郁、躁狂、精神分裂或PTSD。病程分为前兆期与突变期：前兆期出现情绪持续崩溃、灵力波形紊乱及灵视幻听。突变期灵力侵蚀身体，内心被负面情绪占据，肉体转化为恶灵。\n\n恶灵由人类恶念与邪念汇聚而成。\n\n恶魔是由特定仪式或手段召唤出的妖魔。\n\n妖怪是原生于土地上的古老存在，与恶灵、恶魔本质不同。",
-      "constant": false,
-      "selective": true,
-      "insertion_order": 96,
-      "enabled": true,
-      "position": "before_char",
-      "use_regex": true,
-      "extensions": {
-        "position": 1,
-        "exclude_recursion": false,
-        "display_index": 4,
-        "probability": 100,
-        "useProbability": true,
-        "depth": 4,
-        "selectiveLogic": 0,
-        "group": "",
-        "group_override": false,
-        "group_weight": 100,
-        "prevent_recursion": false,
-        "delay_until_recursion": false,
-        "scan_depth": null,
-        "match_whole_words": null,
-        "use_group_scoring": false,
-        "case_sensitive": null,
-        "automation_id": "",
-        "role": 0,
-        "vectorized": false,
-        "sticky": 0,
-        "cooldown": 0,
-        "delay": 0
-      }
-    },
-    {
-      "id": 5,
-      "keys": [
         "协会",
         "科",
         "事务所",
@@ -221,7 +222,7 @@
       "extensions": {
         "position": 1,
         "exclude_recursion": false,
-        "display_index": 5,
+        "display_index": 0,
         "probability": 100,
         "useProbability": true,
         "depth": 4,
@@ -270,7 +271,7 @@
       "extensions": {
         "position": 1,
         "exclude_recursion": false,
-        "display_index": 6,
+        "display_index": 0,
         "probability": 100,
         "useProbability": true,
         "depth": 4,
@@ -309,7 +310,7 @@
       "extensions": {
         "position": 1,
         "exclude_recursion": false,
-        "display_index": 7,
+        "display_index": 0,
         "probability": 100,
         "useProbability": true,
         "depth": 4,
