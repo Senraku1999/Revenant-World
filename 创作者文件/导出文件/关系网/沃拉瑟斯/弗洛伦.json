@@ -14,19 +14,10 @@
       "weight": "65kg",
       "hair": "Short black hair",
       "face": "Brown eyes.",
+      "features": "None.",
       "clothing": "Black top with outer belt, red scarf, yellow jacket at waist, olive work pants.",
       "weapon": "卡美洛, a shield retracted on left gauntlet, expands to one-meter barrier for deflecting and repelling attacks."
     }
-  },
-  "char_description": {
-    "overview": "Defensive specialist, gentle, suited for security and escort tasks.",
-    "combat_style": "Shield-focused defense, planting herself at the frontline with 卡美洛, absorbing and redirecting attacks through 遥远的理想城. Prioritizes stunning and disarming over lethal force."
-  },
-  "char_personality": {
-    "core_traits": "Protective; Diligent; Gentle; Reliable.",
-    "strengths": "Exceptional defense; 360 situational awareness; calm under pressure.",
-    "flaws": "Cannot say no, so she ends up cleaning up everyone else's messes.",
-    "quirks": "Hums tunes during tasks."
   },
   "char_background": {
     "origin": "Former 狩灵协会2科 狩灵, followed her mentor 贝尔金 out of Osaka to Tokyo.",

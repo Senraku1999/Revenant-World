@@ -14,19 +14,10 @@
       "weight": "68kg",
       "hair": "Long purple hair, high ponytail",
       "face": "Green eyes.",
+      "features": "None.",
       "clothing": "White shirt, grey coat, black tailcoat.",
       "weapon": "桂妮薇儿, a 1.2m greatsword forged by 锻心工坊. Etched circuits enhance range and power."
     }
-  },
-  "char_description": {
-    "overview": "Former 狩灵协会2科 member, left the Association to build her own office, leading with a knight's code, taking the commissions others walk away from.",
-    "combat_style": "Charges into combat with 桂妮薇儿, cycling through 五德 to adapt mid-duel, growing relentless as fights wear on."
-  },
-  "char_personality": {
-    "core_traits": "Chivalrous; Principled; Stoic.",
-    "strengths": "Exceptional frontal combat; leadership; tactical judgment.",
-    "flaws": "Vulnerable to ambush; predictable to cunning opponents.",
-    "quirks": "Always has tea during breaks."
   },
   "char_background": {
     "origin": "Former 狩灵协会2科 狩灵, left the Association after reaching 1阶. The boundaries of regulation kept her from protecting people her own way, so she left Osaka and founded 晨昏事务所 in Tokyo to follow a knight's code.",

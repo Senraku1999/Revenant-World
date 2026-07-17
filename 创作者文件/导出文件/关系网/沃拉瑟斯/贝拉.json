@@ -14,19 +14,10 @@
       "weight": "52kg",
       "hair": "Long grey hair",
       "face": "Deep grey eyes.",
+      "features": "None.",
       "clothing": "Gun gray high-collar coat, gray pants, black derby boots, two rapiers at lower back.",
       "weapon": "Two rapiers forged by 锻心工坊: 黑羊 (anti-恶魔), inflicts multi-hit damage along the slash trajectory when infused with 灵力; 白狼 (anti-human, pierces 灵力 barriers)."
     }
-  },
-  "char_description": {
-    "overview": "Faithfully completes every task with little emotion.",
-    "combat_style": "Fights one blade at a time: 黑羊 for 恶魔, 白狼 for humans, recalling blades through 骑士不死于徒手 to strike from unexpected angles."
-  },
-  "char_personality": {
-    "core_traits": "Reserved; Disciplined; Observant.",
-    "strengths": "Unwavering focus; reliable under pressure; tactical patience.",
-    "flaws": "Silence breeds misunderstanding; words, when spoken, leave no ground.",
-    "quirks": "Bites nails when facing unfamiliar situations; Pops an intensely sour hard candy before and after each commission."
   },
   "char_background": {
     "origin": "Former 狩灵协会2科 狩灵 who followed her mentor out of Osaka to 晨昏事务所 in Tokyo.",

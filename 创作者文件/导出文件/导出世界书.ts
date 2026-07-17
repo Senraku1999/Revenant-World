@@ -82,32 +82,31 @@ function loadBaseEntries(tags: Record<string, string[]>): WbEntry[] {
   }));
 }
 
-// ── 加载触发词表 ──
-function loadTriggerWords(): Record<string, string[]> {
-  const tags: Record<string, string[]> = {};
-  if (!fs.existsSync(TAG_FILE)) return tags;
+// ── 加载触发词表：按 TAG 池分组解析，各世界书查各自分组 ──
+function loadTriggerWords(): Record<string, Record<string, string[]>> {
+  const sections: Record<string, Record<string, string[]>> = {};
+  if (!fs.existsSync(TAG_FILE)) return sections;
   const content = readFileUtf8(TAG_FILE);
-  let currentFaction = '';
+  let currentSection = '';
 
   for (const line of content.split('\n')) {
     const trimmed = line.trim();
-    // 阵营标题
+    // 分组标题
     if (trimmed.startsWith('## ')) {
-      currentFaction = trimmed.replace('## ', '').trim();
+      currentSection = trimmed.replace('## ', '').trim();
       continue;
     }
-    // 表格行
-    if (trimmed.startsWith('|') && trimmed.includes('；')) {
+    // 表格行（跳过表头行与分隔行，单触发词行同样有效）
+    if (trimmed.startsWith('|') && currentSection) {
       const parts = trimmed.split('|').map(s => s.trim());
-      if (parts.length >= 3 && parts[1] && parts[2]) {
-        const name = parts[1];
-        const tagStr = parts[2];
-        const tagList = tagStr.split('；').map(t => t.trim()).filter(t => t);
-        tags[name] = tagList;
+      if (parts.length >= 3 && parts[1] && parts[2]
+          && parts[1] !== '角色' && parts[1] !== '条目' && !/^-+$/.test(parts[1])) {
+        if (!sections[currentSection]) sections[currentSection] = {};
+        sections[currentSection][parts[1]] = parts[2].split('；').map(t => t.trim()).filter(t => t);
       }
     }
   }
-  return tags;
+  return sections;
 }
 
 // ── 加载角色条目 ──
@@ -121,6 +120,7 @@ function loadCharacterEntries(names: string[], allRelDir: string, tags: Record<s
       console.log(`  ⚠ 缺失关系网文件: ${name}`);
       continue;
     }
+    if (!(name in tags)) console.log(`  ⚠ TAG 池缺行: ${name}（keys 回退为角色名）`);
     const data = JSON.parse(readFileUtf8(relPath));
     entries.push({
       id: id++,
@@ -153,12 +153,12 @@ function writeWorldbook(wbName: string, base: WbEntry[], chars: WbEntry[]): void
 
 // ── 主入口 ──
 function main(): void {
-  const tags = loadTriggerWords();
-  const base = loadBaseEntries(tags);
+  const sections = loadTriggerWords();
+  const base = loadBaseEntries(sections['世界信息'] || {});
   const allRelDir = path.join(REL_DIR, '全角色');
 
   console.log(`基础规则: ${base.length} 条`);
-  console.log(`触发词表: ${Object.keys(tags).length} 名角色`);
+  console.log(`触发词表: ${Object.keys(sections).length} 分组`);
   console.log();
 
   // 狩灵.json — 仅基础规则
@@ -170,14 +170,14 @@ function main(): void {
     const allNames = fs.readdirSync(allRelDir)
       .filter(f => f.endsWith('.json'))
       .map(f => f.replace('.json', ''));
-    const allChars = loadCharacterEntries(allNames, allRelDir, tags);
+    const allChars = loadCharacterEntries(allNames, allRelDir, sections['狩灵 全角色'] || {});
     writeWorldbook('狩灵 全角色', base, allChars);
     console.log(`  狩灵 全角色: ${base.length + allChars.length} 条`);
   }
 
   // 阵营世界书
   for (const [faction, members] of Object.entries(WORLDBOOK_BUILD)) {
-    const chars = loadCharacterEntries(members, allRelDir, tags);
+    const chars = loadCharacterEntries(members, allRelDir, sections[faction] || {});
     writeWorldbook(`狩灵 ${faction}`, base, chars);
     console.log(`  狩灵 ${faction}: ${base.length + chars.length} 条`);
   }
