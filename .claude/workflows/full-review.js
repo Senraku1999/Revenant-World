@@ -1,18 +1,26 @@
 export const meta = {
   name: 'full-review',
-  description: '狩灵世界观全量审查：自动脚本 → 标点+逻辑并行 → 全角色学术五视角并行 → 汇总分级（全角色，无抽样）',
+  description: '狩灵世界观全量审查：自动脚本 → 标点+逻辑并行 → 全角色扫描 → Token预扫 → 学术五视角并行 → 汇总分级（全角色，无抽样）',
   phases: [
-    { title: '自动脚本', detail: '运行自动检查脚本获取基线' },
+    { title: '自动脚本', detail: '运行自动检查脚本获取基线，含 Token 精确计数' },
     { title: '标点审查', detail: '逐字扫描所有 MD 文件标点合规性' },
     { title: '逻辑审查', detail: '聚合比对跨文件/跨角色一致性' },
     { title: '全角色扫描', detail: '列出全部角色目录，按阵营分组，供学术审查使用' },
-    { title: '学术审查', detail: '五视角领域审查，覆盖全部角色' },
+    { title: 'Token预扫', detail: '精确统计全部开场白 Token 数（o200k_base），供叙事学审查使用' },
+    { title: '学术审查', detail: '五视角领域审查，覆盖全部角色。叙事学使用精确 Token 数据，不做估算' },
     { title: '汇总', detail: '整合结果，T0/T1/T2 分级输出' },
     { title: '清理', detail: '清除中间产物，仅保留最终报告' },
   ],
 }
 
 phase('自动脚本')
+
+const autoScriptOutput = await agent(`
+运行命令 npx tsx "创作者文件/审查文件/自动检查.ts" 并将完整 stdout 输出原样返回。
+不需要做任何分析或总结，只需要返回命令的原始输出文本。
+`, {label: 'run-auto-check'})
+
+log(`自动检查脚本已运行`)
 
 const rules = {
   CLAUDE_MD: await agent('读取 CLAUDE.md 的标点规则和团队结构部分，仅输出规则摘要。', {label: 'read-claude-md'}),
@@ -101,6 +109,22 @@ const allCharacters = await agent(`
 const totalCount = allCharacters ? allCharacters.match(/\d+\./g)?.length || 0 : 0
 log(`全角色扫描完成：约 ${totalCount} 名角色，全部进入学术审查`)
 
+phase('Token预扫')
+
+const tokenData = await agent(`
+运行命令 npx tsx "创作者文件/审查文件/自动检查.ts" 并将完整 stdout 原样返回。
+只需要 JSON Token 计数和开场白 Token 计数两个 section 的输出即可，不需要整个脚本的全部输出。
+如果自动检查脚本输出中没有这两个 section，请用 Read 工具读取脚本源码找到 segmentTokens 函数，
+然后用 node -e 运行对应的 js-tiktoken o200k_base 计数逻辑，输出每个角色的 JSON 总计 Token 和开场白 Token。
+
+输出格式：
+===TOKEN_DATA===
+角色名: JSON总计=XXX, 开场白=XXX
+===END===
+`, {label: 'token-scanner', phase: 'Token预扫'})
+
+log(`Token 精确计数完成`)
+
 phase('学术审查')
 
 const academicResults = await Promise.all([
@@ -139,7 +163,7 @@ ${allCharacters}
   `, {label: 'geographer', phase: '学术审查'}),
 
   agent(`
-你是历史学家。读取 创作者文件/导出文件/world info/ 全部文件和 事件卡/ 全部文件。
+你是历史学家。读取 创作者文件/导出文件/world info/ 全部文件和 角色卡/事件卡/ 全部文件。
 
 ## 全角色审查名单（以下为全部角色，逐一审查，不得跳过）
 ${allCharacters}
@@ -158,15 +182,25 @@ ${allCharacters}
   agent(`
 你是叙事学家。读取 创作者文件/创作文件/狩灵开场白创作指导.md。
 
+## 精确 Token 数据（由 tiktoken o200k_base 脚本实测，直接使用，禁止重新估算）
+${tokenData}
+
 ## 全角色审查名单（以下为全部角色，逐一审查，不得跳过）
 ${allCharacters}
 
 ## 审查要求
 阅读以上每位角色的开场白（及其 JSON 的对话示例）。从以下角度审查：
+
 - 叙事结构：开场白是否遵循三段式（场景锚定→角色登场→对话钩子）
 - 对话风格：角色 voice 是否与 char_personality 一致，不同角色间差异化是否足够
 - 收尾台词：仅标记场景彻底封闭的情况（角色离场、入睡、场景完全终结）。场景保持开放（角色在场、环境可被进入）即为有效入口——玩家可随时打断或另起话头接入。角色身份自然投射的互动（如店主招呼顾客、指挥官下令）本身即为合法接入方式，无需每个开场白都以试探性发问收尾
-- 节奏控制：叙述与对话的比例、段落长度、信息密度是否适宜
+- 节奏控制：叙述与对话的比例、段落长度、信息密度是否适宜。使用上方 Token 数据判断是否超出 600-800 区间——**禁止自行估算 Token 数，只引用已提供的精确数据**
+
+## Token 标准
+- 达标区间：600-800（o200k_base 编码）
+- 低于 600：信息密度不足
+- 高于 800：需要精简
+- **所有 Token 数值以上方精确数据为准，不要输出任何自己计算的数字**
 
 按阵营分批输出。每阵营标注亮点和问题。问题标注 T1/T2，说明涉及角色和文件。
 审查完毕后单独输出一份"审查覆盖率确认"：列出实际审查了的角色名，确保无遗漏。
@@ -201,19 +235,22 @@ log(`五个学术视角全部返回`)
 phase('汇总')
 
 const report = await agent(`
-你是审查协调员。汇总以下四路审查结果，按 T0/T1/T2 分级输出最终报告。
+你是审查协调员。汇总以下各路审查结果，按 T0/T1/T2 分级输出最终报告。
 
 ## 全角色审查名单
 ${allCharacters}
 
 ## 自动脚本结果
-${JSON.stringify(rules)}
+${autoScriptOutput}
 
 ## 标点审查结果
 ${punctuationResult}
 
 ## 逻辑审查结果
 ${logicResult}
+
+## 精确 Token 数据
+${tokenData}
 
 ## 学术审查结果
 人类学：${academicResults[0]}
@@ -225,9 +262,10 @@ ${logicResult}
 ## 输出要求
 1. 先列 T0（必须修复），再 T1（建议修复），最后 T2（可选优化）
 2. 每项标注来源（脚本/标点/逻辑/学术-领域）
-3. 给出修复优先级建议
-4. 零问题时明确声明
-5. 注意：本次为全角色审查，不包含抽样——不需要"未抽样角色风险提示"。全部角色均已覆盖。
+3. Token 相关结论必须以自动脚本和 Token 预扫的精确数据为准，叙事学审查中的 Token 引用仅作参考——两者不一致时，以脚本数据为准
+4. 给出修复优先级建议
+5. 零问题时明确声明
+6. 注意：本次为全角色审查，不包含抽样——不需要"未抽样角色风险提示"。全部角色均已覆盖。
 `, {label: 'coordinator-summary', phase: '汇总'})
 
 log('全量审查完成。提醒：清理创作者文件/审查文件/ 目录下的临时文件（_开头的中间产物）。')

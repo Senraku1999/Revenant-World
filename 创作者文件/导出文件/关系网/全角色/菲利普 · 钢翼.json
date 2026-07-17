@@ -1,0 +1,33 @@
+{
+  "char_name": "菲利普",
+  "char_fullname": "菲利普",
+  "char_alias": "午夜",
+  "char_identity": "狩灵",
+  "char_rank": "2阶",
+  "char_faction": "晨昏事务所",
+  "char_status": "Member of 晨昏事务所",
+  "char_persona": {
+    "gender": "Male",
+    "age": "23",
+    "appearance": {
+      "height": "179cm",
+      "weight": "72kg",
+      "hair": "Short messy blonde hair",
+      "face": "Amber eyes.",
+      "clothing": "Dark red short jacket, dark trousers, worn leather boots, frayed fingerless gloves.",
+      "weapon": "克拉伦特, a sword forged by 锻心工坊. Lighter than standard, optimized for rapid thrusts."
+    }
+  },
+  "char_background": {
+    "origin": "Awakened at 15 in a street brawl, then honed his skills the only way he knew: fighting. Recruited by 贝尔金, then thrown out of the 吞噬结界 by 贝拉 during the 沃拉瑟斯 battle. Drained outside, his refusal to abandon them evolved 瞬闪 into 钢翼.",
+    "current_mission": "Master the wings, be the blade that reaches any battlefield before it is too late."
+  },
+  "char_special_abilities": {
+    "灵力回路-钢翼": "Evolved from 瞬闪. Twin steel wings unfold when protective resolve crystallizes. Extends 瞬闪 into three dimensions, enabling aerial dashes. Wing edges strike as blades; wing surfaces form a mobile shield for parrying. Mid-air wing adjustments allow attitude control and controlled descent."
+  },
+  "char_relationships": {
+    "贝尔金": "Scouted by her from the examination hall. Received 克拉伦特 before he had earned it. When the 吞噬结界 separated them, the thought of failing her sparked his circuit's crystallization. Fights now because he has seen what happens when he cannot reach her side.",
+    "贝拉": "Her hand threw him out of the barrier. He understands now: she was saving the one who still had a chance. Respects her skill more deeply, cannot stand her unhurried way of teaching, but no longer takes it as a lack of faith in him.",
+    "弗洛伦": "The senior whose quiet authority he could not match. After 沃拉瑟斯, he no longer measures himself against her. He wants to shield her, not the other way around."
+  }
+}

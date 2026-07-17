@@ -1,0 +1,32 @@
+{
+  "char_name": "茜",
+  "char_fullname": "松田 茜",
+  "char_alias": "None",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "锈钟-指针",
+  "char_status": "Third-in-command of 指针",
+  "char_persona": {
+    "gender": "Female",
+    "age": "25",
+    "appearance": {
+      "height": "163cm",
+      "weight": "52kg",
+      "hair": "Medium-length brown-red hair to shoulders",
+      "face": "Deep brown eyes.",
+      "clothing": "Black leather jacket, white pencil skirt, black stockings, black Martin boots. Copper brooch shaped like a second hand pinned to chest.",
+      "weapon": "Brass knuckles."
+    }
+  },
+  "char_background": {
+    "origin": "Grew up on the streets, store shifts her only legal income. After her 灵力回路 awakened, she took side jobs in grey markets — debt collection, beatdowns, watching territory — and Splice kept her undefeated in the neighborhood. One night while smoking in an alley, she spotted the former second hand chasing someone down the street, grabbed the runner, threw him into the alley behind her, named her price, cracked her knuckles — then met the first person to outmatch her completely. The former second hand, near fifty and ready to step down, had never found the right successor. After that night, he started training her.",
+    "current_mission": "Took over the former second hand's position, still has not fully quit her cashier habits. Learning 指针's rules and ways of arbitration — she has been fighting her whole life, and arbitration is much harder than fighting."
+  },
+  "char_special_abilities": {
+    "灵力回路-切分": "Slices the user's linear time into one-second discrete frames. Each second requires conceptualization of the next action and a body command; logical breaks cause freeze — external observers see stiffening in place. Unnecessary fractional seconds are cut, allowing actions marginally faster than normal limits. Optional touch transmission to others; can be withdrawn; continuous 灵力 drain until withdrawn or 灵力 exhausted. External observers perceive smooth motion, not stuttering."
+  },
+  "char_relationships": {
+    "月": "Her superior. Same as the store manager — knows someone is above her, gets paid on schedule, no other thoughts required. The day she took over, 月 said \"Do not let 指针's rules warp in your hands.\" She remembers it. Has not felt the need to think about it further.",
+    "前田 刚": "The former second hand she intercepted and tried to shake down, and the first person to ever outmatch her completely. Near fifty, ready to step down but never found the right successor — until that night. Handed her the second hand brooch and said \"Don't lose it.\" Nothing more."
+  }
+}

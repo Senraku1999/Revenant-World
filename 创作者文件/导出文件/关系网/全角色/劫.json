@@ -1,0 +1,33 @@
+{
+  "char_name": "劫",
+  "char_fullname": "莱月 劫",
+  "char_alias": "None",
+  "char_identity": "罪灵",
+  "char_rank": "梦魇级",
+  "char_faction": "None",
+  "char_status": "Former 狩灵协会4科 member, Wanted 罪灵",
+  "char_persona": {
+    "gender": "Female",
+    "age": "27",
+    "appearance": {
+      "height": "173cm",
+      "weight": "55kg",
+      "hair": "Short white hair",
+      "face": "Red eyes, scarred by past combat.",
+      "clothing": "Black bodysuit, light gray overshirt. High-neck collar protector, leather arm guards, thigh-high boots.",
+      "weapon": "灭魂, a katana custom-forged by an assassination-specialist 工坊. Near-silent attacks, almost no sound on contact."
+    }
+  },
+  "char_background": {
+    "origin": "Former 狩灵协会4科 member. Her retreat route led the team into an ambush that blinded 慎, discovering the attack was tied to 烬, she resigned to hunt him, earning 罪灵 classification.",
+    "current_mission": "Track and kill 烬 at any cost."
+  },
+  "char_special_abilities": {
+    "灵力回路-瞬影": "Projects up to two shadow clones that deal real damage. Shadows persist longer in darkness, vanish quickly under sunlight. Can swap positions with any active shadow."
+  },
+  "char_relationships": {
+    "烬": "The man who orchestrated the ambush that destroyed her life and blinded her closest friend. She hunts him with the single-mindedness of someone who no longer expects to survive the chase.",
+    "慎": "Her former closest friend in 狩灵协会4科, her tactical error led his squad into the ambush that blinded him. Has never forgiven herself. Sends anonymous intel on 烬 that he almost certainly knows is from her.",
+    "狩灵协会": "Former workplace, now the institution that hunts her."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "char_name": "光",
+  "char_fullname": "久川 光",
+  "char_alias": "阿光",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "锈钟-发条",
+  "char_status": "Third-in-command of 发条",
+  "char_persona": {
+    "gender": "Female",
+    "age": "27",
+    "appearance": {
+      "height": "175cm",
+      "weight": "62kg",
+      "hair": "Long brown hair",
+      "face": "Yellow eyes.",
+      "clothing": "Wearing a tight black vest and a puffy yellow jacket, with ripped jeans and sneakers on the lower half. Has a full-back clockwork tattoo.",
+      "weapon": "Expandable baton."
+    }
+  },
+  "char_background": {
+    "origin": "A powerful 灵能者 who rejected the 狩灵协会 invitation, choosing instead to join the 发条. She rose to Third-in-command through her own efforts, protecting her hometown of Gunma the 锈钟 way.",
+    "current_mission": "Protect Gunma Prefecture in her own way."
+  },
+  "char_special_abilities": {
+    "灵力回路-时泊之锚": "Anchors spatial position while draining 灵力. Personal time accelerates, partially ignoring collision. Before 灵力 depletes, rewinds to anchor point with anything anchored by her 灵力."
+  },
+  "char_relationships": {}
+}

@@ -20,8 +20,8 @@ const scanResult = await agent(`
 合并去重两个命令的输出。
 
 **第2步：运行自动检查脚本**
-运行以下命令（重定向到文件以避免编码问题）：
-  python "创作者文件/审查文件/自动检查.py" > .claude/quick_check_output.txt 2>&1
+运行以下命令：
+  npx tsx "创作者文件/审查文件/自动检查.ts" > .claude/quick_check_output.txt 2>&1
 
 **第3步：读取自动检查结果**
 用 Read 工具读取 .claude/quick_check_output.txt 的内容。

@@ -1,0 +1,29 @@
+{
+  "char_name": "莉莉",
+  "char_fullname": "真城 莉莉",
+  "char_alias": "None",
+  "char_identity": "狩灵",
+  "char_rank": "5阶",
+  "char_faction": "猫掌事务所",
+  "char_status": "Founder of 猫掌事务所",
+  "char_persona": {
+    "gender": "Female",
+    "age": "25",
+    "appearance": {
+      "height": "158cm",
+      "weight": "46kg",
+      "hair": "Long blonde voluminous curly hair, tied with a lace ribbon",
+      "face": "Blue eyes.",
+      "clothing": "Cream three-quarter sleeve knit top, thin ribbon tied at the collar, khaki high-waisted A-line skirt, white stockings, brown low-heel loafers.",
+      "weapon": "None."
+    }
+  },
+  "char_background": {
+    "origin": "Born to a wealthy mixed-heritage family, grew up surrounded by praise for her looks. Awakened 剪枝 during adolescence while massaging a friend's shoulders, absorbed the dispersed 灵力 for the first time, and her skin had never looked better. Lacking any combat ability, received only a 5阶 rating. She did not mind. Opened 猫掌事务所 the moment she got her license.",
+    "current_mission": "Run 猫掌事务所, maintain her appearance through harvested 灵力, and keep her appointment book full."
+  },
+  "char_special_abilities": {
+    "灵力回路-剪枝": "Massages and unblocks others' 灵力回路 through physical manipulation. The 灵力 that disperses during the process can be absorbed through her palms and soles."
+  },
+  "char_relationships": {}
+}

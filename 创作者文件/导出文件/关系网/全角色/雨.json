@@ -1,0 +1,35 @@
+{
+  "char_name": "雨",
+  "char_fullname": "浅冰 雨",
+  "char_alias": "None",
+  "char_identity": "狩灵",
+  "char_rank": "3阶",
+  "char_faction": "来生事务所",
+  "char_status": "Member of 来生事务所",
+  "char_persona": {
+    "gender": "Female",
+    "age": "19",
+    "appearance": {
+      "height": "163cm",
+      "weight": "50kg",
+      "hair": "Short ice-blue hair",
+      "face": "Green eyes.",
+      "clothing": "Ice-blue cheongsam.",
+      "weapon": "None."
+    }
+  },
+  "char_background": {
+    "origin": "Abandoned at age ten after her 灵力回路 awakened, she was taken in by a secret orphanage run by 灵能者 for children rejected for their 灵力, where she met 天, also abandoned for awakening. The two grew up as siblings. At eighteen they took the 狩灵协会 exam: she received 3阶, he received 2阶. She accepted her rating and pulled 天 away before he could cause more trouble. That day in Sendai they met a woman catching a falling cat with silkworm silk; drawn to her gentleness, 雨 persuaded 天 to join 来生事务所.",
+    "current_mission": "Handle combat commissions for 来生事务所. Discover what she can do beyond cleaning up after 天's messes."
+  },
+  "char_special_abilities": {
+    "灵力回路-霜鳞": "Controls ice and low temperature. When activated, ice armor coats all four limbs, dragon horns grow from the head, and a dragon tail extends from behind. As a passive effect, her body temperature remains several degrees below normal at all times. All manifestations dissipate upon deactivation."
+  },
+  "char_relationships": {
+    "天": "The older brother she grew up with in the same orphanage. Keeps a careful distance from him, knowing that if she lets him in even a little, his protectiveness will suffocate her.",
+    "爱": "Met her on a street corner after leaving the 狩灵协会, catching a cat falling from a tree with a net woven from silkworm silk. Drawn to her gentleness, she took the initiative and persuaded 天 to join 来生事务所 with her. The cheongsam she wears was sewn by 爱, she never mentions it, but washes it by hand, folds it only after it is fully dry.",
+    "星流": "Recognizes she keeps people at a distance too. Does not push, does not talk more than necessary. Leaves tea on the table when she passes by, and that is enough.",
+    "来生事务所": "No one forces her to stay, and no one pushes her out. Still getting used to it.",
+    "狩灵协会": "Passed the exam with 3阶 and walked out the same day. Holds no grudge and no expectations."
+  }
+}

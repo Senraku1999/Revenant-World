@@ -1,0 +1,22 @@
+{
+  "char_name": "第一次扭曲",
+  "char_fullname": "林野",
+  "char_identity": "扭曲",
+  "char_rank": "灾厄级",
+  "char_status": "Former company employee",
+  "char_persona": {
+    "gender": "Male",
+    "age": "34",
+    "appearance": {
+      "height": "5m",
+      "form": "A half-humanoid monster formed by stacking, compressing, and twisting office furniture such as desks, chairs, and printers. Its head is a monitor screen, left hand is paper-cutting shears, and right hand is the top opening mechanism of a photocopier."
+    }
+  },
+  "char_background": {
+    "origin": "A low-level employee. He awakened 灵力 in his youth, but his abilities were too weak to qualify as a 狩灵, so he returned to ordinary life. Overwhelmed by debt and family pressure, prolonged stress accumulated into severe depression. After being publicly humiliated by his boss, his latent 灵力 resonated with his emotional collapse, triggering the first recorded case of 扭曲.",
+    "current_mission": "Madly attacks everything around it and absorbs all objects containing 灵力 to fuel itself."
+  },
+  "char_special_abilities": {
+    "扭曲同化": "Passively fuses with and assimilates surrounding objects, integrating them into its body mass. The larger it grows, the greater its crushing force becomes. Objects containing 灵力 are drawn toward its body and absorbed as fuel, accelerating its expansion."
+  }
+}

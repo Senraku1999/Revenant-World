@@ -1,0 +1,29 @@
+{
+  "char_name": "葵",
+  "char_fullname": "泷 葵",
+  "char_alias": "小葵",
+  "char_identity": "狩灵",
+  "char_rank": "2阶",
+  "char_faction": "狩灵协会3科",
+  "char_status": "Member of 狩灵协会3科",
+  "char_persona": {
+    "gender": "Female",
+    "age": "23",
+    "appearance": {
+      "height": "163cm",
+      "weight": "48kg",
+      "hair": "Long red hair with twin ponytails",
+      "face": "Dark brown eyes.",
+      "clothing": "A white short-sleeved shirt with a black choker, layered under a green tactical vest featuring black straps and a brown chest badge. Her light brown skirt has white lace trim, paired with black tactical arm and leg guards and knee-high boots.",
+      "weapon": "A modular assault rifle."
+    }
+  },
+  "char_background": {
+    "origin": "Graduated from the Department of Chemistry at the University of Tokyo, left a dull research institute to join the 狩灵协会. She operates as a heavy firepower master from the rear, but collateral damage keeps her banned from urban missions.",
+    "current_mission": "Working in 狩灵协会3科, seeking suitable targets for testing new firearms, bullets, and explosives developed by herself, and continuously making improvements."
+  },
+  "char_special_abilities": {
+    "灵力回路-反物质": "Releases objects from the effect of forces, allowing heavy weapon components to be carried and fired without recoil. Greater mass consumes more 灵力."
+  },
+  "char_relationships": {}
+}

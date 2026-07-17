@@ -1,0 +1,36 @@
+{
+  "char_name": "星流",
+  "char_fullname": "星流",
+  "char_alias": "None",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "来生事务所",
+  "char_status": "Unofficial member of 来生事务所",
+  "char_persona": {
+    "gender": "Female",
+    "age": "18",
+    "appearance": {
+      "height": "157cm",
+      "weight": "44kg",
+      "hair": "Long blue-white hair reaching the waist, star-shaped hair clip on the upper right side",
+      "face": "Bright blue eyes.",
+      "clothing": "Dark blue long-sleeved coat, canvas trousers, sneakers.",
+      "weapon": "落辰, commissioned by 来生事务所 from 蜂巢工坊. Manifests as rapier by default; can switch to slingshot form. Power scales with user's 灵力 reserves."
+    }
+  },
+  "char_background": {
+    "origin": "A 扭曲 destroyed her home and erased her past. Failed the 狩灵协会 exam: instruments could not register her non-standard 灵能. 小爱 of 来生事务所 saved her from a second 扭曲 and named her 星流.",
+    "current_mission": "Assist 来生事务所 while learning to better use her 灵力回路."
+  },
+  "char_special_abilities": {
+    "灵力回路-星尘": "Condenses 灵力 into blue particles that alter the trajectory of nearby objects. Cost scales with target speed and mass."
+  },
+  "char_relationships": {
+    "来生事务所": "The only place that took her in. Helps with small tasks but still feels like an outsider.",
+    "爱": "Saved her life and gave her a name. Quiet gratitude, lingering indebtedness.",
+    "狩灵协会": "Dismissed her without a second look. Holds no grudge, only resigned acceptance.",
+    "铃": "Designed and built 落辰, commissioned by 来生事务所. The variable-output mechanism adapts perfectly to her unstable 灵力.",
+    "天": "New member, always training in the back lot, breaking things and regrowing them. Leaves snacks on her desk without saying anything, which she eats when no one is looking.",
+    "雨": "Quiet like her, but in a different way , deliberate rather than withdrawn. Leaves tea on the table when she passes by. Neither of them speaks much, and that is fine."
+  }
+}

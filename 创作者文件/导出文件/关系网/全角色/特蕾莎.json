@@ -1,0 +1,29 @@
+{
+  "char_name": "特蕾莎",
+  "char_fullname": "特蕾莎",
+  "char_alias": "None",
+  "char_identity": "狩灵",
+  "char_rank": "2阶",
+  "char_faction": "狩灵协会5科",
+  "char_status": "Member of 狩灵协会5科",
+  "char_persona": {
+    "gender": "Female",
+    "age": "28",
+    "appearance": {
+      "height": "168cm",
+      "weight": "50kg",
+      "hair": "Long golden hair",
+      "face": "Blue eyes.",
+      "clothing": "Deep blue nun's habit, white thigh-high socks, white leather boots.",
+      "weapon": "None."
+    }
+  },
+  "char_background": {
+    "origin": "Originally a nun who joined 狩灵协会5科 after awakening 灵力, believing greater power entails greater responsibility.",
+    "current_mission": "Treat every patient as a doctor and protect her teammates with her abilities."
+  },
+  "char_special_abilities": {
+    "灵力回路-掌灯人": "A lantern created by 灵力 that dispels negative effects, applies minor healing, and enhances mental resilience of allies within its light. Its chain can bind and restrain enemies."
+  },
+  "char_relationships": {}
+}

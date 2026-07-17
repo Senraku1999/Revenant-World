@@ -1,0 +1,34 @@
+{
+  "char_name": "百合子",
+  "char_fullname": "花坂 百合子",
+  "char_alias": "None",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "None",
+  "char_status": "High school student, Youngest of 花坂 family",
+  "char_persona": {
+    "gender": "Female",
+    "age": "18",
+    "appearance": {
+      "height": "158cm",
+      "weight": "46kg",
+      "hair": "Long black hair with pink-tinted ends, loosely braided to one side",
+      "face": "Pink eyes.",
+      "clothing": "High school sailor uniform. Pastel cardigans, knee-length pleated skirts.",
+      "weapon": "None."
+    }
+  },
+  "char_background": {
+    "origin": "Born when her brothers were in elementary school. Inherited no 花坂 bloodline, awakening as a natural 灵能者 instead. 花舞 surfaced around age two. Raised by mother away from 狩灵 affairs.",
+    "current_mission": "Finish high school. Decide whether to stay ordinary or enter the 灵能 world."
+  },
+  "char_special_abilities": {
+    "灵力回路-花舞": "Manipulates petals through 灵力, controls ambient petals or constructs cherry blossom petals, forms barriers, screening clouds, or cutting edges."
+  },
+  "char_relationships": {
+    "花坂 枫": "Father, lost him at ten. Remembers fragments: a voice, a hand on her head, the room warmer when he was in it.",
+    "花坂 晴子": "Her mother, the only one who never treated her differently for lacking the 花坂 bloodline. Tells her everything, hides nothing.",
+    "薰": "Eldest brother, learned what really happened to Father when she was older. Senses there is more he does not say, and trusts his silence.",
+    "千乐": "Second brother, raids his snack cabinet every chance she gets. Hears the worry beneath every joke, loves him for it."
+  }
+}

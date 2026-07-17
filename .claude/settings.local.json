@@ -5,13 +5,8 @@
       "Workflow(sampling-review)",
       "Workflow(quick-check)",
       "Workflow(change-impact)",
-      "Bash(python \"创作者文件/审查文件/自动检查.py\")",
-      "Bash(python \"创作者文件/审查文件/一级审查/一级审查.py\")",
-      "Bash(python \"创作者文件/审查文件/二级审查/二级审查.py\")",
-      "Bash(python -m json.tool *)",
-      "Bash(printf '%s\\\\n' '# 让真 Python 优先于微软商店跳板' 'export PATH=\"/c/Users/刘凡瑞/AppData/Local/Python/pythoncore-3.14-64:/c/Users/刘凡瑞/AppData/Local/Python/pythoncore-3.14-64/Scripts:$PATH\"')",
-      "Bash(npx skills *)",
-      "Read(//c/Users/刘凡瑞/**)"
+      "Bash(npx tsx *)",
+      "Bash(node -e *)"
     ]
   }
 }

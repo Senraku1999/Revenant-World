@@ -32,7 +32,7 @@
 
 **它做什么：**
 1. 自动检测 git diff 中的变更文件
-2. 运行 `自动检查.py`（JSON 语法、Token、Em dash、枚举值等）
+2. 运行 `自动检查.ts`（JSON 语法、Token、Em dash、枚举值等）
 3. 对变更的 MD 文件做标点审查（六条硬规则）
 4. 对变更的 MD 文件做 ControlBoundary 审查（身份/目的/关系预设）
 5. 汇总输出 T0/T1/T2 分级报告

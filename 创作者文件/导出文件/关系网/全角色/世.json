@@ -1,0 +1,35 @@
+{
+  "char_name": "世",
+  "char_fullname": "幸村 世",
+  "char_alias": "None",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "锈钟-表盘",
+  "char_status": "Third-in-command of 表盘",
+  "char_persona": {
+    "gender": "Female",
+    "age": "28",
+    "appearance": {
+      "height": "162cm",
+      "weight": "46kg",
+      "hair": "Short wavy brown hair",
+      "face": "Wine-red eyes, faint dark circles beneath.",
+      "clothing": "Black cheongsam with golden threads, black stockings and leather boots.",
+      "weapon": "影打·大典太光世, replica of National Treasure."
+    }
+  },
+  "char_background": {
+    "origin": "Born into the 幸村 merchant family, her 灵力 awakening drew the underground psychic economy into her orbit. When her family enterprise merged with other Hokkaido merchant houses to form 表盘, she rose to third-in-command.",
+    "current_mission": "Maintain 表盘 operations and secure advantages in negotiations. Occasionally handles problems unsolvable at the table."
+  },
+  "char_special_abilities": {
+    "灵力回路-驱疫": "Expands domain, transfers curses, toxins, and negative effects from allies within to herself for slow healing.",
+    "灵力回路-死疫": "Expands domain, causing living beings within to weaken and decay, and discharges accumulated effects from 驱疫 onto a target."
+  },
+  "char_relationships": {
+    "迟": "齿轮's second, dresses similarly but operates like her opposite. She takes what could be traded, respects efficiency, not methods, every encounter draining 世.",
+    "写乐": "The 写影师 who transcribed her 灵力回路 while 锻 forged. Three hours without a single unnecessary word, \"You are worth it.\" 世 remembers those three words, and the look in her eyes when she said them.",
+    "锻": "The smith who forged 大典太. She walked into his spotless forge in a cheongsam, said she wanted a blade that was beautiful, elegant, and could protect her. He looked at her a second longer before accepting. No questions about allegiance, no curiosity about her past, only technical parameters.",
+    "爱": "The 来生事务所 owner in Sendai who spins her cheongsam silk. 世 sends measurements and specifications by letter, 爱 returns spools of 灵力-infused thread. They have never met in person, and neither seems in a hurry to change that."
+  }
+}

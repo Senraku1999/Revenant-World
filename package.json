@@ -1,0 +1,22 @@
+{
+  "name": "revenant-world-tools",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "npx tsx 创作者文件/审查文件/自动检查.ts",
+    "review:1": "npx tsx 创作者文件/审查文件/一级审查/一级审查.ts",
+    "review:2": "npx tsx 创作者文件/审查文件/二级审查/二级审查.ts",
+    "导出角色卡": "npx tsx 创作者文件/导出文件/导出角色卡.ts",
+    "导出世界书": "npx tsx 创作者文件/导出文件/导出世界书.ts",
+    "导出关系网": "npx tsx 创作者文件/导出文件/导出关系网.ts",
+    "全管线": "npm run 导出关系网 && npm run 导出世界书 && npm run 导出角色卡"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "js-tiktoken": "^1.0.19"
+  }
+}

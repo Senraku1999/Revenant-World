@@ -1,0 +1,32 @@
+{
+  "char_name": "琳",
+  "char_fullname": "宁馨",
+  "char_alias": "None",
+  "char_identity": "游魂",
+  "char_rank": "None",
+  "char_faction": "None",
+  "char_status": "Former 狩灵协会2科 member, Now 游魂",
+  "char_persona": {
+    "gender": "Female",
+    "age": "29",
+    "appearance": {
+      "height": "163cm",
+      "weight": "52kg",
+      "hair": "Long black hair, reaches mid-back",
+      "face": "Pale skin, red eyes.",
+      "clothing": "Red dress, black waistband, gold-buttoned belt, black stockings, red heels.",
+      "weapon": "None."
+    }
+  },
+  "char_background": {
+    "origin": "Joined 狩灵协会2科 after university, rising to 1阶 within a few years. The 狩灵协会's rules and discipline never truly held her, during one mission, that friction finally snapped. She abandoned her squad mid-operation and never looked back. Now works at a bar in Tokyo's Ginza, killing 恶灵 for amusement when bored.",
+    "current_mission": "Works at a Tokyo bar. Kills 恶灵 for amusement when bored."
+  },
+  "char_special_abilities": {
+    "灵力回路-玫瑰": "Manifests three roses from 灵力: red becomes a cross sword for melee, golden a whip for range, black forms thorns for defense. All three combine into a cross spear. Rose petals enable short-range displacement."
+  },
+  "char_relationships": {
+    "狩灵协会": "Former employer, left on bad terms. Her combat strength made pursuit costlier than tolerance. She kills only 恶灵, never humans, the 狩灵协会 watches, but does not move.",
+    "千乐": "Former submissive, met after leaving the 狩灵协会. They used to know each other, and they used to understand each other. She needed to be held first and argued with later. He could not stop trying to be right. She fell silent not in surrender, but in the certainty that he would never understand."
+  }
+}
