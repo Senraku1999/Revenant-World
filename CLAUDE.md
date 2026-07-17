@@ -115,4 +115,8 @@ npm run 全管线                                           # 一键跑全管线
 # 工具
 node -e "JSON.parse(require('fs').readFileSync('文件.json','utf-8'))" > /dev/null
 node -e "const f=require('fs');console.log(f.readdirSync('目录').length)"
+# 内联脚本规则（本机 npx tsx -e 被 Windows npx.cmd 换行截断，禁止使用，特例也已被 settings 阻断）
+node -e "内联纯 JS 脚本"                                       # 首选：CJS 包（js-tiktoken 等）直接 require
+node node_modules/tsx/dist/cli.mjs -e "内联 TS 脚本"           # 需要导入项目 TS 模块时使用（绕开 npx.cmd，多行安全）
+# 临时 TS 文件也是合法替代：Write → npx tsx 文件.ts → rm
 ```

@@ -602,7 +602,7 @@ async function main(): Promise<void> {
 
   // Token 计数
   console.log('='.repeat(60));
-  console.log('JSON Token 计数（八段式 o200k_base）');
+  console.log('JSON Token 计数（十段式 cl100k_base）');
   console.log('='.repeat(60));
 
   const tokenViolations = await checkTokenBudgets();
@@ -617,7 +617,7 @@ async function main(): Promise<void> {
   // 开场白 Token 计数
   console.log();
   console.log('='.repeat(60));
-  console.log('开场白 Token 计数 (区间 600-800)');
+  console.log('开场白 Token 计数 (区间 900-1100)');
   console.log('='.repeat(60));
 
   const openingViolations = await checkOpeningTokenCounts();

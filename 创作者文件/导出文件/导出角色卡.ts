@@ -118,9 +118,10 @@ function main(): void {
         continue;
       }
 
-      const descStr = JSON.stringify(data, null, 2).replace(/\n/g, '\r\n');
-      const firstMesRn = readFileUtf8(opening).trim().replace(/\n/g, '\r\n');
-      const introRn = readFileUtf8(intro).trim().replace(/\n/g, '\r\n');
+      // 输入换行先归一为 LF 再统一转 CRLF，兼容任意来源换行格式
+      const descStr = JSON.stringify(data, null, 2).replace(/\r\n?/g, '\n').replace(/\n/g, '\r\n');
+      const firstMesRn = readFileUtf8(opening).trim().replace(/\r\n?/g, '\n').replace(/\n/g, '\r\n');
+      const introRn = readFileUtf8(intro).trim().replace(/\r\n?/g, '\n').replace(/\n/g, '\r\n');
 
       const card = buildCard(cardName, descStr, firstMesRn, introRn, wbName, wbCache[wbName].entries, createDate);
       embedCharaPng(basePng, Buffer.from(JSON.stringify(card), 'utf-8'), path.join(EXPORT_DIR, `${cardName}.png`));

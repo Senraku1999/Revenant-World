@@ -1,0 +1,5 @@
+*.md   text eol=crlf
+*.json text eol=crlf
+*.ts   text eol=crlf
+*.js   text eol=crlf
+*.png  binary

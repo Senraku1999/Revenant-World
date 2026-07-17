@@ -26,7 +26,7 @@ export interface Sentence {
 /** 引号区间 [start, end] */
 export type QuoteRange = [number, number];
 
-/** 八段 Token 预算区间 */
+/** 十段 Token 预算区间 */
 export interface BudgetRange {
   lo: number;
   hi: number;
