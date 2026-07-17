@@ -14,12 +14,13 @@
       "weight": "52kg",
       "hair": "Long light brown hair.",
       "face": "Brown eyes, narrow shape.",
+      "features": "None.",
       "clothing": "Blouse and slacks off stage. On stage, the quartet's uniform.",
       "weapon": "None."
     }
   },
   "char_description": {
-    "overview": "Underground idol at a small live house in 秋叶原. 四色音's dancer and choreographer, she designs every formation, counts the money, patches the walls, and makes sure everyone eats. Not one less.",
+    "overview": "Underground idol at a small live house in 秋叶原. 四色音's dancer and choreographer, she designs every formation, counts the money, patches the walls, and makes sure everyone eats.",
     "combat_style": "Non-combatant."
   },
   "char_personality": {

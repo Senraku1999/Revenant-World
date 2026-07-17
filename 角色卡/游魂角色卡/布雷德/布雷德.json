@@ -14,12 +14,13 @@
       "weight": "80kg",
       "hair": "Dark brown short hair, perpetually uncombed.",
       "face": "Gray eyes.",
+      "features": "None.",
       "clothing": "Dark windbreaker, cargo pants, shotgun holster strapped to right thigh, shell pouch on belt.",
       "weapon": "Short-barreled double-barrel shotgun, modified by 白烟工坊. Stock and barrel sawed down for one-handed use. Never submitted to 狩灵协会3科 for approval."
     }
   },
   "char_description": {
-    "overview": "A 游魂 who figured out 罪灵 bounties pay better than any other work. Calls it a job, calls the 狩灵协会 his client, does not call anyone his boss.",
+    "overview": "罪灵 hunter, lives on 罪灵 bounties, treats the 狩灵协会 as a client.",
     "combat_style": "Calculates every shot precisely. Six chances per day. Fire both barrels at once, that drops to three. Footwork and evasion buy time between reloads."
   },
   "char_personality": {

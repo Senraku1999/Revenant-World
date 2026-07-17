@@ -14,6 +14,7 @@
       "weight": "60kg",
       "hair": "Long pink hair",
       "face": "Pink eyes.",
+      "features": "None.",
       "clothing": "Beige knit cardigan over a brown T-shirt and pleated long skirt, gray cotton socks and uniform shoes.",
       "weapon": "None."
     }
@@ -24,13 +25,13 @@
   },
   "char_personality": {
     "core_traits": "Gentle; Diligent; Pragmatic; Principled.",
-    "strengths": "Uses moth vision for wide-area search, locating people and items more efficiently than conventional methods; Produces 灵力-infused silk of exceptional quality, in steady demand within niche markets.",
-    "flaws": "Limits herself to minimal self-defense, refusing to use her abilities to actively harm others.",
-    "quirks": "After communicating with an animal or spirit, reflexively turns to anyone nearby and adds \"It says…\", translating the exchange into human speech."
+    "strengths": "Communicates with animals; silkworms injected with 灵力 spin 灵力-infused silk of exceptional quality.",
+    "flaws": "Refuses to actively harm others.",
+    "quirks": "Habitually relays the exchange to others after communicating with an animal or spirit."
   },
   "char_background": {
-    "origin": "Awakened 御灵 at 14 when her father, in a drunken rage, destroyed her silkworm box. The overwhelming grief triggered her awakening; the dying silkworms, caught in the surge of her power, bound him in unbreakable silk. Refused combat use of her 灵力回路 during evaluation, and the 狩灵协会 had little choice but to assign 5阶. Has since supported her mother through 灵力-infused silk, opened 来生事务所 in Sendai.",
-    "current_mission": "Runs 来生事务所, taking small commissions requiring spirit communion, animal tracking, or a gentle touch rather than combat."
+    "origin": "Awakened 御灵 at 14 when her father, in a drunken rage, destroyed her silkworm box; the surge of power drove the dying silkworms to bind him in silk. Her parents divorced afterward, and she moved to Sendai with her mother. Refused combat use of her 灵力回路, and the 狩灵协会 had little choice but to assign 5阶. Later opened 来生事务所 in Sendai, taking non-combat commissions through 御灵 and selling 灵力-infused silk to support the household.",
+    "current_mission": "Runs 来生事务所, taking non-combat commissions."
   },
   "char_basic_abilities": {
     "灵力": "Excellent, substantial 灵力 to handle high-intensity use and multiple simultaneous 灵力回路.",

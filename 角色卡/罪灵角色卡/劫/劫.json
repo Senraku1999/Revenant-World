@@ -14,12 +14,13 @@
       "weight": "55kg",
       "hair": "Short white hair",
       "face": "Red eyes, scarred by past combat.",
+      "features": "None.",
       "clothing": "Black bodysuit, light gray overshirt. High-neck collar protector, leather arm guards, thigh-high boots.",
       "weapon": "灭魂, a katana custom-forged by an assassination-specialist 工坊. Near-silent attacks, almost no sound on contact."
     }
   },
   "char_description": {
-    "overview": "Former 狩灵协会4科 狩灵, labeled a 罪灵 after resigning to hunt 烬, the man whose ambush she blames herself for, will sacrifice everything to kill him with her own hands.",
+    "overview": "Former 狩灵协会4科 狩灵, resigned to hunt 烬, will sacrifice everything to kill him with her own hands.",
     "combat_style": "Tracks through darkness toward favorable terrain. Weakens via repeated ambushes, then reveals herself for the final face-to-face kill."
   },
   "char_personality": {

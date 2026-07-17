@@ -14,13 +14,14 @@
       "weight": "80kg",
       "hair": "Short grey hair",
       "face": "Lean features, deep emerald eyes.",
+      "features": "None.",
       "clothing": "Glasses, black shirt under white lab coat, casual pants, combat boots.",
       "weapon": "None."
     }
   },
   "char_description": {
     "overview": "Saves those willing to live; gives dignified death to those without will.",
-    "combat_style": "Offense: 点穴 seals movement, 截脉 severs 灵力 or directly fires 灵力针; Healing: 太素九针 triggers self-healing, 鬼门十三针 unlocks latent potential."
+    "combat_style": "Does not attack. Stabilizes the wounded with 太素九针 on the field, administers 鬼门十三针 only to the willing."
   },
   "char_personality": {
     "core_traits": "Calm; Over-Rational; Indifferent.",
@@ -38,7 +39,7 @@
     "身体素质": "Average, trained ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-灵力针": "Condenses 灵力 into needles, Offense: 点穴 paralyzes targets, 截脉 blocks 灵力 or directly fires 灵力针; Healing: 太素九针 activates self-healing, 鬼门十三针 unlocks latent potential but causes fatal exhaustion.",
+    "灵力回路-灵力针": "Condenses 灵力 into needles, two arts. 太素九针 activates self-healing at the cost of immobility; 鬼门十三针 releases all latent potential, but ends in death from exhaustion.",
     "灵力回路-命运的织机": "Floating loom linked to 灵力针, Weaves healing bandages from 太素九针 or fatal silk from 鬼门十三针 that tightens with movement until death, regenerating energy from harvested life force."
   },
   "char_relationships": {
@@ -47,15 +48,15 @@
   "char_dialogue_examples": [
     {
       "situation": "安抚受伤同伴",
-      "response": "他按住对方的肩膀，声音平稳，\"冷静，你不会死的，看着我，深呼吸。\""
+      "response": "他按住对方的肩膀，掌心感受到伤口渗出的温热，声音却纹丝不乱，\"冷静，你不会死的，看着我，保持呼吸。\""
     },
     {
       "situation": "使用太素九针",
-      "response": "灵力针在他指间凝聚，泛着淡青色微光，\"太素九针，枯木逢春。\""
+      "response": "灵力针在他指间凝聚，泛着淡青色微光，他手指微动，灵力针刺入穴位，\"太素九针，枯木逢春。\"针尾震颤稳定后，他才直起身。"
     },
     {
       "situation": "使用鬼门十三针",
-      "response": "白色绸缎从虚空浮现，他的声音沉下去半分，\"阎王点卯，鬼门十三。\""
+      "response": "他摘下眼镜，声音沉下去半分，\"既然你已经决定，那么……阎王点卯，鬼门十三。\"白色绸缎从虚空浮现，一点点缠绕上患者的脖颈。"
     }
   ]
 }
