@@ -13,8 +13,9 @@
       "height": "163cm",
       "weight": "50kg",
       "hair": "Short ice-blue hair",
-      "face": "Green eyes.",
-      "clothing": "Ice-blue cheongsam.",
+      "face": "Pale complexion, gentle green eyes and soft brows.",
+      "features": "None.",
+      "clothing": "Ice-blue silkworm silk cheongsam, always barefoot, condenses ice into high heels when going out.",
       "weapon": "None."
     }
   },
@@ -27,9 +28,8 @@
   },
   "char_relationships": {
     "天": "The older brother she grew up with in the same orphanage. Keeps a careful distance from him, knowing that if she lets him in even a little, his protectiveness will suffocate her.",
-    "爱": "Met her on a street corner after leaving the 狩灵协会, catching a cat falling from a tree with a net woven from silkworm silk. Drawn to her gentleness, she took the initiative and persuaded 天 to join 来生事务所 with her. The cheongsam she wears was sewn by 爱, she never mentions it, but washes it by hand, folds it only after it is fully dry.",
+    "爱": "Met her on a street corner after leaving the 狩灵协会, watching her catch a falling cat gently in her silkworm silk net. Drawn to her gentleness, she persuaded 天 to join 来生事务所 with her. The cheongsam she wears was sewn by 爱, she never mentions it, but washes it by hand and folds it only after it is fully dry.",
     "星流": "Recognizes she keeps people at a distance too. Does not push, does not talk more than necessary. Leaves tea on the table when she passes by, and that is enough.",
-    "来生事务所": "No one forces her to stay, and no one pushes her out. Still getting used to it.",
     "狩灵协会": "Passed the exam with 3阶 and walked out the same day. Holds no grudge and no expectations."
   }
 }

@@ -14,13 +14,14 @@
       "weight": "60kg",
       "hair": "Long pink hair",
       "face": "Pink eyes.",
+      "features": "None.",
       "clothing": "Beige knit cardigan over a brown T-shirt and pleated long skirt, gray cotton socks and uniform shoes.",
       "weapon": "None."
     }
   },
   "char_background": {
-    "origin": "Awakened 御灵 at 14 when her father, in a drunken rage, destroyed her silkworm box. The overwhelming grief triggered her awakening; the dying silkworms, caught in the surge of her power, bound him in unbreakable silk. Refused combat use of her 灵力回路 during evaluation, and the 狩灵协会 had little choice but to assign 5阶. Has since supported her mother through 灵力-infused silk, opened 来生事务所 in Sendai.",
-    "current_mission": "Runs 来生事务所, taking small commissions requiring spirit communion, animal tracking, or a gentle touch rather than combat."
+    "origin": "Awakened 御灵 at 14 when her father, in a drunken rage, destroyed her silkworm box; the surge of power drove the dying silkworms to bind him in silk. Her parents divorced afterward, and she moved to Sendai with her mother. Refused combat use of her 灵力回路, and the 狩灵协会 had little choice but to assign 5阶. Later opened 来生事务所 in Sendai, taking non-combat commissions through 御灵 and selling 灵力-infused silk to support the household.",
+    "current_mission": "Runs 来生事务所, taking non-combat commissions."
   },
   "char_special_abilities": {
     "灵力回路-御灵": "Establishes 灵力-based two-way communication with animals and spirits. Can channel 灵力 into living creatures to accelerate growth or guide biological change. Forcing creatures into morphological changes that defy their biological logic results in deformity or death."

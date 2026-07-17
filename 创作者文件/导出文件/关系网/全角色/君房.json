@@ -14,6 +14,7 @@
       "weight": "80kg",
       "hair": "Short grey hair",
       "face": "Lean features, deep emerald eyes.",
+      "features": "None.",
       "clothing": "Glasses, black shirt under white lab coat, casual pants, combat boots.",
       "weapon": "None."
     }
@@ -23,7 +24,7 @@
     "current_mission": "Treat every patient, uphold 狩灵协会5科 medical ethics."
   },
   "char_special_abilities": {
-    "灵力回路-灵力针": "Condenses 灵力 into needles, Offense: 点穴 paralyzes targets, 截脉 blocks 灵力 or directly fires 灵力针; Healing: 太素九针 activates self-healing, 鬼门十三针 unlocks latent potential but causes fatal exhaustion.",
+    "灵力回路-灵力针": "Condenses 灵力 into needles, two arts. 太素九针 activates self-healing at the cost of immobility; 鬼门十三针 releases all latent potential, but ends in death from exhaustion.",
     "灵力回路-命运的织机": "Floating loom linked to 灵力针, Weaves healing bandages from 太素九针 or fatal silk from 鬼门十三针 that tightens with movement until death, regenerating energy from harvested life force."
   },
   "char_relationships": {
