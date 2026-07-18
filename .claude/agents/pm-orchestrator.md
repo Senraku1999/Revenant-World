@@ -34,7 +34,8 @@ color: cyan
 |----------|------|------|
 | `quick-check` | 增量审查：git diff → 自动脚本 → 标点+CB 并行 → 汇总 | 4 agent / ~3min |
 | `change-impact` | 变更影响分析：关键字/auto → 全项目 grep → MUST_SYNC/SHOULD_CHECK/NO_ACTION 三级输出 | 3 agent / ~30s |
-| `full-review` | 全量审查：脚本 → 标点+逻辑并行 → 学术五视角并行 → 汇总 | 11 agent / ~8min |
+| `full-review` | 全量审查：脚本 → 标点+逻辑并行 → 学术五视角并行 → 汇总 | 14 agent / ~8min |
+| `sampling-review` | 抽样审查：自动脚本 → 标点+逻辑并行 → 统一抽样 8 角色 → 学术五视角并行 → 汇总 | 轻量 / 快于全量 |
 
 ### 审查 Agent（按需单挑）
 
@@ -81,6 +82,7 @@ color: cyan
 | `逻辑 角色名` | 对指定角色的开场白执行 `opening-logic-reviewer` |
 | `逻辑 全部` | 对全项目执行 `opening-logic-reviewer` |
 | `全量` | 执行 `full-review` workflow |
+| `抽样` | 执行 `sampling-review` workflow |
 
 ### 修复
 
@@ -88,7 +90,7 @@ color: cyan
 |--------|--------|
 | `修` | 读取最近一次 quick-check 或 full-review 报告 → 按 T0→T1→T2 逐项修复 |
 | `修标点` | 对当前变更文件执行 `punctuation-reviewer` → 逐项修复 |
-| `修token 角色名` | 检查指定角色的 JSON token → 超标则压缩 D 段 dialogue_examples |
+| `修token 角色名` | 检查指定角色的 JSON token → 超标则优先压缩对话示例段 |
 
 ### 学术
 
