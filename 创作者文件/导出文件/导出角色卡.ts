@@ -1,10 +1,10 @@
 /**
  * 管线三：PNG 导出
  * ================
- * 角色卡三件套 + 底图 + 成品世界书 → SillyTavern chara_card_v2 PNG
+ * 角色卡三件套 + 底图 + 世界书 → SillyTavern chara_card_v2 PNG
  *
- * 前置：管线一（sync-relations）+ 管线二（build-worldbook）
- * 用法：npx tsx 创作者文件/导出文件/export-png.ts
+ * 前置：管线一（导出关系网）+ 管线二（导出世界书）
+ * 用法：npx tsx 创作者文件/导出文件/导出角色卡.ts
  */
 
 import * as fs from 'fs';
@@ -18,7 +18,7 @@ chdirProjectRoot(__dirname);
 const PROJECT_ROOT = process.cwd();
 
 // ⚠️ 这是【导出分配】——控制 PNG 导出时每张卡嵌入哪本世界书。
-// 与【构建分配】(build-worldbook.ts 的 WORLDBOOK_BUILD) 是两条独立管线。
+// 与【构建分配】(导出世界书.ts 的 WORLDBOOK_BUILD) 是两条独立管线。
 const PNG_EXPORT_ASSIGN: WorldBookAssignments = {
   '狩灵 全角色': ['新宿站', '协会1科', '四色音 · 闪耀舞台'],
   '狩灵 四色音': ['心音', '花音', '弦音', '铃音'],

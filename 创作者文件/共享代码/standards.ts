@@ -9,7 +9,7 @@ import { isCjk } from './utils';
 export const SPEECH_VERBS = new Set([
   // 单字
   '说', '道', '问', '喊', '叫', '答', '骂', '曰',
-  '讲', '谈', '聊', '补', '接', '应', '叹', '念',
+  '讲', '谈', '聊', '补', '接', '应', '叹', '念', '回', '加',
   // 双字组合
   '问道', '说道', '喊道', '叫道', '答道', '骂道', '笑道', '吼道',
   '回道', '嚷道', '答曰', '讲道', '叹道', '念道', '应道',
@@ -29,6 +29,10 @@ export function isSpeechVerb(word: string): boolean {
   }
   for (let i = 0; i < word.length; i++) {
     if (SPEECH_VERBS.has(word.slice(i))) return true;
+  }
+  // 捕获窗口尾部为宾语（如"补了一句""说了三个字"）时，言语动词位于窗口中部
+  for (const v of SPEECH_VERBS) {
+    if (word.includes(v + '了') || word.includes(v + '着') || word.includes(v + '道')) return true;
   }
   return false;
 }

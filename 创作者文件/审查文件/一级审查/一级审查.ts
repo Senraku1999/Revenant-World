@@ -16,7 +16,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { isChineseLine, isCodeOrTableLine, readFileUtf8, extractChineseStrings } from '../../共享代码/utils';
 import { isSpeechVerb, loadVariantForms } from '../../共享代码/standards';
-import { findMdJsonFiles } from '../../共享代码/file-scanner';
+import { findMdJsonFiles, EXCLUDE_DIRS } from '../../共享代码/file-scanner';
 import {
   CHINESE_PERIOD_END, ENGLISH_COMMA_ZH, ENGLISH_SEMICOLON_ZH, ENGLISH_COLON_ZH,
   EXCLAM_EXCESS, QUESTION_EXCESS, ELLIPSIS_DOTS, DOUBLE_DOT, SINGLE_EM_DASH,
@@ -27,8 +27,10 @@ import {
 
 const PROJECT_ROOT = path.resolve(__dirname, '..', '..', '..');
 
-const EXCLUDE_DIRS = new Set(['.git', '.claude', '__pycache__', 'node_modules', '.obsidian']);
-const EXCLUDE_FILES = new Set(['一级审查.ts']);
+// 异形词语境白名单：GF 推荐针对特定义项（如"知识分子"），下列词位为规范词不报
+const VARIANT_CONTEXT_WHITELIST: Record<string, string[]> = {
+  '份子': ['份子钱', '随份子', '凑份子'],
+};
 
 interface ViolationItem {
   line: number;
@@ -132,10 +134,10 @@ class GBT15834Checker {
   checkQuotePairing(filepath: string, lines: string[]): void {
     const fullText = lines.join('\n');
 
-    const leftQuotesCn = (fullText.match(/"/g) || []).length;
-    const rightQuotesCn = (fullText.match(/"/g) || []).length;
+    const leftQuotesCn = (fullText.match(/“/g) || []).length;
+    const rightQuotesCn = (fullText.match(/”/g) || []).length;
     if (leftQuotesCn !== rightQuotesCn) {
-      this.add(filepath, 0, `全文左引号" ${leftQuotesCn} 个，右引号" ${rightQuotesCn} 个`,
+      this.add(filepath, 0, `全文左引号“ ${leftQuotesCn} 个，右引号” ${rightQuotesCn} 个`,
         '4.8 引号 — 中文双引号左右数量不匹配，存在未闭合引号',
         `检查全文，补齐缺失的 ${leftQuotesCn < rightQuotesCn ? '左' : '右'}引号`, 'T0');
     }
@@ -250,18 +252,27 @@ class GBT15834Checker {
   }
 
   // ── 检查 5：异形词扫描 ──
+
+  /** 白名单语境外是否仍存在该异形词 */
+  private hasVariantOutsideWhitelist(text: string, variant: string): boolean {
+    const wl = VARIANT_CONTEXT_WHITELIST[variant];
+    if (!wl) return text.includes(variant);
+    let residual = text;
+    for (const phrase of wl) residual = residual.split(phrase).join('');
+    return residual.includes(variant);
+  }
+
   checkVariantFormsMd(filepath: string, lines: string[]): void {
     if (this.variantDict.size === 0) return;
     const fullText = lines.join('\n');
     for (const [variant, recommended] of this.variantDict) {
-      if (fullText.includes(variant)) {
+      if (this.hasVariantOutsideWhitelist(fullText, variant)) {
         const idx = fullText.indexOf(variant);
         const ctx = fullText.substring(Math.max(0, idx - 6), Math.min(fullText.length, idx + variant.length + 6)).replace(/\n/g, ' ');
         const lineNo = fullText.substring(0, idx).split('\n').length;
         this.add(filepath, lineNo, `…${ctx}…`,
           `GF 1001—2001 异形词 —「${variant}」为非推荐词形，应使用「${recommended}」`,
           `将「${variant}」替换为「${recommended}」`, 'T0');
-        break; // 每种异形词只报一次
       }
     }
   }
@@ -269,7 +280,7 @@ class GBT15834Checker {
   checkVariantFormsStr(filepath: string, text: string): void {
     if (this.variantDict.size === 0) return;
     for (const [variant, recommended] of this.variantDict) {
-      if (text.includes(variant)) {
+      if (this.hasVariantOutsideWhitelist(text, variant)) {
         this.add(filepath, 0, `字段值含「${variant}」`,
           `GF 1001—2001 异形词 —「${variant}」为非推荐词形，应使用「${recommended}」`,
           `将「${variant}」替换为「${recommended}」`, 'T0');
@@ -392,10 +403,10 @@ class GBT15834Checker {
       }
 
       // 中文引号配对
-      const leftQ = (text.match(/"/g) || []).length;
-      const rightQ = (text.match(/"/g) || []).length;
+      const leftQ = (text.match(/“/g) || []).length;
+      const rightQ = (text.match(/”/g) || []).length;
       if (leftQ !== rightQ) {
-        this.add(virtualFile, 0, `字段值中左引号" ${leftQ} 个，右引号" ${rightQ} 个`,
+        this.add(virtualFile, 0, `字段值中左引号“ ${leftQ} 个，右引号” ${rightQ} 个`,
           '4.8 引号 — 中文双引号左右数量不匹配', '补齐缺失的引号', 'T0');
       }
     }
@@ -435,8 +446,6 @@ class GBT15834Checker {
       if (!fs.existsSync(scanRoot)) continue;
       const files = findMdJsonFiles([scanRoot], EXCLUDE_DIRS);
       for (const f of files) {
-        const name = path.basename(f);
-        if (EXCLUDE_FILES.has(name)) continue;
         this.checkFile(f);
         this.fileCount++;
       }
@@ -508,8 +517,12 @@ class GBT15834Checker {
 }
 
 function main(): void {
+  // 检测器自检：曲引号字面量若被全局替换误杀，当场报警（样本用 fromCharCode 构造，替换工具扫不到）
+  if (!/“/.test(String.fromCharCode(0x201C)) || !/”/.test(String.fromCharCode(0x201D)) || !QUOTE_END_OF_LINE.test(String.fromCharCode(0x201C))) {
+    console.log('⚠ 检测器自检失败：曲引号检测字面量已损坏，检查 一级审查.ts 与 regex.ts');
+  }
   const checker = new GBT15834Checker();
-  console.log('正在扫描全项目 MD+JSON 文件...');
+  console.log('正在扫描 角色卡/ 与 world info/ 的 MD+JSON 文件...');
   checker.scanAll();
   checker.report();
 

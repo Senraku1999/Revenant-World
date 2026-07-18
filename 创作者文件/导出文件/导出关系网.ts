@@ -1,9 +1,9 @@
 /**
  * 管线一：关系网同步
  * ================
- * 从角色卡 JSON 提取精简字段 → 写入 角色关系网/{全角色,阵营}/
+ * 从角色卡 JSON 提取精简字段 → 写入 关系网/{全角色,阵营}/
  *
- * 用法：npx tsx 创作者文件/导出文件/sync-relations.ts
+ * 用法：npx tsx 创作者文件/导出文件/导出关系网.ts
  */
 
 import * as fs from 'fs';
@@ -89,23 +89,6 @@ function main(): void {
   }
 
   walk(CARD_DIR);
-
-  // 异常实体卡也写入全角色
-  const anomalyDir = path.join(CARD_DIR, '异常角色卡');
-  if (fs.existsSync(anomalyDir)) {
-    for (const entry of fs.readdirSync(anomalyDir, { withFileTypes: true })) {
-      if (!entry.isDirectory()) continue;
-      const cardDir = path.join(anomalyDir, entry.name);
-      const jsonFile = path.join(cardDir, `${entry.name}.json`);
-      if (!fs.existsSync(jsonFile)) continue;
-      try {
-        const data = JSON.parse(readFileUtf8(jsonFile));
-        const stripped = stripToRelationFormat(data);
-        fs.writeFileSync(path.join(allDir, `${entry.name}.json`), JSON.stringify(stripped, null, 2) + '\n', 'utf-8');
-        synced++;
-      } catch { skipped.push(entry.name); }
-    }
-  }
 
   console.log(`同步完成：${synced} 张`);
   if (skipped.length) console.log(`跳过 ${skipped.length}：${skipped.join(', ')}`);

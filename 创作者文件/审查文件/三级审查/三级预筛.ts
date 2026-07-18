@@ -1,6 +1,6 @@
 /**
- * 二级标点审查 —— 三步法机械预筛脚本
- * 对全项目 MD+JSON 文件中的每个 ，。；：！？执行合法性测试。
+ * 三级标点审查 —— 三步法机械预筛脚本
+ * 对 角色卡/ 与 world info/ 的 MD+JSON 文件中每个 ，。；：！？执行合法性测试。
  * 机械可判定的直接输出结果，语义模糊的标记为待人工审查。
  *
  * 覆盖标点：，删去测试 / 。替换测试 / ；互换测试 / ：合法性判断 / ！？叙述违禁检测
@@ -13,6 +13,7 @@ import {
   findSentenceForPos, isMdTemplateLabel, normalizePath, extractChineseStrings
 } from '../../共享代码/utils';
 import { isSpeechVerb } from '../../共享代码/standards';
+import { findMdJsonFiles } from '../../共享代码/file-scanner';
 import {
   COMMA_G, PERIOD_G, SEMICOLON_G, COLON_G, EXCLAM_QUESTION_G,
   SUBJECT_STARTERS, CONSECUTIVE_VERB, CJK_CHAR,
@@ -41,7 +42,6 @@ type FileGrouper = Record<string, {
 }>;
 
 const PROJECT_ROOT = path.resolve(__dirname, '..', '..', '..');
-const EXCLUDE_DIRS = new Set(['.git', '.claude', '__pycache__', 'node_modules', '.obsidian']);
 
 // ── 文件遍历 ──
 function findFiles(): string[] {
@@ -49,27 +49,7 @@ function findFiles(): string[] {
     path.join(PROJECT_ROOT, '角色卡'),
     path.join(PROJECT_ROOT, '创作者文件', '导出文件', 'world info'),
   ];
-  const files: string[] = [];
-  for (const scanRoot of scanRoots) {
-    if (!fs.existsSync(scanRoot)) continue;
-    walkDir(scanRoot, files);
-  }
-  return files;
-}
-
-function walkDir(dir: string, results: string[]): void {
-  let entries: fs.Dirent[];
-  try { entries = fs.readdirSync(dir, { withFileTypes: true }); } catch { return; }
-  for (const entry of entries) {
-    if (entry.isDirectory()) {
-      if (EXCLUDE_DIRS.has(entry.name)) continue;
-      walkDir(path.join(dir, entry.name), results);
-    } else if (entry.isFile()) {
-      if (entry.name.endsWith('.md') || entry.name.endsWith('.json')) {
-        results.push(path.join(dir, entry.name));
-      }
-    }
-  }
+  return findMdJsonFiles(scanRoots);
 }
 
 // ── 逗号删去测试 ──
@@ -427,7 +407,6 @@ function main(): void {
 
     // 排除审查文件自身
     const rel = normalizePath(relpath);
-    if (rel.startsWith('创作者文件/审查文件') || rel.startsWith('创作者文件/创作文件')) continue;
 
     let results: Result[];
     if (filepath.endsWith('.json')) {
@@ -462,7 +441,7 @@ function main(): void {
   console.log(`总计标记: ${allResults.length}`);
 
   // 输出详细结果
-  const outputPath = path.join(PROJECT_ROOT, '创作者文件', '审查文件', '二级审查', '二级审查结果.txt');
+  const outputPath = path.join(PROJECT_ROOT, '创作者文件', '审查文件', '三级审查', '三级预筛结果.txt');
   let out = '='.repeat(80) + '\n';
   out += '二级标点审查 · 三步法机械预筛结果\n';
   out += '='.repeat(80) + '\n\n';

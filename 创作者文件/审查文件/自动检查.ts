@@ -1,9 +1,10 @@
 /**
  * 狩灵世界观 · 角色卡自动审查脚本
  * =====================================
- * 覆盖项：JSON 语法 / Token 计数 / Em dash 扫描 / 枚举值校验 /
+ * 覆盖项：JSON 语法 / Token 计数（十段式 + 开场白）/ Em dash 扫描 / 枚举值校验 /
  *         MD 标点违禁 / 评级一致性 / 一般称呼规则 / 空能力字段 /
- *         引号格式 / 术语简写 / 年龄边界
+ *         引号格式 / 术语简写 / 年龄边界 / 花坂全名 / 全名使用违规 /
+ *         世界书内容新鲜度 / 世界书 keys 非空 / 中英文 JSON 结构一致性
  *
  * 用法：npx tsx 创作者文件/审查文件/自动检查.ts
  * 输出分组：JSON检查 / MD检查 / 交叉验证
@@ -14,7 +15,7 @@ import * as path from 'path';
 import { chdirProjectRoot, ensureUtf8, readFileUtf8, normalizePath } from '../共享代码/utils';
 import { initTokenizer, checkTokenBudgets, checkOpeningTokenCounts } from '../共享代码/token-counter';
 import { loadProperNounTable, VALID_IDENTITY, VALID_RANK, checkAbbreviation } from '../共享代码/standards';
-import { findCharacterCardJsonFiles, findAllJsonFiles } from '../共享代码/file-scanner';
+import { findCharacterCardJsonFiles, findAllJsonFiles, EXCLUDE_DIRS } from '../共享代码/file-scanner';
 import { QUOTE_STRIP } from '../共享代码/regex';
 
 // ── 初始化 ──
@@ -24,7 +25,10 @@ const PROJECT_ROOT = process.cwd();
 
 const PROPER_NOUN_MAP = loadProperNounTable(PROJECT_ROOT);
 
-// ── Em dash 扫描 ──
+// ── Em dash 与杂横线扫描 ──
+// 单独 —（合法的 —— 成对不命中）与七种杂横线（现存量为零，防输入法/粘贴混入）
+const STRAY_DASH_RE = /(?<!—)—(?!—)|[–―−－ー‐‑]/;
+
 function scanEmDash(obj: unknown, prefix: string = ''): string[] {
   const hits: string[] = [];
   if (Array.isArray(obj)) {
@@ -41,11 +45,19 @@ function scanEmDash(obj: unknown, prefix: string = ''): string[] {
             const ctx = v.substring(0, 80).replace(/\n/g, ' ');
             hits.push(`  ${np}: [叙述禁止] ${ctx}`);
           }
+          const sm = v.match(STRAY_DASH_RE);
+          if (sm) {
+            hits.push(`  ${np}: [横线违禁 ${sm[0]}] ${v.substring(0, 80).replace(/\n/g, ' ')}`);
+          }
         } else {
           const stripped = v.replace(QUOTE_STRIP, '');
           if (stripped.includes('——') || stripped.includes('……')) {
             const ctx = stripped.trim().substring(0, 80).replace(/\n/g, ' ');
             hits.push(`  ${np}: [引号外禁止] ${ctx}`);
+          }
+          const sm = stripped.match(STRAY_DASH_RE);
+          if (sm) {
+            hits.push(`  ${np}: [横线违禁 ${sm[0]}] ${stripped.trim().substring(0, 80).replace(/\n/g, ' ')}`);
           }
         }
       } else if (typeof v === 'object' || Array.isArray(v)) {
@@ -185,7 +197,7 @@ function checkMdFiles(): void {
     for (const entry of entries) {
       const fullPath = path.join(dir, entry.name);
       if (entry.isDirectory()) {
-        if (['.git', '.claude', 'node_modules'].includes(entry.name)) continue;
+        if (EXCLUDE_DIRS.has(entry.name)) continue;
         results.push(...walkMd(fullPath));
       } else if (entry.isFile()) {
         const base = entry.name;
@@ -295,10 +307,10 @@ function crossValidate(): void {
         const charDir = path.dirname(fullPath);
         const cardName = path.basename(entry.name, '.json');
         const introFiles = fs.readdirSync(charDir).filter(fn => fn.endsWith('简介.md'));
-        if (introFiles.length === 0) return;
+        if (introFiles.length === 0) continue;
 
         const data = JSON.parse(readFileUtf8(fullPath));
-        if (!data.char_rank) return;
+        if (!data.char_rank) continue;
 
         const intro = readFileUtf8(path.join(charDir, introFiles[0]));
 
@@ -549,7 +561,14 @@ function checkWorldbookContentFreshness(): void {
     const wb = JSON.parse(readFileUtf8(path.join(WB_DIR, wbFn)));
     for (const e of (wb.entries || []) as Array<{ comment?: string; content?: string }>) {
       const comment = e.comment || '';
-      if (BASE_RULES.has(comment)) continue;
+      if (BASE_RULES.has(comment)) {
+        const srcPath = path.join('创作者文件/导出文件/world info', `${comment}.md`);
+        if (fs.existsSync(srcPath) && e.content !== readFileUtf8(srcPath)) {
+          console.log(`  ${wbFn}: 基础条目 "${comment}" 与 world info 源不同步`);
+          stale++;
+        }
+        continue;
+      }
       const relPath = path.join(REL_ALL, `${comment}.json`);
       if (!fs.existsSync(relPath)) continue;
 
@@ -572,7 +591,7 @@ function checkWorldbookContentFreshness(): void {
 function checkRelationKeys(): void {
   console.log();
   console.log('='.repeat(60));
-  console.log('世界书 keys 非空检查');
+  console.log('世界书 name 与 keys 检查');
   console.log('='.repeat(60));
 
   const empty: string[] = [];
@@ -582,6 +601,9 @@ function checkRelationKeys(): void {
   for (const wbFn of fs.readdirSync(WB_DIR).sort()) {
     if (!wbFn.endsWith('.json')) continue;
     const wb = JSON.parse(readFileUtf8(path.join(WB_DIR, wbFn)));
+    if (!wb.name || typeof wb.name !== 'string' || !wb.name.trim()) {
+      empty.push(`  ${wbFn}: 顶层 name 缺失或为空`);
+    }
     for (const e of (wb.entries || []) as Array<{ constant?: boolean; keys?: string[]; comment?: string; id?: number }>) {
       if (!e.constant && (!e.keys || e.keys.length === 0)) {
         empty.push(`  ${wbFn}: "${e.comment || '?'}" (id=${e.id}) keys 为空`);
@@ -598,6 +620,11 @@ function checkRelationKeys(): void {
 
 // ── 主入口 ──
 async function main(): Promise<void> {
+  // 检测器自检：曲引号字面量若被全局替换误杀，当场报警（样本用 fromCharCode 构造，替换工具扫不到）
+  if (!'“'.includes(String.fromCharCode(0x201C)) || !'”'.includes(String.fromCharCode(0x201D))) {
+    console.log('⚠ 检测器自检失败：曲引号检测字面量已被替换损坏，修复 自动检查.ts 后再信任本报告');
+  }
+
   await initTokenizer();
 
   // Token 计数

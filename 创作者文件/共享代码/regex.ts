@@ -3,12 +3,6 @@
 /** CJK 统一表意文字 U+4E00–U+9FFF */
 export const CJK_CHAR = /[一-鿿]/;
 
-/** CJK 扩展 A U+3400–U+4DBF */
-export const CJK_EXT_A = /[㐀-䶿]/;
-
-/** 句末点号 */
-export const SENTENCE_END = /[。！？!?\n]/;
-
 /** 中文句末英文句号 */
 export const CHINESE_PERIOD_END = /[一-鿿]\.[\s]*$/;
 
@@ -46,7 +40,7 @@ export const ELLIPSIS_SPACED = /…\s+…/;
 export const PUNCT_START_OF_LINE = /^\s*[，、；：。？！]/;
 
 /** 行末前引号/括号 */
-export const QUOTE_END_OF_LINE = /[""（《【]\s*$/;
+export const QUOTE_END_OF_LINE = /[“（《【]\s*$/;
 
 /** 间隔号误用 bullet */
 export const BULLET_AS_INTERPUNCT = /[一-鿿]•[一-鿿]/;
@@ -78,29 +72,8 @@ export const CONSECUTIVE_VERB = /^[一-鿿]+(了|着|过|得|不|在|可|能|会
 /** 去除引号内容 */
 export const QUOTE_STRIP = /"[\s\S]*?"/g;
 
-/** Markdown 装饰符 *...* */
-export const MARKDOWN_DECORATION = /\*[^*\s][^*]*[^*\s]\*/g;
-
 /** 非言语动词 — 冒号接引号检测 */
 export const NON_SPEECH_COLON_QUOTE = /([一-鿿]{1,6})："/;
-
-/** 中文卷曲引号 */
-export const CURLY_QUOTES = /[""]/;
-
-/** 中文卷曲单引号 */
-export const CURLY_SINGLE_QUOTES = /['']/;
-
-/** 英文省略号 ...（在中文上下文中） */
-export const ELLIPSIS_EN = /\.\.\./g;
-
-/** 单独 em dash（非 ——） */
-export const SINGLE_DASH = /(?<!—)—(?!—)/g;
-
-/** En dash */
-export const EN_DASH = /–/g;
-
-/** URL */
-export const URL_PATTERN = /^https?:\/\//;
 
 /** 连续连词开头 */
 export const CONSECUTIVE_CONJ = /^(于是|所以|因此|从而|进而|随后|接着|然后|便|就|也|还|都|却|仍)/;

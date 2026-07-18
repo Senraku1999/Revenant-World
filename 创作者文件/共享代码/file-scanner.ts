@@ -4,8 +4,8 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { normalizePath } from './utils';
 
-/** 默认排除目录 */
-export const EXCLUDE_DIRS = new Set(['.git', '.claude', '__pycache__', 'node_modules', '.obsidian']);
+/** 默认排除目录（新增排除项时同步一级/二级/自动检查的共用引用） */
+export const EXCLUDE_DIRS = new Set(['.git', '.claude', 'node_modules', '.obsidian']);
 
 /** 递归遍历目录，返回 .md 和 .json 文件绝对路径 */
 export function findMdJsonFiles(rootDirs: string[], excludeDirs: Set<string> = EXCLUDE_DIRS): string[] {

@@ -1,9 +1,9 @@
 /**
  * 管线二：世界书构建
  * ================
- * world info MD + 角色关系网 + 触发词表 → 成品世界书 JSON
+ * world info MD + 关系网 + TAG 池 → 世界书 JSON
  *
- * 用法：npx tsx 创作者文件/导出文件/build-worldbook.ts
+ * 用法：npx tsx 创作者文件/导出文件/导出世界书.ts
  */
 
 import * as fs from 'fs';
