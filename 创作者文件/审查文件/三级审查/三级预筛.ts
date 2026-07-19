@@ -20,6 +20,7 @@ import {
   CONSECUTIVE_CONJ, TRANSITION_CONJ, IDENTITY_ENDING, ADVERBIAL_ENDING,
   PARALLEL_VERB, PARALLEL_VERB_START, PARALLEL_PAIR
 } from '../../共享代码/regex';
+import { assertDetectorIntegrity } from '../../共享代码/detector-guard';
 
 interface Result {
   file: string;
@@ -387,6 +388,7 @@ function processJsonFile(filepath: string, relpath: string): Result[] {
 
 // ── 主入口 ──
 function main(): void {
+  assertDetectorIntegrity();
   console.log('='.repeat(80));
   console.log('二级标点审查 · 三步法机械预筛');
   console.log('='.repeat(80));
