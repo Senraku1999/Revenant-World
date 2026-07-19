@@ -390,7 +390,7 @@ function processJsonFile(filepath: string, relpath: string): Result[] {
 function main(): void {
   assertDetectorIntegrity();
   console.log('='.repeat(80));
-  console.log('二级标点审查 · 三步法机械预筛');
+  console.log('三级标点审查 · 三步法机械预筛');
   console.log('='.repeat(80));
 
   const allFiles = findFiles();
@@ -445,7 +445,7 @@ function main(): void {
   // 输出详细结果
   const outputPath = path.join(PROJECT_ROOT, '创作者文件', '审查文件', '三级审查', '三级预筛结果.txt');
   let out = '='.repeat(80) + '\n';
-  out += '二级标点审查 · 三步法机械预筛结果\n';
+  out += '三级标点审查 · 三步法机械预筛结果\n';
   out += '='.repeat(80) + '\n\n';
 
   const sections: Array<[string, Result[]]> = [
