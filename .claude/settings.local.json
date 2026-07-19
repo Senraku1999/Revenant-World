@@ -12,5 +12,18 @@
       "Read(//c/Users/刘凡瑞/.claude/**)"
     ],
     "deny": []
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const p=process.env.CLAUDE_TOOL_INPUT_FILE_PATH||''; if(/角色卡|world info/.test(p)) console.log('🔔 已修改角色/世界观文件，报告前须跑 npx tsx 创作者文件/审查文件/自动检查.ts 至全绿')\""
+          }
+        ]
+      }
+    ]
   }
 }
