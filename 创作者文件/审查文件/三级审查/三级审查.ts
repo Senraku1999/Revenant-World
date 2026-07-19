@@ -1,5 +1,5 @@
 /**
- * 三级标点审查 —— 三步法机械预筛脚本
+ * 三级标点审查 —— 三步法脚本
  * 对 角色卡/ 与 world info/ 的 MD+JSON 文件中每个 ，。；：！？执行合法性测试。
  * 机械可判定的直接输出结果，语义模糊的标记为待人工审查。
  *
@@ -390,7 +390,7 @@ function processJsonFile(filepath: string, relpath: string): Result[] {
 function main(): void {
   assertDetectorIntegrity();
   console.log('='.repeat(80));
-  console.log('三级标点审查 · 三步法机械预筛');
+  console.log('三级标点审查 · 三步法');
   console.log('='.repeat(80));
 
   const allFiles = findFiles();
@@ -443,9 +443,9 @@ function main(): void {
   console.log(`总计标记: ${allResults.length}`);
 
   // 输出详细结果
-  const outputPath = path.join(PROJECT_ROOT, '创作者文件', '审查文件', '三级审查', '三级预筛结果.txt');
+  const outputPath = path.join(PROJECT_ROOT, '创作者文件', '审查文件', '三级审查', '三级审查结果.txt');
   let out = '='.repeat(80) + '\n';
-  out += '三级标点审查 · 三步法机械预筛结果\n';
+  out += '三级标点审查 · 三步法结果\n';
   out += '='.repeat(80) + '\n\n';
 
   const sections: Array<[string, Result[]]> = [
