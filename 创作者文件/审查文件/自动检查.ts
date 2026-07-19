@@ -45,20 +45,17 @@ function scanEmDash(obj: unknown, prefix: string = ''): string[] {
             const ctx = v.substring(0, 80).replace(/\n/g, ' ');
             hits.push(`  ${np}: [叙述禁止] ${ctx}`);
           }
-          const sm = v.match(STRAY_DASH_RE);
-          if (sm) {
-            hits.push(`  ${np}: [横线违禁 ${sm[0]}] ${v.substring(0, 80).replace(/\n/g, ' ')}`);
-          }
         } else {
           const stripped = v.replace(QUOTE_STRIP, '');
           if (stripped.includes('——') || stripped.includes('……')) {
             const ctx = stripped.trim().substring(0, 80).replace(/\n/g, ' ');
             hits.push(`  ${np}: [引号外禁止] ${ctx}`);
           }
-          const sm = stripped.match(STRAY_DASH_RE);
-          if (sm) {
-            hits.push(`  ${np}: [横线违禁 ${sm[0]}] ${stripped.trim().substring(0, 80).replace(/\n/g, ' ')}`);
-          }
+        }
+        // 横线违禁（单 em dash + 杂横线，对所有字段生效；包括 situation 字段）
+        const sm = isSituation ? v.match(STRAY_DASH_RE) : v.replace(QUOTE_STRIP, '').match(STRAY_DASH_RE);
+        if (sm) {
+          hits.push(`  ${np}: [横线违禁 ${sm[0]}] ${isSituation ? v.substring(0, 80).replace(/\n/g, ' ') : v.replace(QUOTE_STRIP, '').trim().substring(0, 80).replace(/\n/g, ' ')}`);
         }
       } else if (typeof v === 'object' || Array.isArray(v)) {
         hits.push(...scanEmDash(v, np));
