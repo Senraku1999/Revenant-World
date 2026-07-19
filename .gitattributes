@@ -2,4 +2,5 @@
 *.json text eol=crlf
 *.ts   text eol=crlf
 *.js   text eol=crlf
+.claude/workflows/*.js text eol=lf
 *.png  binary
