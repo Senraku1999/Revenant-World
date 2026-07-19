@@ -17,6 +17,7 @@ import * as path from 'path';
 import { isChineseLine, isCodeOrTableLine, readFileUtf8, extractChineseStrings } from '../../共享代码/utils';
 import { isSpeechVerb, loadVariantForms } from '../../共享代码/standards';
 import { findMdJsonFiles, EXCLUDE_DIRS } from '../../共享代码/file-scanner';
+import { assertDetectorIntegrity } from '../../共享代码/detector-guard';
 import {
   CHINESE_PERIOD_END, ENGLISH_COMMA_ZH, ENGLISH_SEMICOLON_ZH, ENGLISH_COLON_ZH,
   EXCLAM_EXCESS, QUESTION_EXCESS, ELLIPSIS_DOTS, DOUBLE_DOT, SINGLE_EM_DASH,
@@ -517,10 +518,7 @@ class GBT15834Checker {
 }
 
 function main(): void {
-  // 检测器自检：曲引号字面量若被全局替换误杀，当场报警（样本用 fromCharCode 构造，替换工具扫不到）
-  if (!/“/.test(String.fromCharCode(0x201C)) || !/”/.test(String.fromCharCode(0x201D)) || !QUOTE_END_OF_LINE.test(String.fromCharCode(0x201C))) {
-    console.log('⚠ 检测器自检失败：曲引号检测字面量已损坏，检查 一级审查.ts 与 regex.ts');
-  }
+  assertDetectorIntegrity();
   const checker = new GBT15834Checker();
   console.log('正在扫描 角色卡/ 与 world info/ 的 MD+JSON 文件...');
   checker.scanAll();
