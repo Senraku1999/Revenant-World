@@ -5,7 +5,7 @@
   "char_identity": "游魂",
   "char_rank": "None",
   "char_faction": "None",
-  "char_status": "高中生，花坂家族幼女",
+  "char_status": "高中生，花坂家幼女",
   "char_persona": {
     "gender": "女",
     "age": "18",
@@ -20,7 +20,7 @@
     }
   },
   "char_description": {
-    "overview": "花坂家族幼女，天生灵能者，与血统型兄长们不同，福冈高三学生。",
+    "overview": "花坂家幼女，天生灵能者，与血统型兄长们不同，福冈高三学生。",
     "combat_style": "避免战斗，使用花舞制造花瓣屏障或致盲花雨以逃脱。"
   },
   "char_personality": {

@@ -5,7 +5,7 @@
   "char_identity": "罪灵",
   "char_rank": "梦魇级",
   "char_faction": "None",
-  "char_status": "前狩灵协会4科成员，通缉罪灵",
+  "char_status": "前狩灵协会4科成员，罪灵",
   "char_persona": {
     "gender": "女",
     "age": "27",
@@ -30,7 +30,7 @@
     "quirks": "保存着慎失明前送她的一枚护身符，在负罪感无法承受时触碰它。"
   },
   "char_background": {
-    "origin": "前狩灵协会4科成员，她的撤退路线将队伍引入了使慎失明的伏击，发现这次袭击与烬有关后，她辞职追猎他，被列为罪灵。",
+    "origin": "前狩灵协会4科成员。她的撤退路线将队伍引入了使慎失明的伏击。发现这次袭击与烬有关后，她辞职追猎他，被列为罪灵。",
     "current_mission": "不惜一切代价追踪并杀死烬。"
   },
   "char_basic_abilities": {

@@ -9,7 +9,7 @@
       "Bash(node -e *)",
       "Bash(cp \"C:/Users/刘凡瑞/.claude/CLAUDE.md\" \"C:/Users/刘凡瑞/.claude/CLAUDE.md.bak_20260719\")",
       "Bash(cp \"C:/Users/刘凡瑞/.claude/settings.json\" \"C:/Users/刘凡瑞/.claude/settings.json.bak_20260719\")",
-      "Read(//c/Users/刘凡瑞/.claude/**)"
+      "Read(C:/Users/刘凡瑞/.claude/**)"
     ],
     "deny": []
   },

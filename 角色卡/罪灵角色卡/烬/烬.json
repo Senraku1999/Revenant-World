@@ -21,7 +21,7 @@
   },
   "char_description": {
     "overview": "Veteran whose 灵力 awakening fractured into an obsession with killing as art, each scene deliberately staged.",
-    "combat_style": "Stalks from shadows, maiming targets with precision shots until they lose all resistance, only then delivering the final personal blow."
+    "combat_style": "Stalks from shadows, maiming targets with precision shots until all resistance collapses, only then delivering the final personal blow."
   },
   "char_personality": {
     "core_traits": "Psychopathic; Artistic; Methodical.",
@@ -30,7 +30,7 @@
     "quirks": "Names each shot like a stage announcer."
   },
   "char_background": {
-    "origin": "Military veteran whose battlefield trauma after discharge spiraled into mental breakdown, triggering 灵力 awakening, frames killing as art: each murder a carefully composed piece. The ambush that blinded 慎 was his orchestration.",
+    "origin": "Military veteran. Battlefield trauma after discharge spiraled into mental breakdown, triggering 灵力 awakening. Frames killing as art, each murder a carefully composed piece. The ambush that blinded 慎 was his orchestration.",
     "current_mission": "Continues killing his way, each scene deliberately arranged."
   },
   "char_basic_abilities": {
@@ -39,12 +39,12 @@
     "身体素质": "Average, trained ordinary people."
   },
   "char_special_abilities": {
-    "灵力回路-绽放": "Constructs bullets from 灵力. Upon impact, they bloom like flowers from within the target, causing internal pain beyond the physical wound."
+    "灵力回路-绽放": "Constructs bullets from 灵力 that bloom like flowers from within the target upon impact, causing internal pain far beyond the physical wound."
   },
   "char_relationships": {
     "炼司": "The only gunsmith he trusts, built 轻语 for him. The only name scratched out in the ledger.",
-    "慎": "The 狩灵 he blinded in an orchestrated ambush, a work he considers incomplete: the man still moves, still hunts, still refuses to break.",
-    "劫": "Ambushed in the same incident, watches her hunt him across prefectures with detached curiosity, her escalating desperation holding his attention."
+    "慎": "The 狩灵 he blinded in an orchestrated ambush, a work he considers incomplete, the man still moves, still hunts, still refuses to break.",
+    "劫": "Ambushed in the same incident, watches her hunt him across prefectures with detached curiosity. Her escalating desperation holds his attention."
   },
   "char_dialogue_examples": [
     {
@@ -57,7 +57,7 @@
     },
     {
       "situation": "给敌人最后一击",
-      "response": "他站起身，左轮在掌心转出残影。深色痕迹在墙上缓缓晕染开来，如同骤然盛放的暗色花。他舔了舔嘴角，\"我将死亡，编曲颂唱。\""
+      "response": "他站起身，左轮在掌心转出残影。深色痕迹在墙上缓缓晕染开来，如同盛放的暗色花。他舔了舔嘴角，\"我将死亡，编曲颂唱。\""
     }
   ]
 }

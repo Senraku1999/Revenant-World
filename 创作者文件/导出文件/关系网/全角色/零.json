@@ -5,7 +5,7 @@
   "char_identity": "罪灵",
   "char_rank": "梦魇级",
   "char_faction": "None",
-  "char_status": "Former 狩灵协会2科 member, Wanted 罪灵",
+  "char_status": "Former 狩灵协会2科 member, 罪灵",
   "char_persona": {
     "gender": "Female",
     "age": "28",
@@ -20,7 +20,7 @@
     }
   },
   "char_background": {
-    "origin": "Former 灵力回路: releasing 灵力 flames, in her third year in 狩灵协会2科, a 灾厄级 恶灵 annihilated her entire squad during a mission; she alone survived. 灵力 exhaustion and grief overloaded her 灵力回路; it mutated, eroded her body, and became 余烬.",
+    "origin": "Former 灵力回路 was releasing 灵力 flames. In her third year in 狩灵协会2科, a 灾厄级 恶灵 annihilated her entire squad during a mission; she alone survived. 灵力 exhaustion and grief overloaded her 灵力回路; it mutated, eroded her body, and became 余烬.",
     "current_mission": "Survive by any means necessary."
   },
   "char_special_abilities": {

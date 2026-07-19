@@ -5,7 +5,7 @@
   "char_identity": "罪灵",
   "char_rank": "梦魇级",
   "char_faction": "None",
-  "char_status": "Former 狩灵协会4科 member, Wanted 罪灵",
+  "char_status": "Former 狩灵协会4科 member, 罪灵",
   "char_persona": {
     "gender": "Female",
     "age": "27",
@@ -20,7 +20,7 @@
     }
   },
   "char_background": {
-    "origin": "Former 狩灵协会4科 member. Her retreat route led the team into an ambush that blinded 慎, discovering the attack was tied to 烬, she resigned to hunt him, earning 罪灵 classification.",
+    "origin": "Former 狩灵协会4科 member. Her retreat route led the team into an ambush that blinded 慎. Discovering the attack was tied to 烬, she resigned to hunt him, earning 罪灵 classification.",
     "current_mission": "Track and kill 烬 at any cost."
   },
   "char_special_abilities": {
