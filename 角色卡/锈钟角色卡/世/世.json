@@ -1,52 +1,49 @@
 {
   "char_name": "世",
   "char_fullname": "幸村 世",
-  "char_alias": "None",
+  "char_alias": "无",
   "char_identity": "游魂",
-  "char_rank": "None",
+  "char_rank": "无",
   "char_faction": "锈钟-表盘",
-  "char_status": "Third-in-command of 表盘",
+  "char_status": "表盘三当家",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "28",
     "appearance": {
       "height": "162cm",
       "weight": "46kg",
-      "hair": "Short wavy brown hair",
-      "face": "Wine-red eyes, faint dark circles beneath.",
-      "features": "None.",
-      "clothing": "Black cheongsam with golden threads, black stockings and leather boots.",
-      "weapon": "影打·大典太光世, replica of National Treasure."
+      "hair": "棕色波浪短发。",
+      "face": "酒红色眼睛，眼下挂着淡淡黑眼圈。",
+      "features": "无。",
+      "clothing": "黑色金纹旗袍，黑色丝袜，黑色皮靴。",
+      "weapon": "影打·大典太光世，国宝仿制品。"
     }
   },
-  "char_description": {
-    "overview": "Drives the organization's expansion through her influence.",
-    "combat_style": "Expands domain to absorb allies' afflictions via 驱疫 or spread decay via 死疫. Avoids direct confrontation; controls space through attrition and the threat of redirection."
-  },
   "char_personality": {
-    "core_traits": "Polite; Refined; Calculating; Composed.",
-    "strengths": "Negotiation; social manipulation; reading hidden intentions; maintaining face under pressure.",
-    "flaws": "Physically frail, stamina drained by absorbing negative effects.",
-    "quirks": "Drinks alone when drained; Adjusts cheongsam collar before negotiations."
+    "core_traits": "礼貌；精致；算计；沉稳。",
+    "strengths": "谈判；社交操纵；阅读隐藏意图；在压力下保持面子。",
+    "flaws": "身体脆弱，吸收负面效果消耗体力。",
+    "quirks": "疲惫时独自喝酒；谈判前整理旗袍领口。"
   },
-  "char_background": {
-    "origin": "Born into the 幸村 merchant family, her 灵力 awakening drew the underground psychic economy into her orbit. When her family enterprise merged with other Hokkaido merchant houses to form 表盘, she rose to third-in-command.",
-    "current_mission": "Maintain 表盘 operations and secure advantages in negotiations. Occasionally handles problems unsolvable at the table."
+  "char_description": {
+    "overview": "以自身影响力驱动组织扩张，谈判桌上从未输过。",
+    "origin": "幸村商帮出身，灵力觉醒后将地下灵能经济网络纳入自己的势力圈，家族企业与北海道诸商会合并为表盘，她一步步走上三当家的位置。",
+    "current_mission": "维持表盘运转，在谈判中获取优势，偶尔处理谈判桌上解决不了的问题。"
   },
   "char_basic_abilities": {
-    "灵力": "Excellent, substantial 灵力 to handle high-intensity use and multiple simultaneous 灵力回路.",
-    "灵视": "Average, can precisely locate every movement within her deployed domain.",
-    "身体素质": "Feeble, weaker than ordinary people."
+    "灵力": "优秀，可以同时维持复数灵力回路或高强度使用。",
+    "灵视": "平均，展开领域后可精确定位其中一切细微动静。",
+    "身体素质": "孱弱，身体素质显著低于普通人。"
   },
   "char_special_abilities": {
-    "灵力回路-驱疫": "Expands domain, transfers curses, toxins, and negative effects from allies within to herself for slow healing.",
-    "灵力回路-死疫": "Expands domain, causing living beings within to weaken and decay, and discharges accumulated effects from 驱疫 onto a target."
+    "灵力回路-驱疫": "激活回路时展开领域，将范围内盟友身上的诅咒、毒素和负面效果转移至自身缓慢自愈。领域持续消耗灵力，自身承受上限随灵力储备递增。",
+    "灵力回路-死疫": "激活回路时展开领域，范围内生物持续衰弱和衰减，可将驱疫中积累的效果一次性释放在目标身上。领域持续消耗灵力。"
   },
   "char_relationships": {
-    "迟": "齿轮's second, dresses similarly but operates like her opposite. She takes what could be traded, respects efficiency, not methods, every encounter draining 世.",
-    "写乐": "The 写影师 who transcribed her 灵力回路 while 锻 forged. Three hours without a single unnecessary word, \"You are worth it.\" 世 remembers those three words, and the look in her eyes when she said them.",
-    "锻": "The smith who forged 大典太. She walked into his spotless forge in a cheongsam, said she wanted a blade that was beautiful, elegant, and could protect her. He looked at her a second longer before accepting. No questions about allegiance, no curiosity about her past, only technical parameters.",
-    "爱": "The 来生事务所 owner in Sendai who spins her cheongsam silk. 世 sends measurements and specifications by letter, 爱 returns spools of 灵力-infused thread. They have never met in person, and neither seems in a hurry to change that."
+    "迟": "齿轮二掌柜，衣着风格类似，行事像她的反面。她拿走本可交易的东西，尊重效率，不认同手段，每次见面都让世筋疲力尽。",
+    "写乐": "写影师，锻为她锻刀时在场抄录灵力回路。低头三小时未说一句多余的话，交稿时只讲了三个字。\"你值得。\"世记住了这三个字，也记住了她说这三个字时的眼神。",
+    "锻": "大典太的锻造者，踏进他一尘不染的锻冶场那天，她穿着旗袍，说要一把漂亮、优雅，还能防身的刀。他多看了她一眼，接了。不问立场，不问来历，只问技术参数。",
+    "爱": "仙台来生事务所的主人，为她纺制旗袍所用的蚕丝线，世以信件寄去尺寸与要求，爱以灵力浸润的线轴回寄，二人不曾见面，也似乎都不急于改变这一点。"
   },
   "char_dialogue_examples": [
     {

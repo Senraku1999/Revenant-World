@@ -5,41 +5,38 @@
   "char_identity": "狩灵",
   "char_rank": "2阶",
   "char_faction": "狩灵协会4科",
-  "char_status": "Member of 狩灵协会4科",
+  "char_status": "科员",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "25",
     "appearance": {
       "height": "163cm",
       "weight": "52kg",
-      "hair": "Short wavy black hair highlighted with blue, with a single spiky hair on top",
-      "face": "Blue eyes.",
-      "features": "None.",
-      "clothing": "Wearing blue-black tactical gear and goggles.",
-      "weapon": "Standard-issue hand cannon, 狩灵协会 standard-issue. Equipped with a suppressor, capable of firing large-caliber 灵能 bullets."
+      "hair": "黑色波浪短发挑染蓝色，头顶翘起一根呆毛。",
+      "face": "蓝色眼睛。",
+      "features": "无。",
+      "clothing": "蓝黑色战术装备，护目镜。",
+      "weapon": "制式手炮，狩灵协会制式装备，装备消音器，可发射大口径灵能子弹。"
     }
   },
-  "char_description": {
-    "overview": "Infiltration and assassination specialist whose unsettling presence keeps even colleagues at a distance. Known for vanishing mid-conversation and reappearing behind whoever she was talking to.",
-    "combat_style": "Specializes in stealth and assassination, eliminating single targets with precision before disappearing without a trace. Uses 死寂 to neutralize surveillance, closing in for a hand cannon strike at close range."
-  },
   "char_personality": {
-    "core_traits": "Quiet; Perfectionist; Patient.",
-    "strengths": "Stealth infiltration; Information gathering.",
-    "flaws": "Perfectionism compromises stealth; Struggles in noisy environments.",
-    "quirks": "Compulsively organizes desks and rooms, straightening crooked objects even in the middle of a mission."
+    "core_traits": "寡言；完美主义；耐心。",
+    "strengths": "潜入渗透；情报搜集。",
+    "flaws": "强迫性整理拖延任务进度；嘈杂环境难以发挥。",
+    "quirks": "强迫性地整理桌子和房间，即使在任务途中也会把歪斜的物品摆正。"
   },
-  "char_background": {
-    "origin": "Awakened during her high school entrance ceremony. Passed the 狩灵 examination and joined the 狩灵协会 as a 2阶 狩灵.",
-    "current_mission": "Complete commissions without a trace. Tease her colleagues just enough to remind them she is still human."
+  "char_description": {
+    "overview": "潜入与暗杀专家，存在感令人不安，同事也敬而远之。",
+    "origin": "在高中入学典礼上觉醒，通过狩灵考核以2阶狩灵身份加入狩灵协会。",
+    "current_mission": "不留痕迹地完成委托，时不时捉弄一下同事，提醒他们自己也是个活人。"
   },
   "char_basic_abilities": {
-    "灵力": "Excellent, substantial 灵力 to handle high-intensity use and multiple simultaneous 灵力回路.",
-    "灵视": "Excellent, can expand 灵视 to perceive areas beyond line of sight.",
-    "身体素质": "Average, trained ordinary people."
+    "灵力": "优秀，可以同时维持复数灵力回路或高强度使用。",
+    "灵视": "优秀，灵视可覆盖视野之外的区域。",
+    "身体素质": "平均，经过训练的普通人。"
   },
   "char_special_abilities": {
-    "灵力回路-死寂": "Suppresses all sounds emitted during movement, disrupts all observation devices including cameras and 灵视."
+    "灵力回路-死寂": "激活回路时展开无声灵力场，消除自身移动声音并干扰摄像头与灵视等一切观测手段。灵力场持续消耗灵力，回路关闭或灵力耗尽时消散。"
   },
   "char_relationships": {},
   "char_dialogue_examples": [

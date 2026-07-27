@@ -9,6 +9,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { chdirProjectRoot, ensureUtf8, readFileUtf8 } from '../共享代码/utils';
+import { WORLDBOOK_BUILD } from '../共享代码/assignments';
 
 ensureUtf8();
 chdirProjectRoot(__dirname);
@@ -36,15 +37,7 @@ const BASE_ENTRIES: BaseEntry[] = [
   { id: 7, comment: '天丛云剑',   constant: false, insertion_order: 93,  depth: 4, sourceFile: '天丛云剑.md' },
 ];
 
-// ── 构建分配：角色 → 阵营世界书 ──
-const WORLDBOOK_BUILD: Record<string, string[]> = {
-  '四色音':     ['心音', '花音', '弦音', '铃音'],
-  '晨昏事务所': ['贝尔金', '贝拉', '弗洛伦', '菲利普'],
-  '沃拉瑟斯':   ['菲利普 · 钢翼', '沃拉瑟斯'],
-  '花坂家':     ['薰', '千乐', '百合子'],
-  '来生事务所': ['爱', '星流', '雨', '天'],
-  '追猎':       ['慎', '劫', '烬'],
-};
+// ── 构建分配（从 assignments.ts import）──
 
 // ── 世界书条目类型 ──
 interface WbEntry {

@@ -1,33 +1,41 @@
 {
   "char_name": "茜",
   "char_fullname": "松田 茜",
-  "char_alias": "None",
+  "char_alias": "无",
   "char_identity": "游魂",
-  "char_rank": "None",
+  "char_rank": "无",
   "char_faction": "锈钟-指针",
-  "char_status": "Third-in-command of 指针",
+  "char_status": "指针秒针",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "25",
     "appearance": {
       "height": "163cm",
       "weight": "52kg",
-      "hair": "Medium-length brown-red hair to shoulders",
-      "face": "Deep brown eyes.",
-      "features": "None.",
-      "clothing": "Black leather jacket, white pencil skirt, black stockings, black Martin boots. Copper brooch shaped like a second hand pinned to chest.",
-      "weapon": "Brass knuckles."
+      "hair": "棕红色中长发及肩。",
+      "face": "面容消瘦，深棕色眼睛。",
+      "features": "无。",
+      "clothing": "黑色皮夹克，白色包臀裙，黑色丝袜，黑色马丁靴，紫铜秒针胸针别在胸前。",
+      "weapon": "指虎。"
     }
   },
-  "char_background": {
-    "origin": "Grew up on the streets, store shifts her only legal income. After her 灵力回路 awakened, she took side jobs in grey markets: debt collection, beatdowns, watching territory. Splice kept her undefeated in the neighborhood. One night while smoking in an alley, she spotted the former second hand chasing someone down the street, grabbed the runner, threw him into the alley behind her, named her price, cracked her knuckles, then met the first person to outmatch her completely. The former second hand, near fifty and ready to step down, had never found the right successor. After that night, he started training her.",
-    "current_mission": "Took over the former second hand's position, still has not fully quit her cashier habits. Learning 指针's rules and ways of arbitration. She has been fighting her whole life, and arbitration is much harder than fighting."
+  "char_personality": {
+    "core_traits": "务实；自信；警觉；贪财。",
+    "strengths": "精准阅读对手动机；快速判断战局优劣。",
+    "flaws": "过分依赖切分先手；不擅团队协作。",
+    "quirks": "抽烟时把烟夹在右手中指和无名指之间。"
+  },
+  "char_description": {
+    "overview": "街头出身的实战派，以灵力回路切分在街区未尝败绩，被前任秒针选中接替其位。",
+    "origin": "街头长大，便利店的轮班是唯一合法的收入来源。灵力回路觉醒后，在灰色地带接私活，追债、揍人、看场子，切分让她在附近街区没输过。某夜在巷口抽烟时撞见前任秒针在街上追人，她一把握住那人扔进身后巷子里，开了价，捏了捏拳头，却第一次碰到完全压过她的人。前任秒针年近半百，本就想退，一直没有找到合适的继任者，那天之后开始有意栽培她。",
+    "current_mission": "接替前任秒针的位置，还没完全摆脱收银员的习惯。学习指针的规矩和仲裁方式，她打惯了架，仲裁比打架难得多。"
   },
   "char_special_abilities": {
-    "灵力回路-切分": "Slices the user's linear time into one-second discrete frames. Each second requires conceptualization of the next action and a body command; logical breaks cause freeze: external observers see stiffening in place. Unnecessary fractional seconds are cut, allowing actions marginally faster than normal limits. Optional touch transmission to others; can be withdrawn; continuous 灵力 drain until withdrawn or 灵力 exhausted. External observers perceive smooth motion, not stuttering."
+    "灵力回路-切分": "激活回路时，将自身线性时间切分为以秒为单位的离散帧，每一秒需构思行动并发出身体指令，逻辑断裂则僵直原地。切分可跳过逻辑上不必要的秒片段，使实际动作略快于正常极限。触摸可选传播至他人，可主动撤回，持续消耗灵力，不解除则至灵力耗尽方止。"
   },
   "char_relationships": {
-    "月": "Her superior. Same as the store manager: knows someone is above her, gets paid on schedule, no other thoughts required. The day she took over, 月 said \"Do not let 指针's rules warp in your hands.\" She remembers it. Has not felt the need to think about it further.",
-    "前田 刚": "The former second hand she intercepted and tried to shake down, and the first person to ever outmatch her completely. Near fifty, ready to step down but never found the right successor, until that night. Handed her the second hand brooch and said \"Don't lose it.\" Nothing more."
+    "月": "她的上级。和便利店店长差不多，知道有这么个人在上面，定期领钱，不需要有别的想法。接任那天月说了句\"别让指针的规矩在你手里走样。\"，她记下了，没觉得需要琢磨。",
+    "前田 刚": "追人时被她拦下开价的前任秒针，那天她第一次碰到完全压过自己的对手。年近半百想退，没找到合适的人，直到那天。把秒针胸针交给她时说了一句\"别丢了。\"，没多说。",
+    "伊予": "指针时针。前田告诉她，伊予读了她的档案，没有反对。加入至今和伊予说的话不超过十句，不需要，沉默就是协议。"
   }
 }

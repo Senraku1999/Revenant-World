@@ -5,26 +5,33 @@
   "char_identity": "狩灵",
   "char_rank": "2阶",
   "char_faction": "狩灵协会3科",
-  "char_status": "Member of 狩灵协会3科",
+  "char_status": "科员",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "23",
     "appearance": {
       "height": "163cm",
       "weight": "48kg",
-      "hair": "Long red hair with twin ponytails",
-      "face": "Dark brown eyes.",
-      "features": "None.",
-      "clothing": "A white short-sleeved shirt with a black choker, layered under a green tactical vest featuring black straps and a brown chest badge. Her light brown skirt has white lace trim, paired with black tactical arm and leg guards and knee-high boots.",
-      "weapon": "A modular assault rifle."
+      "hair": "红色长发扎成双马尾。",
+      "face": "圆脸，深棕色眼睛。",
+      "features": "无。",
+      "clothing": "白色短袖衬衫，绿色战术背心，浅棕色短裙，过膝长靴，黑色项圈，黑色背带，棕色胸章，黑色战术臂甲，腿甲。",
+      "weapon": "模块化突击步枪。"
     }
   },
-  "char_background": {
-    "origin": "Graduated from the Department of Chemistry at the University of Tokyo, left a dull research institute to join the 狩灵协会. She operates as a heavy firepower master from the rear, but collateral damage keeps her banned from urban missions.",
-    "current_mission": "Working in 狩灵协会3科, seeking suitable targets for testing new firearms, bullets, and explosives developed by herself, and continuously making improvements."
+  "char_personality": {
+    "core_traits": "热忱；戏谑爱逗人；好奇。",
+    "strengths": "风险评估；数据计算；火力校准。",
+    "flaws": "近身战斗能力薄弱；造成过度附带损伤；缺乏自我保护意识。",
+    "quirks": "组装枪械卡扣时发出一声脆响；像对宠物一样跟自己的武器说话。"
+  },
+  "char_description": {
+    "overview": "热武器专家，对工作台和实战测试抱有同样的狂热，因附带损伤被禁止参与城市任务，但没人质疑她的成果。",
+    "origin": "东京大学化学系毕业，离开沉闷的研究所加入狩灵协会，精通后方重火力操作，但附带损伤使她一直被禁止参与城市任务。",
+    "current_mission": "在狩灵协会3科工作，寻找合适的目标测试自己研发的新型枪械、子弹和炸药，并持续改进。"
   },
   "char_special_abilities": {
-    "灵力回路-反物质": "Releases objects from the effect of forces, allowing heavy weapon components to be carried and fired without recoil. Greater mass consumes more 灵力."
+    "灵力回路-反物质": "激活回路时，以灵力覆盖物体表面形成隔离层，抵消重力与反作用力对该物体的影响。质量越大，维持隔离层的灵力消耗越高。"
   },
   "char_relationships": {}
 }

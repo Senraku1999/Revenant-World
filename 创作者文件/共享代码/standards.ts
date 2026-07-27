@@ -40,7 +40,7 @@ export function isSpeechVerb(word: string): boolean {
 // ── 合法性枚举 ──
 export const VALID_IDENTITY = new Set(['狩灵', '游魂', '罪灵', '恶灵', '恶魔', '妖怪', '扭曲', '普通人类']);
 export const VALID_RANK = new Set([
-  '1阶', '2阶', '3阶', '4阶', '5阶', 'None',
+  '1阶', '2阶', '3阶', '4阶', '5阶', '无',
   '传闻级', '怪谈级', '梦魇级', '灾厄级', '终焉级',
 ]);
 

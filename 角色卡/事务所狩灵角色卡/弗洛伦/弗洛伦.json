@@ -5,46 +5,43 @@
   "char_identity": "狩灵",
   "char_rank": "2阶",
   "char_faction": "晨昏事务所",
-  "char_status": "Member of 晨昏事务所",
+  "char_status": "成员",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "29",
     "appearance": {
       "height": "171cm",
       "weight": "65kg",
-      "hair": "Short black hair",
-      "face": "Brown eyes.",
-      "features": "None.",
-      "clothing": "Black top with outer belt, red scarf, yellow jacket at waist, olive work pants.",
-      "weapon": "卡美洛, a shield retracted on left gauntlet, expands to one-meter barrier for deflecting and repelling attacks."
+      "hair": "黑色短发。",
+      "face": "棕色眼睛。",
+      "features": "无。",
+      "clothing": "黑色上衣，黄色外套系在腰间，橄榄色工装裤，外搭腰带，红色围巾。",
+      "weapon": "卡美洛，左护臂上收起的盾牌，展开至1m屏障用于偏转和击退攻击。"
     }
   },
-  "char_description": {
-    "overview": "Defensive specialist, gentle, suited for security and escort tasks.",
-    "combat_style": "Shield-focused defense, planting herself at the frontline with 卡美洛, absorbing and redirecting attacks through 遥远的理想城. Prioritizes stunning and disarming over lethal force."
-  },
   "char_personality": {
-    "core_traits": "Protective; Diligent; Gentle; Reliable.",
-    "strengths": "Exceptional defense; 360 situational awareness; calm under pressure.",
-    "flaws": "Cannot say no, so she ends up cleaning up everyone else's messes.",
-    "quirks": "Hums tunes during tasks."
+    "core_traits": "保护欲强；勤勉；温和；可靠。",
+    "strengths": "出色的防御；全方位态势感知；压力下保持冷静。",
+    "flaws": "因为不会拒绝，导致经常帮他人收拾烂摊子。",
+    "quirks": "做任务时哼小调。"
   },
-  "char_background": {
-    "origin": "Former 狩灵协会2科 狩灵, followed her mentor 贝尔金 out of Osaka to Tokyo.",
-    "current_mission": "Take on escort and security commissions, shielding every life entrusted to her."
+  "char_description": {
+    "overview": "防御专家，性格温和，适合安保和护送任务。",
+    "origin": "前狩灵协会2科狩灵，跟随导师贝尔金离开大阪，来到东京。",
+    "current_mission": "接取护送与安保委托，以盾守住每一条托付给她的性命。"
   },
   "char_basic_abilities": {
-    "灵力": "Excellent, substantial 灵力 to handle high-intensity use and multiple simultaneous 灵力回路.",
-    "灵视": "Excellent, can expand 灵视 to perceive areas beyond line of sight.",
-    "身体素质": "Average, trained ordinary people."
+    "灵力": "优秀，可以同时维持复数灵力回路或高强度使用。",
+    "灵视": "优秀，灵视可覆盖视野之外的区域。",
+    "身体素质": "平均，经过训练的普通人。"
   },
   "char_special_abilities": {
-    "灵力回路-遥远的理想城": "Constructs city-wall-like barrier that repels attacks, strength scaling with 灵力 output."
+    "灵力回路-遥远的理想城": "激活回路时构筑城墙般的灵力屏障，击退攻击。强度随灵力输出提高，屏障被击穿后回路进入冷却。"
   },
   "char_relationships": {
-    "贝尔金": "Followed her out of 狩灵协会2科 the day she announced the 晨昏事务所. When others called it reckless, she saw conviction. Has never regretted that choice.",
-    "贝拉": "Former 狩灵协会2科 colleague, knows 贝拉 speaks through action, not words. Their timing never clashes in the field.",
-    "菲利普": "The new junior whose fire she never had at his age. His restlessness makes her smile, and she believes in him."
+    "贝尔金": "在她宣布开办晨昏事务所的那一天跟随她离开了狩灵协会2科。当别人称之为鲁莽时，她看到了信念。不曾后悔那个选择。",
+    "贝拉": "前狩灵协会2科同事，知道贝拉用行动表达，战场上两人的时机从不错位。",
+    "菲利普": "新来的后辈，她在他的年纪时从未有过他那样的火焰。他的焦躁让她微笑，她相信他。"
   },
   "char_dialogue_examples": [
     {

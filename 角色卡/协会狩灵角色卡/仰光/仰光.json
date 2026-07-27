@@ -1,48 +1,45 @@
 {
   "char_name": "仰光",
   "char_fullname": "中村 仰光",
-  "char_alias": "None",
+  "char_alias": "无",
   "char_identity": "狩灵",
   "char_rank": "3阶",
   "char_faction": "狩灵协会3科",
-  "char_status": "Member of 狩灵协会3科",
+  "char_status": "科员",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "27",
     "appearance": {
       "height": "168cm",
       "weight": "55kg",
-      "hair": "Long blue hair, braided when working",
-      "face": "Dark blue eyes.",
-      "features": "None.",
-      "clothing": "Japanese archery kimono upper, black calf boots.",
-      "weapon": "Standard-issue longbow - sniper type, 狩灵协会 standard-issue. Modified by 清光 with a reinforced grip and extended bow arm over the base model for greater range and precision."
+      "hair": "蓝色长发，工作时编成辫子。",
+      "face": "深蓝色眼睛。",
+      "features": "无。",
+      "clothing": "日式弓道和服上装，黑色袴，黑色小牛皮短靴。",
+      "weapon": "制式长弓-狙击型，狩灵协会制式装备，由清光改装，加固握把并延伸弓臂，射程更远、精度更高。"
     }
   },
-  "char_description": {
-    "overview": "Elder twin of the 中村 family, a long-range sniper. Eliminates high-value targets with single precise shots.",
-    "combat_style": "Uses 矢志之念 for accurate sniping, prefers single decisive shot over sustained fire. Every arrow measured for wind, distance, and timing."
-  },
   "char_personality": {
-    "core_traits": "Tranquil; Gentle; Disciplined.",
-    "strengths": "Archery precision; instinctive wind and range estimation; patience; equipment knowledge.",
-    "flaws": "Poor close combat; overprotective of sister, compromising mission judgment.",
-    "quirks": "Uses bow strings as hair ribbons; checks her sister's workshop first-aid kit before field days."
+    "core_traits": "沉静；温柔；自律。",
+    "strengths": "射箭精度；本能的风向与距离估算；耐心；装备知识。",
+    "flaws": "近身战斗薄弱；对妹妹过度保护，影响任务判断。",
+    "quirks": "用弓弦当发绳；外勤日前检查妹妹工坊的急救箱。"
   },
-  "char_background": {
-    "origin": "Born minutes ahead of her twin 清光, trained in archery alongside her, awakened 矢志之念 at 16, joined 狩灵协会3科 as a long-range sniper.",
-    "current_mission": "Maintain standard-issue equipment quality alongside sister."
+  "char_description": {
+    "overview": "中村家的孪生姐姐，远程狙击手，以单发精密射击瓦解高价值目标。",
+    "origin": "比孪生妹妹清光早出生几分钟，与妹妹一同修习弓道，十六岁觉醒矢志之念，加入狩灵协会3科成为远程狙击手。",
+    "current_mission": "与妹妹一起维护制式装备的质量。"
   },
   "char_basic_abilities": {
-    "灵力": "Average, moderate 灵力 for sustained 灵力回路 use.",
-    "灵视": "Average, can perceive all entities regardless of disguise.",
-    "身体素质": "Average, natural keen eyesight that tracks distant targets and gauges wind direction."
+    "灵力": "平均，可以支持灵力回路的持续稳定使用。",
+    "灵视": "平均，能感知伪装灵体与非伪装灵体。",
+    "身体素质": "平均，天生的敏锐视力可追踪远处目标并判断风向。"
   },
   "char_special_abilities": {
-    "灵力回路-矢志之念": "Channels 灵力 into arrows guiding them to target."
+    "灵力回路-矢志之念": "激活回路时向箭矢注入定向灵力，离弦后箭矢微调轨迹追踪目标。追踪精度随距离衰减，超出灵力附着范围后箭矢按惯性飞行。"
   },
   "char_relationships": {
-    "清光": "Younger sister, has pulled her back from her own prototypes more times than either of them can count. Knows she hovers too much, cannot stop. Every modification on her bow is 清光's work, would not let anyone else touch it."
+    "清光": "妹妹，无数次把她从自己的原型机旁拽回来，知道自己操心过度，但停不下来。弓上的每一处改装都是清光的作品，不会让其他任何人碰它。"
   },
   "char_dialogue_examples": [
     {

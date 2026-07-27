@@ -34,32 +34,32 @@ export function countTokens(text: string): number {
   return getEncodingSync().encode(normalized).length;
 }
 
-// ── 十段式预算（2026-07-17 基线定版，计数对象为英文 JSON）──
+// ── 十段式预算（2026-07-28 中文 JSON 校准，cl100k_base）──
 
-export const SEG_NAMES = ['外观', '武器', '概述', '战斗风格', '性格', '经历', '基础能力', '特殊能力', '角色关系', '对话示例', '总计'];
+export const SEG_NAMES = ['外观', '武器', '概述', '性格', '经历', '基础能力', '特殊能力', '角色关系', '对话示例', '总计'];
 
 // 角色关系不设段级预算（仅单条上限），故不在 BUDGET 中
+// 十段分部预算（中文 cl100k_base，2026-07-31 调整为原值 +20% 适配中文编码效率）
 export const BUDGET: Record<string, BudgetRange> = {
-  '外观': { lo: 50, hi: 100 },
-  '武器': { lo: 0, hi: 80 },
-  '概述': { lo: 0, hi: 50 },
-  '战斗风格': { lo: 0, hi: 50 },
-  '性格': { lo: 50, hi: 100 },
-  '经历': { lo: 50, hi: 200 },
-  '基础能力': { lo: 0, hi: 80 },
-  '特殊能力': { lo: 0, hi: 150 },
-  '对话示例': { lo: 200, hi: 400 },
-  '总计': { lo: 600, hi: 1200 },
+  '外观': { lo: 50, hi: 180 },
+  '武器': { lo: 0, hi: 125 },
+  '概述': { lo: 0, hi: 120 },
+  '性格': { lo: 50, hi: 180 },
+  '经历': { lo: 50, hi: 300 },
+  '基础能力': { lo: 0, hi: 180 },
+  '对话示例': { lo: 200, hi: 480 },
+  '总计': { lo: 700, hi: 1500 },
 };
 
-// 双态字段哨兵值（英文卡）。中文卡对应 None。/ 不战斗。，由中英结构一致性检查间接保障
-export const WEAPON_NONE = 'None.';
-export const COMBAT_NONE = 'Non-combatant.';
-export const WEAPON_NONE_LIKE = /^\s*none\s*[.。]?\s*$/i;
-export const COMBAT_NONE_LIKE = /^\s*non[- ]?combatant\s*[.。]?\s*$/i;
+// 武器哨兵值
+export const WEAPON_NONE = '无。';
+export const WEAPON_NONE_LIKE = /^\s*(none|无)\s*[.。]?\s*$/i;
 
 // 关系单条上限（单键对象序列化成本，含键名）
-export const REL_ENTRY_MAX = 100;
+export const REL_ENTRY_MAX = 180;
+
+// 特殊能力单条上限（单键对象序列化成本，含键名）
+export const SA_ENTRY_MAX = 180;
 
 /**
  * 将 JSON 数据拆分为十段并返回各段 token + 总计（共 11 个值，顺序同 SEG_NAMES）。
@@ -87,29 +87,26 @@ export function segmentTokens(data: Record<string, unknown>): number[] {
   // ③ 概述
   const t3 = countTokens(JSON.stringify({ overview: desc.overview ?? '' }));
 
-  // ④ 战斗风格
-  const t4 = countTokens(JSON.stringify({ combat_style: desc.combat_style ?? '' }));
+  // ④ 性格
+  const t4 = countTokens(JSON.stringify({ a: data.char_personality || {} }));
 
-  // ⑤ 性格
-  const t5 = countTokens(JSON.stringify({ a: data.char_personality || {} }));
+  // ⑤ 经历
+  const t5 = countTokens(JSON.stringify({ a: { origin: desc.origin ?? '', current_mission: desc.current_mission ?? '' } }));
 
-  // ⑥ 经历
-  const t6 = countTokens(JSON.stringify({ a: data.char_background || {} }));
+  // ⑥ 基础能力
+  const t6 = countTokens(JSON.stringify({ a: data.char_basic_abilities || {} }));
 
-  // ⑦ 基础能力
-  const t7 = countTokens(JSON.stringify({ a: data.char_basic_abilities || {} }));
+  // ⑦ 特殊能力
+  const t7 = countTokens(JSON.stringify({ a: data.char_special_abilities || {} }));
 
-  // ⑧ 特殊能力
-  const t8 = countTokens(JSON.stringify({ a: data.char_special_abilities || {} }));
+  // ⑧ 角色关系
+  const t8 = countTokens(JSON.stringify({ a: data.char_relationships || {} }));
 
-  // ⑨ 角色关系
-  const t9 = countTokens(JSON.stringify({ a: data.char_relationships || {} }));
+  // ⑨ 对话示例
+  const t9 = countTokens(JSON.stringify(data.char_dialogue_examples || []));
 
-  // ⑩ 对话示例
-  const t10 = countTokens(JSON.stringify(data.char_dialogue_examples || []));
-
-  const total = t1 + t2 + t3 + t4 + t5 + t6 + t7 + t8 + t9 + t10;
-  return [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, total];
+  const total = t1 + t2 + t3 + t4 + t5 + t6 + t7 + t9; // 不含⑧角色关系
+  return [t1, t2, t3, t4, t5, t6, t7, t8, t9, total];
 }
 
 /** 扫描角色卡 JSON Token 预算（段级区间 + 双态哨兵 + 关系单条上限） */
@@ -154,7 +151,7 @@ export async function checkTokenBudgets(): Promise<Violation[]> {
       }
     }
 
-    // 双态哨兵：形似哨兵但写法不精确的值视为格式错误
+    // 武器哨兵：形似哨兵但写法不精确的值视为格式错误
     const appearance = (data.char_persona?.appearance || {}) as Record<string, unknown>;
     const weapon = String(appearance.weapon ?? '');
     if (WEAPON_NONE_LIKE.test(weapon) && weapon !== WEAPON_NONE) {
@@ -163,15 +160,6 @@ export async function checkTokenBudgets(): Promise<Violation[]> {
         original: `weapon: ${weapon}`,
         suggestion: `应精确为 ${WEAPON_NONE}`,
         confidence: '高', reason: '无实体武器哨兵值写法不精确',
-      });
-    }
-    const combat = String((data.char_description || {}).combat_style ?? '');
-    if (COMBAT_NONE_LIKE.test(combat) && combat !== COMBAT_NONE) {
-      violations.push({
-        file: name, line: 0, symbol: '哨兵格式',
-        original: `combat_style: ${combat}`,
-        suggestion: `应精确为 ${COMBAT_NONE}`,
-        confidence: '高', reason: '非战斗哨兵值写法不精确',
       });
     }
 
@@ -185,6 +173,20 @@ export async function checkTokenBudgets(): Promise<Violation[]> {
           original: `关系[${k}]: ${entry}`,
           suggestion: `超标 ${entry} (单条上限${REL_ENTRY_MAX})`,
           confidence: '高', reason: '关系单条 token 超出上限',
+        });
+      }
+    }
+
+    // 特殊能力单条上限（多回路角色逐条检查）
+    const sas = (data.char_special_abilities || {}) as Record<string, unknown>;
+    for (const [k, v] of Object.entries(sas)) {
+      const entry = countTokens(JSON.stringify({ [k]: v }));
+      if (entry > SA_ENTRY_MAX) {
+        violations.push({
+          file: name, line: 0, symbol: 'Token超标',
+          original: `特殊能力[${k}]: ${entry}`,
+          suggestion: `超标 ${entry} (单条上限${SA_ENTRY_MAX})`,
+          confidence: '高', reason: '特殊能力单条 token 超出上限',
         });
       }
     }

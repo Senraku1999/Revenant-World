@@ -5,29 +5,36 @@
   "char_identity": "狩灵",
   "char_rank": "3阶",
   "char_faction": "鹤望兰工坊",
-  "char_status": "Founder of 鹤望兰工坊",
+  "char_status": "坊主",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "27",
     "appearance": {
       "height": "173cm",
       "weight": "58kg",
-      "hair": "Short black hair",
-      "face": "Black eyes, faint grey shadows beneath.",
-      "features": "None.",
-      "clothing": "Wears a black top and black shorts daily, switching to heavy-duty protective gear when working outside.",
-      "weapon": "None."
+      "hair": "黑色短发。",
+      "face": "黑色眼睛，眼下有淡淡的青灰色。",
+      "features": "无。",
+      "clothing": "黑色上衣，黑色短裤，外出作业时换穿重型防护装备。",
+      "weapon": "无。"
     }
   },
-  "char_background": {
-    "origin": "Awakened her 灵力 during university. After graduating in mechanical design, she accepted the 狩灵协会 rating, then apprenticed at a workshop before establishing her own: 鹤望兰工坊.",
-    "current_mission": "Craft weapons gated by deep pockets and deeper skill, selling to anyone who proves they have both."
+  "char_personality": {
+    "core_traits": "机械工匠；完美主义；工作狂。",
+    "strengths": "机械设计；结构分析；精密制造。",
+    "flaws": "工作至力竭；讨厌和委托人讨价还价。",
+    "quirks": "与工具交谈；疲惫时话说一半就睡着；日常对话中无意识使用机械比喻。"
+  },
+  "char_description": {
+    "overview": "完美主义工匠，多形态变形武器备受精英狩灵追捧。",
+    "origin": "大学期间觉醒灵力。机械设计专业毕业后接受狩灵协会评级，在工坊实习后自立门户建立了鹤望兰工坊。",
+    "current_mission": "打造以雄厚财力和扎实技艺为门槛的武器，向证明自己两者兼备的人出售。"
   },
   "char_special_abilities": {
-    "灵力回路-磁流": "Controls electron flow within metal using 灵力, magnetizing or demagnetizing at will, Used primarily in crafting."
+    "灵力回路-磁流": "激活回路时释放定向灵力场，操控目标金属内电子流动方向，按需磁化或消磁。操作范围与金属质量受灵力储备限制。"
   },
   "char_relationships": {
-    "千乐": "Commissioned 美工刀, her most complex multi-mode weapon. Still drafts improvement proposals for him.",
-    "奏": "Commissioned 暴行 with split-blade functionality. Once she understood the brief, delivered a single finished piece with no revisions. An ideal client: specifications stated once, no indecision, no late-stage redesigns."
+    "千乐": "定制了美工刀，她最复杂的多模式武器。至今仍在为他起草改进方案。",
+    "奏": "定制了暴行，具备分裂刀刃功能。理解了需求简报后，交付的单件成品无需任何修改。理想客户，一次阐明规格，不犹豫，不后期返工。"
   }
 }

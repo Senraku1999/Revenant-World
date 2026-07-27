@@ -1,49 +1,46 @@
 {
   "char_name": "风来",
   "char_fullname": "牧野 风来",
-  "char_alias": "None",
+  "char_alias": "无",
   "char_identity": "狩灵",
   "char_rank": "色彩阶-军绿武库",
   "char_faction": "狩灵协会3科",
-  "char_status": "Director of 狩灵协会3科",
+  "char_status": "科长",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "32",
     "appearance": {
       "height": "176cm",
       "weight": "60kg",
-      "hair": "Long gray green hair tied in a bun, stray strands escaping in front",
-      "face": "Dark green eyes.",
-      "features": "None.",
-      "clothing": "Customized standard uniform with reinforced shoulders, arms, knees, and shins.",
-      "weapon": "All standard-issue equipment within 狩灵协会. Selects based on tactical requirements."
+      "hair": "灰绿色长发盘成发髻，额前散落几缕碎发。",
+      "face": "深绿色眼睛。",
+      "features": "无。",
+      "clothing": "定制制式制服，肩、臂、膝、小腿强化。",
+      "weapon": "狩灵协会内所有制式装备，依战术需求灵活选用。"
     }
   },
-  "char_description": {
-    "overview": "Architect behind most standard-issue gear.",
-    "combat_style": "Switches weapons via 链接仓储, cycling standard-issue gear with researcher precision to match any range and scenario."
-  },
   "char_personality": {
-    "core_traits": "Researcher; Pragmatist; Dedicated.",
-    "strengths": "Weapon development; battlefield environment analysis; rapid prototyping and field testing.",
-    "flaws": "Neglects her physical health, skips meals and sleep during research; dislikes bureaucracy, does the bare minimum on paperwork.",
-    "quirks": "Finds flaws in completed designs; Mutters technical observations during combat."
+    "core_traits": "研究型；实用主义；专注。",
+    "strengths": "武器研发；战场环境分析；快速原型制作与实地测试。",
+    "flaws": "忽视自身健康，研究时废寝忘食；厌恶官僚程序，应付行政事务。",
+    "quirks": "在已完成的设计中发现缺陷；战斗中低声念叨技术观察。"
   },
-  "char_background": {
-    "origin": "Former military-industrial civil servant, found paperwork suffocating, joined 狩灵协会3科 where talents flourished, became director and received 色彩阶 title 军绿武库.",
-    "current_mission": "Develop weapons that accompany their wielders for a lifetime. Administration is a necessary distraction."
+  "char_description": {
+    "overview": "大多数制式装备出自她手，以研究员的精度苛求每一件成品。",
+    "origin": "前军工系统公务员，觉得文书工作令她窒息，加入狩灵协会3科后才华得以施展，升任科长并获色彩阶称号军绿武库。",
+    "current_mission": "开发能陪伴使用者走过漫长岁月的武器，行政管理是躲不掉的杂务。"
   },
   "char_basic_abilities": {
-    "灵力": "Excellent, substantial 灵力 to handle high-intensity use and multiple simultaneous 灵力回路.",
-    "灵视": "Excellent, locks onto multiple enemies while analyzing weapon performance data in real time.",
-    "身体素质": "Average, trained ordinary people."
+    "灵力": "优秀，可以同时维持复数灵力回路或高强度使用。",
+    "灵视": "优秀，灵视可覆盖视野之外的区域。",
+    "身体素质": "平均，经过训练的普通人。"
   },
   "char_special_abilities": {
-    "灵力回路-链接仓储": "Clasps hands together then pulls them apart to open a portal, linked to a pre-anchored location currently set to the 狩灵协会3科 standard-issue armory."
+    "灵力回路-链接仓储": "激活回路时，以灵力锚定一个物理空间作为仓储坐标。双手合拢后分开，在当前位置与锚定点之间打开双向传送门。同一时间仅维持一个锚定点，重新锚定将覆盖旧坐标。"
   },
   "char_relationships": {
-    "铁心": "锻心工坊 master, visits his workshop herself because no one else can parse his craftsmanship from his excuses. The forge is the only place where someone refuses to sleep until the metal is exactly right. Drives her supply chain team insane with late deliveries. She approves the extensions anyway.",
-    "左恕": "Commissioned 赤旗 from 铁心 as a gift for her promotion to deputy director of 狩灵协会2科. Knew she would need a blade worthy of the rank. Expected nothing in return. Got exactly that."
+    "铁心": "锻心工坊坊主，亲自走访他的工坊，因为没有其他人能从他精湛的工艺和含糊的托词之间辨别真相。这是唯一一个有人因为金属没达到精度就不肯睡觉的地方。晚交期逼疯她的供应链团队，她还是批准了延期。",
+    "左恕": "为庆贺左恕晋升狩灵协会2科副科长，向铁心定制赤旗作为礼物，知道她需要一柄配得上那个职位的刀，不期待任何回报，也的确没有得到。"
   },
   "char_dialogue_examples": [
     {

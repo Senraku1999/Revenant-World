@@ -252,16 +252,22 @@ function checkMdFiles(): void {
       }
     }
 
-    // —— 密度检查（仅开场白）
-    if (name.includes('开场白')) {
-      const dashTotal = (content.match(/——/g) || []).length;
+    // ——/…… 叙述违禁检查（简介 + 开场白，仅限对话内使用）
+    if (name.includes('开场白') || name.includes('简介')) {
       const textNoQuotes = content.replace(QUOTE_STRIP, '');
-      const dashNarrative = (textNoQuotes.match(/——/g) || []).length;
-      const dashDialogue = dashTotal - dashNarrative;
-      if (dashTotal > 3) {
-        issues.push(`  —— 总量 ${dashTotal} 组 (叙述 ${dashNarrative}/对话 ${dashDialogue})，超过 3 组上限，须逐条审查`);
-      } else if (dashNarrative > 2) {
-        issues.push(`  叙述中 —— ${dashNarrative} 组，偏多，建议审查是否可替换为逗号`);
+      const dashRe = /——/g;
+      let dm: RegExpExecArray | null;
+      while ((dm = dashRe.exec(textNoQuotes)) !== null) {
+        const pos = dm.index;
+        const ctx = textNoQuotes.substring(Math.max(0, pos - 10), Math.min(textNoQuotes.length, pos + 12)).replace(/\n/g, ' ');
+        issues.push(`  叙述 ——: ...${ctx}...`);
+      }
+      const ellipsisRe = /……/g;
+      let em: RegExpExecArray | null;
+      while ((em = ellipsisRe.exec(textNoQuotes)) !== null) {
+        const pos = em.index;
+        const ctx = textNoQuotes.substring(Math.max(0, pos - 10), Math.min(textNoQuotes.length, pos + 12)).replace(/\n/g, ' ');
+        issues.push(`  叙述 ……: ...${ctx}...`);
       }
     }
 
@@ -476,68 +482,10 @@ function scanFullnameViolations(): void {
 }
 
 // ── 中英文 JSON 一致性 ──
+// 中英文 JSON 一致性检查已于 2026-07-28 退役（英文 JSON 已删除，中文 JSON 成为唯一主版本）
+// 保留函数占位以避免调用处报错
 function checkZhEnConsistency(): void {
-  console.log();
-  console.log('='.repeat(60));
-  console.log('中英文 JSON 结构一致性');
-  console.log('='.repeat(60));
-
-  const issues: string[] = [];
-  const jsonFiles = findAllJsonFiles(PROJECT_ROOT);
-
-  // 收集全部角色名，用于判定关系键是否为确切人名的引用
-  const knownNames = new Set<string>();
-  for (const f of jsonFiles) {
-    const d = normalizePath(path.dirname(f));
-    if (f.endsWith('_zh.json') || d.includes('事件卡') || d.includes('世界观卡') || d.includes('关系网') || d.includes('世界书')) continue;
-    try {
-      const data = JSON.parse(readFileUtf8(f));
-      if (data.char_name) knownNames.add(data.char_name);
-      if (data.char_fullname) knownNames.add(data.char_fullname);
-    } catch {}
-  }
-
-  for (const f of jsonFiles) {
-    if (f.endsWith('_zh.json')) continue;
-    const d = normalizePath(path.dirname(f));
-    if (d.includes('事件卡') || d.includes('世界观卡') || d.includes('关系网') || d.includes('世界书')) continue;
-
-    const zhF = f.replace('.json', '_zh.json');
-    if (!fs.existsSync(zhF)) continue;
-
-    const en = JSON.parse(readFileUtf8(f));
-    const zh = JSON.parse(readFileUtf8(zhF));
-    const char = en.char_name || path.basename(f);
-
-    // 关系键：仅标记确切人名的键不对称，描述性标签允许各自语言
-    const enRels = new Set(Object.keys(en.char_relationships || {}));
-    const zhRels = new Set(Object.keys(zh.char_relationships || {}));
-    const onlyEn = [...enRels].filter(k => !zhRels.has(k) && knownNames.has(k));
-    const onlyZh = [...zhRels].filter(k => !enRels.has(k) && knownNames.has(k));
-    if (onlyEn.length > 0) issues.push(`  ${char}: 关系键仅在英文: ${onlyEn}`);
-    if (onlyZh.length > 0) issues.push(`  ${char}: 关系键仅在中文: ${onlyZh}`);
-
-    // 特殊能力键
-    const enAb = new Set(Object.keys(en.char_special_abilities || {}));
-    const zhAb = new Set(Object.keys(zh.char_special_abilities || {}));
-    const onlyEnAb = [...enAb].filter(k => !zhAb.has(k));
-    const onlyZhAb = [...zhAb].filter(k => !enAb.has(k));
-    if (onlyEnAb.length > 0) issues.push(`  ${char}: 特殊能力键仅在英文: ${onlyEnAb}`);
-    if (onlyZhAb.length > 0) issues.push(`  ${char}: 特殊能力键仅在中文: ${onlyZhAb}`);
-
-    // 对话示例数
-    const enDi = (en.char_dialogue_examples || []).length;
-    const zhDi = (zh.char_dialogue_examples || []).length;
-    if (enDi !== zhDi) {
-      issues.push(`  ${char}: 对话示例数不一致 en=${enDi} zh=${zhDi}`);
-    }
-  }
-
-  if (issues.length > 0) {
-    for (const i of issues) console.log(i);
-  } else {
-    console.log('  全部一致');
-  }
+  // no-op: 项目已切换为纯中文 JSON
 }
 
 // ── 世界书内容与关系网一致性 ──
@@ -658,7 +606,6 @@ async function main(): Promise<void> {
   scanFullnameViolations();
   checkWorldbookContentFreshness();
   checkRelationKeys();
-  checkZhEnConsistency();
 
   console.log();
   console.log('='.repeat(60));

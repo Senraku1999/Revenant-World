@@ -1,11 +1,13 @@
 export const meta = {
   name: 'full-review',
-  description: '狩灵世界观全量审查\u65306自动脚本 \u8594 标点+逻辑并行 \u8594 全角色扫描 \u8594 Token预扫 \u8594 学术五视角并行 \u8594 汇总分级\u65288全角色\u65292无抽样\u65289',
+  description: '狩灵世界观全量审查\u65306自动脚本 \u8594 标点+逻辑+AI味并行 → AI味复核 \u8594 全角色扫描 \u8594 Token预扫 \u8594 学术五视角并行 \u8594 汇总分级\u65288全角色\u65292无抽样\u65289',
   phases: [
     { title: '自动脚本', detail: '运行自动检查脚本获取基线\u65292含 Token 精确计数' },
     { title: '标点审查', detail: '逐字扫描所有 MD 文件标点合规性' },
     { title: '逻辑审查', detail: '聚合比对跨文件/跨角色一致性' },
     { title: '全角色扫描', detail: '列出全部角色目录\u65292按阵营分组\u65292供学术审查使用' },
+    { title: 'AI味审查', detail: 'stop-slop 13类模式机械扫描' },
+    { title: 'AI味复核', detail: 'Agent 复核机械扫描结果，过滤误判' },
     { title: 'Token预扫', detail: '精确统计全部开场白 Token 数\u65288cl100k_base\u65289\u65292供叙事学审查使用' },
     { title: '学术审查', detail: '五视角领域审查\u65292覆盖全部角色\u12290叙事学使用精确 Token 数据\u65292不做估算' },
     { title: '汇总', detail: '整合结果\u65292T0/T1/T2 分级输出' },
@@ -21,6 +23,10 @@ const autoScriptOutput = await agent(`
 `, {label: 'run-auto-check'})
 
 log(`自动检查脚本已运行`)
+const level3Output = await agent(`
+运行命令 npx tsx "创作者文件/审查文件/标点审查/三级审查/三级审查.ts" 并将完整 stdout 原样返回。
+`, {label: 'run-level3'})
+log(`三级标点审查脚本已运行`)
 
 const rules = {
   CLAUDE_MD: await agent('读取 CLAUDE.md 的标点规则和团队结构部分\u65292仅输出规则摘要\u12290', {label: 'read-claude-md'}),
@@ -33,7 +39,7 @@ log(`规则文件已读取\u12290CLAUDE.md 标点硬规则\u65306"" 唯一引号
 phase('标点审查')
 phase('逻辑审查')
 
-const [punctuationResult, logicResult] = await Promise.all([
+const [punctuationResult, logicResult, slopResult] = await Promise.all([
   agent(`
 你是标点审查专员\u12290按以下规则扫描项目中所有 *简介.md 和 *开场白.md 文件\u65306
 
@@ -77,9 +83,32 @@ const [punctuationResult, logicResult] = await Promise.all([
 输出格式\u65306\u12304角色A\u12305与\u12304角色B/规则\u12305矛盾点 \u8594 双方原文 \u8594 T0/T1/T2
 零问题时声明"无矛盾"\u12290
   `, {label: 'logic-review', phase: '逻辑审查'}),
+agent(`你是 AI 写作痕迹（stop-slop）审查专员。对项目内全部 *.json、*_zh.json、*简介.md、*开场白.md 进行 13 类 AI 写作模式扫描。## 13 类检测模式（按 T0/T1/T2 三级）**T0 必须修复：**- A-副词堆砌："缓缓""轻轻""渐渐""深深"等 >=3 处/文件- B-二元对立句式："不是X，而是Y""没有X，只有Y""rather than""not X, but Y"- C-模糊宣告句："没有人知道X""时间会证明Y""命运早已注定"- D-虚假施动："空气凝固了""沉默在蔓延""气味互不相让"等非生命体拟人化**T1 建议修复：**- E-形容词堆叠：连续 >=3 个形容词修饰同一名词- F-被动过度：单段内 >=3 处"被"字句- G-Wh-句式泛滥："当X时，Y""随着X，Y""在X中，Y"- H-三段式列举："A、B、C，三者/三个/三种"- I-过度概括："从不""永远""所有""任何""每一次"等绝对化措辞**T2 可选优化：**- J-句式单调：连续 >=5 句以同一主语开头- K-"那种X"公式："那种让人Y的X""那种说不出的Z"- L-通用措辞："莫名的""难以言喻的""不可思议的""某种"- M-AI腔比喻："如活物般""如银蛇般""像一滴水融进河流"## 重要- 小说化内容/审查脚本/规则文档不在审查范围- 只报告命中项，零命中输出"AI味零命中"- 按阵营分批输出，每个命中标注文件+具体字段+类别代码+T0/T1/T2输出格式：【文件名】-> 类别代码 -> 具体位置 -> T0/T1/T2  `, {label: 'slop-check', phase: 'AI味审查'}),
 ])
 
-log(`标点审查完成\u65292逻辑审查完成`)
+log(`标点、逻辑、AI味审查完成`)
+
+phase('AI味复核')
+
+const slopReviewed = await agent(`
+你是 AI 写作痕迹复核专员。请仔细审核以下 stop-slop 机械扫描结果，逐项判断是真正的 AI 腔还是优秀的文学写作。
+
+## 判断原则
+- **保留标记**：机械套话、空洞比喻、无信息量的填充词（如"莫名的""难以言喻的""那种说不出的"）
+- **撤销标记**：贴合角色身份的生动比喻（如琳的"如花瓣般展开"贴合其外观）、有实际信息量的描写（如贝尔金回路"如同呼吸般明灭"与心跳同步是世界观建构）、角色 voice 中的自然措辞
+
+## 需要特别注意的误判模式
+- 将角色技能/回路的视觉化描写误判为 AI 腔比喻
+- 将符合角色性格的措辞（如铃的"那种东西"是她的不耐烦口吻）误判为 K 类"那种X"
+- 将真正的文学修辞误判
+
+## stop-slop 原始扫描结果
+${slopResult}
+
+请输出复核后的最终 AI 味审查结果。格式与原报告一致，但每个命中后标注【经复核：保留/撤销】及简要理由。撤销的项目不纳入 T0/T1/T2 分级。
+`, {label: 'slop-review', phase: 'AI味复核'})
+
+log(`AI味复核完成`)
 
 phase('全角色扫描')
 
@@ -245,11 +274,17 @@ ${allCharacters}
 ## 自动脚本结果
 ${autoScriptOutput}
 
+## 三级标点审查结果
+${level3Output}
+
 ## 标点审查结果
 ${punctuationResult}
 
 ## 逻辑审查结果
 ${logicResult}
+
+## AI味审查结果（已经 Agent 复核）
+${slopResult}
 
 ## 精确 Token 数据
 ${tokenData}

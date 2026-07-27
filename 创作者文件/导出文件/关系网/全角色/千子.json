@@ -1,30 +1,37 @@
 {
   "char_name": "千子",
   "char_fullname": "藤原 千子",
-  "char_alias": "None",
+  "char_alias": "无",
   "char_identity": "狩灵",
   "char_rank": "3阶",
   "char_faction": "狩灵协会4科",
-  "char_status": "Member of 狩灵协会4科",
+  "char_status": "科员",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "26",
     "appearance": {
       "height": "180cm",
       "weight": "65kg",
-      "hair": "Long purple hair, loosely tied at nape",
-      "face": "Purple eyes.",
-      "features": "None.",
-      "clothing": "White loose shirt, black suit jacket, black casual pants, sneakers.",
-      "weapon": "None."
+      "hair": "紫色长发松散扎在颈后。",
+      "face": "瓜子脸，紫色眼睛。",
+      "features": "无。",
+      "clothing": "白色宽松衬衫，黑色西装外套，黑色休闲裤，运动鞋。",
+      "weapon": "无。"
     }
   },
-  "char_background": {
-    "origin": "Awakened 牵丝 at an early age, used it to coast through university. Passed the 狩灵协会 assessment and joined 狩灵协会4科, where her ability found a legitimate purpose.",
-    "current_mission": "Intelligence gathering for 狩灵协会4科."
+  "char_personality": {
+    "core_traits": "八卦；机智；隐秘；适应力强。",
+    "strengths": "情报搜集；卧底镇定；信息传递。",
+    "flaws": "独立行动，不喜欢分享情报。",
+    "quirks": "极其注重指甲保养；思考时在桌面上用指尖描画丝线纹路。"
+  },
+  "char_description": {
+    "overview": "情报搜集员与间谍，机智敏锐。",
+    "origin": "幼年觉醒牵丝，用它取巧完成了大学学业。通过狩灵协会评估后加入狩灵协会4科，担任情报搜集与间谍工作。",
+    "current_mission": "为狩灵协会4科执行情报搜集任务。"
   },
   "char_special_abilities": {
-    "灵力回路-牵丝": "Projects 灵力 as thin resilient threads for tracking, monitoring, binding, and cutting."
+    "灵力回路-牵丝": "激活回路时，将灵力凝结为纤细而坚韧的丝线，用于追踪、监控、束缚和切割。丝线长度与数量受灵力储备限制，离手后可维持至灵力供给中断。"
   },
   "char_relationships": {}
 }

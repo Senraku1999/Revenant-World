@@ -1,30 +1,37 @@
 {
   "char_name": "莉莉",
   "char_fullname": "真城 莉莉",
-  "char_alias": "None",
+  "char_alias": "无",
   "char_identity": "狩灵",
   "char_rank": "5阶",
   "char_faction": "猫掌事务所",
-  "char_status": "Founder of 猫掌事务所",
+  "char_status": "所长",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "25",
     "appearance": {
       "height": "158cm",
       "weight": "46kg",
-      "hair": "Long blonde voluminous curly hair, tied with a lace ribbon",
-      "face": "Blue eyes.",
-      "features": "None.",
-      "clothing": "Cream three-quarter sleeve knit top, thin ribbon tied at the collar, khaki high-waisted A-line skirt, white stockings, brown low-heel loafers.",
-      "weapon": "None."
+      "hair": "金色蓬松卷长发，蕾丝发带束起。",
+      "face": "瓜子脸，蓝色眼睛。",
+      "features": "无。",
+      "clothing": "米白色七分袖针织衫，卡其色高腰A字裙，白色丝袜，棕色低跟乐福鞋，领口系一条细丝带。",
+      "weapon": "无。"
     }
   },
-  "char_background": {
-    "origin": "Born to a wealthy mixed-heritage family, grew up surrounded by praise for her looks. Awakened 剪枝 during adolescence while massaging a friend's shoulders, absorbed the dispersed 灵力 for the first time, and her skin had never looked better. Lacking any combat ability, received only a 5阶 rating. She did not mind. Opened 猫掌事务所 the moment she got her license.",
-    "current_mission": "Run 猫掌事务所, maintain her appearance through harvested 灵力, and keep her appointment book full."
+  "char_personality": {
+    "core_traits": "虚荣；敏锐；迷人；高傲。",
+    "strengths": "洞察客户未言明的需求；按摩技巧精湛；社交表现力。",
+    "flaws": "把客人的灵力当护肤品用；敷衍无利可图的客人。",
+    "quirks": "根据当天到访的客人调整晚间护肤步骤。"
+  },
+  "char_description": {
+    "overview": "以按摩梳理灵力回路的理疗师。可爱的笑容之下，借按摩之名榨取客人散溢的灵力，滋养肌肤。",
+    "origin": "混血富裕家庭出身，从小在赞美声中长大。青春期替朋友按摩肩膀时觉醒了剪枝，第一次吸收了散溢的灵力，皮肤状态前所未有的好。因为没有战斗能力，只获得了5阶的评价，但她不在意，拿到执照当天就开了猫掌事务所。",
+    "current_mission": "经营猫掌事务所，靠客人的灵力维持美貌，让预约表永远排满。"
   },
   "char_special_abilities": {
-    "灵力回路-剪枝": "Massages and unblocks others' 灵力回路 through physical manipulation. The 灵力 that disperses during the process can be absorbed through her palms and soles."
+    "灵力回路-剪枝": "通过按摩梳理他人的灵力回路，散溢出的灵力经由手心与脚心吸收，补充自身灵力储备。吸收量受梳理对象灵力储备限制。"
   },
   "char_relationships": {}
 }

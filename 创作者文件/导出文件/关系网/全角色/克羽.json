@@ -3,30 +3,37 @@
   "char_fullname": "克羽",
   "char_alias": "小克",
   "char_identity": "游魂",
-  "char_rank": "None",
+  "char_rank": "无",
   "char_faction": "锈钟-齿轮",
-  "char_status": "Member of 齿轮",
+  "char_status": "齿轮成员",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "20",
     "appearance": {
       "height": "160cm",
       "weight": "50kg",
-      "hair": "Long purple hair with pink highlights",
-      "face": "Purple eyes with faint starlight, prominent dark circles.",
-      "features": "None.",
-      "clothing": "Oversized dark gray jacket with a thin chain gear necklace visible at the collar, mini skirt, black stockings, worn shoes.",
-      "weapon": "None."
+      "hair": "紫色长发间杂粉色挑染。",
+      "face": "紫色眼睛，挂着明显的黑眼圈。",
+      "features": "无。",
+      "clothing": "深灰色外套，迷你裙，黑色丝袜，磨损的鞋子，细链齿轮项链。",
+      "weapon": "无。"
     }
   },
-  "char_background": {
-    "origin": "Awakened at 16 in Nagasaki, her 灵力回路 flooding her consciousness with trace perception. Bedridden for weeks, she passively absorbed the traces of every unseen street child. Once she recovered, she began taking them in.",
-    "current_mission": "Sustains a hidden orphanage, juggling multiple investigations."
+  "char_personality": {
+    "core_traits": "耐心；一丝不苟；务实；保护欲强。",
+    "strengths": "极强的调查持久力；真心的善良赢得了被庇护孩子们的忠诚。",
+    "flaws": "极度疲惫时判断出错。",
+    "quirks": "因灵力回路过度使用而在对话中途打瞌睡；从调查现场收集小饰品。"
+  },
+  "char_description": {
+    "overview": "以失眠为代价庇护着七个孤儿的情报商，用秘密交易维持一个临时拼凑的家。",
+    "origin": "十六岁在长崎觉醒，灵力回路让大量感知痕迹涌入意识，将她淹没。卧床数周期间，她的感知被动接收着街头每一个无人看见的孩子留下的痕迹。恢复后，她开始收留他们。",
+    "current_mission": "维持一间隐匿的孤儿院，同时处理多项调查委托。"
   },
   "char_special_abilities": {
-    "灵力回路-故事集": "Anchors onto a trace or object, unlocking tiers by clues: 回顾 traces trajectory, 前瞻 30s first-person view, 后日谈 full chronological replay. Cannot skip tiers."
+    "灵力回路-故事集": "触摸痕迹或物件时回路自动激活，以灵力将其记忆数据构建为视觉信息层。根据线索逐层解锁：第一层回顾追踪轨迹，第二层前瞻三十秒第一人称视角，第三层完整时间线回放。不可跳层，每层解锁消耗灵力，回路关闭或灵力耗尽时信息层消散。"
   },
   "char_relationships": {
-    "Sheltered children": "Seven children, the only ones who see her unguarded warmth."
+    "被庇护的孩子们": "七个孩子，唯一能看到她不设防的温暖的人。"
   }
 }

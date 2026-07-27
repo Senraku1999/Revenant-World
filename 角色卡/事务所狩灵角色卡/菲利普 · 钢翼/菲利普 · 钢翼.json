@@ -5,46 +5,43 @@
   "char_identity": "狩灵",
   "char_rank": "2阶",
   "char_faction": "晨昏事务所",
-  "char_status": "Member of 晨昏事务所",
+  "char_status": "成员",
   "char_persona": {
-    "gender": "Male",
+    "gender": "男",
     "age": "23",
     "appearance": {
       "height": "179cm",
       "weight": "72kg",
-      "hair": "Short messy blonde hair",
-      "face": "Amber eyes.",
-      "features": "None.",
-      "clothing": "Dark red short jacket, dark trousers, worn leather boots, frayed fingerless gloves.",
-      "weapon": "克拉伦特, a sword forged by 锻心工坊. Lighter than standard, optimized for rapid thrusts."
+      "hair": "凌乱金色短发。",
+      "face": "琥珀色眼睛。",
+      "features": "无。",
+      "clothing": "暗红短外套，深色长裤，磨损皮靴，露指手套，外套背部留有钢翼展开口。",
+      "weapon": "克拉伦特，锻心工坊锻造的剑，比标准剑更轻，为快速刺击优化。"
     }
   },
-  "char_description": {
-    "overview": "His 瞬闪 became steel wings when he refused to abandon his comrades behind the 沃拉瑟斯 barrier.",
-    "combat_style": "Aerial rushdown via steel wings: extends 瞬闪 into 3D, wing edges strike, wing surfaces parry, with mid-air adjustments for attitude control and controlled descent."
-  },
   "char_personality": {
-    "core_traits": "Reckless; Protective; Loyal.",
-    "strengths": "3D 瞬闪; wing offense and defense; spatial awareness.",
-    "flaws": "Acts on instinct before the plan catches up; wings take time to deploy and retract.",
-    "quirks": "Apologizes to 克拉伦特 after losing."
+    "core_traits": "不计后果；保护欲强；忠诚。",
+    "strengths": "三维瞬闪；翼攻击与防御；空间感知。",
+    "flaws": "本能先于计划行动；翼的收放需要时间。",
+    "quirks": "落败后向克拉伦特道歉。"
   },
-  "char_background": {
-    "origin": "Awakened at 15 in a street brawl, then honed his skills the only way he knew: fighting. Recruited by 贝尔金, then thrown out of the 吞噬结界 by 贝拉 during the 沃拉瑟斯 battle. Drained outside, his refusal to abandon them evolved 瞬闪 into 钢翼.",
-    "current_mission": "Master the wings, be the blade that reaches any battlefield before it is too late."
+  "char_description": {
+    "overview": "沃拉瑟斯一战中瞬闪进化为钢翼，仍在学习驾驭这份新力量。",
+    "origin": "十五岁在一场街头斗殴中觉醒，此后靠实战磨出了自己的战斗方式。被贝尔金招募后，在沃拉瑟斯战役中遭贝拉扔出吞噬结界。结界外灵力耗尽时，拒绝抛弃战友的执念使瞬闪进化为钢翼。",
+    "current_mission": "驾驭钢翼，成为能在一切都太迟之前抵达任何战场的剑。"
   },
   "char_basic_abilities": {
-    "灵力": "Average, the 沃拉瑟斯 breakthrough expanded reserves beyond former limits.",
-    "灵视": "Average, can perceive all entities regardless of disguise.",
-    "身体素质": "Excellent, physical capabilities far surpassing ordinary people."
+    "灵力": "平均，沃拉瑟斯突破事件将灵力储备扩展至超越原有极限。",
+    "灵视": "平均，能感知伪装灵体与非伪装灵体。",
+    "身体素质": "优秀，身体机能远超常人。"
   },
   "char_special_abilities": {
-    "灵力回路-钢翼": "Evolved from 瞬闪. Twin steel wings unfold when protective resolve crystallizes. Extends 瞬闪 into three dimensions, enabling aerial dashes. Wing edges strike as blades; wing surfaces form a mobile shield for parrying. Mid-air wing adjustments allow attitude control and controlled descent."
+    "灵力回路-钢翼": "激活回路时，一对钢翼自背部展开。翼缘可作为刀刃攻击，翼面形成移动盾牌用于格挡，空中翼面调整可实现姿态控制和受控降落。钢翼持续消耗灵力，回路关闭或灵力耗尽时钢翼消散。"
   },
   "char_relationships": {
-    "贝尔金": "Scouted by her from the examination hall. Received 克拉伦特 before he had earned it. When the 吞噬结界 separated them, the thought of failing her sparked his circuit's crystallization. Fights now because he has seen what happens when he cannot reach her side.",
-    "贝拉": "Her hand threw him out of the barrier. He understands now: she was saving the one who still had a chance. Respects her skill more deeply, cannot stand her unhurried way of teaching, but no longer takes it as a lack of faith in him.",
-    "弗洛伦": "The senior whose quiet authority he could not match. After 沃拉瑟斯, he no longer measures himself against her. He wants to shield her, not the other way around."
+    "贝尔金": "被她从考场发掘，在能配得上之前就收到了克拉伦特。当吞噬结界将他们隔开时，害怕辜负她的念头触发了灵力回路的凝结。如今战斗，因为他已经知道无法及时赶到她身边意味着什么。",
+    "贝拉": "她的手将他扔出了结界。他现在懂了，她在救那个还有机会的人，更深刻地尊敬她的技艺，却受不了她不紧不慢的教法，只是不再觉得那是不信任他了。",
+    "弗洛伦": "那位他无法企及的沉静前辈，沃拉瑟斯之后，他不再以她为衡量的标尺。他想保护她，而不是相反。"
   },
   "char_dialogue_examples": [
     {

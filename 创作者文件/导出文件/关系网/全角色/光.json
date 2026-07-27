@@ -3,28 +3,35 @@
   "char_fullname": "久川 光",
   "char_alias": "阿光",
   "char_identity": "游魂",
-  "char_rank": "None",
+  "char_rank": "无",
   "char_faction": "锈钟-发条",
-  "char_status": "Third-in-command of 发条",
+  "char_status": "发条三把手",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "27",
     "appearance": {
       "height": "175cm",
       "weight": "62kg",
-      "hair": "Long brown hair",
-      "face": "Yellow eyes.",
-      "features": "None.",
-      "clothing": "Wearing a tight black vest and a puffy yellow jacket, with ripped jeans and sneakers on the lower half. Has a full-back clockwork tattoo.",
-      "weapon": "Expandable baton."
+      "hair": "棕色长发。",
+      "face": "圆脸，黄色眼睛。",
+      "features": "无。",
+      "clothing": "黑色紧身背心，蓬松黄色夹克，破洞牛仔裤，运动鞋，背部有满幅发条纹身。",
+      "weapon": "伸缩甩棍。"
     }
   },
-  "char_background": {
-    "origin": "A powerful 灵能者 who rejected the 狩灵协会 invitation, choosing instead to join the 发条. She rose to Third-in-command through her own efforts, protecting her hometown of Gunma the 锈钟 way.",
-    "current_mission": "Protect Gunma Prefecture in her own way."
+  "char_personality": {
+    "core_traits": "正义感；阳光；冲动。",
+    "strengths": "擅长街头斗殴和即兴战斗；社区中天生的领袖。",
+    "flaws": "凭直觉行动；难以处理抽象推理。",
+    "quirks": "走路时每一步都轻轻弹跳。"
+  },
+  "char_description": {
+    "overview": "以正义为驱动的灵能者，因狩灵协会对群马的部署不足而拒绝邀请，以锈钟的方式守护自己的家乡。",
+    "origin": "一位强大的灵能者，狩灵协会的部署重心在东京，群马本地的异常事件常年无人处理，她拒绝协会的邀请，加入发条以锈钟的方式守护家乡。凭借自身努力升至三把手。",
+    "current_mission": "以自己的方式守护群马县。"
   },
   "char_special_abilities": {
-    "灵力回路-时泊之锚": "Anchors spatial position while draining 灵力. Personal time accelerates, partially ignoring collision. Before 灵力 depletes, rewinds to anchor point with anything anchored by her 灵力."
+    "灵力回路-时泊之锚": "激活回路时锚定当前空间位置为锚点。回路激活期间，自身时间流速加速，可部分无视碰撞。回路关闭、灵力耗尽或主动触发时，自身及所有被灵力锚定之物回溯至锚点位置。"
   },
   "char_relationships": {}
 }

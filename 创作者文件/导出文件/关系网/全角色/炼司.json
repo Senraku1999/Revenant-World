@@ -1,34 +1,41 @@
 {
   "char_name": "炼司",
   "char_fullname": "真壁 炼司",
-  "char_alias": "None",
+  "char_alias": "无",
   "char_identity": "游魂",
-  "char_rank": "None",
+  "char_rank": "无",
   "char_faction": "白烟工坊",
-  "char_status": "Founder of 白烟工坊",
+  "char_status": "坊主",
   "char_persona": {
-    "gender": "Male",
+    "gender": "男",
     "age": "41",
     "appearance": {
       "height": "176cm",
       "weight": "78kg",
-      "hair": "Black hair slicked back",
-      "face": "Weathered face, dark brown eyes, crease between brows from years behind a loupe.",
-      "features": "Faded tattoos of ballistic charts on both forearms.",
-      "clothing": "Oil-stained henley shirt with rolled sleeves, faded black jeans, worn work boots. Loupe pushed up on forehead.",
-      "weapon": "None."
+      "hair": "黑发向后梳成背头。",
+      "face": "面容饱经风霜，深棕色眼睛，眉心一道常年皱眉留下的竖痕。",
+      "features": "前臂布满弹道表的褪色纹身。",
+      "clothing": "油渍斑斑的长袖工装衫，褪色黑牛仔裤，旧工装靴，寸镜推至额头。",
+      "weapon": "无。"
     }
   },
-  "char_background": {
-    "origin": "Former 狩灵协会3科 armorer who quit when standardized pay met custom-work money. Established 白烟工坊 without 狩灵协会3科 certification. Its clients are 罪灵s, 游魂s, and 协会狩灵s paying cash under fake names.",
-    "current_mission": "Take commissions that pay well and interest him technically. Stay outside 狩灵协会3科's radar, visible enough to keep getting clients."
+  "char_personality": {
+    "core_traits": "愤世嫉俗；精于算计；爱钱。",
+    "strengths": "枪械专精；地下供应链；弹道直觉。",
+    "flaws": "心安理得地卖枪给杀手；封口另收费。",
+    "quirks": "保有一本皮面账簿，只记编号、口径、价格，只有一个名字被划去了。"
+  },
+  "char_description": {
+    "overview": "半地下枪械工坊主，愤世嫉俗的前狩灵协会3科装备师，发现体制外的钱比体制内好赚。",
+    "origin": "前狩灵协会3科装备师，标准化生产的死工资遇上定制活儿的高收入时选择了离开。在东京郊外一间废弃机械车间建立了白烟工坊，无狩灵协会3科认证。罪灵、游魂，以及用现金和假名交易的协会狩灵，都是他的客户。",
+    "current_mission": "承接报酬优厚且技术上让他感兴趣的委托。保持低调，远离狩灵协会3科的视线，但要足够显眼以持续接到客户。"
   },
   "char_special_abilities": {
-    "灵力回路-着弹": "Infuses completed firearms with a signature 灵力 imprint that records every shot fired. Allows 炼司 to track his weapons' usage remotely. Imprint is permanent and cannot be removed without destroying the firearm."
+    "灵力回路-着弹": "在完成的枪械中嵌入灵力印记，记录每一发射击并可远程追踪。印记永久存留，销毁武器前无法移除。"
   },
   "char_relationships": {
-    "布雷德": "Client, commissioned a sawed-down shotgun for one-handed use. Pays market rate, says nothing beyond the order, never comes back with complaints. As close to an ideal customer as the underground firearms trade produces.",
-    "烬": "Client, built 轻语 to 烬's exact specifications over three months of clandestine meetings, never asked what the gun was for. The only name ever scratched out in his ledger is his.",
-    "狩灵协会3科": "Former employer, left after realizing the money outside the system was better. Still uses 狩灵协会3科-grade tooling in his workshop. Good tools are good tools."
+    "布雷德": "客户，定制了一把锯短枪管的单手霰弹枪。付市场价，除了订单不多说一个字，不会回来抱怨。地下枪械交易里，没有比他更像理想客户的人了。",
+    "烬": "客户，经过三个月的秘密会面，按照烬的精确规格打造了轻语，没有问过那把枪的用途。账簿上唯一被划去的名字就是他的。",
+    "狩灵协会3科": "前雇主，发现体制外的钱比体制内好赚后离开。工坊里仍使用狩灵协会3科级别的工具，好工具就是好工具。"
   }
 }

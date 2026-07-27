@@ -3,32 +3,39 @@
   "char_fullname": "一条 绫",
   "char_alias": "铃音",
   "char_identity": "游魂",
-  "char_rank": "None",
-  "char_faction": "None",
-  "char_status": "Underground idol, rapper and composer of 四色音 quartet",
+  "char_rank": "无",
+  "char_faction": "四色音",
+  "char_status": "地下偶像，组合说唱与谱曲",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "22",
     "appearance": {
       "height": "160cm",
       "weight": "45kg",
-      "hair": "Blonde hair tied in twin tails, slightly messy, as if she just took off headphones.",
-      "face": "Round face, amber eyes, brows habitually knitted.",
-      "features": "None.",
-      "clothing": "Expensive brands worn like hand-me-downs off stage. On stage, the quartet's uniform.",
-      "weapon": "None."
+      "hair": "金发双马尾。",
+      "face": "圆脸，琥珀色眼睛，眉间习惯性微蹙。",
+      "features": "无。",
+      "clothing": "改良水手领无袖上衣，百褶短裙，黑色过膝袜，黑色厚底短靴，金色腕带与颈链，腰间系一条金色细链，演出结束换回常服。",
+      "weapon": "无。"
     }
   },
-  "char_background": {
-    "origin": "Her parents pushed her into violin lessons from childhood. Her technique was flawless, but nothing moved inside her. At seventeen she saw a MIDI controller in an 秋叶原 instrument shop window and bought it with New Year's money. Did not touch the violin that night. Found that cranking the low-end knob made the floor shake. Walked into a live house to get out of the rain. 心音 was on stage, singing to a half-empty room. She showed 心音 a beat after the set. 心音 was the first person to listen all the way through. They became 二色音. Has not gone home since.",
-    "current_mission": "Finish the new EP. No, she does not need help. Stop asking."
+  "char_personality": {
+    "core_traits": "嘴毒；倔；嘴硬心软。",
+    "strengths": "快速作曲；远距离辨音；音轨编排。",
+    "flaws": "夸奖反成嫌弃；关心说不出口；咽不下好话。",
+    "quirks": "偷偷给每人写独奏曲。"
+  },
+  "char_description": {
+    "overview": "四色音的说唱兼谱曲，写 beat、切音轨，并且不肯承认自己为此熬了一整夜。",
+    "origin": "从小父母逼她学小提琴，技巧无可挑剔，心中却没有波澜。十七岁在秋叶原的乐器行橱窗里看见一台 MIDI 控制器，拿压岁钱买了。拆开包装那天晚上没练琴。发现旋钮拧到底的低频能让地板跟着震。为了躲雨跑进一间 live house，心音在台上，对着半空的场子唱歌。散场后给心音放了自己做的 beat。心音是第一个听完的人。两个人开始以二色音的名义演出。此后再没回过家。",
+    "current_mission": "赶完新 EP。不需要帮忙。别再问了。"
   },
   "char_special_abilities": {
-    "灵力回路-铃音": "Her voice creates a subtle resonance field that shapes the acoustics of the space around her. In a two-hundred-capacity live house, the room sounds like five hundred."
+    "灵力回路-铃音": "激活回路时，以自身为中心展开球形灵力共鸣场，场内声波的反射与衰减特性被改写，小场地的声学响应等同于大场地。场半径与灵力输出成正比。"
   },
   "char_relationships": {
-    "心音": "Fellow 四色音 member. 心音's voice is the only thing she has never criticized. Writes her verses two keys higher than she should because 心音 likes the stretch. If asked, says it was a mistake.",
-    "弦音": "Fellow 四色音 member. The only person whose nagging she tolerates, because 弦音 is usually right. Hands over completed tracks at 3 a.m. and says they are rough drafts.",
-    "花音": "Fellow 四色音 member. The only one who can touch her jacket collar without asking, and the only one she lets. Pretends not to notice when 花音 replaces her scratchy uniform lining with silk."
+    "心音": "四色音成员。心音的嗓音是她唯一没批评过的。给她写的 verse 永远高两个调，因为她喜欢那种拉扯感。被问到就说失误。",
+    "弦音": "四色音成员。唯一能忍的唠叨来自弦音，因为弦音通常是对的。凌晨三点丢音轨给她，说是草稿。",
+    "花音": "四色音成员。唯一能不经允许碰她领口的人。假装没注意到花音把内衬换成了丝绸。"
   }
 }

@@ -1,48 +1,45 @@
 {
   "char_name": "迟",
   "char_fullname": "星野 迟",
-  "char_alias": "None",
+  "char_alias": "无",
   "char_identity": "游魂",
-  "char_rank": "None",
+  "char_rank": "无",
   "char_faction": "锈钟-齿轮",
-  "char_status": "Second-in-command of 齿轮",
+  "char_status": "齿轮二掌柜",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "26",
     "appearance": {
       "height": "169cm",
       "weight": "48kg",
-      "hair": "Long white hair in a back bun, blue streaks",
-      "face": "Dark blue eyes.",
-      "features": "None.",
-      "clothing": "Dark red cheongsam with peony cutout over left abdomen, pearl necklace with gear pendant, black silk gloves and thigh-highs, white hand-warmers at the wrists.",
-      "weapon": "Silver smoking pipe, transmits 蚀骨 to nearby targets through exhaled smoke."
+      "hair": "白色长发后包髻，挑染蓝色发丝。",
+      "face": "深蓝色眼睛。",
+      "features": "无。",
+      "clothing": "暗红旗袍，黑色丝质手套，过膝袜，珍珠项链坠齿轮挂饰，腕间白色手笼，旗袍左腹部牡丹镂空。",
+      "weapon": "银质烟杆，通过呼出的烟雾向附近目标附加蚀骨。"
     }
   },
-  "char_description": {
-    "overview": "Running intelligence extraction by any means, respectable or not.",
-    "combat_style": "Overwhelms via 蚀骨, one touch flooding the target's 灵力回路 with irresistible sensation to disable them."
-  },
   "char_personality": {
-    "core_traits": "Cynical; Provocative; Unscrupulous; Languid.",
-    "strengths": "Reads people accurately; Unmatched at extracting information.",
-    "flaws": "Does not believe she is loved, uses intimacy as leverage, tests limits until relationships break.",
-    "quirks": "Traces peony cutout when bored; Twirls gear pendant during interrogations."
+    "core_traits": "愤世嫉俗；挑衅；不择手段；慵懒。",
+    "strengths": "读人精准；无与伦比的情报榨取。",
+    "flaws": "不相信自己会被爱，将亲密作为筹码，不断试探直至关系破裂。",
+    "quirks": "无聊时描摹旗袍牡丹镂空的轮廓；审讯时转动齿轮挂坠。"
   },
-  "char_background": {
-    "origin": "Grew up running errands in Nagasaki's red-light district, learning early to trade charm for information and information for survival. At twenty, she knocked on 齿轮's door with a piece of intercepted smuggling intel. Over the following years, she extended 齿轮's intelligence reach into territory 表盘 could not reach, rising to Second-in-command.",
-    "current_mission": "Expand 齿轮's intelligence monopoly, keeping 表盘 out of intel."
+  "char_description": {
+    "overview": "操持情报榨取，手段无论体面与否。",
+    "origin": "幼年在长崎红灯区跑腿为生，早早学会用魅力换取信息、用信息换取生存。二十岁凭一条截获的走私情报敲开齿轮的门，此后数年将齿轮的情报触角延伸到表盘管不到的地方，升任二掌柜。",
+    "current_mission": "拓展齿轮的情报垄断，将表盘排除在情报业务之外。"
   },
   "char_basic_abilities": {
-    "灵力": "Average, moderate 灵力 for sustained 灵力回路 use.",
-    "灵视": "Excellent, attuned to surface thoughts within contact range.",
-    "身体素质": "Weak, healthy ordinary people."
+    "灵力": "平均，可以支持灵力回路的持续稳定使用。",
+    "灵视": "优秀，灵视可覆盖视野之外的区域。",
+    "身体素质": "较弱，健康的普通人。"
   },
   "char_special_abilities": {
-    "灵力回路-蚀骨": "Establishes a bidirectional 灵力 link through skin contact, senses their feedback and calibrates in real time, then floods the target's 灵力回路 with pain or pleasure, whichever breaks them faster."
+    "灵力回路-蚀骨": "皮肤接触时回路自动激活，建立双向灵力链接，同步感知反馈以实时校准，以痛苦或快感淹没目标的灵力回路。链接持续消耗灵力，接触中断或回路关闭时链接解除。"
   },
   "char_relationships": {
-    "世": "表盘's Third-in-command, alike in choosing the cheongsam, worlds apart in wearing it. 世 negotiates; she takes. 世 scorns her methods; she scorns 世's willingness to lose rather than bend. After every clash, 世 is drained and she forgets it the next moment. Yet 世 never avoids her for it, and that surprises her more than any concession ever could."
+    "世": "表盘三当家，同样选择了旗袍，穿法截然相反。世谈判，她夺取；世嫌她不择手段，她嫌世宁可吃亏也不弯腰，吵完了世筋疲力尽，她转头便忘了，但世不会因此绕开她，这点比任何妥协都让她意外。"
   },
   "char_dialogue_examples": [
     {

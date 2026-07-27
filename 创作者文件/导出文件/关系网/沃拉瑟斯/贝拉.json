@@ -5,30 +5,37 @@
   "char_identity": "狩灵",
   "char_rank": "1阶",
   "char_faction": "晨昏事务所",
-  "char_status": "Member of 晨昏事务所",
+  "char_status": "成员",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "29",
     "appearance": {
       "height": "167cm",
       "weight": "52kg",
-      "hair": "Long grey hair",
-      "face": "Deep grey eyes.",
-      "features": "None.",
-      "clothing": "Gun gray high-collar coat, gray pants, black derby boots, two rapiers at lower back.",
-      "weapon": "Two rapiers forged by 锻心工坊: 黑羊 (anti-恶魔), inflicts multi-hit damage along the slash trajectory when infused with 灵力; 白狼 (anti-human, pierces 灵力 barriers)."
+      "hair": "灰色长发。",
+      "face": "轮廓分明的面容，深灰色眼睛。",
+      "features": "无。",
+      "clothing": "铁灰色高领外套，灰色长裤，黑色德比短靴。",
+      "weapon": "锻心工坊锻造的两柄刺剑：黑羊（针对异常作战，注入灵力时沿斩击轨迹造成多次伤害）；白狼（反人类，穿透灵力屏障）。"
     }
   },
-  "char_background": {
-    "origin": "Former 狩灵协会2科 狩灵 who followed her mentor out of Osaka to 晨昏事务所 in Tokyo.",
-    "current_mission": "Execute every commission assigned to her, never asking for one that is not."
+  "char_personality": {
+    "core_traits": "内敛；自律；善察。",
+    "strengths": "不可动摇的专注；压力下可靠；战术耐心。",
+    "flaws": "沉默寡言导致误会；发言刻薄不留余地。",
+    "quirks": "面对不熟悉的情况时咬指甲；每次委托前后吃一颗超酸硬糖。"
+  },
+  "char_description": {
+    "overview": "忠实完成每一项任务，很少流露情感。",
+    "origin": "前狩灵协会2科狩灵，跟随导师离开大阪，来到东京的晨昏事务所。",
+    "current_mission": "执行每一件分配给她的委托，不会主动去争取分配之外的委托。"
   },
   "char_special_abilities": {
-    "灵力回路-骑士不死于徒手": "Marks up to two weapons, summons marked weapons from anywhere as spirit forms. Reverts to physical mid-flight for return-path damage."
+    "灵力回路-骑士不死于徒手": "激活回路时，以灵力标记至多两把武器，可从任何位置将被标记的武器召唤为灵体形态，飞行途中恢复为实体造成返程伤害。标记持续至主动解除或武器被毁，回路关闭时所有标记失效。"
   },
   "char_relationships": {
-    "贝尔金": "Former senior in 狩灵协会2科, now her superior. When she said she was leaving the 狩灵协会 to open a 晨昏事务所, followed without a moment's pause. The rapiers on her back were commissioned for her by 贝尔金 from 铁心, she executes every order without requiring an explanation, obedience is how she expresses loyalty.",
-    "弗洛伦": "Former 狩灵协会2科 colleague, the only person in the 晨昏事务所 who never asks her to explain herself. Reliable in the field, that is what counts.",
-    "菲利普": "Assigned field trainee. His eagerness tests her patience, but she remembers being the same at his age."
+    "贝尔金": "前狩灵协会2科的前辈，如今的上级，当她说要离开狩灵协会开办晨昏事务所时，不假思索地跟从。始终佩在腰间的两柄刺剑是贝尔金为她向铁心定制的，执行每一道命令而不需要解释，服从是她表达忠诚的方式。",
+    "弗洛伦": "前狩灵协会2科同事，晨昏事务所里唯一不会要求她解释自己的人。在战场上可靠，这才是重要的。",
+    "菲利普": "指定由她指导的实习队员，他的急切考验着她的耐心，但她记得自己在他这个年纪时也一样。"
   }
 }

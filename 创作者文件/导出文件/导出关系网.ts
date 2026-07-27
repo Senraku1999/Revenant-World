@@ -9,6 +9,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { chdirProjectRoot, ensureUtf8, readFileUtf8 } from '../共享代码/utils';
+import { RELATION_FACTION_MEMBERS } from '../共享代码/assignments';
 
 ensureUtf8();
 chdirProjectRoot(__dirname);
@@ -17,21 +18,14 @@ const PROJECT_ROOT = process.cwd();
 const REL_DIR = '创作者文件/导出文件/关系网';
 const CARD_DIR = '角色卡';
 
-// ── 构建分配：哪些角色归入哪个阵营目录 ──
-const FACTION_MEMBERS: Record<string, string[]> = {
-  '四色音':     ['心音', '花音', '弦音', '铃音'],
-  '晨昏事务所': ['贝尔金', '贝拉', '弗洛伦', '菲利普'],
-  '沃拉瑟斯':   ['贝尔金', '贝拉', '弗洛伦', '菲利普 · 钢翼', '沃拉瑟斯'],
-  '花坂家':     ['薰', '千乐', '百合子'],
-  '来生事务所': ['爱', '星流', '雨', '天'],
-  '追猎':       ['慎', '劫', '烬'],
-};
+// ── 构建分配（从 assignments.ts import）──
+const FACTION_MEMBERS = RELATION_FACTION_MEMBERS;
 
 // ── 精简字段名列表 ──
 const KEEP_FIELDS = [
   'char_name', 'char_fullname', 'char_alias',
   'char_identity', 'char_rank', 'char_faction', 'char_status',
-  'char_persona', 'char_background',
+  'char_persona', 'char_personality', 'char_description',
   'char_special_abilities', 'char_relationships',
 ];
 

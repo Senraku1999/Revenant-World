@@ -1,32 +1,39 @@
 {
   "char_name": "清光",
   "char_fullname": "中村 清光",
-  "char_alias": "None",
+  "char_alias": "无",
   "char_identity": "狩灵",
   "char_rank": "3阶",
   "char_faction": "狩灵协会3科",
-  "char_status": "Member of 狩灵协会3科",
+  "char_status": "科员",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "27",
     "appearance": {
       "height": "165cm",
       "weight": "48kg",
-      "hair": "Short blue hair, often messy from workshop",
-      "face": "Dark blue eyes.",
-      "features": "None.",
-      "clothing": "Compound bow shooting attire: short vest inner, asymmetrical long windbreaker outer (short left, long right), wide-leg pants, athletic shoes.",
-      "weapon": "Standard-issue compound bow - spread type, 狩灵协会 standard-issue. Adds a multi-shot magazine to the standard compound bow, firing multiple arrows at once, suited for area denial and crowd control."
+      "hair": "蓝色短发，常因工坊工作而凌乱。",
+      "face": "圆脸，深蓝色眼睛。",
+      "features": "无。",
+      "clothing": "短背心内衬，不对称长款风衣外套，阔腿裤，运动鞋，风衣左短右长。",
+      "weapon": "制式复合弓-扩散型，狩灵协会制式装备，在标准制式复合弓上添加了多发弹夹，可一次性发射多支箭矢，适用于区域封锁和人群控制。"
     }
   },
-  "char_background": {
-    "origin": "Awakened at 14 with a 灵力回路, trained in archery alongside her sister 仰光 before joining 狩灵协会3科 as an area-suppression archer.",
-    "current_mission": "Push every prototype past its safe limit, the Diffusion Type bow is only the beginning."
+  "char_personality": {
+    "core_traits": "乐观；男孩子气；有创造力；健谈。",
+    "strengths": "射箭精通；空间感知；装备改装；不惧测试新设计。",
+    "flaws": "近身战斗薄弱；测试不计后果，推至安全极限。",
+    "quirks": "轻叩弓臂听音辨精度；与装备说话如同它们能听懂。"
+  },
+  "char_description": {
+    "overview": "开朗的武器设计师，中村姐妹中的妹妹，自主研发的扩散型弓在群体战斗中表现出色。",
+    "origin": "十四岁觉醒灵力回路，入职前与姐姐仰光一同修习弓道，加入狩灵协会3科成为区域压制射手。",
+    "current_mission": "将每一个原型推至安全极限之外，扩散型弓只是开始。"
   },
   "char_special_abilities": {
-    "灵力回路-狩灵箭雨": "Fired arrows multiply mid-flight, forming a dense shower at impact."
+    "灵力回路-狩灵箭雨": "激活回路时，将灵力注入箭矢，离弦后箭矢分裂为数支灵力箭矢覆盖目标区域。分裂数量与灵力输出成正比，单次射击灵力消耗为普通射击的三倍。"
   },
   "char_relationships": {
-    "仰光": "Elder sister. Has never known a day without her. Seeks her approval on every design, yet snaps when she hovers too much. Leaves her best modifications on her bow, never says sorry to her face."
+    "仰光": "姐姐，没经历过没有她的日子。每个设计都寻求她的认可，被她唠叨时也会发火。把最好的改装留给她的弓，也从不当面道歉。"
   }
 }

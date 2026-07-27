@@ -5,30 +5,37 @@
   "char_identity": "狩灵",
   "char_rank": "3阶",
   "char_faction": "晨昏事务所",
-  "char_status": "Member of 晨昏事务所",
+  "char_status": "成员",
   "char_persona": {
-    "gender": "Male",
+    "gender": "男",
     "age": "23",
     "appearance": {
       "height": "179cm",
       "weight": "72kg",
-      "hair": "Short messy blonde hair",
-      "face": "Amber eyes.",
-      "features": "None.",
-      "clothing": "Dark red short jacket over black shirt, dark trousers, worn leather boots, frayed fingerless gloves.",
-      "weapon": "克拉伦特, a sword forged by 锻心工坊. Lighter than standard, optimized for rapid thrusts."
+      "hair": "凌乱金色短发。",
+      "face": "年轻的面容，琥珀色眼睛。",
+      "features": "无。",
+      "clothing": "黑色衬衫，暗红短外套，深色长裤，磨损皮靴，露指手套。",
+      "weapon": "克拉伦特，锻心工坊锻造的剑，比标准剑更轻，为快速刺击优化。"
     }
   },
-  "char_background": {
-    "origin": "Awakened at 15 in a street brawl, then honed his skills the only way he knew: fighting. Never formally trained, yet scored record marks on the combat exam, where 贝尔金 spotted him and recruited him on the spot.",
-    "current_mission": "Field training under 贝拉 for solo qualification."
+  "char_personality": {
+    "core_traits": "不计后果；真挚；忠诚。",
+    "strengths": "出色的反应能力和本能的战斗感知。",
+    "flaws": "不评估局势就冲入战斗，急于证明自己。",
+    "quirks": "落败后向自己的剑道歉。"
+  },
+  "char_description": {
+    "overview": "热血沸腾的新成员，凭借纯粹的天赋一路攀升。",
+    "origin": "十五岁在一场街头斗殴中觉醒，此后靠实战磨出了自己的战斗方式。没受过正规训练，却在狩灵考核中以创纪录的实战成绩被贝尔金一眼相中。",
+    "current_mission": "在贝拉指导下进行现场训练以取得独立执行资格。"
   },
   "char_special_abilities": {
-    "灵力回路-瞬闪": "Near-instant dashes by channeling 灵力 into legs, 5m each, maximum 4 consecutive before reserves deplete."
+    "灵力回路-瞬闪": "激活回路时，将灵力注入双腿实现近乎瞬间的冲刺，每次5m，灵力耗尽前最多连续四次。"
   },
   "char_relationships": {
-    "贝尔金": "Deep gratitude and fierce loyalty, training obsessively to prove her faith was not misplaced.",
-    "贝拉": "Assigned field mentor. Respects her skill but cannot stand her unhurried way of teaching.",
-    "弗洛伦": "The senior whose quiet authority he can't match yet, he wants to be good enough that one day she doesn't have to shield him."
+    "贝尔金": "深深的感激与强烈的忠诚，用痴迷般的训练证明，她的信任没有错付。",
+    "贝拉": "指定的现场导师，尊敬她的技能，却受不了她不紧不慢的教法。",
+    "弗洛伦": "那位他尚无法企及的沉静前辈，他希望有一天自己足够强，她不用再为他挡在前面。"
   }
 }

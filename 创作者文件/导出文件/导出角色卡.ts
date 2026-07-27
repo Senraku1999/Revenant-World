@@ -12,6 +12,7 @@ import * as path from 'path';
 import { chdirProjectRoot, ensureUtf8, readFileUtf8 } from '../共享代码/utils';
 import { embedCharaPng } from '../共享代码/png-embed';
 import { WorldBookAssignments, CharacterCard } from '../共享代码/types';
+import { PNG_EXPORT_ASSIGN } from '../共享代码/assignments';
 
 ensureUtf8();
 chdirProjectRoot(__dirname);
@@ -19,15 +20,7 @@ const PROJECT_ROOT = process.cwd();
 
 // ⚠️ 这是【导出分配】——控制 PNG 导出时每张卡嵌入哪本世界书。
 // 与【构建分配】(导出世界书.ts 的 WORLDBOOK_BUILD) 是两条独立管线。
-const PNG_EXPORT_ASSIGN: WorldBookAssignments = {
-  '狩灵 全角色': ['新宿站', '协会1科', '四色音 · 闪耀舞台'],
-  '狩灵 四色音': ['心音', '花音', '弦音', '铃音'],
-  '狩灵 晨昏事务所': ['贝尔金', '贝拉', '弗洛伦', '菲利普'],
-  '狩灵 沃拉瑟斯': ['菲利普 · 钢翼', '沃拉瑟斯'],
-  '狩灵 花坂家': ['薰', '千乐', '百合子', '花坂家宴'],
-  '狩灵 来生事务所': ['爱', '星流', '雨', '天'],
-  '狩灵 追猎': ['慎', '劫', '烬'],
-};
+// 分配表从 assignments.ts import。
 
 const TAGS = ['狩灵', '大世界', '世界观', '现代', '超自然', '角色扮演', '战斗', 'sfw'];
 const WB_DIR = '创作者文件/导出文件/世界书';

@@ -1,9 +1,9 @@
 export const meta = {
   name: 'quick-check',
-  description: '增量审查\u65306基于 git diff 的变更文件快速检查\u65288自动脚本 + 标点 + ControlBoundary\u65289\u652923 agent 以内\u6529230 秒以内',
+  description: '增量审查\u65306基于 git diff 的变更文件快速检查\u65288自动脚本 + 标点 + ControlBoundary\u65289\u652924 agent 以内\u6529230 秒以内',
   phases: [
     { title: '扫描', detail: 'git diff 确定变更范围 + 运行自动检查脚本' },
-    { title: '审查', detail: '变更文件标点与 CB 并行审查' },
+    { title: '审查', detail: '变更文件标点、CB、AI味并行审查' },
     { title: '汇总', detail: '输出增量审查结果' },
   ],
 }
@@ -43,13 +43,13 @@ const hasChanges = !scanResult.includes('===CHANGED_FILES===\nNONE') &&
                    !scanResult.includes('===CHANGED_FILES===\n\n') &&
                    !scanResult.includes('CHANGED_FILES===\nNONE')
 
-log(hasChanges ? '检测到变更文件\u65292启动标点与 CB 并行审查\u12290' : '无文件变更\u65292仅输出自动检查结果\u12290')
+log(hasChanges ? '检测到变更文件\u65292启动标点、CB 与 AI 味并行审查\u12290' : '无文件变更\u65292仅输出自动检查结果\u12290')
 
 phase('审查')
 
 const reviewTargets = scanResult
 
-const [punctResult, cbResult] = await Promise.all([
+const [punctResult, cbResult, slopResult] = await Promise.all([
   agent(`
 你是标点审查专员\u12290仅审查以下扫描结果中列出的 MD 文件\u65288*简介.md 和 *开场白.md\u65289\u12290
 
@@ -105,9 +105,44 @@ ${reviewTargets}
 
 输出格式\u65306\u12304文件名\u12305\u8594 违规类型\u65288身份/目的/关系/问题循环\u65289\u8594 具体位置 \u8594 T0/T1/T2
   `, {label: 'cb-check', phase: '审查'}),
+
+  agent(`
+你是 AI 写作痕迹（stop-slop）审查专员。仅审查以下扫描结果中列出的文字文件（*.json、*_zh.json、*简介.md、*开场白.md）。
+
+${reviewTargets}
+
+## 13 类检测模式（按 T0/T1/T2 三级）
+
+**T0 必须修复：**
+- A-副词堆砌："缓缓""轻轻""渐渐""深深"等堆砌 ≥3 处/文件
+- B-二元对立句式："不是X，而是Y""没有X，只有Y""rather than""not X, but Y"
+- C-模糊宣告句："没有人知道X""时间会证明Y""命运早已注定"
+- D-虚假施动："空气凝固了""沉默在蔓延""气味互不相让"——非生命体的拟人化
+
+**T1 建议修复：**
+- E-形容词堆叠：连续 ≥3 个形容词修饰同一名词
+- F-被动过度：单段内 ≥3 处"被"字句
+- G-Wh-句式泛滥："当X 时，Y""随着X，Y""在X 中，Y"
+- H-三段式列举："A、B、C， 三者/三个/三种"——AI 默认的排比模式
+- I-过度概括："从不""永远""所有""任何""每一次"等绝对化措辞
+
+**T2 可选优化：**
+- J-句式单调：连续 ≥5 句以同一主语开头
+- K-"那种X"公式："那种让人Y的X""那种说不出的Z"
+- L-通用措辞："莫名的""难以言喻的""不可思议的""某种"
+- M-AI腔比喻："如活物般""如银蛇般""像一滴水融进河流"
+
+## 重要
+- 变更文件列表中没有可审查的文字文件 → 输出"无文字文件变更，跳过"
+- 只报告命中项，零命中输出"AI味零命中"
+- 每个命中标注文件+具体字段/段落+类别代码+T0/T1/T2
+- 小说化内容/审查脚本/规则文档不在审查范围
+
+输出格式：【文件名】→ 类别代码 → 具体位置 → T0/T1/T2
+  `, {label: 'slop-check', phase: '审查'}),
 ])
 
-log('标点和 CB 审查完成\u12290')
+log('标点、CB 和 AI 味审查完成\u12290')
 
 phase('汇总')
 
@@ -123,9 +158,12 @@ ${punctResult}
 ## ControlBoundary 审查
 ${cbResult}
 
+## AI味审查
+${slopResult}
+
 ## 输出要求
 1. 一句话总评\u65288"全部通过 ✓" 或 "发现 N 个问题"\u65289
-2. 按 T0 / T1 / T2 排列\u65292每项一行\u65292标注来源\u65288脚本/标点/CB\u65289
+2. 按 T0 / T1 / T2 排列\u65292每项一行\u65292标注来源\u65288脚本/标点/CB/AI味\u65289
 3. 零问题类别写"零问题"
 4. 整体不超过 30 行
 5. 不要输出审查规则原文

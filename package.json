@@ -4,12 +4,14 @@
   "private": true,
   "scripts": {
     "check": "npx tsx 创作者文件/审查文件/自动检查.ts",
-    "review:1": "npx tsx 创作者文件/审查文件/一级审查/一级审查.ts",
-    "review:3": "npx tsx 创作者文件/审查文件/三级审查/三级审查.ts",
+    "review:1": "npx tsx 创作者文件/审查文件/标点审查/一级审查/一级审查.ts",
+    "review:3": "npx tsx 创作者文件/审查文件/标点审查/三级审查/三级审查.ts",
     "导出角色卡": "npx tsx 创作者文件/导出文件/导出角色卡.ts",
     "导出世界书": "npx tsx 创作者文件/导出文件/导出世界书.ts",
     "导出关系网": "npx tsx 创作者文件/导出文件/导出关系网.ts",
-    "全管线": "npm run 导出关系网 && npm run 导出世界书 && npm run 导出角色卡"
+    "健康检查": "npx tsx 创作者文件/审查文件/健康检查.ts",
+    "全管线": "npm run 导出关系网 && npm run 导出世界书 && npm run 导出角色卡",
+    "全量验证": "npm run check && npm run 健康检查 && npm run 全管线 && npm run 健康检查"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

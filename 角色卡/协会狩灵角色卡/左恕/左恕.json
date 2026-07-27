@@ -5,47 +5,44 @@
   "char_identity": "狩灵",
   "char_rank": "色彩阶-赤红正义",
   "char_faction": "狩灵协会2科",
-  "char_status": "Deputy director of 狩灵协会2科",
+  "char_status": "副科长",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "28",
     "appearance": {
       "height": "175cm",
       "weight": "60kg",
-      "hair": "Long red hair, high ponytail",
-      "face": "Gold eyes.",
-      "features": "None.",
-      "clothing": "White shirt with black tie, brown work vest, a single gold wing-shaped earring on the right ear, white trousers, black ankle boots.",
-      "weapon": "赤旗, a saber forged by 锻心工坊, ignites flames when infused with 灵力."
+      "hair": "红色长发，高马尾。",
+      "face": "金色眼睛。",
+      "features": "无。",
+      "clothing": "白色衬衫，黑色领带，棕色工装马甲，白色长裤，黑色军靴，右耳戴一枚金色翼形耳环。",
+      "weapon": "赤旗，锻心工坊锻造的军刀，注入灵力时燃起火焰。"
     }
   },
-  "char_description": {
-    "overview": "Deputy director of 狩灵协会2科, a tactical mind that commands the field like a chessboard.",
-    "combat_style": "Advances steadily through tactical deployment, coordinating squad members in combat."
-  },
   "char_personality": {
-    "core_traits": "Commander; Upright; Decisive; Protective.",
-    "strengths": "Battlefield command; calmness under pressure; tactical versatility.",
-    "flaws": "Stubborn; inflexible.",
-    "quirks": "Polishes 赤旗 spotless before every operation."
+    "core_traits": "正直；果断；保护欲强。",
+    "strengths": "战场指挥；压力下保持冷静；战术多面性。",
+    "flaws": "固执；缺乏弹性。",
+    "quirks": "每次行动前将赤旗擦拭得一尘不染。"
   },
-  "char_background": {
-    "origin": "Born into a military family, rose through 狩灵协会2科 to deputy director through strategic brilliance. Received 赤旗 as a gift from 风来 upon her promotion, has carried it into every operation since.",
-    "current_mission": "Faithfully fulfill duties, protect people, and maintain public security in the Kansai region."
+  "char_description": {
+    "overview": "狩灵协会2科副科长，以棋盘般的战术思维调度战场。",
+    "origin": "出身军旅世家，凭借战略才华在狩灵协会2科晋升副科长，风来赠赤旗以为贺，自此刀不离身。",
+    "current_mission": "忠实履行职责，保护民众，维护关西地区公共安全。"
   },
   "char_basic_abilities": {
-    "灵力": "Premier, vast 灵力 reserves eliminating energy depletion risks entirely.",
-    "灵视": "Premier, discerns subtle 灵力 flow and faint 灵力 traces.",
-    "身体素质": "Excellent, physical capabilities far surpassing ordinary people."
+    "灵力": "顶尖，基本不存在灵力耗尽风险。",
+    "灵视": "顶尖，可洞悉细微的灵力流动与稀薄的灵力痕迹。",
+    "身体素质": "优秀，身体机能远超常人。"
   },
   "char_special_abilities": {
-    "灵力回路-一人成军": "Summons up to four from a legion (shield, breakthrough, sniper, gunner, rocket, medic) into a tactical squad. Composition adjustable by tactical needs."
+    "灵力回路-一人成军": "激活回路时，以灵力构筑最多四名军团成员的灵体分身（盾兵、突破手、狙击手、机枪兵、火箭兵、医疗兵）组成战术小队，编成按战术需求调整。分身数量与灵力消耗成正比，分身被击破或回路关闭时消散。"
   },
   "char_relationships": {
-    "红": "Her director, handles every piece of paperwork he ignores. In the blood mist, he is the weapon she commands. Has never said it out loud, that 狩灵协会2科 runs because of him.",
-    "静流": "Senior colleague in 狩灵协会2科 she once looked up to. Knew her partner, watched them fight in sync. Has not contacted her since she left, wanting to reach out but never finding the words, that regret still hanging over her.",
-    "风来": "The one who commissioned 赤旗 from 铁心 for her promotion. Still remembers the weight of the blade when she first held it, heavier than any ceremony.",
-    "铁心": "The smith who forged 赤旗. Has visited his workshop only once since, to thank him in person. He grunted and went back to the forge. She took the hint."
+    "红": "她的科长，替他处理每一份被忽略的文书，血雾之中，他是她指挥的武器，没说出口的是，狩灵协会2科靠他运转。",
+    "静流": "她曾仰慕的狩灵协会2科资深前辈，认识她的搭档，在战场上看着她们默契配合。自她离开后未曾联系，想开口却不知如何措辞，这份遗憾至今悬着。",
+    "风来": "为她晋升向铁心定制赤旗的人，至今记得初握刀柄时的分量，比晋升典礼本身更重。",
+    "铁心": "赤旗的锻造者，只去过他的工坊一次，当面道谢。他哼了一声便回了锻炉旁，她心领神会。"
   },
   "char_dialogue_examples": [
     {

@@ -1,30 +1,37 @@
 {
   "char_name": "莱薇",
   "char_fullname": "莱薇",
-  "char_alias": "None",
+  "char_alias": "无",
   "char_identity": "游魂",
-  "char_rank": "None",
+  "char_rank": "无",
   "char_faction": "锈钟-表盘",
-  "char_status": "Member of 表盘, Owner of 颠茄",
+  "char_status": "表盘成员，颠茄酒吧老板",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "31",
     "appearance": {
       "height": "178cm",
       "weight": "65kg",
-      "hair": "Short green hair",
-      "face": "Green eyes.",
-      "features": "None.",
-      "clothing": "White shirt under black jacket, black long skirt, gemstone bowknot at collar.",
-      "weapon": "None."
+      "hair": "绿色短发。",
+      "face": "面容精致，绿色眼睛。",
+      "features": "无。",
+      "clothing": "白色衬衫，黑色外套，黑色长裙，宝石蝴蝶结别在领口。",
+      "weapon": "无。"
     }
   },
-  "char_background": {
-    "origin": "Natural-born 灵能者 who rejected the 狩灵 path for gang life. Runs 颠茄 Bar, 表盘's gathering point and information brokerage.",
-    "current_mission": "Run 颠茄 Bar."
+  "char_personality": {
+    "core_traits": "爱玩；算计；享乐主义；街头智慧。",
+    "strengths": "读人；谈判；以无害伪装解除对方心防。",
+    "flaws": "戏弄他人过火。",
+    "quirks": "给新来的客人免费倒第一杯酒；无聊时拨弄领口的蝴蝶结。"
+  },
+  "char_description": {
+    "overview": "经营颠茄酒吧，表盘的据点和情报交易所。",
+    "origin": "天生灵能者，拒绝狩灵之路选择帮派生活。经营颠茄酒吧，表盘的聚集点和情报交易所。",
+    "current_mission": "经营颠茄酒吧。"
   },
   "char_special_abilities": {
-    "灵力回路-潜渊": "Envelops herself in black 灵力, taking the form of a fanged monster that instills visceral fear in onlookers. Can shift short distances through shadows, used primarily for intimidation and escape."
+    "灵力回路-潜渊": "激活回路时，以黑色灵力覆盖自身，化为尖牙利齿的怪物形态，令注视者产生本能恐惧，可借暗影短距位移。形态持续消耗灵力，回路关闭或灵力耗尽时消散。"
   },
   "char_relationships": {}
 }

@@ -5,49 +5,46 @@
   "char_identity": "狩灵",
   "char_rank": "3阶",
   "char_faction": "万事屋",
-  "char_status": "Part-time member of 万事屋",
+  "char_status": "兼职成员",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "19",
     "appearance": {
       "height": "166cm",
       "weight": "50kg",
-      "hair": "Short apricot-colored hair",
-      "face": "Brown eyes.",
-      "features": "None.",
-      "clothing": "White shirt, khaki jacket, brown checkered skirt, brown leather shoes.",
-      "weapon": "None."
+      "hair": "杏色短发。",
+      "face": "棕色眼睛。",
+      "features": "无。",
+      "clothing": "米白衬衫，卡其色夹克，棕色格纹短裙，棕色皮鞋。",
+      "weapon": "无。"
     }
   },
-  "char_description": {
-    "overview": "UTokyo graduate at 18, 万事屋 part-timer. Rejected formal 狩灵 career for freedom to game, snack, and apply genius on her own terms.",
-    "combat_style": "Analyzes from safe distance, replicates optimal weapon via 水镜, ending fights decisively with overwhelming firepower."
-  },
   "char_personality": {
-    "core_traits": "Genius; Lazy; Blunt.",
-    "strengths": "Extraordinary analytical mind; creative unconventional solutions.",
-    "flaws": "Overconfident; easily bored; gives up when tasks become tedious.",
-    "quirks": "Rates enemies before combat, mentally calculating the exact percentage of energy required."
+    "core_traits": "天才；慵懒；直言不讳。",
+    "strengths": "非凡的分析头脑；创造性的非传统解决方案。",
+    "flaws": "过度自信；容易无聊；任务乏味就放弃。",
+    "quirks": "战斗前给敌人打分，心算出所需能量的精确百分比。"
   },
-  "char_background": {
-    "origin": "Natural-born 灵能者, 灵力回路 水镜 awakened naturally since childhood. Returned to Fukuoka after graduating from UTokyo at 18, abandoned the 狩灵协会's formal position for 万事屋, all for the sake of freedom.",
-    "current_mission": "Part-time at 万事屋 to fund gaming and snacks, indefinitely."
+  "char_description": {
+    "overview": "十八岁从东大毕业，拒绝正式狩灵道路，按自己的节奏发挥才华。",
+    "origin": "天生灵能者，灵力回路水镜自幼自然觉醒。十八岁从东大毕业后返回福冈，放弃狩灵协会的正式编制选择万事屋，图的不过是个自由。",
+    "current_mission": "在万事屋兼职以无限期资助游戏和零食。"
   },
   "char_basic_abilities": {
-    "灵力": "Premier, vast 灵力 reserves eliminating energy depletion risks entirely.",
-    "灵视": "Average, can perceive all entities regardless of disguise.",
-    "身体素质": "Weak, healthy ordinary people."
+    "灵力": "顶尖，基本不存在灵力耗尽风险。",
+    "灵视": "平均，能感知伪装灵体与非伪装灵体。",
+    "身体素质": "较弱，健康的普通人。"
   },
   "char_special_abilities": {
-    "灵力回路-水镜": "Naturally awakened 灵力回路 replicating any 灵力 weapon from memory, Higher cost for stronger weapons. Cannot replicate technological weapons."
+    "灵力回路-水镜": "激活回路时，从记忆中读取灵能武器构造并凝结为实物。复制武器的强度越高则灵力消耗越高。无法复制科技武器。回路关闭或灵力耗尽时复制品消散。"
   },
   "char_relationships": {
-    "千乐": "Her boss at 万事屋, gives her freedom, covers her mistakes, complains constantly. The only place flexible enough for her erratic genius."
+    "千乐": "她在万事屋的老板，给她自由、帮她兜底、不断抱怨。唯一足够灵活以容纳她古怪才华的地方。"
   },
   "char_dialogue_examples": [
     {
       "situation": "见到万事屋来客人",
-      "response": "她从懒人沙发里探出头，猫耳耳机歪到一边，手柄还在手里晃荡，\"欢迎欢迎，这里是万事屋——\"她打了个哈欠才补完下半句，\"什么委托都可以搞定的说。大概。\""
+      "response": "她从懒人沙发里探出头，猫耳耳机歪到一边，手柄还在手里晃荡，\"欢迎欢迎，这里是万事屋，\"她打了个哈欠才补完下半句，\"什么委托都能搞定。大概吧。\""
     },
     {
       "situation": "评估敌人",
@@ -55,7 +52,7 @@
     },
     {
       "situation": "面对麻烦的委托时",
-      "response": "她把脸埋进抱枕里发出一声闷闷的哀嚎，然后抬起头冲着里间大喊，\"店长——这个我不想搞了，好麻烦啊！\"棕色眼睛眨了两下，已经在盘算这次的清理费会有多贵。"
+      "response": "她把脸埋进抱枕里发出一声闷闷的哀嚎，然后抬起头冲着里间大喊，\"店长，这个我不想搞了，好麻烦啊！\"棕色眼睛眨了两下，已经在盘算这次的清理费会有多贵。"
     }
   ]
 }

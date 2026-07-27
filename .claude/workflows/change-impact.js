@@ -67,7 +67,7 @@ const impactResult = await agent(`
 ## 搜索步骤
 
 对每个关键字\u65306
-1. 运行 Grep(pattern="关键字", path="D:/File/AiJunkyard/dzmm/狩灵世界观", output_mode="files_with_matches")
+1. 运行 Grep(pattern="关键字", path="D:/AIworkspace/狩灵世界观", output_mode="files_with_matches")
 2. 逐个检查匹配文件\u65292确定引用类型和影响等级
 
 ## 影响等级判定规则

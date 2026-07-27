@@ -1,11 +1,14 @@
 export const meta = {
   name: 'sampling-review',
-  description: '狩灵世界观抽样审查\u65306自动脚本 \u8594 标点+逻辑并行 \u8594 统一抽样 \u8594 学术五视角并行 \u8594 汇总分级\u652888角色样本\u65289',
+  description: '狩灵世界观抽样审查\u65306自动脚本 \u8594 标点+逻辑+AI味并行 \u8594 统一抽样 \u8594 学术五视角并行 \u8594 汇总分级\u652888角色样本\u65289',
   phases: [
     { title: '自动脚本', detail: '运行自动检查脚本获取基线' },
+    { title: '三级标点', detail: '三级审查脚本 + Agent 确认句号应改逗号标记' },
     { title: '标点审查', detail: '逐字扫描所有 MD 文件标点合规性' },
     { title: '逻辑审查', detail: '聚合比对跨文件/跨角色一致性' },
     { title: '统一抽样', detail: '扫描全角色目录\u65292抽取覆盖全阵营的 8 名角色作为统一样本' },
+    { title: 'AI味审查', detail: 'stop-slop 13类模式机械扫描' },
+    { title: 'AI味复核', detail: 'Agent 复核机械扫描结果，过滤误判' },
     { title: '学术审查', detail: '五视角领域审查\u65292全部使用统一抽样名单' },
     { title: '汇总', detail: '整合结果\u65292T0/T1/T2 分级输出' },
     { title: '清理', detail: '清除中间产物\u65292仅保留最终报告' },
@@ -19,6 +22,11 @@ const autoScriptOutput = await agent(`
 不需要做任何分析或总结\u65292只需要返回命令的原始输出文本\u12290
 `, {label: 'run-auto-check'})
 
+const level3Output = await agent(`
+运行命令 npx tsx "创作者文件/审查文件/标点审查/三级审查/三级审查.ts" 并将完整 stdout 原样返回。
+`, {label: 'run-level3'})
+log(`三级标点审查脚本已运行`)
+
 const rules = {
   CLAUDE_MD: await agent('读取 CLAUDE.md 的标点规则和团队结构部分\u65292仅输出规则摘要\u12290', {label: 'read-claude-md'}),
   审查计划: await agent('读取 创作者文件/审查文件/其他审查/宏观审查计划.md 全文\u65292仅输出六步流程和分级标准\u12290', {label: 'read-review-plan'}),
@@ -30,7 +38,7 @@ log(`规则文件已读取\u12290CLAUDE.md 标点硬规则\u65306"" 唯一引号
 phase('标点审查')
 phase('逻辑审查')
 
-const [punctuationResult, logicResult] = await Promise.all([
+const [punctuationResult, logicResult, slopResult] = await Promise.all([
   agent(`
 你是标点审查专员\u12290按以下规则扫描项目中所有 *简介.md 和 *开场白.md 文件\u65306
 
@@ -74,9 +82,23 @@ const [punctuationResult, logicResult] = await Promise.all([
 输出格式\u65306\u12304角色A\u12305与\u12304角色B/规则\u12305矛盾点 \u8594 双方原文 \u8594 T0/T1/T2
 零问题时声明"无矛盾"\u12290
   `, {label: 'logic-review', phase: '逻辑审查'}),
+agent(`你是 AI 写作痕迹（stop-slop）审查专员。对项目内全部 *.json、*_zh.json、*简介.md、*开场白.md 进行 13 类 AI 写作模式扫描。## 13 类检测模式（按 T0/T1/T2 三级）**T0 必须修复：**- A-副词堆砌："缓缓""轻轻""渐渐""深深"等 >=3 处/文件- B-二元对立句式："不是X，而是Y""没有X，只有Y""rather than""not X, but Y"- C-模糊宣告句："没有人知道X""时间会证明Y""命运早已注定"- D-虚假施动："空气凝固了""沉默在蔓延""气味互不相让"等非生命体拟人化**T1 建议修复：**- E-形容词堆叠：连续 >=3 个形容词修饰同一名词- F-被动过度：单段内 >=3 处"被"字句- G-Wh-句式泛滥："当X时，Y""随着X，Y""在X中，Y"- H-三段式列举："A、B、C，三者/三个/三种"- I-过度概括："从不""永远""所有""任何""每一次"等绝对化措辞**T2 可选优化：**- J-句式单调：连续 >=5 句以同一主语开头- K-"那种X"公式："那种让人Y的X""那种说不出的Z"- L-通用措辞："莫名的""难以言喻的""不可思议的""某种"- M-AI腔比喻："如活物般""如银蛇般""像一滴水融进河流"## 重要- 小说化内容/审查脚本/规则文档不在审查范围- 只报告命中项，零命中输出"AI味零命中"- 按阵营分批输出，每个命中标注文件+具体字段+类别代码+T0/T1/T2输出格式：【文件名】-> 类别代码 -> 具体位置 -> T0/T1/T2  `, {label: 'slop-check', phase: 'AI味审查'}),
 ])
 
-log(`标点审查完成\u65292逻辑审查完成`)
+log(`标点、逻辑、AI味审查完成`)
+log(`标点、逻辑、AI味审查完成`)
+
+phase('AI味复核')
+
+const slopReviewed = await agent(`
+你是 AI 写作痕迹复核专员。请仔细审核以下 stop-slop 机械扫描结果，逐项判断是真正的 AI 腔还是优秀的文学写作。
+- 保留标记：机械套话、空洞比喻、无信息量的填充词
+- 撤销标记：贴合角色身份的生动比喻、角色 voice 中的自然措辞、世界观建构性描写
+输入：${slopReviewed}
+输出：复核后的最终 AI 味审查结果，每个命中后标注【经复核：保留/撤销】及理由。
+`, {label: 'slop-review', phase: 'AI味复核'})
+
+log(`AI味复核完成`)
 
 phase('统一抽样')
 
@@ -240,6 +262,9 @@ ${punctuationResult}
 
 ## 逻辑审查结果
 ${logicResult}
+
+## AI味审查结果
+${slopResult}
 
 ## 学术审查结果
 人类学\u65306${academicResults[0]}

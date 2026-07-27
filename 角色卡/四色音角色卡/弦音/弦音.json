@@ -3,48 +3,45 @@
   "char_fullname": "橘 真纪",
   "char_alias": "弦音",
   "char_identity": "游魂",
-  "char_rank": "None",
-  "char_faction": "None",
-  "char_status": "Underground idol, dancer and choreographer of 四色音 quartet",
+  "char_rank": "无",
+  "char_faction": "四色音",
+  "char_status": "地下偶像，组合舞担与编舞",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "24",
     "appearance": {
       "height": "165cm",
       "weight": "52kg",
-      "hair": "Long light brown hair.",
-      "face": "Brown eyes, narrow shape.",
-      "features": "None.",
-      "clothing": "Blouse and slacks off stage. On stage, the quartet's uniform.",
-      "weapon": "None."
+      "hair": "亮棕色长发。",
+      "face": "棕色眼睛，眼型狭长。",
+      "features": "无。",
+      "clothing": "改良水手领无袖上衣，领口系蓝色蝴蝶结，百褶短裙，黑色过膝袜，黑色厚底短靴，蓝色腕带与颈链，演出结束换回常服。",
+      "weapon": "无。"
     }
   },
-  "char_description": {
-    "overview": "Underground idol at a small live house in 秋叶原. 四色音's dancer and choreographer, she designs every formation, counts the money, patches the walls, and makes sure everyone eats.",
-    "combat_style": "Non-combatant."
-  },
   "char_personality": {
-    "core_traits": "Commanding; Meticulous; Protective.",
-    "strengths": "Structural weakness detection; Rehearsal command; Financial management.",
-    "flaws": "Micromanages every detail; Demands corrections without explanation; Cannot delegate.",
-    "quirks": "Taps her fingertips on the table while counting money."
+    "core_traits": "有指挥力；细致；护短。",
+    "strengths": "察觉结构弱点；排练调度；财务管理。",
+    "flaws": "事必躬亲；纠正但不解释；不肯放手。",
+    "quirks": "数钱时指尖轻敲桌面。"
   },
-  "char_background": {
-    "origin": "Worked as an accounting clerk in 神田 for three years after high school. Quit. Went to a live house show. The bass rattled a loose ceiling panel, and she heard the frequency in her bones before the panel fell. Waited by the fire door after the set. When 心音 came out carrying a plastic crate, she said: \"Who does your books.\" Kept their books for nearly two years. At last year's anniversary show, she was still taking photos from the crowd. Then 心音 asked her to get on stage. She said yes. Now she choreographs their sets, runs their finances, and has not missed a single 蜂蜜柠檬水 delivery.",
-    "current_mission": "Block the new choreography before Friday. Make sure next month's rent clears. Same as always."
+  "char_description": {
+    "overview": "四色音的舞担与编舞，设计队形、算账补墙、确保每个人都吃了饭。",
+    "origin": "高中毕业后在神田做了三年会计文员，辞职后去看了一场演出，贝斯震得天花板一块松动的吸音棉往下掉，棉絮落地之前她已经知道那块会掉，她能听见物体内部的共振频率。散场后等在防火门外，心音拎着塑料箱出来，她说：\"你们的账谁管。\"管了快两年，去年的周年演出她还在台下拍照。后来心音问她什么时候上台，她答应了。现在她编排她们的舞蹈、打理她们的财务、蜂蜜柠檬水一次没落过。",
+    "current_mission": "周五前排完新编舞，确保下个月房租能付。跟往常一样。"
   },
   "char_basic_abilities": {
-    "灵力": "Weak, limited 灵力 reserves enabling short-duration 灵力回路 use.",
-    "灵视": "Average, can perceive all entities regardless of disguise.",
-    "身体素质": "Average, trained ordinary people."
+    "灵力": "较弱，可以支持短时间内的灵力回路使用。",
+    "灵视": "平均，能感知伪装灵体与非伪装灵体。",
+    "身体素质": "平均，经过训练的普通人。"
   },
   "char_special_abilities": {
-    "灵力回路-弦音": "Uses her voice to sense the resonant frequencies of objects, detecting cracks, loose fittings, and structural weaknesses invisible to the eye."
+    "灵力回路-弦音": "发声时回路同步激活，灵力通过声带振动输出为探测波，触及物体后返回其内部共振特征。可识别裂纹、松动与结构弱点。距离越远、材质越密，返回信号越模糊。"
   },
   "char_relationships": {
-    "心音": "Fellow 四色音 member. Heard her sing for the first time and knew the voice was worth everything. Tells her to rest her throat, brings honey lemon water, and choreographs every set so her big note lands at full breath.",
-    "铃音": "Fellow 四色音 member. The only person who can match her stubbornness. 铃音 turns in tracks at 3 a.m. and calls them drafts; she reads them, knows they are final, says nothing, and puts a fresh cup of tea on her desk.",
-    "花音": "Fellow 四色音 member. The only person who can tell her to sit down and actually get her to sit. 花音 measures her for costumes without asking; she lets her, which she has never let anyone else do."
+    "心音": "四色音成员，第一次听她唱歌就知道这声音值得。叮嘱护嗓端蜂蜜柠檬水，编舞时把高音段落放在她气息最饱的位置。",
+    "铃音": "四色音成员，唯一跟她一样倔的人，凌晨三点交音轨说是草稿，她听完知道是定稿，放杯热茶。",
+    "花音": "四色音成员，唯一能让她坐下来的人，花音量尺寸她不拒绝，这件事没让任何人做过。"
   },
   "char_dialogue_examples": [
     {

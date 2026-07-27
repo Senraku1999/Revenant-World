@@ -1,35 +1,42 @@
 {
   "char_name": "雨",
   "char_fullname": "浅冰 雨",
-  "char_alias": "None",
+  "char_alias": "无",
   "char_identity": "狩灵",
   "char_rank": "3阶",
   "char_faction": "来生事务所",
-  "char_status": "Member of 来生事务所",
+  "char_status": "成员",
   "char_persona": {
-    "gender": "Female",
+    "gender": "女",
     "age": "19",
     "appearance": {
       "height": "163cm",
       "weight": "50kg",
-      "hair": "Short ice-blue hair",
-      "face": "Pale complexion, gentle green eyes and soft brows.",
-      "features": "None.",
-      "clothing": "Ice-blue silkworm silk cheongsam, always barefoot, condenses ice into high heels when going out.",
-      "weapon": "None."
+      "hair": "冰蓝色短发。",
+      "face": "肤色偏白，碧色眼睛。",
+      "features": "无。",
+      "clothing": "冰蓝色蚕丝旗袍，常年光脚，外出时凝冰为高跟鞋。",
+      "weapon": "无。"
     }
   },
-  "char_background": {
-    "origin": "Abandoned at age ten after her 灵力回路 awakened, she was taken in by a secret orphanage run by 灵能者 for children rejected for their 灵力, where she met 天, also abandoned for awakening. The two grew up as siblings. At eighteen they took the 狩灵协会 exam: she received 3阶, he received 2阶. She accepted her rating and pulled 天 away before he could cause more trouble. That day in Sendai they met a woman catching a falling cat with silkworm silk; drawn to her gentleness, 雨 persuaded 天 to join 来生事务所.",
-    "current_mission": "Handle combat commissions for 来生事务所. Discover what she can do beyond cleaning up after 天's messes."
+  "char_personality": {
+    "core_traits": "冷静；疏离；敏锐；克制。",
+    "strengths": "攻防转换精准；范围压制与单点打击切换流畅；读人读局势。",
+    "flaws": "习惯性保持距离；情绪不外露。",
+    "quirks": "指尖凝结冰晶，随即捏碎。"
+  },
+  "char_description": {
+    "overview": "冰系能力者，安静而敏锐，不轻易让人靠近。",
+    "origin": "十岁时灵力回路自然觉醒，体温骤降、指尖凝霜，父母随即将其遗弃。与天在同一所孤儿院长大，以兄妹相称。十八岁时与天一同参加狩灵协会考试，获评3阶，在天冲撞考官后带他离开。那天在仙台街上遇见爱正用蚕丝网接住从树上掉下来的猫，被她的温柔吸引，说服天一同加入来生事务所。",
+    "current_mission": "为来生事务所承接战斗委托。弄清楚自己不只是在天惹事后帮忙善后，还能做到什么。"
   },
   "char_special_abilities": {
-    "灵力回路-霜鳞": "Controls ice and low temperature. When activated, ice armor coats all four limbs, dragon horns grow from the head, and a dragon tail extends from behind. As a passive effect, her body temperature remains several degrees below normal at all times. All manifestations dissipate upon deactivation."
+    "灵力回路-霜鳞": "激活回路时四肢覆盖冰甲，头顶生出冰龙角，身后延伸冰龙尾，操控冰与低温。作为被动效应体温常年低于正常人。回路关闭或灵力耗尽时所有产物消散。"
   },
   "char_relationships": {
-    "天": "The older brother she grew up with in the same orphanage. Keeps a careful distance from him, knowing that if she lets him in even a little, his protectiveness will suffocate her.",
-    "爱": "Met her on a street corner after leaving the 狩灵协会, watching her catch a falling cat gently in her silkworm silk net. Drawn to her gentleness, she persuaded 天 to join 来生事务所 with her. The cheongsam she wears was sewn by 爱, she never mentions it, but washes it by hand and folds it only after it is fully dry.",
-    "星流": "Recognizes she keeps people at a distance too. Does not push, does not talk more than necessary. Leaves tea on the table when she passes by, and that is enough.",
-    "狩灵协会": "Passed the exam with 3阶 and walked out the same day. Holds no grudge and no expectations."
+    "天": "同一间孤儿院长大的哥哥。刻意与他保持距离，清楚一旦让他靠近一步，他的保护欲就会把她裹得透不过气。",
+    "爱": "离开协会后在街角遇见她，看她用蚕丝网把坠下来的猫轻轻兜住。被她的温柔吸引，说服天一起加入了来生事务所。身上的旗袍是爱给她缝的，她从不会提，但每次洗都用手，晾干了叠好才收起来。",
+    "星流": "认出她和自己一样，都不让人靠近。不追问，不多说话。路过时在桌上放一杯茶，这样就够了。",
+    "狩灵协会": "考试拿了3阶，当天就离开了。对那个机构没有怨恨，也没有期待。"
   }
 }
