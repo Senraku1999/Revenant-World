@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "better-writing": {
+      "source": "forjd/better-writing",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "923720d3c02bca1193ba272d5757c62c28a682ed39d88f69dc5853342f526392"
+    },
+    "critique": {
+      "source": "benjaminjackson/writing-skills",
+      "sourceType": "github",
+      "skillPath": "draft/skills/critique/SKILL.md",
+      "computedHash": "4fd367ccf969ba087d4af845c2740b406fd815e0c0625c95715de93d7feb8420"
+    },
+    "page-one-meeting": {
+      "source": "benjaminjackson/writing-skills",
+      "sourceType": "github",
+      "skillPath": "pitch/skills/page-one-meeting/SKILL.md",
+      "computedHash": "ddd765983751c76c995200a7c0c61575e724f7df43e06edb2224dfc3f121c4e1"
+    },
+    "sharpen": {
+      "source": "benjaminjackson/writing-skills",
+      "sourceType": "github",
+      "skillPath": "pitch/skills/sharpen/SKILL.md",
+      "computedHash": "ba690b905ac4b7a6ee90c901f4ae13ca1a917f38aabae55239f35136c94050b2"
+    },
+    "tighten": {
+      "source": "benjaminjackson/writing-skills",
+      "sourceType": "github",
+      "skillPath": "draft/skills/tighten/SKILL.md",
+      "computedHash": "2296e24153ea469717f44e63cfecd5187966b4276a19dc232a43071a4d8d2c72"
+    },
+    "write": {
+      "source": "benjaminjackson/writing-skills",
+      "sourceType": "github",
+      "skillPath": "documentation/skills/write/SKILL.md",
+      "computedHash": "312c759aa4969a5175c9fcab4011b4da19bf67cc085f0aeb372280dd7f3583b8"
+    }
+  }
+}

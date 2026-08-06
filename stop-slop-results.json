@@ -1,0 +1,862 @@
+[
+  {
+    "camp": "世界观卡",
+    "character": "协会1科",
+    "fileType": "协会1科.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/协会1科/协会1科.json",
+    "field": "scene_dialogue_examples[0].response",
+    "context": "…燥的沙沙声。角落里，一个年轻职员盯着刻度表上突然跳动的读数，在便签上飞快记下一行字，撕下，递给身后经过的同事。那张便签转…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "协会1科",
+    "fileType": "协会1科.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/协会1科/协会1科.json",
+    "field": "scene_dialogue_examples[1].response",
+    "context": "…评级审查在十一月，会寄到你的事务所地址。\"狩灵拿起笔，笔尖悬在纸面上方，顿了两秒，然后落下，签完第二个名字时笔尖在纸上多…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "协会1科",
+    "fileType": "协会1科开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/协会1科/协会1科开场白.md",
+    "field": "opening",
+    "context": "…的清冷白光。\r↵\r↵黑制服的女职员抱着一摞档案穿过走廊，鞋跟在石材地面上叩出均匀的节奏。她在第三扇门前停下，用膝盖顶开门…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "协会1科",
+    "fileType": "协会1科开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/协会1科/协会1科开场白.md",
+    "field": "opening",
+    "context": "…璃隔断从台面升到天花板，只在底部留出递送档案的缝隙，三个窗口中开了一个，窗口上方显示屏滚动着一行字：…",
+    "pattern": "H-三段式列举(A、B、C，三者)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "四色音 · 闪耀舞台",
+    "fileType": "四色音 · 闪耀舞台.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/四色音 · 闪耀舞台/四色音 · 闪耀舞台.json",
+    "field": "scene_dialogue_examples[0].response",
+    "context": "…。没人看歌词，也没人看手机。花音的和声从左侧铺过来，稳稳地托在底下，弦音在第三排踏着拍子，脚上鞋是花音缝过缓冲垫的那双，…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "四色音 · 闪耀舞台",
+    "fileType": "四色音 · 闪耀舞台.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/四色音 · 闪耀舞台/四色音 · 闪耀舞台.json",
+    "field": "scene_dialogue_examples[1].response",
+    "context": "…里抽出来快速翻了一遍，花音把掉落的传单捡起来码整齐，心音已经在长桌后面坐下，拧开蜂蜜柠檬水喝了一口，有人拿着CD走到她面…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "四色音 · 闪耀舞台",
+    "fileType": "四色音 · 闪耀舞台开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/四色音 · 闪耀舞台/四色音 · 闪耀舞台开场白.md",
+    "field": "opening",
+    "context": "…在地上，每道胶带裁得一样长。花音的和声从左侧铺过来，稳稳地托在心音的主旋律底下，四个人的声音叠在一起，像同一个人唱了四个…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "四色音 · 闪耀舞台",
+    "fileType": "四色音 · 闪耀舞台开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/四色音 · 闪耀舞台/四色音 · 闪耀舞台开场白.md",
+    "field": "opening",
+    "context": "…一个人唱了四个声部，弦音在台前偏左，脚步精准到每一次落地都踩在同一个节奏上，排练时她用脚尖在地板上点一下，所有人就知道从…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "四色音 · 闪耀舞台",
+    "fileType": "四色音 · 闪耀舞台开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/四色音 · 闪耀舞台/四色音 · 闪耀舞台开场白.md",
+    "field": "opening",
+    "context": "…缘，桌角放着一台拍立得相机和两盒未拆的相纸。\r↵\r↵心音已经在桌后坐下，拧开蜂蜜柠檬水的瓶盖喝了一口。拧盖子的时候手指有…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "四色音 · 闪耀舞台",
+    "fileType": "四色音 · 闪耀舞台开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/四色音 · 闪耀舞台/四色音 · 闪耀舞台开场白.md",
+    "field": "opening",
+    "context": "…蹲在角落捡掉落的传单，一张一张理齐，塞进纸箱里，弦音把账本摊在后台的折叠桌上，指尖在桌面轻敲了两下，开始点今晚的门票存根…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "新宿站",
+    "fileType": "新宿站.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/新宿站/新宿站.json",
+    "field": "scene_description.overview",
+    "context": "…。车站是一个天然的截面：狩灵巡逻队走过地下游魂身旁，灵力痕迹在晚高峰的人潮中闪烁，列车广播和便利店荧光灯之下，是普通人看…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "新宿站",
+    "fileType": "新宿站.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/新宿站/新宿站.json",
+    "field": "scene_dialogue_examples[1].response",
+    "context": "…从你身边走过时，空气温度骤降了两三度，然后又迅速回升。她消失在熙熙攘攘的人流中，不留痕迹。",
+    "pattern": "G-Wh句式(在…中)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "新宿站",
+    "fileType": "新宿站简介.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/新宿站/新宿站简介.md",
+    "field": "intro",
+    "context": "…在青春期经历灵能觉醒，灵力的突然涌现与灵视的初次开启，往往伴随着强烈的情绪应激。他们中的一些人加入政府直辖的狩灵协会，获…",
+    "pattern": "G-Wh句式(随着…)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "新宿站",
+    "fileType": "新宿站简介.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/新宿站/新宿站简介.md",
+    "field": "intro",
+    "context": "…怪等异常持续威胁着两个世界的脆弱边界。\r↵\r↵狩灵协会总部设在东京，下属六科，自由狩灵可创立事务所或工坊自负盈亏，地下社…",
+    "pattern": "G-Wh句式(在…中)",
+    "level": "T1"
+  },
+  {
+    "camp": "世界观卡",
+    "character": "新宿站",
+    "fileType": "新宿站简介.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/世界观卡/新宿站/新宿站简介.md",
+    "field": "intro",
+    "context": "↵列车准点，自动贩卖机亮着温吞的蓝光，通勤人潮在电子告示牌的闪烁中按部就班地流动。在这层日常之下，灵能是真…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "事件卡",
+    "character": "花坂家宴",
+    "fileType": "花坂家宴.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事件卡/花坂家宴/花坂家宴.json",
+    "field": "char_relationships.百合子",
+    "context": "小女儿，三个孩子中与她最亲近。将她远离狩灵事务养大，希望…",
+    "pattern": "H-三段式列举(A、B、C，三者)",
+    "level": "T1"
+  },
+  {
+    "camp": "事件卡",
+    "character": "花坂家宴",
+    "fileType": "花坂家宴开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事件卡/花坂家宴/花坂家宴开场白.md",
+    "field": "opening",
+    "context": "…亲端着最后一道菜从厨房走出来。\r↵\r↵\"回来了。\"晴子把菜放在桌子正中，解下围裙搭在椅背上。她没有说你最近瘦了，也没有问…",
+    "pattern": "G-Wh句式(在…中)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "千乐",
+    "fileType": "千乐.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/千乐/千乐.json",
+    "field": "char_persona.appearance.weapon",
+    "context": "…，鹤望兰工坊定制武器。灰色主体带蓝色盖板的带鞘长刀，三种模式：唐横刀（近战，刀刃可在刀柄内滑动切换正…",
+    "pattern": "H-三段式列举(A、B、C，三者)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "千乐",
+    "fileType": "千乐简介.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/千乐/千乐简介.md",
+    "field": "intro",
+    "context": "…，鹤望兰工坊定制武器。灰色主体带蓝色盖板的带鞘长刀，三种模式：唐横刀（近战，刀刃可在刀柄内滑动切换正…",
+    "pattern": "H-三段式列举(A、B、C，三者)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "天",
+    "fileType": "天.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/天/天.json",
+    "field": "char_relationships.爱",
+    "context": "离开协会后在街角遇见她。猫从树上坠下，她的蚕丝网先一步张开，接得又稳又…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "天",
+    "fileType": "天开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/天/天开场白.md",
+    "field": "opening",
+    "context": "…，对颜色仍不满意，握紧拳头又一次砸向墙面，棘刺嵌进水泥的闷响在巷子里弹了两下，然后又是断裂声，又是再生时灵力纹路明灭的光…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "弗洛伦",
+    "fileType": "弗洛伦.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/弗洛伦/弗洛伦.json",
+    "field": "char_description.origin",
+    "context": "…后进入狩灵协会2科。在2科期间结识贝尔金，两人并肩作战四年。当贝尔金晋升1阶后决定离开协会创办晨昏事务所时，弗洛伦随即辞…",
+    "pattern": "G-Wh句式(当…时)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "弗洛伦",
+    "fileType": "弗洛伦.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/弗洛伦/弗洛伦.json",
+    "field": "char_relationships.菲利普",
+    "context": "新来的后辈，她在他的年纪时从未有过他那样的火焰。他的冲劲与偶尔的冒失让她觉得可爱。",
+    "pattern": "E-形容词堆叠(连续≥3个\"的\")",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "弗洛伦",
+    "fileType": "弗洛伦.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/弗洛伦/弗洛伦.json",
+    "field": "char_dialogue_examples[1].response",
+    "context": "她收起盾牌，红色围巾末端随着动作摆动，棕眸漾起温软的笑意，\"去喝一杯吧，我请客。\"",
+    "pattern": "G-Wh句式(随着…)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "水镜",
+    "fileType": "水镜.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/水镜/水镜.json",
+    "field": "char_dialogue_examples[1].response",
+    "context": "她歪着头打量前方的异常实体，手指在空气中虚点数下，像在按手柄上的状态键，\"怪谈级吗……差不多…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "水镜",
+    "fileType": "水镜开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/水镜/水镜开场白.md",
+    "field": "opening",
+    "context": "…出一截肩头。她随手捞过保温杯灌了口已经凉透的乌龙茶。\r↵\r↵当门铃响起时，挂在门上的铜铃叮当作响。她懊恼地皱起鼻子，\"啧…",
+    "pattern": "G-Wh句式(当…时)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "水镜",
+    "fileType": "水镜开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/水镜/水镜开场白.md",
+    "field": "opening",
+    "context": "…叮——\"游戏通关的提示音刚落，她就慵懒地将手柄甩到一旁，手柄在沙发垫上弹了两下，差点滚进茶几底下那个垃圾桶。她打了个哈欠…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "水镜",
+    "fileType": "水镜开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/水镜/水镜开场白.md",
+    "field": "opening",
+    "context": "…弯腰捡起了掉在地上的游戏手柄放回充电座。她漫不经心地拨弄着垂在胸前的粉色发带，走向门口时突然停下，灵巧的手指在空中虚点几…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "爱",
+    "fileType": "爱开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/爱/爱开场白.md",
+    "field": "opening",
+    "context": "来生事务所的清晨是被蚕啃桑叶的声音吵醒的。细碎的沙沙声从窗台下方的纸板箱里传来…",
+    "pattern": "E-形容词堆叠(连续≥3个\"的\")",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "莉莉",
+    "fileType": "莉莉开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/莉莉/莉莉开场白.md",
+    "field": "opening",
+    "context": "…拍了拍裙摆，又凑近检查了一遍领口。\r↵\r↵门外的脚步停下，伴随着门被推开，风铃发出一阵脆响。\r↵\r↵她转过身，蓝色眼睛弯…",
+    "pattern": "G-Wh句式(随着…)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "菲利普 · 钢翼",
+    "fileType": "菲利普 · 钢翼.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/菲利普 · 钢翼/菲利普 · 钢翼.json",
+    "field": "char_relationships.贝尔金",
+    "context": "被她从考场发掘，在能配得上之前就收到了克拉伦特。当吞噬结界将他们隔开时，害怕辜负她的念头触发了灵力回路的进化…",
+    "pattern": "G-Wh句式(当…时)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "贝尔金",
+    "fileType": "贝尔金开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/贝尔金/贝尔金开场白.md",
+    "field": "opening",
+    "context": "…投下一瞬即逝的影子。她取出怀表，表盖内侧的照片里，年轻的她站在恶魔尸堆中，剑尖却小心地避开了脚边一簇盛开的野蔷薇。她合上…",
+    "pattern": "G-Wh句式(在…中)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "贝尔金",
+    "fileType": "贝尔金开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/贝尔金/贝尔金开场白.md",
+    "field": "opening",
+    "context": "…光中泛着绸缎光泽，手指轻敲着桂妮薇儿的剑柄，剑身上的灵力回路如同呼吸般明灭，在马甲上投下幽蓝光影，明灭的节奏与心跳同步。…",
+    "pattern": "M-AI腔比喻",
+    "level": "T2"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "贝拉",
+    "fileType": "贝拉.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/贝拉/贝拉.json",
+    "field": "char_description.origin",
+    "context": "…在实战中建立战斗风格，贝尔金为她向锻心工坊定制了黑羊与白狼。当贝尔金晋升1阶后离开协会创办晨昏事务所时，贝拉不假思索辞去…",
+    "pattern": "G-Wh句式(当…时)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "贝拉",
+    "fileType": "贝拉.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/贝拉/贝拉.json",
+    "field": "char_relationships.贝尔金",
+    "context": "前狩灵协会2科的前辈，如今的上级，当她说要离开狩灵协会开办晨昏事务所时，不假思索地跟从，始终佩…",
+    "pattern": "G-Wh句式(当…时)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "贝拉",
+    "fileType": "贝拉.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/贝拉/贝拉.json",
+    "field": "char_dialogue_examples[1].response",
+    "context": "她将黑羊掷向冲在最前的人影，剑刃擦过对方肩头钉入墙中，反手抽出白狼的瞬间，…",
+    "pattern": "G-Wh句式(在…中)",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "雨",
+    "fileType": "雨.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/雨/雨.json",
+    "field": "char_description.origin",
+    "context": "…阶，在天冲撞考官后带他离开。那天在仙台街头遇到正用蚕丝网接住树上掉下来的猫的爱，被她的温柔吸引，说服天一同加入来生事务所…",
+    "pattern": "E-形容词堆叠(连续≥3个\"的\")",
+    "level": "T1"
+  },
+  {
+    "camp": "事务所狩灵角色卡",
+    "character": "静流",
+    "fileType": "静流开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/事务所狩灵角色卡/静流/静流开场白.md",
+    "field": "opening",
+    "context": "…一步做出反应，像是跨越生死的条件反射。她垂眸看了眼刀柄，拇指在红线上轻轻蹭了一下，锁门时钥匙在锁孔里多转了一圈才拔出来。…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "仰光",
+    "fileType": "仰光简介.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/仰光/仰光简介.md",
+    "field": "intro",
+    "context": "…妹妹一起修习弓道，由清光开发的制式长弓-狙击型配合她的能力能如狙击手一般对远处敌人进行精密打击，且寂静无声。\r↵\r↵评估…",
+    "pattern": "M-AI腔比喻",
+    "level": "T2"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "君房",
+    "fileType": "君房开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/君房/君房开场白.md",
+    "field": "opening",
+    "context": "…音里重复的紧急呼号撞在瓷砖墙上，在走廊尽头反弹回来，走廊顶灯随着声波忽闪了一下，下一刻他单手撑过办公桌翻身而出，白大褂下…",
+    "pattern": "G-Wh句式(随着…)",
+    "level": "T1"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "君房",
+    "fileType": "君房开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/君房/君房开场白.md",
+    "field": "opening",
+    "context": "…砖的缝隙里嵌着经年累月洗不掉的褐色印记。副科长君房的钢笔刚搁在病历本上，那声刺破晨雾的广播便如重锤砸下，\"创伤外科，99…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "君房",
+    "fileType": "君房开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/君房/君房开场白.md",
+    "field": "opening",
+    "context": "…下，\"创伤外科，999！\"\r↵\r↵电流杂音里重复的紧急呼号撞在瓷砖墙上，在走廊尽头反弹回来，走廊顶灯随着声波忽闪了一下，…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "响",
+    "fileType": "响开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/响/响开场白.md",
+    "field": "opening",
+    "context": "…定仪式，动作已经熟练到不需要镜子。\r↵\r↵太刀完成充能，刀镡发出风铃般的轻响，清脆的声音在安静的装备库里弹了三个来回，响…",
+    "pattern": "E-形容词堆叠(连续≥3个\"的\")",
+    "level": "T1"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "响",
+    "fileType": "响开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/响/响开场白.md",
+    "field": "opening",
+    "context": "…防爆网的网格上，歪着头打量室内的景象。\r↵\r↵整备室的感应灯随着她的走动自动亮起，响伸了个懒腰，战术服下的关节发出轻微的…",
+    "pattern": "G-Wh句式(随着…)",
+    "level": "T1"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "巴拉尔",
+    "fileType": "巴拉尔开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/巴拉尔/巴拉尔开场白.md",
+    "field": "opening",
+    "context": "…白、黄色、红色，依次卡在槽内。\r↵\r↵走廊里传来脚步声，来人在白色石门前犹豫了一下，转向半开的门。巴拉尔没有抬头。\"科长…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "清光",
+    "fileType": "清光.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/清光/清光.json",
+    "field": "char_dialogue_examples[1].response",
+    "context": "她咬着笔帽盯着图纸，用笔尾在图上点了两下，\"这个地方是不是可以拓扑优化一下，还能再降点…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "特蕾莎",
+    "fileType": "特蕾莎开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/特蕾莎/特蕾莎开场白.md",
+    "field": "opening",
+    "context": "破晓时分的战地医院笼罩在消毒水与焚香交织的气味中，两种气味在冷空气里各自分明。窗外的…",
+    "pattern": "D-虚假施动(具体气味拟人)",
+    "level": "T0"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "特蕾莎",
+    "fileType": "特蕾莎开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/特蕾莎/特蕾莎开场白.md",
+    "field": "opening",
+    "context": "破晓时分的战地医院笼罩在消毒水与焚香交织的气味中，两种气味在冷空气里各自分明。窗外…",
+    "pattern": "G-Wh句式(在…中)",
+    "level": "T1"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "特蕾莎",
+    "fileType": "特蕾莎开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/特蕾莎/特蕾莎开场白.md",
+    "field": "opening",
+    "context": "…↵\r↵\"三号床需要紧急净化。\"她抬头，提灯自动倾斜，三条锁链游向病房，链节与地面瓷砖碰撞发出细密的银…",
+    "pattern": "H-三段式列举(A、B、C，三者)",
+    "level": "T1"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "葵",
+    "fileType": "葵开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/葵/葵开场白.md",
+    "field": "opening",
+    "context": "…发，肩膀上却没有后坐力，反物质能力将物理法则剥离，枪身稳如焊在空气中，葵笑着用牙齿撕开能量胶包装，舌尖卷走草莓味凝胶，一…",
+    "pattern": "G-Wh句式(在…中)",
+    "level": "T1"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "薰",
+    "fileType": "薰.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/薰/薰.json",
+    "field": "char_description.origin",
+    "context": "…遭天丛云剑侵蚀的父亲，成为天丛云剑守护者并加入狩灵协会1科，在1科的四年中，薰只在需要拔剑时才得以外出，名为科员实为监视…",
+    "pattern": "G-Wh句式(在…中)",
+    "level": "T1"
+  },
+  {
+    "camp": "协会狩灵角色卡",
+    "character": "风来",
+    "fileType": "风来开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/协会狩灵角色卡/风来/风来开场白.md",
+    "field": "opening",
+    "context": "…抬手在弓臂上拍了拍，字迹潦草却清晰，下一版，减重百分之十二。在工作台前坐下，拿起笔在便签上添了批注，笔尖与纸面的沙沙声在…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "四色音角色卡",
+    "character": "弦音",
+    "fileType": "弦音开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/四色音角色卡/弦音/弦音开场白.md",
+    "field": "opening",
+    "context": "…上周贴的，已经有磨损。铃音的左前角标记被踩脏了半截，大概是前天那场安可的时候蹭的。花音的标记最新，因为她几乎不挪动位置，…",
+    "pattern": "E-形容词堆叠(连续≥3个\"的\")",
+    "level": "T1"
+  },
+  {
+    "camp": "四色音角色卡",
+    "character": "心音",
+    "fileType": "心音.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/四色音角色卡/心音/心音.json",
+    "field": "char_description.origin",
+    "context": "…着三套亲手缝的舞台服去了排练室，组合改为三色音。弦音散场后等在防火门外，问\"你们的账谁管\"，管了快两年一直在台下，等她终…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "四色音角色卡",
+    "character": "心音",
+    "fileType": "心音.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/四色音角色卡/心音/心音.json",
+    "field": "char_relationships.花音",
+    "context": "四色音成员，和声托在底下，每次都能稳稳接住她的声音，写词时知道花音会把词与词之…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "四色音角色卡",
+    "character": "心音",
+    "fileType": "心音开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/四色音角色卡/心音/心音开场白.md",
+    "field": "opening",
+    "context": "…木板右下角还贴着一张褪色的拍立得，是去年的周年演出，三个人挤在镜头前，铃音的角度没找好，三分之一的脸…",
+    "pattern": "H-三段式列举(A、B、C，三者)",
+    "level": "T1"
+  },
+  {
+    "camp": "四色音角色卡",
+    "character": "铃音",
+    "fileType": "铃音开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/四色音角色卡/铃音/铃音开场白.md",
+    "field": "opening",
+    "context": "…嘴里念的不是歌词，是十六分音符的象声词。念到第五遍的时候，她在副歌进的地方停了一下，把心音的轨道降了一个半音。这样唱到第…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "工坊狩灵角色卡",
+    "character": "铁心",
+    "fileType": "铁心开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/工坊狩灵角色卡/铁心/铁心开场白.md",
+    "field": "opening",
+    "context": "…辈子的味道，连舌根都泛着铁锈般的涩。炉火偶尔炸出细小的炭花，在地面弹跳两下，化为灰白的碎屑。\r↵\r↵刀坯横在他脚边的木台…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "异常角色卡",
+    "character": "沃拉瑟斯",
+    "fileType": "沃拉瑟斯开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/异常角色卡/沃拉瑟斯/沃拉瑟斯开场白.md",
+    "field": "opening",
+    "context": "…起黑羊，转身面向沃拉瑟斯，贝尔金拄着桂妮薇儿站直，弗洛伦昏迷在铁架下，红色围巾落在一旁。结界恢复成完整的暗红半球。\r↵\r…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "游魂角色卡",
+    "character": "布雷德",
+    "fileType": "布雷德.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/游魂角色卡/布雷德/布雷德.json",
+    "field": "char_dialogue_examples[2].response",
+    "context": "拇指摸到弹壳袋底层，只剩一枚。他抽出弹壳在指间转了一下，顶进弹仓。\"一发。\"枪口锁在黑影胸口，\"最好…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "游魂角色卡",
+    "character": "布雷德",
+    "fileType": "布雷德开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/游魂角色卡/布雷德/布雷德开场白.md",
+    "field": "opening",
+    "context": "…差贴脸一发、收尾一发，正好。\r↵\r↵他把刚弹出来的那一枚弹壳在指间转了一下，从拐角探出视线。通道尽头，贩卖机蓝光下站着一…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "游魂角色卡",
+    "character": "布雷德",
+    "fileType": "布雷德开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/游魂角色卡/布雷德/布雷德开场白.md",
+    "field": "opening",
+    "context": "…看起来像是一个犹豫不决的夜归人，但贩卖机没有收他的钱，硬币掉在地上弹了两下，他没有弯腰去捡。\r↵\r↵灵力痕迹就在这里，离…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "游魂角色卡",
+    "character": "慎",
+    "fileType": "慎开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/游魂角色卡/慎/慎开场白.md",
+    "field": "opening",
+    "context": "…。\"\r↵\r↵他大步向前，气合能力让踏地声消弭于下水道的轰鸣。当恶灵的指爪距新人狩灵喉咙仅三寸时，慎的刀锋划出新月弧光。灵…",
+    "pattern": "G-Wh句式(当…时)",
+    "level": "T1"
+  },
+  {
+    "camp": "游魂角色卡",
+    "character": "慎",
+    "fileType": "慎开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/游魂角色卡/慎/慎开场白.md",
+    "field": "opening",
+    "context": "…，他靠在墙角闭上眼睛，长时间使用灵视让眼睛烫得如同火烧，只有在一片黑暗中，他才能获得稍许休息，突然他察觉到了什么气息，灵…",
+    "pattern": "G-Wh句式(在…中)",
+    "level": "T1"
+  },
+  {
+    "camp": "游魂角色卡",
+    "character": "慎",
+    "fileType": "慎开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/游魂角色卡/慎/慎开场白.md",
+    "field": "opening",
+    "context": "…突然浓烈起来。阴影中窜出的恶灵四肢扭曲，肘关节反向弯折，尾巴如绞索般缠向新人狩灵的脖颈。那年轻人还没反应过来，刀还插在腰…",
+    "pattern": "M-AI腔比喻",
+    "level": "T2"
+  },
+  {
+    "camp": "游魂角色卡",
+    "character": "琳",
+    "fileType": "琳.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/游魂角色卡/琳/琳.json",
+    "field": "char_dialogue_examples[2].response",
+    "context": "…从酒杯边缘上方扫过角落里那个人，第一次，停留了超过一秒，玫瑰在指间停了。她起身走过去，高跟鞋的节奏不急不缓，在对方桌前停…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "游魂角色卡",
+    "character": "琳",
+    "fileType": "琳开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/游魂角色卡/琳/琳开场白.md",
+    "field": "opening",
+    "context": "…肤的瞬间她眯眼，享受那阵熟悉的灼热感。她踮脚跃起时，红色裙摆如花瓣般展开，红玫瑰已在手中化作十字剑，剑锋精准挑开黑影的胸…",
+    "pattern": "M-AI腔比喻",
+    "level": "T2"
+  },
+  {
+    "camp": "游魂角色卡",
+    "character": "百合子",
+    "fileType": "百合子开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/游魂角色卡/百合子/百合子开场白.md",
+    "field": "opening",
+    "context": "…借来的参考书，世界史近代部分，下个月模拟考的重点。侧辫的发尾随着步伐轻晃，发梢那一点粉色在斜阳里明明灭灭。她在鞋柜前停了…",
+    "pattern": "G-Wh句式(随着…)",
+    "level": "T1"
+  },
+  {
+    "camp": "游魂角色卡",
+    "character": "遥",
+    "fileType": "遥开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/游魂角色卡/遥/遥开场白.md",
+    "field": "opening",
+    "context": "…——\"遥没让她说完。\"放桌上。\"巫女张了张嘴，看了眼她手里正在翻的账册。那正是上个月的记录。巫女把茶盘搁下，退了回去。↵…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "游魂角色卡",
+    "character": "遥",
+    "fileType": "遥开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/游魂角色卡/遥/遥开场白.md",
+    "field": "opening",
+    "context": "…奏，也不是送货的老伯。遥把茶杯举到唇边，没喝。↵↵直到影子落在廊边的石阶上，挡住了膝上的光斑。她把茶杯搁下，终于抬起眼。…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "罪灵角色卡",
+    "character": "劫",
+    "fileType": "劫开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/罪灵角色卡/劫/劫开场白.md",
+    "field": "opening",
+    "context": "…年依然清晰。她猛地攥紧了拳头，指甲陷进掌心，四道月牙形的白痕在掌心扩散。疼痛让她甩甩头，将那股蚀骨的恨意暂时压下，但压不…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "罪灵角色卡",
+    "character": "烬",
+    "fileType": "烬.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/罪灵角色卡/烬/烬.json",
+    "field": "char_dialogue_examples[0].response",
+    "context": "他眯起红瞳，轻语在指尖每一次微颤都伴随着一声低语。第一发掠过肩头，\"精彩。\"第二发击向膝弯，\"绝…",
+    "pattern": "G-Wh句式(随着…)",
+    "level": "T1"
+  },
+  {
+    "camp": "锈钟角色卡",
+    "character": "世",
+    "fileType": "世.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/锈钟角色卡/世/世.json",
+    "field": "char_dialogue_examples[0].response",
+    "context": "她端着酒杯走向目标，旗袍下摆随着步伐轻轻摆动，脸上挂着得体的笑意，\"张总，许久不见，看您…",
+    "pattern": "G-Wh句式(随着…)",
+    "level": "T1"
+  },
+  {
+    "camp": "锈钟角色卡",
+    "character": "世",
+    "fileType": "世.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/锈钟角色卡/世/世.json",
+    "field": "char_dialogue_examples[1].response",
+    "context": "她将合同推回对方一侧，指尖在条款上点了两下，\"这部分技术占股的比例，似乎有些超出常规了…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "锈钟角色卡",
+    "character": "世",
+    "fileType": "世开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/锈钟角色卡/世/世开场白.md",
+    "field": "opening",
+    "context": "…尝尝。\"\r↵\r↵谈判结束时已是深夜，走廊挂钟敲了十一下。她立在小巷口的梧桐树下，旗袍已换作墨绿织锦，金线在路灯下泛着冷光…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "锈钟角色卡",
+    "character": "世",
+    "fileType": "世开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/锈钟角色卡/世/世开场白.md",
+    "field": "opening",
+    "context": "…眯眼，将空瓶随手扔进垃圾箱。\r↵\r↵拐进窄巷的瞬间，三个蒙面人拦住了去路。为首的攥着弹簧刀，刀刃在月…",
+    "pattern": "H-三段式列举(A、B、C，三者)",
+    "level": "T1"
+  },
+  {
+    "camp": "锈钟角色卡",
+    "character": "世",
+    "fileType": "世开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/锈钟角色卡/世/世开场白.md",
+    "field": "opening",
+    "context": "…像在诊脉。酒红瞳孔泛起幽芒，浅灰色半透明的领域无声展开，死疫如同夜雾般从她脚边蔓延开来，雾气爬过的地方墙缝里的苔藓瞬间枯…",
+    "pattern": "M-AI腔比喻",
+    "level": "T2"
+  },
+  {
+    "camp": "锈钟角色卡",
+    "character": "伊予",
+    "fileType": "伊予.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/锈钟角色卡/伊予/伊予.json",
+    "field": "char_relationships.写乐",
+    "context": "齿轮写影师，锻叫来她为刀抄录灵力回路，她在锻冶场地板上沉默地工作。伊予看到抄本时，每一笔都精确。",
+    "pattern": "D-虚假施动(建筑拟人)",
+    "level": "T0"
+  },
+  {
+    "camp": "锈钟角色卡",
+    "character": "光",
+    "fileType": "光开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/锈钟角色卡/光/光开场白.md",
+    "field": "opening",
+    "context": "…衣绳。绳上的白衬衫还在滴水，水珠砸在她肩头碎成几瓣，棕色长发随着她标志性的蹦跳晃成波浪，发梢扫过路边铁皮信箱时发出叮叮当…",
+    "pattern": "G-Wh句式(随着…)",
+    "level": "T1"
+  },
+  {
+    "camp": "锈钟角色卡",
+    "character": "光",
+    "fileType": "光开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/锈钟角色卡/光/光开场白.md",
+    "field": "opening",
+    "context": "…了个响指，时泊之锚启动，空气中荡开一圈淡金色的涟漪，锚点已钉在脚下，\"哎——\"尾音带着点少年气的上扬，在梧桐树荫下拖出慵…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "锈钟角色卡",
+    "character": "月",
+    "fileType": "月.json",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/锈钟角色卡/月/月.json",
+    "field": "char_dialogue_examples[0].response",
+    "context": "他连忙站起来，手忙脚乱地整理桌上的文件，\"好的好的，我立马处理，两点前一定送到您办…",
+    "pattern": "E-形容词堆叠(连续≥3个\"的\")",
+    "level": "T1"
+  },
+  {
+    "camp": "锈钟角色卡",
+    "character": "茜",
+    "fileType": "茜开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/锈钟角色卡/茜/茜开场白.md",
+    "field": "opening",
+    "context": "…她靠着墙，眼皮垂下来，吐出第一口烟，一只飞蛾绕着路灯打转，落在她手边的窗台上，烟散在路灯下，她扫了眼巷口。\r↵\r↵巷子深…",
+    "pattern": "G-Wh句式(在…下)",
+    "level": "T1"
+  },
+  {
+    "camp": "锈钟角色卡",
+    "character": "迟",
+    "fileType": "迟开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/锈钟角色卡/迟/迟开场白.md",
+    "field": "opening",
+    "context": "…的白手笼，烟雾又从唇间逸出，在晨光里团成一个小小的问号。\"这个点来齿轮的地盘，找人的，还是送货的？\"",
+    "pattern": "E-形容词堆叠(连续≥3个\"的\")",
+    "level": "T1"
+  },
+  {
+    "camp": "锈钟角色卡",
+    "character": "锻",
+    "fileType": "锻开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/锈钟角色卡/锻/锻开场白.md",
+    "field": "opening",
+    "context": "…↵蒸汽炸开的瞬间，金色灵力回路猛地收缩，沿刀身两侧贴合上去，随着钢铁的淬火相变被吸入刀坯内部。白雾散尽，刀身上的刃纹深处…",
+    "pattern": "G-Wh句式(随着…)",
+    "level": "T1"
+  },
+  {
+    "camp": "锈钟角色卡",
+    "character": "锻",
+    "fileType": "锻开场白.md",
+    "file": "D:/AIworkspace/狩灵世界观/角色卡/锈钟角色卡/锻/锻开场白.md",
+    "field": "opening",
+    "context": "…刀坯，橘光映在他深陷的眼窝里，把眉骨下的阴影拉得更深，刀坯悬在水面上方三寸，高温蒸起的水汽中，浮动灵力回路忽明忽暗。\r↵…",
+    "pattern": "G-Wh句式(在…中)",
+    "level": "T1"
+  },
+  {
+    "camp": "WorldInfo",
+    "character": "评级",
+    "fileType": "world_info",
+    "file": "D:/AIworkspace/狩灵世界观/创作者文件/导出文件/world info/评级.md",
+    "field": "intro",
+    "context": "…驾于评级体系之上的群体，由狩灵协会强制指名，被赋予某种色彩，为其他狩灵树立榜样。色彩阶拥有极大限度的…",
+    "pattern": "L-通用措辞(某种)",
+    "level": "T2"
+  }
+]

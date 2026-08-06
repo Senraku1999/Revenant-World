@@ -35,6 +35,7 @@ const BASE_ENTRIES: BaseEntry[] = [
   { id: 4, comment: '狩灵协会',   constant: false, insertion_order: 95,  depth: 4, sourceFile: '狩灵协会.md' },
   { id: 6, comment: '锈钟',       constant: false, insertion_order: 94,  depth: 4, sourceFile: '锈钟.md' },
   { id: 7, comment: '天丛云剑',   constant: false, insertion_order: 93,  depth: 4, sourceFile: '天丛云剑.md' },
+  { id: 5, comment: '玉藻神宫',   constant: false, insertion_order: 92,  depth: 4, sourceFile: '玉藻神宫.md' },
 ];
 
 // ── 构建分配（从 assignments.ts import）──
