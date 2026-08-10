@@ -47,7 +47,7 @@ export function findCharacterCardJsonFiles(projectRoot: string): string[] {
   const results: string[] = [];
   walkFiltered(cardDir, results, (fullPath) => {
     const base = path.basename(fullPath);
-    if (!base.endsWith('.json') || base.endsWith('_zh.json')) return false;
+    if (!base.endsWith('.json')) return false;
     const norm = normalizePath(path.dirname(fullPath));
     if (norm.includes('事件卡') || norm.includes('世界观卡') || norm.includes('关系网') || norm.includes('世界书')) return false;
     // 仅角色卡子目录

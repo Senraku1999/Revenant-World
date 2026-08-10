@@ -4,6 +4,13 @@
  * 机械可判定的直接输出结果，语义模糊的标记为待人工审查。
  *
  * 覆盖标点：，删去测试 / 。替换测试 / ；互换测试 / ：合法性判断 / ！？叙述违禁检测
+ *
+ * 句长约束（依据中文阅读认知研究，合众国际社可读性标准转化）：
+ * - 最佳句长：15-20 字
+ * - 软上限：30 字（超出后阅读负担显著增加）
+ * - 硬红线：40 字（严重影响理解，不可接受）
+ * - 逗号间距：5-10 字最佳，15 字为上限
+ * - 碎片警告：连续 3 句以上 ≤15 字且句号结尾 → 短句碎片化
  */
 
 import * as fs from 'fs';
@@ -16,6 +23,7 @@ import { isSpeechVerb } from '../../../共享代码/standards';
 import { findMdJsonFiles } from '../../../共享代码/file-scanner';
 import {
   COMMA_G, PERIOD_G, SEMICOLON_G, COLON_G, EXCLAM_QUESTION_G,
+  DUN_G, EM_DASH_ZH_G, ELLIPSIS_ZH_G,
   SUBJECT_STARTERS_V2, CONSECUTIVE_VERB, CJK_CHAR,
   CONSECUTIVE_CONJ, TRANSITION_CONJ, IDENTITY_ENDING, ADVERBIAL_ENDING,
   PARALLEL_VERB, PARALLEL_VERB_START, PARALLEL_PAIR
@@ -39,10 +47,18 @@ interface Result {
 type FileGrouper = Record<string, {
   comma_del: number; comma_amb: number;
   period_chg: number; period_amb: number;
-  semi: number; colon: number; exclam: number;
+  dun: number; semi: number; colon: number;
+  em_dash: number; ellipsis: number; exclam: number;
 }>;
 
 const PROJECT_ROOT = path.resolve(__dirname, '..', '..', '..', '..');
+
+// ── 句长阈值（中文阅读认知研究 + 合众国际社可读性标准转化）──
+const SENTENCE_SOFT_LIMIT = 30;   // 软上限：超出后阅读负担显著
+const SENTENCE_HARD_LIMIT = 40;   // 硬红线：严重影响理解，不可接受
+const COMMA_GAP_MAX = 15;         // 逗号间距上限
+const FRAGMENT_THRESHOLD = 15;    // 短句碎片判定：≤15 字视为碎片
+const FRAGMENT_CONSECUTIVE = 3;   // 连续短句数触发碎片警告
 
 // ── 标准格式字段白名单（完全跳过三级审查）──
 // 这些字段的标点由角色卡标准格式规则定义，不是自由叙述选择。
@@ -108,9 +124,9 @@ function commaDeleteTest(textBefore: string, textAfter: string, fullContext: str
     return [false, '中', '逗号前为时间/地点状语'];
   }
 
-  // 规则 7：删后句子过长
-  if (merged.length > 60 && !merged.includes('，') && !merged.includes('。')) {
-    return [false, '低', '删后句子过长(>60字)'];
+  // 规则 7：删后句子过长（硬红线 40 字）
+  if (merged.length > SENTENCE_HARD_LIMIT && !merged.includes('，') && !merged.includes('。')) {
+    return [false, '高', `删后句子过长(${merged.length}字>${SENTENCE_HARD_LIMIT}字硬红线)`];
   }
 
   // 规则 8：并列动词短语
@@ -126,12 +142,26 @@ function commaDeleteTest(textBefore: string, textAfter: string, fullContext: str
   return [false, '', ''];
 }
 
-// ── 句号替换测试 ──
 function periodReplaceTest(
   textBefore: string, textAfter: string, isParagraphEnd: boolean
 ): [boolean | null, string, string] {
   if (isParagraphEnd) {
     return [false, '高', '硬止：段落末尾'];
+  }
+
+  // 规则 0：合并后句长检查
+  const mergedLen = textBefore.trimEnd().length + textAfter.trimStart().length;
+  const afterLen = textAfter.trimStart().length;
+
+  if (mergedLen > SENTENCE_HARD_LIMIT) {
+    // 后句是碎片（≤15字）→ 降级：前句完整但后句太短不该独立，标记待人工判断
+    if (afterLen <= FRAGMENT_THRESHOLD) {
+      return [null, '中', `合并后${mergedLen}字超硬红线，但后句仅${afterLen}字为碎片，可能需合并`];
+    }
+    return [false, '高', `硬止：合并后${mergedLen}字>${SENTENCE_HARD_LIMIT}字硬红线，后句${afterLen}字非碎片`];
+  }
+  if (mergedLen > SENTENCE_SOFT_LIMIT) {
+    return [null, '中', `合并后${mergedLen}字>${SENTENCE_SOFT_LIMIT}字软上限`];
   }
 
   if (/^\s*[！？!?]/.test(textAfter)) {
@@ -253,6 +283,34 @@ function checkColonUsage(
   return [null, '未知', '无法机械判定，待人工判断'];
 }
 
+// ── 顿号删去测试 ──
+function dunDeleteTest(textBefore: string, textAfter: string, fullContext: string): [boolean | null, string, string] {
+  const merged = textBefore.trimEnd() + textAfter.trimStart();
+
+  // 规则 1：列举项粘连（三项以上无分隔 → 保留）
+  const parts = fullContext.split('、');
+  if (parts.length >= 3) {
+    return [false, '高', '三项以上列举，顿号不可删'];
+  }
+
+  // 规则 2：数字+量词（如"一、二"等序次语）
+  if (/^[一二三四五六七八九十百千万]+$/.test(textBefore.trimEnd().slice(-1))) {
+    return [false, '高', '序次语后顿号，不可删'];
+  }
+
+  // 规则 3：相邻两数字表概数
+  if (/(\d)、(\d)/.test(fullContext)) {
+    return [false, '高', '相邻数字表概数，顿号不可删'];
+  }
+
+  // 规则 4：删后语义粘连 → 保留
+  if (/[一-鿿]、[一-鿿]/.test(fullContext)) {
+    return [false, '中', '并列词语，删后粘连不清'];
+  }
+
+  return [false, '', ''];
+}
+
 // ── ！？叙述违禁检测 ──
 function checkExclamQuestion(
   text: string, ranges: [number, number][], isResponseField: boolean
@@ -349,10 +407,67 @@ function checkPunctuation(
         test: `替换为逗号："${textBefore.trimEnd()}，${nextSent.text.trimStart()}"`,
         suggestion: '改逗号', confidence, reason, note: '' });
     } else if (shouldChange === null) {
+      const mergedText = textBefore.trimEnd() + '，' + nextSent.text.trimStart();
+
+      // 碎片降级时尝试合并后重拆分
+      let reSplitPoint = -1;
+      let reSplitLeft = '';
+      let reSplitRight = '';
+      if (reason.includes('碎片')) {
+        let bestScore = Infinity;
+        const re = /，/g;
+        let rm: RegExpExecArray | null;
+        while ((rm = re.exec(mergedText)) !== null) {
+          const left = rm.index + 1;
+          const right = mergedText.length - left;
+          if (left < 10 || right < 10) continue;
+          if (left > SENTENCE_HARD_LIMIT || right > SENTENCE_HARD_LIMIT) continue;
+          const score = Math.abs(left - 22) + Math.abs(right - 22);
+          if (score < bestScore) {
+            bestScore = score;
+            reSplitPoint = left;
+            reSplitLeft = mergedText.substring(0, left) + '。';
+            reSplitRight = mergedText.substring(left).trimStart();
+          }
+        }
+      }
+
+      let suggestion = '待人工判断';
+      let note = '';
+      let testStr = `替换为逗号后："${mergedText.substring(0, 60)}${mergedText.length > 60 ? '…' : ''}"`;
+      let conf = confidence;
+
+      if (reSplitPoint > 0) {
+        suggestion = '可重拆分';
+        conf = '中';
+        note = `合并(${mergedText.length}字)→重断开@${reSplitPoint}：左${reSplitPoint}字"${reSplitLeft.substring(0, 30)}" | 右${mergedText.length - reSplitPoint}字"${reSplitRight.substring(0, 30)}"`;
+        testStr = `合并后重拆分：左[${reSplitPoint}字] ${reSplitLeft} / 右[${mergedText.length - reSplitPoint}字] ${reSplitRight}`;
+      }
+
       results.push({ file: relpath, field: fieldName, symbol: '。',
         original: `${sent.text.trim()} ${nextSent.text.trim()}`,
-        test: `替换为逗号后："${textBefore.trimEnd()}，${nextSent.text.trimStart()}"`,
-        suggestion: '待人工判断', confidence, reason, note: '' });
+        test: testStr,
+        suggestion, confidence: conf, reason, note });
+    }
+  }
+
+  // 顿号
+  let dm: RegExpExecArray | null;
+  const dRe = new RegExp(DUN_G.source, 'g');
+  while ((dm = dRe.exec(text)) !== null) {
+    const pos = dm.index;
+    if (isInQuoteRange(pos, ranges)) continue;
+    const sent = findSentenceForPos(sentences, pos);
+    if (!sent) continue;
+    const before = text.substring(sent.start, pos);
+    const after = text.substring(pos + 1, sent.end);
+    const [deletable, confidence, reason] = dunDeleteTest(before, after, text.substring(sent.start, sent.end));
+
+    if (deletable === true) {
+      results.push({ file: relpath, field: fieldName, symbol: '、',
+        original: sent.text.trim(),
+        test: `删去顿号："${before.trimEnd()}${after.trimStart()}"`,
+        suggestion: '可删', confidence, reason, note: '' });
     }
   }
 
@@ -373,6 +488,36 @@ function checkPunctuation(
         test: `互换后："${right.trim()}；${left.trim()}"`,
         suggestion: isCorrect === false ? '改为逗号或句号' : '待人工判断', confidence, reason, note: '' });
     }
+  }
+
+  // —— 引号外违禁检测
+  let edm: RegExpExecArray | null;
+  const edRe = new RegExp(EM_DASH_ZH_G.source, 'g');
+  while ((edm = edRe.exec(text)) !== null) {
+    const pos = edm.index;
+    if (isInQuoteRange(pos, ranges)) continue; // 引号内合法
+    const sent = findSentenceForPos(sentences, pos);
+    if (!sent) continue;
+    results.push({ file: relpath, field: fieldName, symbol: '——',
+      original: sent.text.trim(),
+      test: '—— 出现在引号外',
+      suggestion: '改为逗号或冒号', confidence: '高',
+      reason: '项目收紧：—— 仅限对话引号内', note: '' });
+  }
+
+  // …… 引号外违禁检测
+  let ellm: RegExpExecArray | null;
+  const ellRe = new RegExp(ELLIPSIS_ZH_G.source, 'g');
+  while ((ellm = ellRe.exec(text)) !== null) {
+    const pos = ellm.index;
+    if (isInQuoteRange(pos, ranges)) continue; // 引号内合法
+    const sent = findSentenceForPos(sentences, pos);
+    if (!sent) continue;
+    results.push({ file: relpath, field: fieldName, symbol: '……',
+      original: sent.text.trim(),
+      test: '…… 出现在引号外',
+      suggestion: '改为逗号或句号', confidence: '高',
+      reason: '项目收紧：…… 仅限对话引号内', note: '' });
   }
 
   // 冒号
@@ -493,8 +638,11 @@ function main(): void {
   const commaAmbiguous = allResults.filter(r => r.symbol === '，' && r.suggestion === '待人工判断');
   const periodChangeable = allResults.filter(r => r.symbol === '。' && r.suggestion === '改逗号');
   const periodAmbiguous = allResults.filter(r => r.symbol === '。' && r.suggestion === '待人工判断');
+  const dunIssues = allResults.filter(r => r.symbol === '、');
   const semicolonIssues = allResults.filter(r => r.symbol === '；');
   const colonIssues = allResults.filter(r => r.symbol === '：');
+  const emDashIssues = allResults.filter(r => r.symbol === '——');
+  const ellipsisIssues = allResults.filter(r => r.symbol === '……');
   const exclamIssues = allResults.filter(r => r.symbol === '！' || r.symbol === '？');
 
   console.log('\n─── 汇总 ───');
@@ -502,13 +650,16 @@ function main(): void {
   console.log(`逗号待人工判断: ${commaAmbiguous.length}`);
   console.log(`句号应改逗号 (高/中置信度): ${periodChangeable.length}`);
   console.log(`句号待人工判断: ${periodAmbiguous.length}`);
+  console.log(`顿号问题项: ${dunIssues.length}`);
   console.log(`分号问题项: ${semicolonIssues.length}`);
-  console.log(`冒号问题项 (新增): ${colonIssues.length}`);
-  console.log(`！？问题项 (新增): ${exclamIssues.length}`);
+  console.log(`冒号问题项: ${colonIssues.length}`);
+  console.log(`破折号引号外违禁: ${emDashIssues.length}`);
+  console.log(`省略号引号外违禁: ${ellipsisIssues.length}`);
+  console.log(`！？问题项: ${exclamIssues.length}`);
   console.log(`总计标记: ${allResults.length}`);
 
   // 输出详细结果
-  const outputPath = path.join(PROJECT_ROOT, '创作者文件', '审查文件', '三级审查', '三级审查结果.txt');
+  const outputPath = path.join(PROJECT_ROOT, '创作者文件', '审查文件', '标点审查', '三级审查', '三级审查结果.txt');
   let out = '='.repeat(80) + '\n';
   out += '三级标点审查 · 三步法结果\n';
   out += '='.repeat(80) + '\n\n';
@@ -516,11 +667,14 @@ function main(): void {
   const sections: Array<[string, Result[]]> = [
     ['─── 一、逗号可删（删去测试通过）───', commaDeletable],
     ['─── 二、句号应改逗号（替换测试通过）───', periodChangeable],
-    ['─── 三、分号问题项（互换测试未通过）───', semicolonIssues],
-    ['─── 四、冒号审查（新增）───', colonIssues],
-    ['─── 五、！？叙述违禁检测（新增）───', exclamIssues],
-    ['─── 六、逗号待人工判断（模糊项）───', commaAmbiguous],
-    ['─── 七、句号待人工判断（模糊项）───', periodAmbiguous],
+    ['─── 三、顿号问题项（删去测试）───', dunIssues],
+    ['─── 四、分号问题项（互换测试未通过）───', semicolonIssues],
+    ['─── 五、冒号审查 ───', colonIssues],
+    ['─── 六、破折号引号外违禁 ───', emDashIssues],
+    ['─── 七、省略号引号外违禁 ───', ellipsisIssues],
+    ['─── 八、！？叙述违禁检测 ───', exclamIssues],
+    ['─── 九、逗号待人工判断（模糊项）───', commaAmbiguous],
+    ['─── 十、句号待人工判断（模糊项）───', periodAmbiguous],
   ];
 
   for (const [sectionTitle, items] of sections) {
@@ -543,7 +697,7 @@ function main(): void {
   for (const r of allResults) {
     const fname = r.file;
     if (!fileGroups[fname]) {
-      fileGroups[fname] = { comma_del: 0, comma_amb: 0, period_chg: 0, period_amb: 0, semi: 0, colon: 0, exclam: 0 };
+      fileGroups[fname] = { comma_del: 0, comma_amb: 0, period_chg: 0, period_amb: 0, dun: 0, semi: 0, colon: 0, em_dash: 0, ellipsis: 0, exclam: 0 };
     }
     const g = fileGroups[fname];
     const sym = r.symbol;
@@ -552,16 +706,19 @@ function main(): void {
     else if (sym === '，' && sug === '待人工判断') g.comma_amb++;
     else if (sym === '。' && sug === '改逗号') g.period_chg++;
     else if (sym === '。' && sug === '待人工判断') g.period_amb++;
+    else if (sym === '、') g.dun++;
     else if (sym === '；') g.semi++;
     else if (sym === '：') g.colon++;
+    else if (sym === '——') g.em_dash++;
+    else if (sym === '……') g.ellipsis++;
     else if (sym === '！' || sym === '？') g.exclam++;
   }
 
   for (const fname of Object.keys(fileGroups).sort()) {
     const g = fileGroups[fname];
-    const total = g.comma_del + g.comma_amb + g.period_chg + g.period_amb + g.semi + g.colon + g.exclam;
+    const total = g.comma_del + g.comma_amb + g.period_chg + g.period_amb + g.dun + g.semi + g.colon + g.em_dash + g.ellipsis + g.exclam;
     if (total > 0) {
-      out += `${fname}: 逗可删${g.comma_del} 逗模糊${g.comma_amb} 句改逗${g.period_chg} 句模糊${g.period_amb} 分号${g.semi} 冒号${g.colon} 叹问${g.exclam} (共${total})\n`;
+      out += `${fname}: 逗可删${g.comma_del} 逗模糊${g.comma_amb} 句改逗${g.period_chg} 句模糊${g.period_amb} 顿${g.dun} 分${g.semi} 冒${g.colon} 破折${g.em_dash} 省略${g.ellipsis} 叹问${g.exclam} (共${total})\n`;
     }
   }
 

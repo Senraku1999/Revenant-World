@@ -60,6 +60,18 @@ export const COLON_G = /：/g;
 /** 叹号/问号 (global) */
 export const EXCLAM_QUESTION_G = /[！？]/g;
 
+/** 顿号 (global) */
+export const DUN_G = /、/g;
+
+/** 中文破折号 (global) */
+export const EM_DASH_ZH_G = /——/g;
+
+/** 中文省略号 (global) */
+export const ELLIPSIS_ZH_G = /……/g;
+
+/** 弯引号 — 中文卷曲双引号 U+201C/U+201D (global) */
+export const CURLY_DOUBLE_QUOTE = /[“”]/g;
+
 /** MD 简介模板标签（含各种档案标签、元数据行） */
 export const MD_TEMPLATE_LABELS = /^(姓名|一般称呼|性别|年龄|身高|体重|从属|身份|评级|特征|灵力|灵视|身体素质|评估方|武器|防具|威胁等级|类别|[一二三四五六七八九十]、\S+|(狩灵|游魂|罪灵|异常|扭曲)档案)：/;
 

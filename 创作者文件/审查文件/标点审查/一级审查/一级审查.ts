@@ -183,6 +183,11 @@ class GBT15834Checker {
           '4.8 引号 — 出现中文卷曲单引号 ‘’（U+2018/U+2019），中文文本中单引号应内嵌于双引号中',
           '确认引号嵌套层级无误', 'T2');
       }
+      if (stripped.includes('“') || stripped.includes('”')) {
+        this.add(filepath, i + 1, stripped,
+          '4.8 引号 — 出现中文卷曲双引号 ""（U+201C/U+201D），项目仅允许英文直双引号 ""（U+0022）',
+          '将 " 替换为 "、将 " 替换为 "', 'T0');
+      }
     }
   }
 
@@ -404,11 +409,20 @@ class GBT15834Checker {
       }
 
       // 中文引号配对
-      const leftQ = (text.match(/“/g) || []).length;
+      const leftQ = (text.match(/”/g) || []).length;
       const rightQ = (text.match(/”/g) || []).length;
       if (leftQ !== rightQ) {
-        this.add(virtualFile, 0, `字段值中左引号“ ${leftQ} 个，右引号” ${rightQ} 个`,
+        this.add(virtualFile, 0, `字段值中左引号” ${leftQ} 个，右引号” ${rightQ} 个`,
           '4.8 引号 — 中文双引号左右数量不匹配', '补齐缺失的引号', 'T0');
+      }
+
+      // 弯引号 U+201C/U+201D
+      const curlyLQ = (text.match(/”/g) || []).length;
+      const curlyRQ = (text.match(/”/g) || []).length;
+      if (curlyLQ > 0 || curlyRQ > 0) {
+        this.add(virtualFile, 0, `字段值含弯双引号（左${curlyLQ}个，右${curlyRQ}个）`,
+          '4.8 引号 — 项目仅允许英文直双引号 “”（U+0022），禁止弯引号 “”（U+201C/U+201D）',
+          '将 “ 替换为 “、” 替换为 “', 'T0');
       }
     }
   }

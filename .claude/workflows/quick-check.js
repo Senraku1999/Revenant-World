@@ -107,7 +107,7 @@ ${reviewTargets}
   `, {label: 'cb-check', phase: '审查'}),
 
   agent(`
-你是 AI 写作痕迹（stop-slop）审查专员。仅审查以下扫描结果中列出的文字文件（*.json、*_zh.json、*简介.md、*开场白.md）。
+你是 AI 写作痕迹审查专员。仅审查以下扫描结果中列出的文字文件（*.json、*简介.md、*开场白.md）。
 
 ${reviewTargets}
 

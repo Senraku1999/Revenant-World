@@ -224,7 +224,7 @@ function countRoleEnJsons(dirPath: string): void {
   for (const entry of fs.readdirSync(dirPath, { withFileTypes: true })) {
     const full = path.join(dirPath, entry.name);
     if (entry.isDirectory()) { countRoleEnJsons(full); continue; }
-    if (entry.isFile() && entry.name.endsWith('.json') && !entry.name.endsWith('_zh.json')) {
+    if (entry.isFile() && entry.name.endsWith('.json')) {
       enRoleOnlyCount++;
     }
   }

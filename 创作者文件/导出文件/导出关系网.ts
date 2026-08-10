@@ -59,7 +59,7 @@ function main(): void {
         const norm = full.replace(/\\/g, '/');
         if (norm.includes('事件卡') || norm.includes('世界观卡')) continue;
         walk(full);
-      } else if (entry.isFile() && entry.name.endsWith('.json') && !entry.name.endsWith('_zh.json')) {
+      } else if (entry.isFile() && entry.name.endsWith('.json')) {
         const cardName = path.basename(entry.name, '.json');
         let data: Record<string, unknown>;
         try { data = JSON.parse(readFileUtf8(full)); } catch { skipped.push(cardName); continue; }

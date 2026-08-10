@@ -4,7 +4,7 @@
  * 覆盖项：JSON 语法 / Token 计数（十段式 + 开场白）/ Em dash 扫描 / 枚举值校验 /
  *         MD 标点违禁 / 评级一致性 / 一般称呼规则 / 空能力字段 /
  *         引号格式 / 术语简写 / 年龄边界 / 花坂全名 / 全名使用违规 /
- *         世界书内容新鲜度 / 世界书 keys 非空 / 中英文 JSON 结构一致性
+ *         世界书内容新鲜度 / 世界书 keys 非空
  *
  * 用法：npx tsx 创作者文件/审查文件/自动检查.ts
  * 输出分组：JSON检查 / MD检查 / 交叉验证
@@ -307,7 +307,7 @@ function crossValidate(): void {
         const norm = normalizePath(fullPath);
         if (norm.includes('事件卡') || norm.includes('世界观卡') || norm.includes('关系网')) continue;
         walkCards(fullPath);
-      } else if (entry.isFile() && entry.name.endsWith('.json') && !entry.name.endsWith('_zh.json')) {
+      } else if (entry.isFile() && entry.name.endsWith('.json')) {
         const charDir = path.dirname(fullPath);
         const cardName = path.basename(entry.name, '.json');
         const introFiles = fs.readdirSync(charDir).filter(fn => fn.endsWith('简介.md'));
@@ -479,13 +479,6 @@ function scanFullnameViolations(): void {
   } else {
     console.log('  零命中');
   }
-}
-
-// ── 中英文 JSON 一致性 ──
-// 中英文 JSON 一致性检查已于 2026-07-28 退役（英文 JSON 已删除，中文 JSON 成为唯一主版本）
-// 保留函数占位以避免调用处报错
-function checkZhEnConsistency(): void {
-  // no-op: 项目已切换为纯中文 JSON
 }
 
 // ── 世界书内容与关系网一致性 ──

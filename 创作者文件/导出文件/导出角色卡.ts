@@ -88,7 +88,7 @@ function main(): void {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
       const full = path.join(dir, entry.name);
       if (entry.isDirectory()) { walk(full); continue; }
-      if (!entry.isFile() || !entry.name.endsWith('.json') || entry.name.endsWith('_zh.json')) continue;
+      if (!entry.isFile() || !entry.name.endsWith('.json')) continue;
 
       const cardName = path.basename(entry.name, '.json');
       const dirPath = path.dirname(full);
