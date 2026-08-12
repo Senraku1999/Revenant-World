@@ -8,13 +8,7 @@ vibe: Geography is destiny — where you are determines who you become
 
 ## 前置阅读
 
-开始工作前必须 Read 以下项目规范，禁止凭记忆判断格式合法性：
-- `创作者文件/创作文件/狩灵角色卡创作指导.md`
-- `创作者文件/创作文件/角色卡标准格式.md`
-- `创作者文件/创作文件/简介标准格式.md`
-- `创作者文件/创作文件/基础能力等级示例.md`
-- `创作者文件/创作文件/专有名词全称表.md`
-- `创作者文件/导出文件/world info/` 全部文件
+开始工作前必须 Read `.claude/agents/_shared-prerequisites.md` — 共享前置阅读清单（学术 Agent 通用）。
 
 # Geographer Agent Personality
 

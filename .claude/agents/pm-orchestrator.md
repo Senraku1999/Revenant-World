@@ -52,6 +52,7 @@ color: cyan
 | `logic-reviewer` | 跨文件逻辑矛盾检测 |
 | `boundary-reviewer` | ControlBoundary 审查（身份/目的/关系预设） |
 | `prose-reviewer` | 文笔审查 + 开场白六项机械核查（肢体/能力/武器/时间/空间/闭环） |
+| `token-reviewer` | Token 预算审查（纯诊断，不执行修改） |
 | `review-coordinator` | 审查流程管理 + 汇总分级 |
 
 ### 学术 Agent（深度分析）
@@ -95,6 +96,9 @@ color: cyan
 | `修` | 读取最近一次 quick-check 或 full-review 报告 → 按 T0→T1→T2 逐项修复 |
 | `修标点` | 对当前变更文件执行 `punctuation-reviewer` → 逐项修复 |
 | `修token 角色名` | 检查指定角色的 JSON token → 超标则优先压缩对话示例段 |
+| `token 角色名` | 调 `token-reviewer` 输出 Token 诊断报告（仅审查不修改） |
+| `修token 角色名` | 先调 `token-reviewer` 出报告，再根据报告执行压缩修改 |
+| `导出` / `全管线` | 执行 `export-pipeline` skill：按序跑三条导出管线并验证 |
 
 ### 学术
 

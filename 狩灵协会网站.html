@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>警察厅 | National Police Agency</title>
+<style>
+:root{--navy:#1a365d;--navy-light:#2a4a7a;--bg:#f5f6f8;--white:#fff;--text:#2d3748;--text-light:#718096;--border:#e2e8f0;--spirit-bg:#0a0e17;--spirit-card:#111827;--spirit-border:#1e2d45;--spirit-glow:#4da6ff;--spirit-text:#c8d6e5;--spirit-accent:#ff6b6b}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;background:var(--bg);color:var(--text);line-height:1.9;font-size:15px;transition:background .6s,color .6s}
+body.spirit-vision{background:var(--spirit-bg);color:var(--spirit-text)}
+a{color:var(--navy);text-decoration:none}body.spirit-vision a{color:var(--spirit-glow)}
+.top-bar{background:#0f1a2e;color:#8899aa;padding:5px 0;font-size:11px;transition:all .6s}
+body.spirit-vision .top-bar{background:#050a12;color:var(--spirit-glow)}
+.top-bar .wrap,.header .wrap,.nav .wrap,.main,.footer .wrap{max-width:1200px;margin:0 auto;padding:0 28px}
+.top-bar .wrap{display:flex;justify-content:space-between}
+.header{background:var(--white);border-bottom:3px solid var(--navy);transition:all .6s;position:sticky;top:0;z-index:10}
+body.spirit-vision .header{background:#0d1117;border-bottom-color:var(--spirit-glow)}
+.header .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px}
+.logo{display:flex;align-items:center;gap:14px}
+.crest{width:52px;height:52px;background:var(--navy);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:24px;font-weight:700;transition:all .6s}
+body.spirit-vision .crest{background:#1a2a4a;box-shadow:0 0 20px rgba(77,166,255,.3)}
+.logo h1{font-size:22px;font-weight:700;color:var(--navy);letter-spacing:3px;transition:color .6s}
+body.spirit-vision .logo h1{color:var(--spirit-glow)}
+.logo .sub{font-size:10px;color:var(--text-light);display:block}
+.eye-wrap{position:relative}
+.eye-btn{position:relative;cursor:pointer;background:transparent;border:2px solid #cbd5e0;border-radius:50%;width:44px;height:44px;display:flex;align-items:center;justify-content:center;transition:all .5s}
+.eye-btn:hover{background:#edf2f7}
+body.spirit-vision .eye-btn{border-color:var(--spirit-glow);box-shadow:0 0 20px rgba(77,166,255,.4),0 0 60px rgba(77,166,255,.1)}
+.pulse-ring{position:absolute;inset:-6px;border-radius:50%;border:2px solid transparent;transition:all .5s}
+body.spirit-vision .pulse-ring{border-color:rgba(77,166,255,.3);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.5}50%{transform:scale(1.3);opacity:0}}
+.eye-tip{position:absolute;top:52px;right:-10px;font-size:10px;color:var(--text-light);white-space:nowrap;opacity:0;transition:opacity .3s;pointer-events:none}.eye-btn:hover+.eye-tip{opacity:1}
+body.spirit-vision .eye-tip{color:var(--spirit-glow)}
+.nav{background:var(--navy);transition:all .6s;position:sticky;top:75px;z-index:9}
+body.spirit-vision .nav{background:#0d1520;border-bottom:1px solid #1a2d45}
+.nav .wrap{display:flex;overflow-x:auto}
+.nav a{color:#c4d0dc;padding:13px 20px;font-size:13px;font-weight:500;white-space:nowrap;transition:all .2s;display:block;border-bottom:3px solid transparent}
+.nav a:hover{background:var(--navy-light);color:#fff;text-decoration:none}
+body.spirit-vision .nav a{color:#5a7a9a}body.spirit-vision .nav a:hover{background:#151d2a;color:var(--spirit-glow)}
+.main{padding:28px;display:grid;grid-template-columns:1fr 320px;gap:28px}
+@media(max-width:860px){.main{grid-template-columns:1fr}}
+.card{background:var(--white);border:1px solid var(--border);border-radius:6px;margin-bottom:24px;overflow:hidden;transition:all .6s}
+body.spirit-vision .card{background:var(--spirit-card);border-color:var(--spirit-border)}
+.card-header{padding:14px 22px;font-size:14px;font-weight:700;color:var(--navy);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px;transition:all .6s}
+body.spirit-vision .card-header{color:var(--spirit-glow);border-bottom-color:var(--spirit-border);background:linear-gradient(135deg,rgba(26,45,65,.5),transparent)}
+.card-body{padding:20px 22px}.card-body p{margin-bottom:10px}
+.spirit-layer,.spirit-layer.sub,.spirit-layer h1{display:none!important}body.spirit-vision .public-layer,body.spirit-vision .public-layer.sub,body.spirit-vision .public-layer h1{display:none!important}body.spirit-vision .spirit-layer,body.spirit-vision .spirit-layer.sub,body.spirit-vision .spirit-layer h1{display:block!important}body.spirit-vision .spirit-layer span,body.spirit-vision .spirit-layer a{display:inline!important}
+body.spirit-vision .spirit-layer{display:block;animation:fadeUp .5s}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+thead th{background:#edf2f7;padding:9px 14px;text-align:left;font-weight:600;color:var(--navy);border-bottom:2px solid var(--border);font-size:12px}
+body.spirit-vision thead th{background:#151d2a;color:var(--spirit-glow);border-bottom-color:var(--spirit-border)}
+tbody td{padding:8px 14px;border-bottom:1px solid var(--border)}body.spirit-vision tbody td{border-bottom-color:var(--spirit-border)}
+tbody tr:hover{background:#f7fafc}body.spirit-vision tbody tr:hover{background:#151d28}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
+.dot.bw{background:conic-gradient(#1a1a1a 0 180deg,#f0f0f0 180deg 360deg);border:1px solid #666}
+.dot.red{background:#e53e3e}.dot.green{background:#38a169}.dot.purple{background:#805ad5}.dot.yellow{background:#d69e2e}.dot.blue{background:#3182ce}
+.news-list{list-style:none}.news-list li{padding:9px 0;border-bottom:1px solid var(--border);display:flex;gap:12px;align-items:baseline}body.spirit-vision .news-list li{border-bottom-color:var(--spirit-border)}
+.news-date{font-size:11px;color:var(--text-light);min-width:90px;white-space:nowrap}
+.news-title{font-size:13px;line-height:1.6}
+.tag{display:inline-block;padding:1px 7px;font-size:10px;border-radius:2px;margin-right:6px;font-weight:600}
+.tag.urgent{background:#e53e3e;color:#fff}.tag.warn{background:#d69e2e;color:#fff}.tag.info{background:#3182ce;color:#fff}.tag.normal{background:#718096;color:#fff}
+.dept-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.dept-card{border:1px solid var(--border);border-radius:6px;padding:18px;background:#fafbfc;transition:all .3s}body.spirit-vision .dept-card{background:#0f1520;border-color:var(--spirit-border)}
+.dept-card:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.08)}body.spirit-vision .dept-card:hover{box-shadow:0 4px 20px rgba(77,166,255,.1);border-color:var(--spirit-glow)}
+.dept-card h4{font-size:14px;margin-bottom:6px;color:var(--navy)}body.spirit-vision .dept-card h4{color:var(--spirit-glow)}
+.dept-card .meta{font-size:11px;color:var(--text-light);margin-bottom:6px}
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:99;display:none;align-items:center;justify-content:center;padding:20px}
+.modal-overlay.show{display:flex}
+.modal{background:var(--white);border-radius:8px;max-width:740px;width:100%;max-height:82vh;overflow-y:auto;padding:28px;position:relative}
+body.spirit-vision .modal{background:#111827;border:1px solid var(--spirit-border);box-shadow:0 0 40px rgba(77,166,255,.1)}
+.modal-close{position:absolute;top:12px;right:16px;background:none;border:none;font-size:24px;cursor:pointer;color:var(--text-light)}.modal-close:hover{color:var(--text)}
+.modal h2{font-size:18px;margin-bottom:14px;color:var(--navy)}body.spirit-vision .modal h2{color:var(--spirit-glow)}
+.modal p{margin-bottom:10px;font-size:14px;line-height:1.9}
+.stat-row{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0}
+.stat-badge{background:#edf2f7;border-radius:6px;padding:10px 16px;text-align:center;min-width:80px}body.spirit-vision .stat-badge{background:#151d2a;border:1px solid var(--spirit-border)}
+.stat-badge .num{font-size:22px;font-weight:700;color:var(--navy)}body.spirit-vision .stat-badge .num{color:var(--spirit-glow)}
+.stat-badge .lbl{font-size:10px;color:var(--text-light)}
+.footer{background:var(--navy);color:#7a8ea0;padding:28px;text-align:center;font-size:11px;margin-top:40px;transition:all .6s}body.spirit-vision .footer{background:#050a12;border-top:1px solid #1a2d45}
+.footer .links{display:flex;justify-content:center;gap:24px;margin-bottom:10px;flex-wrap:wrap}.footer a{color:#7a8ea0;font-size:11px}
+#particles{position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:0;transition:opacity 1s}
+body.spirit-vision #particles{opacity:1}
+hr{border-color:var(--border);margin:18px 0}body.spirit-vision hr{border-color:var(--spirit-border)}
+.note{font-size:12px;color:var(--text-light);font-style:italic}
+[data-tip]{cursor:help;border-bottom:1px dotted var(--text-light)}
+</style>
+</head>
+<body>
+<canvas id="particles"></canvas>
+
+<div class="top-bar"><div class="wrap"><span class="public-layer">日本国警察厅  National Police Agency</span><span class="spirit-layer">狩灵协会 · 灵能管理 · 异常对策 · 扭曲灾害应对</span><span style="font-size:10px">令和 8 年 8 月 10 日</span></div></div>
+
+<div class="header"><div class="wrap">
+  <div class="logo"><div class="crest"><span class="public-layer">警</span><span class="spirit-layer">協</span></div><div><h1 class="public-layer">警察厅</h1><h1 class="spirit-layer">狩灵协会</h1><span class="sub public-layer">National Police Agency · 公共安全 · 灾害对策</span><span class="sub spirit-layer">Revenant Association · 灵能管理 · 异常对策</span></div></div>
+  <div class="eye-wrap">
+    <button class="eye-btn" id="eyeBtn" onclick="toggleVision()" title="灵视">
+      <div class="pulse-ring"></div>
+      <svg viewBox="0 0 32 32"><path id="eyeLid" d="M5 16C5 16 9 8 16 8s11 8 11 8-4 8-11 8S5 16 5 16Z" fill="none" stroke="#718096" stroke-width="2"/><circle id="eyePupil" cx="16" cy="16" r="4" fill="#718096"/></svg>
+    </button>
+    <div class="eye-tip">灵视关闭</div>
+  </div>
+</div></div>
+
+<div class="nav"><div class="wrap">
+  <a href="#" onclick="scrollTo('home')">首页</a>
+  <a href="#" onclick="scrollTo('org')">机构概要</a>
+  <a href="#" onclick="scrollTo('license')">资格制度</a>
+  <a href="#" onclick="scrollTo('alert')">灾害速报</a>
+  <a href="#" onclick="scrollTo('stats')">统计资料</a>
+  <a href="#" onclick="scrollTo('law')">法规</a>
+  <a href="#" onclick="scrollTo('disclosure')">信息公开</a>
+</div></div>
+
+<div class="main"><div class="content">
+
+<!-- Spirit Banner -->
+<div class="spirit-layer" style="margin-bottom:24px">
+  <div style="background:linear-gradient(135deg,rgba(255,107,107,.08),rgba(77,166,255,.03));border:1px solid var(--spirit-border);border-radius:6px;padding:14px 18px">
+    <div style="color:var(--spirit-accent);font-weight:700;font-size:12px;margin-bottom:6px">◆ 灵视信道 · 内部速报</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px;font-size:11px">
+      <div>福冈中洲 · 灵力浓度持续观测 · <span style="color:#d69e2e">警戒 III</span></div>
+      <div>新宿地下街 · 未确认异常目击 · <span style="color:#3182ce">2 科对应中</span></div>
+      <div>大阪湾岸 · 残留数值监测 · <span style="color:#38a169">回落趋势</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- HOME -->
+<section id="home">
+  <div class="card"><div class="card-header"><span class="ico">◆</span>最新公告</div><div class="card-body">
+    <div class="public-layer"><ul class="news-list">
+      <li><span class="news-date">令和 8-08-10</span><span class="news-title">关于令和 8 年度第二次特别业务从业资格审查日程安排的通知</span></li>
+      <li><span class="news-date">令和 8-08-05</span><span class="news-title">福冈县福冈市中洲地区特别自然灾害预警的解除公告</span></li>
+      <li><span class="news-date">令和 8-07-28</span><span class="news-title">第 47 期特别业务从业资格认证合格者名单的公布（合格者 34 名）</span></li>
+      <li><span class="news-date">令和 8-07-15</span><span class="news-title">关于各都道府县灾害对策室令和 8 年度中期业务报告提交期限的通知</span></li>
+      <li><span class="news-date">令和 8-07-01</span><span class="news-title">公益财团法人业务运营监理委员会委员人事变动的公告</span></li>
+    </ul></div>
+    <div class="spirit-layer"><ul class="news-list">
+      <li><span class="news-date">08-10</span><span class="news-title"><span class="tag urgent">紧急</span>福冈中洲灵力数值异常 · 持续观测中 — <a href="#" onclick="openModal('nakasu')" style="color:var(--spirit-glow)">详细报告</a></span></li>
+      <li><span class="news-date">08-05</span><span class="news-title"><span class="tag warn">警戒 III</span>中洲地区异常事象 — 灵力浓度达临界值，已实施桥梁封锁与民众疏散。多个现场目击记录确认。4 科已依据信息管制条例启动应对程序</span></li>
+      <li><span class="news-date">07-28</span><span class="news-title"><span class="tag info">人事</span>第 47 期考核合格者中确认 3 例灵力回路觉醒 · 已分配至 2 科、5 科、6 科</span></li>
+      <li><span class="news-date">07-20</span><span class="news-title"><span class="tag info">警戒 II</span>新宿地下街未确认异常目击 · 2 科持续巡逻。确认游魂在灰色区域活动</span></li>
+      <li><span class="news-date">07-03</span><span class="news-title"><span class="tag normal">警戒 I</span>大阪湾岸扭曲残留数值异常 · 6 科持续监测 — 上周已回落至安全阈值</span></li>
+      <li><span class="news-date">06-15</span><span class="news-title"><span class="tag info">定期</span>色彩阶-靛蓝封禁季度复核完成 · 天丛云剑封印状态确认稳定 · 守护者在位</span></li>
+      <li><span class="news-date">06-01</span><span class="news-title"><span class="tag info">配给</span>3 科：心灵遮断合金本年度配额已送达各科室 · 请按配给量申领</span></li>
+      <li><span class="news-date">05-20</span><span class="news-title"><span class="tag normal">会议</span>锈钟联络人季度会议纪要已归档 · 4 科档案室编号 RQ-2026-02</span></li>
+    </ul></div>
+  </div></div>
+
+  <div class="card"><div class="card-header"><span class="ico">◆</span>机构简介</div><div class="card-body">
+    <div class="public-layer">
+      <p>警察厅是依据《警察厅设置法》（昭和 29 年法律第 162 号）设立的国家行政机关，隶属于国家公安委员会，负责公共安全事务的统筹管理与政策制定。本机构下设六个专业部门，与各都道府县地方公共团体协同一体，致力于维护国民生活的安全与稳定。</p>
+      <p>本机构秉持公正、透明、高效之原则，依法履行职责，接受国民监督。</p>
+    </div>
+    <div class="spirit-layer">
+      <p>狩灵协会是日本国政府直属的灵能管理机构，对外以警察厅下属特别部门之身份运作。协会依据《狩灵协会设置法》（1968 年）设立，下设<strong>6 科</strong>，统筹全国灵能者注册管理、异常事件处置、灵力回路武器研发审查及扭曲灾害应对。</p>
+      <p>当代日本实行<strong>双重社会</strong>制度：异常事象由本机构及相关单位负责处理，相关信息依据《双重社会信息管制条例》进行必要管理。公众日常生活不受影响。</p>
+      <div class="stat-row">
+        <div class="stat-badge"><div class="num">56</div><div class="lbl">在册狩灵</div></div>
+        <div class="stat-badge"><div class="num">6</div><div class="lbl">科室</div></div>
+        <div class="stat-badge"><div class="num">5</div><div class="lbl">登记事务所</div></div>
+        <div class="stat-badge"><div class="num">4</div><div class="lbl">认证工坊</div></div>
+      </div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ORG -->
+<section id="org">
+  <div class="card"><div class="card-header"><span class="ico">◆</span>组织架构</div><div class="card-body">
+    <div class="public-layer">
+      <div class="dept-grid">
+        <div class="dept-card"><h4>总务课</h4><div class="meta">东京都 · 综合管理</div><p style="font-size:12px">负责各部门间综合协调、人事行政管理、预算编制与执行监督、业务标准制定及从业人员资格审查与等级评定。</p></div>
+        <div class="dept-card"><h4>治安课</h4><div class="meta">大阪府 · 治安维护</div><p style="font-size:12px">维护公共安全与秩序，处理各类治安事件，与都道府县警察机构协同开展日常巡逻防控与突发事态应急响应。</p></div>
+        <div class="dept-card"><h4>后勤课</h4><div class="meta">爱知县名古屋 · 装备保障</div><p style="font-size:12px">负责标准装备的研发制造、维护管理及配发工作。对外部供应商产品实施安全性审查与质量标准认证。</p></div>
+        <div class="dept-card"><h4>情报课</h4><div class="meta">京都府 · 信息管理</div><p style="font-size:12px">收集、整理、分析各类业务相关情报，维护全国信息数据库，为政策决策及现场指挥提供信息支持。</p></div>
+        <div class="dept-card"><h4>医疗课</h4><div class="meta">神奈川县横滨 · 医疗救护</div><p style="font-size:12px">提供从业人员职业健康管理、伤病救治及康复服务。开展职业病防护相关研究与技术培训。</p></div>
+        <div class="dept-card"><h4>灾害对策课</h4><div class="meta">福冈县 · 应急响应</div><p style="font-size:12px">专项负责特别自然灾害的监测预警、应急处置及灾后恢复工作。与地方防灾部门密切协作。</p></div>
+      </div>
+    </div>
+    <div class="spirit-layer">
+      <table><thead><tr><th style="width:10%">科室</th><th style="width:7%">色</th><th style="width:10%">总部</th><th>职能</th><th>科室长</th><th>在册</th></tr></thead><tbody>
+        <tr><td><span class="dot bw"></span>1 科 · 总务科</td><td>黑白</td><td>东京</td><td>二至六科管理 · 执照发放 · 事件与狩灵评级 · 色彩指名<br><span class="note">全科成员 1 阶及以上。协会中枢管理部门。</span></td><td>漆黑构筑（色彩阶-黑）</td><td>3</td></tr>
+        <tr><td><span class="dot red"></span>2 科 · 治安科</td><td>红</td><td>大阪</td><td>治安维护 · 异常事件一线处置<br><span class="note">协会最大科室。唯一双色彩阶科室。赤红正义（副科长）· 猩红迷雾（科长）</span></td><td>红（色彩阶-猩红）</td><td>4</td></tr>
+        <tr><td><span class="dot green"></span>3 科 · 后勤科</td><td>绿</td><td>名古屋</td><td>制式装备研发制造维护 · 工坊产品审查认证 · 心灵遮断合金管理<br><span class="note">武器研发中枢。多数制式装备出自本科室长之手。</span></td><td>风来（色彩阶-军绿）</td><td>4</td></tr>
+        <tr><td><span class="dot purple"></span>4 科 · 情报科</td><td>紫</td><td>京都</td><td>情报收集分析 · 全国数据库维护 · 信息管制实施<br><span class="note">双重社会信息秩序之维护。社交媒体监控及目击者后续处理。</span></td><td>—</td><td>2</td></tr>
+        <tr><td><span class="dot yellow"></span>5 科 · 医疗科</td><td>黄</td><td>横滨</td><td>狩灵医疗救治 · 灵力回路医学研究 · 人工回路研发<br><span class="note">暴食回路为 3 科与 5 科联合研发，已迭代至第九任。</span></td><td>—</td><td>2</td></tr>
+        <tr><td><span class="dot blue"></span>6 科 · 扭曲科</td><td>蓝</td><td>福冈</td><td>扭曲事件专项应对<br><span class="note">令和 4 年第一次扭曲后设立。天丛云剑守护者自 1 科调任至此。</span></td><td>薰（色彩阶-靛蓝）</td><td>2</td></tr>
+      </tbody></table>
+      <p style="font-size:11px;color:var(--text-light);margin-top:6px">登记事务所：来生 · 晨昏 · 猫掌 · 绯月 · 万事屋 &nbsp;|&nbsp; 认证工坊：鹤望兰 · 锻心 · 蜂巢 · 白烟 &nbsp;|&nbsp; 锈钟联络：齿轮 · 发条 · 表盘 · 指针</p>
+    </div>
+  </div></div>
+</section>
+
+<!-- LICENSE -->
+<section id="license">
+  <div class="card"><div class="card-header"><span class="ico">◆</span>资格制度</div><div class="card-body">
+    <div class="public-layer">
+      <p><strong>一、特别业务从业资格认证</strong></p>
+      <p>对从事特别灾害应对专业工作的人员实行资格认证制度。资格考试分三阶段：基础能力测定 → 实战技能评估 → 综合素养审查。通过全部阶段者可选择以国家公务员身份加入本机构，或以个人事业者身份独立承接相关委托业务。资格须按年度接受审查。</p>
+      <p><strong>二、业务能力分级制度</strong></p>
+      <p>从业人员依综合能力评定划分为 1 至 5 级，1 级为最高。评级涵盖专业能力、现场表现及协调管理等多维度。可通过实际业绩申请晋升或重新评定。</p>
+    </div>
+    <div class="spirit-layer">
+      <p><strong>狩灵考核</strong>：灵力测定 → 战斗评级 → 综合评定。情报、医疗等非战斗特长可在综合评定中获得加分。</p>
+      <p><strong>执照双轨制</strong>：</p>
+      <ul style="margin:4px 0 10px 18px;font-size:13px">
+        <li><strong>加入协会</strong>：国家公务员待遇，含狩灵特别社会保障（九险三金：灵力医疗保险、扭曲意外保险、狩灵职业年金等）。须服从调遣，接受年度考核。可辞职，但重新入职须从头接受完整评级流程，历史成绩不予保留。</li>
+        <li><strong>自由狩灵</strong>：自建或加入事务所/工坊。自负盈亏，不受调遣。须按年审查维持经营执照有效性。委托来源为协会调度、企业委托或民间悬赏。</li>
+      </ul>
+      <p><strong>评级体系</strong>：狩灵划分为 1-5 阶（1 阶最高），多维评估涵盖战斗力、情报能力、医疗能力等。通过委托成果上报协会审核。</p>
+      <p><strong>色彩阶</strong>：<span style="color:var(--spirit-glow)">由 1 科强制指名，赋予特定色彩，凌驾于评级体系之上</span>。拥有极大自由裁量权，于紧急时须服从协会调遣。被指名者不得拒绝。</p>
+      <table style="margin-top:8px"><thead><tr><th>色彩</th><th>称号</th><th>在任狩灵</th><th>所属</th><th>备注</th></tr></thead><tbody>
+        <tr><td><span class="dot" style="background:#1a1a1a;border:1px solid #f0f0f0"></span>黑</td><td>漆黑构筑</td><td>漆黑构筑</td><td>1 科科长 · 东京</td><td>协会创建者 · 灵力回路-构造持有者 · 首任色彩阶（1968）</td></tr>
+        <tr><td><span class="dot" style="background:#d4d4d4;border:1px solid #999"></span>白 · 苍白</td><td>苍白爪牙</td><td>巴拉尔</td><td>1 科副科长 · 东京</td><td>第九任 · 暴食回路持有者自动继承 · 身体年龄远超实际年龄</td></tr>
+        <tr><td><span class="dot" style="background:#dc2626"></span>赤红</td><td>赤红正义</td><td>左恕</td><td>2 科副科长 · 大阪</td><td>灵力回路-一人成军 · 以灵力构筑战术小队分身</td></tr>
+        <tr><td><span class="dot" style="background:#991b1b"></span>猩红</td><td>猩红迷雾</td><td>红</td><td>2 科科长 · 大阪</td><td>灵力回路-猩红迷雾 · 血与灵力双向转化 · 血雾中全方位感知</td></tr>
+        <tr><td><span class="dot" style="background:#38a169"></span>军绿</td><td>军绿武库</td><td>风来</td><td>3 科科长 · 名古屋</td><td>灵力回路-链接仓储 · 多数制式装备出自其手</td></tr>
+        <tr><td><span class="dot" style="background:#3182ce"></span>靛蓝</td><td>靛蓝封禁</td><td>薰</td><td>6 科科长 · 福冈</td><td>天丛云剑守护者 · 色彩阶+守剑人双重身份 · 活动范围限定福冈一带</td></tr>
+      </tbody></table>
+      <p style="font-size:11px;color:var(--text-light);margin-top:4px">注：2 科为唯一拥有双色彩阶的科室（赤红正义 / 猩红迷雾）。色彩阶与科室代表色存在对应关系，部分席位（紫、黄）从未指名。色彩阶被指名者不得拒绝。</p>
+      <p><strong>异常评级</strong>（低→高）：传闻 · 怪谈 · 梦魇 · 灾厄 · 终焉</p>
+      <p><strong>游魂</strong>：未持有狩灵执照之灵能者。委托来源为地下悬赏、企业私聘或与帮派合作。<strong>罪灵</strong>：犯罪灵能者。依罪行严重性与危险评级，予以逮捕或肃清。在册罪灵 3 名（劫、烬、零）。</p>
+    </div>
+  </div></div>
+</section>
+
+<!-- ALERT -->
+<section id="alert">
+  <div class="card"><div class="card-header"><span class="ico">◆</span>灾害速报</div><div class="card-body">
+    <div class="public-layer"><ul class="news-list">
+      <li><span class="news-date">08-05</span><span class="news-title">福冈县福冈市中洲地区大气异常现象相关通报 —— 无人员伤亡，预警已解除</span></li>
+      <li><span class="news-date">07-20</span><span class="news-title">东京都新宿区地下通道内局部气体浓度异常相关通报 —— 已实施临时疏散措施</span></li>
+      <li><span class="news-date">07-03</span><span class="news-title">大阪府大阪市湾岸地区工业设施故障相关通报 —— 事态已得到控制，周边环境安全</span></li>
+      <li><span class="news-date">06-15</span><span class="news-title">京都府京都市山科区地质灾害预警相关通报 —— 局部地面沉降，已设置警戒区域</span></li>
+    </ul></div>
+    <div class="spirit-layer"><ul class="news-list">
+      <li><span class="news-date">08-05</span><span class="news-title"><span class="tag warn">警戒 III</span>福冈中洲异常事象 — 灵力浓度于深夜达临界值。恶灵对周边区域普通民众产生视觉性影响。6 科已实施桥梁封锁、恶灵驱逐及民众疏散。多个目击者记录确认。4 科已依据信息管制条例启动应对程序。<a href="#" onclick="openModal('nakasu')" style="color:var(--spirit-glow);font-size:11px">详细报告</a></span></li>
+      <li><span class="news-date">07-20</span><span class="news-title"><span class="tag info">警戒 II</span>新宿地下街 — 未确认异常 2 例。2 科治安巡逻持续中。确认游魂在灰色区域活动。无伪装灵体渗入地面</span></li>
+      <li><span class="news-date">07-03</span><span class="news-title"><span class="tag normal">警戒 I</span>大阪湾岸 — 扭曲残留数值异常。6 科持续环境监测。上周读数已回落至安全阈值范围</span></li>
+      <li><span class="news-date">06-15</span><span class="news-title"><span class="tag normal">警戒 I</span>京都山科 — 地下灵力脉络偏移导致局部地层沉降。已设置结界隔离区域。确认无恶灵活动迹象</span></li>
+      <li><span class="news-date">令和 4 年</span><span class="news-title"><span class="tag urgent">灾厄级</span>第一次扭曲 — 4 名从业人员于事件应对中因公殉职。事后设立 6 科（扭曲对策专门科室）。详情参见内部档案 6K-TW-001</span></li>
+    </ul></div>
+  </div></div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+  <div class="card"><div class="card-header"><span class="ico">◆</span>统计资料</div><div class="card-body">
+    <div class="public-layer">
+      <p>警察厅依法公开以下统计信息：</p>
+      <table><thead><tr><th>统计项目</th><th>令和 5 年度</th><th>令和 6 年度</th><th>令和 7 年度</th></tr></thead><tbody>
+        <tr><td>特别业务从业资格考试报名人数</td><td>1,247</td><td>1,389</td><td>1,512</td></tr>
+        <tr><td>资格考试合格人数</td><td>28</td><td>31</td><td>34</td></tr>
+        <tr><td>特别自然灾害应对出动次数</td><td>847</td><td>912</td><td>1,034</td></tr>
+        <tr><td>资格年度审查合格率</td><td>96.4%</td><td>97.1%</td><td>98.2%</td></tr>
+      </tbody></table>
+    </div>
+    <div class="spirit-layer">
+      <p><strong>协会内部统计（令和 7 年度）</strong></p>
+      <table><thead><tr><th>项目</th><th>数值</th><th>备注</th></tr></thead><tbody>
+        <tr><td>在册狩灵</td><td style="color:var(--spirit-glow);font-weight:700">56</td><td>含协会在编及自由狩灵</td></tr>
+        <tr><td>年度异常事件总数</td><td>1,034</td><td>较前年增 13.4%</td></tr>
+        <tr><td>其中扭曲事件</td><td>3</td><td>较前年减少 1 件</td></tr>
+        <tr><td>色彩阶在册</td><td style="color:var(--spirit-glow);font-weight:700">6</td><td>黑 · 白 · 赤红 · 猩红 · 军绿 · 靛蓝</td></tr>
+        <tr><td>灵力回路觉醒率</td><td>2.2%</td><td>47 期考核合格者中 3/34</td></tr>
+        <tr><td>异常导致平民记忆处理件数</td><td>1,247</td><td>4 科执行</td></tr>
+        <tr><td>狩灵殉职</td><td>0</td><td>本年零殉职</td></tr>
+        <tr><td>在册罪灵</td><td>3</td><td>劫 · 烬 · 零</td></tr>
+        <tr><td>登记事务所</td><td>5</td><td>来生 · 晨昏 · 猫掌 · 绯月 · 万事屋</td></tr>
+        <tr><td>认证工坊</td><td>4</td><td>鹤望兰 · 锻心 · 蜂巢 · 白烟</td></tr>
+      </tbody></table>
+    </div>
+  </div></div>
+
+  <div class="card spirit-layer"><div class="card-header"><span class="ico">◆</span>狩灵名簿（部分公开）</div><div class="card-body">
+    <table><thead><tr><th>姓名</th><th>所属</th><th>阶位</th><th>回路</th></tr></thead><tbody>
+      <tr><td>漆黑构筑</td><td>1 科 · 东京</td><td><span style="color:#ccc">色彩阶-漆黑构筑</span></td><td>构造 · 协会创建者</td></tr>
+      <tr><td>巴拉尔</td><td>1 科 · 东京</td><td><span style="color:#d4d4d4">色彩阶-苍白爪牙</span></td><td>暴食 · 第九任</td></tr>
+      <tr><td>左恕</td><td>2 科 · 大阪</td><td><span style="color:#dc2626">色彩阶-赤红正义</span></td><td>一人成军 · 副科长</td></tr>
+      <tr><td>红</td><td>2 科 · 大阪</td><td><span style="color:#991b1b">色彩阶-猩红迷雾</span></td><td>猩红迷雾 · 科长</td></tr>
+      <tr><td>风来</td><td>3 科 · 名古屋</td><td><span style="color:#38a169">色彩阶-军绿武库</span></td><td>链接仓储 · 科长</td></tr>
+      <tr><td>薰</td><td>6 科 · 福冈</td><td><span style="color:#3182ce">色彩阶-靛蓝封禁</span></td><td>天丛云剑守护者 · 科长</td></tr>
+      <tr><td>君房</td><td>5 科 · 横滨</td><td>1 阶</td><td>灵力针 / 命运的织机</td></tr>
+      <tr><td>千乐</td><td>来生事务所</td><td>3 阶</td><td>花坂血统</td></tr>
+      <tr><td>琳</td><td>游魂 · 东京银座</td><td>—</td><td>玫瑰</td></tr>
+      <tr><td colspan="4" style="text-align:center;color:var(--text-light);font-size:11px">※ 完整名簿（56 名）须经 1 科授权查阅。上表为部分公开信息。</td></tr>
+    </tbody></table>
+  </div></div>
+</section>
+
+<!-- LAW -->
+<section id="law">
+  <div class="card"><div class="card-header"><span class="ico">◆</span>关系法规</div><div class="card-body">
+    <div class="public-layer" style="font-size:13px">
+      <p>· 警察厅设置法（昭和 29 年法律第 162 号）<br>
+      · 灾害对策基本法（昭和 36 年法律第 223 号）<br>
+      · 特别业务从业资格认证规程（令和 2 年警察厅令第 15 号）<br>
+      · 业务能力分级标准实施细则（令和 3 年警察厅告示第 8 号）<br>
+      · 特别装备安全管理条例（令和 4 年警察厅令第 22 号）<br>
+      · 灾害信息发布及公众告知基准（令和 6 年警察厅告示第 3 号）</p>
+    </div>
+    <div class="spirit-layer" style="font-size:13px">
+      <p><strong>狩灵协会设置法</strong>（1968 年）— 协会作为警察厅特别部门设立的法律依据。协会对外以总务课名义进行行政运作。</p>
+      <p><strong>灵能者管理特别措置法</strong>（2002 年）— 以灾害对策一揽子法案修正案形式通过。国会议事录未记录相关辩论。确立灵能者登记、异常事件报告及双重社会信息管理之基本框架。</p>
+      <p><strong>狩灵执照管理条例</strong> — 执照发放标准、年度审查程序、吊销条件。离职后重新入职须从头接受完整评级。</p>
+      <p><strong>武器及灵力回路安全管理法</strong> — 枪械双备案制度（警方及 3 科）。实弹武器严格限用于灵体目标。严禁对人使用实弹。非法持有或擅自改装构成重罪。</p>
+      <p><strong>色彩阶指名规则</strong> — 由 1 科依据狩灵综合评估强制指名。被指名者不得拒绝。权限范围及限制条件由 1 科单独裁定。</p>
+      <p><strong>双重社会信息管制条例</strong> — 4 科负责执行。涵盖社交媒体监控、媒体报道协调及目击者后续处理程序。</p>
+      <p><strong>扭曲事件应急响应规程</strong> — 6 科专属权限。跨科室协调机制。结界限定、灵力污染隔离及事后环境监测标准。</p>
+    </div>
+  </div></div>
+</section>
+
+<!-- DISCLOSURE -->
+<section id="disclosure">
+  <div class="card"><div class="card-header"><span class="ico">◆</span>信息公开</div><div class="card-body">
+    <div class="public-layer" style="font-size:13px">
+      <p>警察厅依据相关法令，对下列行政信息予以公开：年度预算概要及决算报告书 · 特别业务从业资格认证合格者统计 · 各都道府县灾害应对年度统计数据 · 政府采购及招标信息。</p>
+      <p>如需查阅详细信息，请通过本网站信息公开申请页面提交书面申请。依据相关法律规定，部分信息可能不予公开，敬请谅解。</p>
+    </div>
+    <div class="spirit-layer" style="font-size:13px">
+      <p><strong>协会内部公开信息</strong>（协会在编人员及持照狩灵可查阅）：</p>
+      <p>在册狩灵名簿（56 名） · 事务所登记名簿（5 所） · 认证工坊名簿（4 所） · 年度异常事件统计报告 · 各科室预算分配明细 · 色彩阶指名记录及指名理由书。</p>
+      <p style="color:var(--text-light)">以上资料仅供协会内部使用。外部查阅须经 1 科书面批准。</p>
+    </div>
+  </div></div>
+</section>
+
+</div>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="card"><div class="card-header"><span class="ico">◆</span>在线服务</div><div class="card-body" style="font-size:13px">
+    <p>· <a href="#">资格认证考试报名</a></p>
+    <p>· <a href="#">年度审查申请</a></p>
+    <p>· <a href="#">灾害速报邮件订阅</a></p>
+    <p>· <a href="#">信息公开书面申请</a></p>
+    <p>· <a href="#">意见与建议提交</a></p>
+    <div class="spirit-layer" style="margin-top:12px;padding-top:10px;border-top:1px solid var(--spirit-border)">
+      <p style="color:var(--spirit-glow);font-weight:600">—— 协会内部 ——</p>
+      <p>· <a href="#" style="color:var(--spirit-glow)">狩灵名簿查询</a></p>
+      <p>· <a href="#" style="color:var(--spirit-glow)">异常事件报告系统</a></p>
+      <p>· <a href="#" style="color:var(--spirit-glow)">委托发布与管理</a></p>
+      <p>· <a href="#" style="color:var(--spirit-glow)">装备审查在线申请</a></p>
+      <p>· <a href="#" style="color:var(--spirit-glow)">灵力监测面板</a></p>
+    </div>
+  </div></div>
+
+  <div class="card"><div class="card-header"><span class="ico">◆</span>联络方式</div><div class="card-body" style="font-size:12px">
+    <p>〒100-8974<br>东京都千代田区霞关二丁目 1 番 2 号<br>代表电话：03-3581-0141<br>办公时间：平日 9:30-18:15</p>
+    <div class="spirit-layer"><p style="color:var(--text-light);margin-top:6px">各科室内部联络方式请通过协会内网通讯录确认。紧急事态下使用灵力回路紧急联络频道。</p></div>
+  </div></div>
+</div></div>
+
+<div class="footer"><div class="wrap">
+  <div class="links"><a href="#">隐私政策</a><a href="#">网站地图</a><a href="#">无障碍声明</a><a href="#" onclick="openModal('about')">关于本站</a><a href="#">联络我们</a></div>
+  <p class="public-layer">警察厅 National Police Agency · 〒100-8974 东京都千代田区霞关二丁目 1 番 2 号</p><p class="spirit-layer">狩灵协会 Revenant Association · 东京都千代田区霞关二丁目 1 番 2 号（1 科总部）</p>
+  <p style="margin-top:4px;color:#5a7080" class="public-layer">Copyright © National Police Agency. All Rights Reserved.</p><p style="margin-top:4px;color:#5a7080" class="spirit-layer">狩灵协会 · 内部系统 · 持照狩灵专用</p>
+</div></div>
+
+<!-- MODALS -->
+<div class="modal-overlay" id="modalNakasu"><div class="modal">
+  <button class="modal-close" onclick="closeModal('nakasu')">&times;</button>
+  <h2>中洲异常事象内部报告 · 摘要</h2>
+  <p><strong>事象编号</strong>：NK-2026-08-001</p>
+  <p><strong>发生时间</strong>：令和 8 年 8 月某日深夜至翌日凌晨</p>
+  <p><strong>发生地点</strong>：福冈县福冈市中洲地区，博多川及那珂川间河中沙洲，屋台街集中区域</p>
+  <p><strong>事象性质</strong>：灵力浓度达到临界值，恶灵对周边普通民众产生视觉性影响（以下称"显形"）。显形范围以中洲中心区为核心，向外围逐渐减弱。越过中洲桥梁后恢复正常。未发现物理性边界结构。</p>
+  <p><strong>应急响应</strong>：6 科（距事发地点步行约七分钟）最先到场。实施桥梁封锁、恶灵驱逐及民众疏散。由于事发区域为夜间营业密集区，应急行动过程被多个现场目击者记录。</p>
+  <p><strong>信息应对</strong>：部分不实信息在互联网传播。4 科已依据《双重社会信息管制条例》启动应对程序。鉴于目击者数量较多，信息管控面临挑战。</p>
+  <p><strong>相关方动态</strong>：确认锈钟相关人员于疏散人群中活动。有关各方对此事件高度关注。</p>
+  <p><strong>事后监测</strong>：显形于翌日凌晨逐渐消退。河面恢复常态。但确认部分河底恶灵于显形期间上浮至可见深度，其中有若干个体未再沉降。凌晨清理作业中，监测人员在桥墩下方测得河床灵力数值仍呈现缓慢上升趋势。</p>
+  <p style="color:var(--text-light);font-size:12px">4 科事后报告将原因标注为"灵力浓度异常波动"，未附进一步解释。监测持续进行中。</p>
+</div></div>
+
+<div class="modal-overlay" id="modalAbout"><div class="modal">
+  <button class="modal-close" onclick="closeModal('about')">&times;</button>
+  <h2>关于本站</h2>
+  <p>本网站为「狩灵世界观」虚构作品的一部分，外观模仿政府机构官方网站，内容基于架空设定。警察厅（National Police Agency）在国内语境中的职能与本作品设定之间存在差异，敬请留意。</p>
+  <p>右上角眼睛图标可在"公开层"（普通视角）与"灵视层"（设定内容）之间切换显示。</p>
+  <p>世界观完整设定参见：<a href="https://github.com/Senraku1999/Revenant-World" target="_blank">Revenant-World</a></p>
+</div></div>
+
+<script>
+let visionOn=false;
+function toggleVision(){
+  visionOn=!visionOn;document.body.classList.toggle('spirit-vision',visionOn);
+  const t=document.querySelector('.eye-tip'),l=document.getElementById('eyeLid'),p=document.getElementById('eyePupil');
+  if(visionOn){t.textContent='灵视开启';document.title='狩灵协会 | Revenant Association';l.setAttribute('stroke','#4da6ff');l.setAttribute('d','M1 16C1 16 6 2 16 2s15 14 15 14-5 14-15 14S1 16 1 16Z');p.setAttribute('fill','#4da6ff');p.setAttribute('r','5');initParticles();}
+  else{t.textContent='灵视关闭';document.title='警察厅 | National Police Agency';l.setAttribute('stroke','#718096');l.setAttribute('d','M5 16C5 16 9 8 16 8s11 8 11 8-4 8-11 8S5 16 5 16Z');p.setAttribute('fill','#718096');p.setAttribute('r','4');}
+}
+let pts=[];const cv=document.getElementById('particles'),cx=cv.getContext('2d');
+window.addEventListener('resize',()=>{cv.width=innerWidth;cv.height=innerHeight;});cv.width=innerWidth;cv.height=innerHeight;
+function initParticles(){pts=[];for(let i=0;i<50;i++)pts.push({x:Math.random()*cv.width,y:Math.random()*cv.height,r:Math.random()*1.5+.5,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,a:Math.random()*.4+.1});}
+function animate(){cx.clearRect(0,0,cv.width,cv.height);if(!visionOn){requestAnimationFrame(animate);return}for(const p of pts){p.x+=p.vx;p.y+=p.vy;if(p.x<0)p.x=cv.width;if(p.x>cv.width)p.x=0;if(p.y<0)p.y=cv.height;if(p.y>cv.height)p.y=0;cx.globalAlpha=p.a;cx.beginPath();cx.arc(p.x,p.y,p.r,0,Math.PI*2);cx.fill();cx.fillStyle='rgba(77,166,255,'}cx.globalAlpha=1;requestAnimationFrame(animate)}animate();
+function openModal(id){document.getElementById('modal'+(id==='nakasu'?'Nakasu':'About')).classList.add('show')}
+function closeModal(id){document.getElementById('modal'+(id==='nakasu'?'Nakasu':'About')).classList.remove('show')}
+document.querySelectorAll('.modal-overlay').forEach(o=>o.addEventListener('click',e=>{if(e.target===o)o.classList.remove('show')}));
+function scrollTo(id){document.getElementById(id).scrollIntoView({behavior:'smooth',block:'start'})}
+</script>
+</body>
+</html>
